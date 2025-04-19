@@ -1,0 +1,29 @@
+rule all:
+    input:
+        #expand("/home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k{k}_r{r}_theta{theta}.output", r=[0.01], k=[4,8,16,32]+[60+30*i for i in range(25)], theta=[0.1,0.01])
+        #expand("/home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r{r}_k{k}_theta{theta}.output", r = [round(i * 0.01 + 0.001, 3) for i in range(31)], k=[30], theta=[0.1,0.01])
+        expand("/home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r{r}_k{k}.output", r = [round(i * 0.01 + 0.001, 3) for i in range(31)], k=[30])
+
+rule run_cpp_program:
+    input:
+        #"/research/hvw5426/splitted_fasta/chr21.fasta"
+        "/research/hvw5426/splitted_fasta/chr6.fasta"
+    output:
+        #"/home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k{k}_r{r}_theta{theta}.output"
+        #"/home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r{r}_k{k}_theta{theta}.output"
+        "/home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r{r}_k{k}.output"
+    params:
+        length = 100000,  
+        start = 559707,#10962854,
+        kmer = lambda wildcards: wildcards.k,
+        mut_rate = lambda wildcards: wildcards.r,
+        replicates = 100,
+        precision = 1e-10,
+        theta_sketch = 1
+    shell:
+        """
+        ./Simulation -i {input} -l {params.length} -s {params.start} -k {params.kmer} -e {params.precision} -c {params.replicates} -r {params.mut_rate} -z {params.theta_sketch} > {output}
+        """
+        # """
+        # ./Simulation -t {params.tp} -l {params.length} -s {params.start} -k {params.kmer} -e {params.precision} -c {params.replicates} -r {params.mut_rate} > {output}
+        # """

@@ -1,0 +1,25 @@
+rule all:
+    input:
+        expand("/home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r_mut1/k{k}_r{r}.output", r=[0.01], k=[8,16,32]+[60+30*i for i in range(25)])
+        #expand("/home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r_mut1/r{r}_k{k}.output", r = [round(i * 0.01 + 0.001, 3) for i in range(31)], k=[30])
+
+rule run_cpp_program:
+    input:
+        "/research/hvw5426/splitted_fasta/chr21.fasta"
+    output:
+        "/home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r_mut1/k{k}_r{r}.output"
+        #"/home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r_mut1/r{r}_k{k}.output"
+    params:
+        length = 100000,  
+        start = 10962854,
+        kmer = lambda wildcards: wildcards.k,
+        mut_rate = lambda wildcards: wildcards.r,
+        replicates = 100,
+        precision = 1e-10,
+    shell:
+        """
+        ./Simulation -i {input} -l {params.length} -s {params.start} -k {params.kmer} -e {params.precision} -c {params.replicates} -r {params.mut_rate} > {output}
+        """
+        # """
+        # ./Simulation -t {params.tp} -l {params.length} -s {params.start} -k {params.kmer} -e {params.precision} -c {params.replicates} -r {params.mut_rate} > {output}
+        # """

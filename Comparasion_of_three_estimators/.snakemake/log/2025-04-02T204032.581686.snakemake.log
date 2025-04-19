@@ -1,0 +1,3267 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count
+---------------  -------
+all                    1
+run_cpp_program      200
+total                201
+
+Select jobs to execute...
+Execute 100 jobs...
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.166_k30.output
+    jobid: 166
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.166_k30.output
+    wildcards: r=0.166, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.136_k30.output
+    jobid: 136
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.136_k30.output
+    wildcards: r=0.136, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.196_k30.output
+    jobid: 196
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.196_k30.output
+    wildcards: r=0.196, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.076_k30.output
+    jobid: 76
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.076_k30.output
+    wildcards: r=0.076, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.016_k30.output
+    jobid: 16
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.016_k30.output
+    wildcards: r=0.016, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.029_k30.output
+    jobid: 29
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.029_k30.output
+    wildcards: r=0.029, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.089_k30.output
+    jobid: 89
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.089_k30.output
+    wildcards: r=0.089, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.059_k30.output
+    jobid: 59
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.059_k30.output
+    wildcards: r=0.059, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.192_k30.output
+    jobid: 192
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.192_k30.output
+    wildcards: r=0.192, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.055_k30.output
+    jobid: 55
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.055_k30.output
+    wildcards: r=0.055, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.115_k30.output
+    jobid: 115
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.115_k30.output
+    wildcards: r=0.115, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.145_k30.output
+    jobid: 145
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.145_k30.output
+    wildcards: r=0.145, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.085_k30.output
+    jobid: 85
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.085_k30.output
+    wildcards: r=0.085, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.175_k30.output
+    jobid: 175
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.175_k30.output
+    wildcards: r=0.175, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.025_k30.output
+    jobid: 25
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.025_k30.output
+    wildcards: r=0.025, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.038_k30.output
+    jobid: 38
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.038_k30.output
+    wildcards: r=0.038, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.098_k30.output
+    jobid: 98
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.098_k30.output
+    wildcards: r=0.098, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.008_k30.output
+    jobid: 8
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.008_k30.output
+    wildcards: r=0.008, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.068_k30.output
+    jobid: 68
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.068_k30.output
+    wildcards: r=0.068, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.128_k30.output
+    jobid: 128
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.128_k30.output
+    wildcards: r=0.128, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.158_k30.output
+    jobid: 158
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.158_k30.output
+    wildcards: r=0.158, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.188_k30.output
+    jobid: 188
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.188_k30.output
+    wildcards: r=0.188, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.021_k30.output
+    jobid: 21
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.021_k30.output
+    wildcards: r=0.021, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.081_k30.output
+    jobid: 81
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.081_k30.output
+    wildcards: r=0.081, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.051_k30.output
+    jobid: 51
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.051_k30.output
+    wildcards: r=0.051, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.111_k30.output
+    jobid: 111
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.111_k30.output
+    wildcards: r=0.111, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.141_k30.output
+    jobid: 141
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.141_k30.output
+    wildcards: r=0.141, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.171_k30.output
+    jobid: 171
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.171_k30.output
+    wildcards: r=0.171, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.004_k30.output
+    jobid: 4
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.004_k30.output
+    wildcards: r=0.004, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.064_k30.output
+    jobid: 64
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.064_k30.output
+    wildcards: r=0.064, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.034_k30.output
+    jobid: 34
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.034_k30.output
+    wildcards: r=0.034, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.094_k30.output
+    jobid: 94
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.094_k30.output
+    wildcards: r=0.094, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.124_k30.output
+    jobid: 124
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.124_k30.output
+    wildcards: r=0.124, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.154_k30.output
+    jobid: 154
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.154_k30.output
+    wildcards: r=0.154, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.184_k30.output
+    jobid: 184
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.184_k30.output
+    wildcards: r=0.184, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.047_k30.output
+    jobid: 47
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.047_k30.output
+    wildcards: r=0.047, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.107_k30.output
+    jobid: 107
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.107_k30.output
+    wildcards: r=0.107, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.197_k30.output
+    jobid: 197
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.197_k30.output
+    wildcards: r=0.197, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.017_k30.output
+    jobid: 17
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.017_k30.output
+    wildcards: r=0.017, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.077_k30.output
+    jobid: 77
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.077_k30.output
+    wildcards: r=0.077, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.167_k30.output
+    jobid: 167
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.167_k30.output
+    wildcards: r=0.167, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.137_k30.output
+    jobid: 137
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.137_k30.output
+    wildcards: r=0.137, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.03_k30.output
+    jobid: 30
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.03_k30.output
+    wildcards: r=0.03, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.09_k30.output
+    jobid: 90
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.09_k30.output
+    wildcards: r=0.09, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.06_k30.output
+    jobid: 60
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.06_k30.output
+    wildcards: r=0.06, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.12_k30.output
+    jobid: 120
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.12_k30.output
+    wildcards: r=0.12, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.15_k30.output
+    jobid: 150
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.15_k30.output
+    wildcards: r=0.15, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.18_k30.output
+    jobid: 180
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.18_k30.output
+    wildcards: r=0.18, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.013_k30.output
+    jobid: 13
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.013_k30.output
+    wildcards: r=0.013, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.073_k30.output
+    jobid: 73
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.073_k30.output
+    wildcards: r=0.073, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.043_k30.output
+    jobid: 43
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.043_k30.output
+    wildcards: r=0.043, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.103_k30.output
+    jobid: 103
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.103_k30.output
+    wildcards: r=0.103, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.133_k30.output
+    jobid: 133
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.133_k30.output
+    wildcards: r=0.133, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.163_k30.output
+    jobid: 163
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.163_k30.output
+    wildcards: r=0.163, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.193_k30.output
+    jobid: 193
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.193_k30.output
+    wildcards: r=0.193, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.056_k30.output
+    jobid: 56
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.056_k30.output
+    wildcards: r=0.056, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.116_k30.output
+    jobid: 116
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.116_k30.output
+    wildcards: r=0.116, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.026_k30.output
+    jobid: 26
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.026_k30.output
+    wildcards: r=0.026, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.086_k30.output
+    jobid: 86
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.086_k30.output
+    wildcards: r=0.086, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.146_k30.output
+    jobid: 146
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.146_k30.output
+    wildcards: r=0.146, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.176_k30.output
+    jobid: 176
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.176_k30.output
+    wildcards: r=0.176, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.039_k30.output
+    jobid: 39
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.039_k30.output
+    wildcards: r=0.039, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.099_k30.output
+    jobid: 99
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.099_k30.output
+    wildcards: r=0.099, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.009_k30.output
+    jobid: 9
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.009_k30.output
+    wildcards: r=0.009, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.069_k30.output
+    jobid: 69
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.069_k30.output
+    wildcards: r=0.069, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.129_k30.output
+    jobid: 129
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.129_k30.output
+    wildcards: r=0.129, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.159_k30.output
+    jobid: 159
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.159_k30.output
+    wildcards: r=0.159, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.189_k30.output
+    jobid: 189
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.189_k30.output
+    wildcards: r=0.189, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.022_k30.output
+    jobid: 22
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.022_k30.output
+    wildcards: r=0.022, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.082_k30.output
+    jobid: 82
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.082_k30.output
+    wildcards: r=0.082, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.052_k30.output
+    jobid: 52
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.052_k30.output
+    wildcards: r=0.052, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.112_k30.output
+    jobid: 112
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.112_k30.output
+    wildcards: r=0.112, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.142_k30.output
+    jobid: 142
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.142_k30.output
+    wildcards: r=0.142, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.172_k30.output
+    jobid: 172
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.172_k30.output
+    wildcards: r=0.172, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.005_k30.output
+    jobid: 5
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.005_k30.output
+    wildcards: r=0.005, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.065_k30.output
+    jobid: 65
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.065_k30.output
+    wildcards: r=0.065, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.035_k30.output
+    jobid: 35
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.035_k30.output
+    wildcards: r=0.035, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.095_k30.output
+    jobid: 95
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.095_k30.output
+    wildcards: r=0.095, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.125_k30.output
+    jobid: 125
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.125_k30.output
+    wildcards: r=0.125, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.155_k30.output
+    jobid: 155
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.155_k30.output
+    wildcards: r=0.155, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.185_k30.output
+    jobid: 185
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.185_k30.output
+    wildcards: r=0.185, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.048_k30.output
+    jobid: 48
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.048_k30.output
+    wildcards: r=0.048, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.108_k30.output
+    jobid: 108
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.108_k30.output
+    wildcards: r=0.108, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.018_k30.output
+    jobid: 18
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.018_k30.output
+    wildcards: r=0.018, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.078_k30.output
+    jobid: 78
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.078_k30.output
+    wildcards: r=0.078, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.138_k30.output
+    jobid: 138
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.138_k30.output
+    wildcards: r=0.138, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.168_k30.output
+    jobid: 168
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.168_k30.output
+    wildcards: r=0.168, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.198_k30.output
+    jobid: 198
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.198_k30.output
+    wildcards: r=0.198, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.031_k30.output
+    jobid: 31
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.031_k30.output
+    wildcards: r=0.031, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.17_k30.output
+    jobid: 170
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.17_k30.output
+    wildcards: r=0.17, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.08_k30.output
+    jobid: 80
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.08_k30.output
+    wildcards: r=0.08, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.14_k30.output
+    jobid: 140
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.14_k30.output
+    wildcards: r=0.14, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.2_k30.output
+    jobid: 200
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.2_k30.output
+    wildcards: r=0.2, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.033_k30.output
+    jobid: 33
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.033_k30.output
+    wildcards: r=0.033, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.093_k30.output
+    jobid: 93
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.093_k30.output
+    wildcards: r=0.093, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.003_k30.output
+    jobid: 3
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.003_k30.output
+    wildcards: r=0.003, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.063_k30.output
+    jobid: 63
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.063_k30.output
+    wildcards: r=0.063, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.123_k30.output
+    jobid: 123
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.123_k30.output
+    wildcards: r=0.123, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.153_k30.output
+    jobid: 153
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.153_k30.output
+    wildcards: r=0.153, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:40:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.183_k30.output
+    jobid: 183
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.183_k30.output
+    wildcards: r=0.183, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:40:52 2025]
+Finished job 4.
+1 of 201 steps (0.5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:40:52 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.01_k30.output
+    jobid: 10
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.01_k30.output
+    wildcards: r=0.01, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:02 2025]
+Finished job 8.
+2 of 201 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:02 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.07_k30.output
+    jobid: 70
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.07_k30.output
+    wildcards: r=0.07, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:06 2025]
+Finished job 5.
+3 of 201 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:06 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.13_k30.output
+    jobid: 130
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.13_k30.output
+    wildcards: r=0.13, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:06 2025]
+Finished job 3.
+4 of 201 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:06 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.16_k30.output
+    jobid: 160
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.16_k30.output
+    wildcards: r=0.16, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:08 2025]
+Finished job 9.
+5 of 201 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:08 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.1_k30.output
+    jobid: 100
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.1_k30.output
+    wildcards: r=0.1, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:10 2025]
+Finished job 22.
+6 of 201 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:10 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.19_k30.output
+    jobid: 190
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.19_k30.output
+    wildcards: r=0.19, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:11 2025]
+Finished job 29.
+7 of 201 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:11 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.023_k30.output
+    jobid: 23
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.023_k30.output
+    wildcards: r=0.023, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:12 2025]
+Finished job 17.
+8 of 201 steps (4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:12 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.083_k30.output
+    jobid: 83
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.083_k30.output
+    wildcards: r=0.083, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:13 2025]
+Finished job 21.
+9 of 201 steps (4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:13 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.04_k30.output
+    jobid: 40
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.04_k30.output
+    wildcards: r=0.04, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:13 2025]
+Finished job 34.
+10 of 201 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:13 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.143_k30.output
+    jobid: 143
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.143_k30.output
+    wildcards: r=0.143, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:13 2025]
+Finished job 51.
+11 of 201 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:14 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.053_k30.output
+    jobid: 53
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.053_k30.output
+    wildcards: r=0.053, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:14 2025]
+Finished job 13.
+12 of 201 steps (6%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:14 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.113_k30.output
+    jobid: 113
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.113_k30.output
+    wildcards: r=0.113, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:14 2025]
+Finished job 25.
+13 of 201 steps (6%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:14 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.119_k30.output
+    jobid: 119
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.119_k30.output
+    wildcards: r=0.119, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:14 2025]
+Finished job 65.
+14 of 201 steps (7%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:14 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.179_k30.output
+    jobid: 179
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.179_k30.output
+    wildcards: r=0.179, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:15 2025]
+Finished job 16.
+15 of 201 steps (7%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:15 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.012_k30.output
+    jobid: 12
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.012_k30.output
+    wildcards: r=0.012, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:15 2025]
+Finished job 26.
+16 of 201 steps (8%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:15 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.072_k30.output
+    jobid: 72
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.072_k30.output
+    wildcards: r=0.072, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:16 2025]
+Finished job 146.
+17 of 201 steps (8%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:16 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.036_k30.output
+    jobid: 36
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.036_k30.output
+    wildcards: r=0.036, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:17 2025]
+Finished job 43.
+18 of 201 steps (9%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:17 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.096_k30.output
+    jobid: 96
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.096_k30.output
+    wildcards: r=0.096, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:19 2025]
+Finished job 18.
+19 of 201 steps (9%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.126_k30.output
+    jobid: 126
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.126_k30.output
+    wildcards: r=0.126, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:20 2025]
+Finished job 35.
+20 of 201 steps (10%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:20 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.156_k30.output
+    jobid: 156
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.156_k30.output
+    wildcards: r=0.156, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:22 2025]
+Finished job 60.
+21 of 201 steps (10%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:22 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.066_k30.output
+    jobid: 66
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.066_k30.output
+    wildcards: r=0.066, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:22 2025]
+Finished job 30.
+22 of 201 steps (11%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:22 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.186_k30.output
+    jobid: 186
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.186_k30.output
+    wildcards: r=0.186, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:23 2025]
+Finished job 59.
+23 of 201 steps (11%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:23 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.049_k30.output
+    jobid: 49
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.049_k30.output
+    wildcards: r=0.049, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:24 2025]
+Finished job 76.
+24 of 201 steps (12%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.109_k30.output
+    jobid: 109
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.109_k30.output
+    wildcards: r=0.109, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:24 2025]
+Finished job 47.
+25 of 201 steps (12%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.118_k30.output
+    jobid: 118
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.118_k30.output
+    wildcards: r=0.118, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:24 2025]
+Finished job 33.
+26 of 201 steps (13%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.028_k30.output
+    jobid: 28
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.028_k30.output
+    wildcards: r=0.028, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:25 2025]
+Finished job 31.
+27 of 201 steps (13%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.088_k30.output
+    jobid: 88
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.088_k30.output
+    wildcards: r=0.088, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:25 2025]
+Finished job 167.
+28 of 201 steps (14%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.148_k30.output
+    jobid: 148
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.148_k30.output
+    wildcards: r=0.148, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:25 2025]
+Finished job 89.
+29 of 201 steps (14%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:26 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.058_k30.output
+    jobid: 58
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.058_k30.output
+    wildcards: r=0.058, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:26 2025]
+Finished job 69.
+30 of 201 steps (15%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:26 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.178_k30.output
+    jobid: 178
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.178_k30.output
+    wildcards: r=0.178, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:26 2025]
+Finished job 39.
+31 of 201 steps (15%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:26 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.057_k30.output
+    jobid: 57
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.057_k30.output
+    wildcards: r=0.057, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:26 2025]
+Finished job 38.
+32 of 201 steps (16%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:27 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.117_k30.output
+    jobid: 117
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.117_k30.output
+    wildcards: r=0.117, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:27 2025]
+Finished job 48.
+33 of 201 steps (16%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:27 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.152_k30.output
+    jobid: 152
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.152_k30.output
+    wildcards: r=0.152, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:27 2025]
+Finished job 10.
+34 of 201 steps (17%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:27 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.177_k30.output
+    jobid: 177
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.177_k30.output
+    wildcards: r=0.177, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:27 2025]
+Finished job 80.
+35 of 201 steps (17%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:28 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.191_k30.output
+    jobid: 191
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.191_k30.output
+    wildcards: r=0.191, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:28 2025]
+Finished job 56.
+36 of 201 steps (18%) done
+[Wed Apr  2 20:41:28 2025]
+Finished job 155.
+37 of 201 steps (18%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Apr  2 20:41:28 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.007_k30.output
+    jobid: 7
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.007_k30.output
+    wildcards: r=0.007, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:41:28 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.006_k30.output
+    jobid: 6
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.006_k30.output
+    wildcards: r=0.006, k=30
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Wed Apr  2 20:41:28 2025]
+Finished job 168.
+38 of 201 steps (19%) done
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:28 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.161_k30.output
+    jobid: 161
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.161_k30.output
+    wildcards: r=0.161, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:28 2025]
+Finished job 163.
+39 of 201 steps (19%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:28 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.131_k30.output
+    jobid: 131
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.131_k30.output
+    wildcards: r=0.131, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:28 2025]
+Finished job 73.
+40 of 201 steps (20%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:28 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.024_k30.output
+    jobid: 24
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.024_k30.output
+    wildcards: r=0.024, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:29 2025]
+Finished job 68.
+41 of 201 steps (20%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:29 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.071_k30.output
+    jobid: 71
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.071_k30.output
+    wildcards: r=0.071, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:29 2025]
+Finished job 192.
+42 of 201 steps (21%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:29 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.084_k30.output
+    jobid: 84
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.084_k30.output
+    wildcards: r=0.084, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:29 2025]
+Finished job 145.
+43 of 201 steps (21%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:29 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.011_k30.output
+    jobid: 11
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.011_k30.output
+    wildcards: r=0.011, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:29 2025]
+Finished job 180.
+44 of 201 steps (22%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:29 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.144_k30.output
+    jobid: 144
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.144_k30.output
+    wildcards: r=0.144, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:30 2025]
+Finished job 158.
+45 of 201 steps (22%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:30 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.101_k30.output
+    jobid: 101
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.101_k30.output
+    wildcards: r=0.101, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:30 2025]
+Finished job 81.
+46 of 201 steps (23%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:30 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.054_k30.output
+    jobid: 54
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.054_k30.output
+    wildcards: r=0.054, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:30 2025]
+Finished job 172.
+47 of 201 steps (23%) done
+[Wed Apr  2 20:41:30 2025]
+Finished job 136.
+48 of 201 steps (24%) done
+[Wed Apr  2 20:41:30 2025]
+Finished job 142.
+49 of 201 steps (24%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Wed Apr  2 20:41:30 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.173_k30.output
+    jobid: 173
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.173_k30.output
+    wildcards: r=0.173, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:41:30 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.169_k30.output
+    jobid: 169
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.169_k30.output
+    wildcards: r=0.169, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:41:30 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.174_k30.output
+    jobid: 174
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.174_k30.output
+    wildcards: r=0.174, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:30 2025]
+Finished job 111.
+50 of 201 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:30 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.147_k30.output
+    jobid: 147
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.147_k30.output
+    wildcards: r=0.147, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:30 2025]
+Finished job 52.
+51 of 201 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:30 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.087_k30.output
+    jobid: 87
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.087_k30.output
+    wildcards: r=0.087, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:30 2025]
+Finished job 141.
+52 of 201 steps (26%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.041_k30.output
+    jobid: 41
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.041_k30.output
+    wildcards: r=0.041, k=30
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Wed Apr  2 20:41:31 2025]
+Finished job 85.
+53 of 201 steps (26%) done
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.151_k30.output
+    jobid: 151
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.151_k30.output
+    wildcards: r=0.151, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:31 2025]
+Finished job 78.
+54 of 201 steps (27%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.001_k30.output
+    jobid: 1
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.001_k30.output
+    wildcards: r=0.001, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:31 2025]
+Finished job 95.
+55 of 201 steps (27%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.067_k30.output
+    jobid: 67
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.067_k30.output
+    wildcards: r=0.067, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:31 2025]
+Finished job 128.
+56 of 201 steps (28%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.127_k30.output
+    jobid: 127
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.127_k30.output
+    wildcards: r=0.127, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:32 2025]
+Finished job 55.
+57 of 201 steps (28%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.114_k30.output
+    jobid: 114
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.114_k30.output
+    wildcards: r=0.114, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:32 2025]
+Finished job 196.
+58 of 201 steps (29%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.187_k30.output
+    jobid: 187
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.187_k30.output
+    wildcards: r=0.187, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:32 2025]
+Finished job 188.
+59 of 201 steps (29%) done
+[Wed Apr  2 20:41:32 2025]
+Finished job 64.
+60 of 201 steps (30%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Apr  2 20:41:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.097_k30.output
+    jobid: 97
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.097_k30.output
+    wildcards: r=0.097, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:41:32 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.199_k30.output
+    jobid: 199
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.199_k30.output
+    wildcards: r=0.199, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:33 2025]
+Finished job 185.
+61 of 201 steps (30%) done
+[Wed Apr  2 20:41:33 2025]
+Finished job 94.
+62 of 201 steps (31%) done
+[Wed Apr  2 20:41:33 2025]
+Finished job 140.
+63 of 201 steps (31%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Wed Apr  2 20:41:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.037_k30.output
+    jobid: 37
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.037_k30.output
+    wildcards: r=0.037, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:41:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.139_k30.output
+    jobid: 139
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.139_k30.output
+    wildcards: r=0.139, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:41:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.157_k30.output
+    jobid: 157
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.157_k30.output
+    wildcards: r=0.157, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:33 2025]
+Finished job 77.
+64 of 201 steps (32%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.042_k30.output
+    jobid: 42
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.042_k30.output
+    wildcards: r=0.042, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:33 2025]
+Finished job 124.
+65 of 201 steps (32%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.027_k30.output
+    jobid: 27
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.027_k30.output
+    wildcards: r=0.027, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:33 2025]
+Finished job 115.
+66 of 201 steps (33%) done
+[Wed Apr  2 20:41:33 2025]
+Finished job 98.
+67 of 201 steps (33%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Apr  2 20:41:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.182_k30.output
+    jobid: 182
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.182_k30.output
+    wildcards: r=0.182, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:41:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.162_k30.output
+    jobid: 162
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.162_k30.output
+    wildcards: r=0.162, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:33 2025]
+Finished job 193.
+68 of 201 steps (34%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:33 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.132_k30.output
+    jobid: 132
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.132_k30.output
+    wildcards: r=0.132, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:33 2025]
+Finished job 86.
+69 of 201 steps (34%) done
+[Wed Apr  2 20:41:33 2025]
+Finished job 154.
+70 of 201 steps (35%) done
+[Wed Apr  2 20:41:33 2025]
+Finished job 153.
+71 of 201 steps (35%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Wed Apr  2 20:41:34 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.105_k30.output
+    jobid: 105
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.105_k30.output
+    wildcards: r=0.105, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:41:34 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.045_k30.output
+    jobid: 45
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.045_k30.output
+    wildcards: r=0.045, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:41:34 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.102_k30.output
+    jobid: 102
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.102_k30.output
+    wildcards: r=0.102, k=30
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Wed Apr  2 20:41:34 2025]
+Finished job 150.
+72 of 201 steps (36%) done
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:34 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.046_k30.output
+    jobid: 46
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.046_k30.output
+    wildcards: r=0.046, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:34 2025]
+Finished job 63.
+73 of 201 steps (36%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:34 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.106_k30.output
+    jobid: 106
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.106_k30.output
+    wildcards: r=0.106, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:34 2025]
+Finished job 183.
+74 of 201 steps (37%) done
+[Wed Apr  2 20:41:34 2025]
+Finished job 125.
+75 of 201 steps (37%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Apr  2 20:41:34 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.014_k30.output
+    jobid: 14
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.014_k30.output
+    wildcards: r=0.014, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:41:34 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.05_k30.output
+    jobid: 50
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.05_k30.output
+    wildcards: r=0.05, k=30
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Wed Apr  2 20:41:34 2025]
+Finished job 90.
+76 of 201 steps (38%) done
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:34 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.181_k30.output
+    jobid: 181
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.181_k30.output
+    wildcards: r=0.181, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:34 2025]
+Finished job 103.
+77 of 201 steps (38%) done
+[Wed Apr  2 20:41:34 2025]
+Finished job 133.
+78 of 201 steps (39%) done
+[Wed Apr  2 20:41:34 2025]
+Finished job 197.
+79 of 201 steps (39%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Wed Apr  2 20:41:35 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.074_k30.output
+    jobid: 74
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.074_k30.output
+    wildcards: r=0.074, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:41:35 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.061_k30.output
+    jobid: 61
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.061_k30.output
+    wildcards: r=0.061, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:41:35 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.149_k30.output
+    jobid: 149
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.149_k30.output
+    wildcards: r=0.149, k=30
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Wed Apr  2 20:41:35 2025]
+Finished job 171.
+80 of 201 steps (40%) done
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:35 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.121_k30.output
+    jobid: 121
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.121_k30.output
+    wildcards: r=0.121, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:35 2025]
+Finished job 123.
+81 of 201 steps (40%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:36 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.015_k30.output
+    jobid: 15
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.015_k30.output
+    wildcards: r=0.015, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:36 2025]
+Finished job 116.
+82 of 201 steps (41%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:36 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.075_k30.output
+    jobid: 75
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.075_k30.output
+    wildcards: r=0.075, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:36 2025]
+Finished job 108.
+83 of 201 steps (41%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:36 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.091_k30.output
+    jobid: 91
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.091_k30.output
+    wildcards: r=0.091, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:36 2025]
+Finished job 107.
+84 of 201 steps (42%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:36 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.019_k30.output
+    jobid: 19
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.019_k30.output
+    wildcards: r=0.019, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:36 2025]
+Finished job 82.
+85 of 201 steps (42%) done
+[Wed Apr  2 20:41:36 2025]
+Finished job 159.
+86 of 201 steps (43%) done
+[Wed Apr  2 20:41:36 2025]
+Finished job 170.
+87 of 201 steps (43%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Wed Apr  2 20:41:37 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.02_k30.output
+    jobid: 20
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.02_k30.output
+    wildcards: r=0.02, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:41:37 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.079_k30.output
+    jobid: 79
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.079_k30.output
+    wildcards: r=0.079, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:41:37 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.002_k30.output
+    jobid: 2
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.002_k30.output
+    wildcards: r=0.002, k=30
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Wed Apr  2 20:41:38 2025]
+Finished job 138.
+88 of 201 steps (44%) done
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:38 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.032_k30.output
+    jobid: 32
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.032_k30.output
+    wildcards: r=0.032, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:38 2025]
+Finished job 112.
+89 of 201 steps (44%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:38 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.092_k30.output
+    jobid: 92
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.092_k30.output
+    wildcards: r=0.092, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:38 2025]
+Finished job 120.
+90 of 201 steps (45%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:38 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.062_k30.output
+    jobid: 62
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.062_k30.output
+    wildcards: r=0.062, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:38 2025]
+Finished job 99.
+91 of 201 steps (45%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:38 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.11_k30.output
+    jobid: 110
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.11_k30.output
+    wildcards: r=0.11, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:38 2025]
+Finished job 176.
+92 of 201 steps (46%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:39 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.122_k30.output
+    jobid: 122
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.122_k30.output
+    wildcards: r=0.122, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:39 2025]
+Finished job 198.
+93 of 201 steps (46%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:39 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.164_k30.output
+    jobid: 164
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.164_k30.output
+    wildcards: r=0.164, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:39 2025]
+Finished job 166.
+94 of 201 steps (47%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:39 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.044_k30.output
+    jobid: 44
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.044_k30.output
+    wildcards: r=0.044, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:39 2025]
+Finished job 137.
+95 of 201 steps (47%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:39 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.104_k30.output
+    jobid: 104
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.104_k30.output
+    wildcards: r=0.104, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:39 2025]
+Finished job 189.
+96 of 201 steps (48%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:39 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.134_k30.output
+    jobid: 134
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.134_k30.output
+    wildcards: r=0.134, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:40 2025]
+Finished job 93.
+97 of 201 steps (48%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:40 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.195_k30.output
+    jobid: 195
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.195_k30.output
+    wildcards: r=0.195, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:40 2025]
+Finished job 200.
+98 of 201 steps (49%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 20:41:40 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.165_k30.output
+    jobid: 165
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.165_k30.output
+    wildcards: r=0.165, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:40 2025]
+Finished job 175.
+99 of 201 steps (49%) done
+[Wed Apr  2 20:41:40 2025]
+Finished job 129.
+100 of 201 steps (50%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Apr  2 20:41:40 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.135_k30.output
+    jobid: 135
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.135_k30.output
+    wildcards: r=0.135, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 20:41:40 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.194_k30.output
+    jobid: 194
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.194_k30.output
+    wildcards: r=0.194, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 20:41:42 2025]
+Finished job 184.
+101 of 201 steps (50%) done
+[Wed Apr  2 20:41:49 2025]
+Finished job 12.
+102 of 201 steps (51%) done
+[Wed Apr  2 20:41:50 2025]
+Finished job 1.
+103 of 201 steps (51%) done
+[Wed Apr  2 20:41:56 2025]
+Finished job 23.
+104 of 201 steps (52%) done
+[Wed Apr  2 20:41:56 2025]
+Finished job 7.
+105 of 201 steps (52%) done
+[Wed Apr  2 20:41:56 2025]
+Finished job 6.
+106 of 201 steps (53%) done
+[Wed Apr  2 20:41:58 2025]
+Finished job 36.
+107 of 201 steps (53%) done
+[Wed Apr  2 20:41:59 2025]
+Finished job 70.
+108 of 201 steps (54%) done
+[Wed Apr  2 20:42:02 2025]
+Finished job 53.
+109 of 201 steps (54%) done
+[Wed Apr  2 20:42:02 2025]
+Finished job 130.
+110 of 201 steps (55%) done
+[Wed Apr  2 20:42:02 2025]
+Finished job 2.
+111 of 201 steps (55%) done
+[Wed Apr  2 20:42:03 2025]
+Finished job 72.
+112 of 201 steps (56%) done
+[Wed Apr  2 20:42:05 2025]
+Finished job 40.
+113 of 201 steps (56%) done
+[Wed Apr  2 20:42:07 2025]
+Finished job 28.
+114 of 201 steps (57%) done
+[Wed Apr  2 20:42:07 2025]
+Finished job 160.
+115 of 201 steps (57%) done
+[Wed Apr  2 20:42:08 2025]
+Finished job 11.
+116 of 201 steps (58%) done
+[Wed Apr  2 20:42:09 2025]
+Finished job 190.
+117 of 201 steps (58%) done
+[Wed Apr  2 20:42:09 2025]
+Finished job 83.
+118 of 201 steps (59%) done
+[Wed Apr  2 20:42:10 2025]
+Finished job 113.
+119 of 201 steps (59%) done
+[Wed Apr  2 20:42:11 2025]
+Finished job 100.
+120 of 201 steps (60%) done
+[Wed Apr  2 20:42:12 2025]
+Finished job 14.
+121 of 201 steps (60%) done
+[Wed Apr  2 20:42:12 2025]
+Finished job 143.
+122 of 201 steps (61%) done
+[Wed Apr  2 20:42:12 2025]
+Finished job 24.
+123 of 201 steps (61%) done
+[Wed Apr  2 20:42:14 2025]
+Finished job 179.
+124 of 201 steps (62%) done
+[Wed Apr  2 20:42:14 2025]
+Finished job 19.
+125 of 201 steps (62%) done
+[Wed Apr  2 20:42:14 2025]
+Finished job 119.
+126 of 201 steps (63%) done
+[Wed Apr  2 20:42:14 2025]
+Finished job 15.
+127 of 201 steps (63%) done
+[Wed Apr  2 20:42:14 2025]
+Finished job 49.
+128 of 201 steps (64%) done
+[Wed Apr  2 20:42:15 2025]
+Finished job 156.
+129 of 201 steps (64%) done
+[Wed Apr  2 20:42:15 2025]
+Finished job 101.
+130 of 201 steps (65%) done
+[Wed Apr  2 20:42:15 2025]
+Finished job 66.
+131 of 201 steps (65%) done
+[Wed Apr  2 20:42:15 2025]
+Finished job 45.
+132 of 201 steps (66%) done
+[Wed Apr  2 20:42:16 2025]
+Finished job 42.
+133 of 201 steps (66%) done
+[Wed Apr  2 20:42:16 2025]
+Finished job 27.
+134 of 201 steps (67%) done
+[Wed Apr  2 20:42:17 2025]
+Finished job 96.
+135 of 201 steps (67%) done
+[Wed Apr  2 20:42:17 2025]
+Finished job 20.
+136 of 201 steps (68%) done
+[Wed Apr  2 20:42:17 2025]
+Finished job 186.
+137 of 201 steps (68%) done
+[Wed Apr  2 20:42:18 2025]
+Finished job 50.
+138 of 201 steps (69%) done
+[Wed Apr  2 20:42:18 2025]
+Finished job 161.
+139 of 201 steps (69%) done
+[Wed Apr  2 20:42:19 2025]
+Finished job 178.
+140 of 201 steps (70%) done
+Terminating processes on user request, this might take some time.
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+Error in rule run_cpp_program:
+    jobid: 139
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.139_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.139 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.139_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+Error in rule run_cpp_program:
+    jobid: 164
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.164_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.164 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.164_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+Error in rule run_cpp_program:
+    jobid: 122
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.122_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.122 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.122_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+Error in rule run_cpp_program:
+    jobid: 195
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.195_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.195 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.195_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 187
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.187_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.187 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.187_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+Error in rule run_cpp_program:
+    jobid: 134
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.134_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.134 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.134_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 174
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.174_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.174 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.174_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+Error in rule run_cpp_program:
+    jobid: 118
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.118_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.118 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.118_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  2 20:42:19 2025]
+Error in rule run_cpp_program:
+    jobid: 126
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.126_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.126 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.126_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  2 20:42:19 2025]
+[Wed Apr  2 20:42:19 2025]
+Error in rule run_cpp_program:
+    jobid: 104
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.104_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.104 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.104_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 32
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.032_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.032 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.032_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 57
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.057_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.057 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.057_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 132
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.132_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.132 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.132_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 105
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.105_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.105 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.105_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 41
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.041_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.041 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.041_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 181
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.181_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.181 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.181_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 109
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.109_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.109 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.109_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 127
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.127_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.127 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.127_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 162
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.162_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.162 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.162_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 199
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.199_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.199 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.199_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 149
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.149_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.149 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.149_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 110
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.11_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.11 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.11_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 88
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.088_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.088 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.088_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 131
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.131_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.131 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.131_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 79
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.079_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.079 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.079_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 152
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.152_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.152 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.152_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 114
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.114_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.114 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.114_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 169
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.169_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.169 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.169_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 173
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.173_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.173 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.173_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 147
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.147_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.147 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.147_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 74
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.074_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.074 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.074_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 106
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.106_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.106 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.106_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 121
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.121_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.121 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.121_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 91
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.091_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.091 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.091_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 87
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.087_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.087 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.087_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 144
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.144_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.144 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.144_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 177
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.177_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.177 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.177_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 157
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.157_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.157 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.157_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 102
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.102_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.102 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.102_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 191
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.191_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.191 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.191_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 58
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.058_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.058 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.058_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 151
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.151_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.151 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.151_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 54
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.054_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.054 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.054_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 67
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.067_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.067 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.067_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 71
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.071_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.071 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.071_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 117
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.117_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.117 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.117_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 44
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.044_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.044 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.044_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 61
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.061_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.061 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.061_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 194
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.194_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.194 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.194_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 62
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.062_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.062 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.062_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 37
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.037_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.037 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.037_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 135
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.135_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.135 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.135_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 182
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.182_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.182 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.182_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 165
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.165_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.165 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.165_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 75
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.075_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.075 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.075_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 97
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.097_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.097 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.097_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 84
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.084_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.084 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.084_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 92
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.092_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.092 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.092_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 46
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.046_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.046 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.046_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 148
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.148_k30.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 30 -e 1e-10 -c 100 -r 0.148 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.148_k30.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2025-04-02T204032.581686.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

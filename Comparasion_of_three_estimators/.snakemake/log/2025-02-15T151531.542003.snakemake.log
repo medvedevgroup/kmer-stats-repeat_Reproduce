@@ -1,0 +1,413 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count
+---------------  -------
+all                    1
+run_cpp_program       40
+total                 41
+
+Select jobs to execute...
+Execute 40 jobs...
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k20_t0.output
+    jobid: 11
+    reason: Missing output files: results/r0.01_k20_t0.output
+    wildcards: r=0.01, k=20, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k40_t1.output
+    jobid: 26
+    reason: Missing output files: results/r0.05_k40_t1.output
+    wildcards: r=0.05, k=40, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k60_t1.output
+    jobid: 10
+    reason: Missing output files: results/r0.001_k60_t1.output
+    wildcards: r=0.001, k=60, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k40_t0.output
+    jobid: 25
+    reason: Missing output files: results/r0.05_k40_t0.output
+    wildcards: r=0.05, k=40, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k60_t1.output
+    jobid: 40
+    reason: Missing output files: results/r0.2_k60_t1.output
+    wildcards: r=0.2, k=60, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k60_t0.output
+    jobid: 9
+    reason: Missing output files: results/r0.001_k60_t0.output
+    wildcards: r=0.001, k=60, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k30_t1.output
+    jobid: 24
+    reason: Missing output files: results/r0.05_k30_t1.output
+    wildcards: r=0.05, k=30, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k60_t0.output
+    jobid: 39
+    reason: Missing output files: results/r0.2_k60_t0.output
+    wildcards: r=0.2, k=60, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k50_t1.output
+    jobid: 38
+    reason: Missing output files: results/r0.2_k50_t1.output
+    wildcards: r=0.2, k=50, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k50_t1.output
+    jobid: 8
+    reason: Missing output files: results/r0.001_k50_t1.output
+    wildcards: r=0.001, k=50, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k30_t0.output
+    jobid: 23
+    reason: Missing output files: results/r0.05_k30_t0.output
+    wildcards: r=0.05, k=30, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k50_t0.output
+    jobid: 37
+    reason: Missing output files: results/r0.2_k50_t0.output
+    wildcards: r=0.2, k=50, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k50_t0.output
+    jobid: 7
+    reason: Missing output files: results/r0.001_k50_t0.output
+    wildcards: r=0.001, k=50, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k20_t1.output
+    jobid: 22
+    reason: Missing output files: results/r0.05_k20_t1.output
+    wildcards: r=0.05, k=20, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k20_t0.output
+    jobid: 21
+    reason: Missing output files: results/r0.05_k20_t0.output
+    wildcards: r=0.05, k=20, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k40_t1.output
+    jobid: 36
+    reason: Missing output files: results/r0.2_k40_t1.output
+    wildcards: r=0.2, k=40, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k40_t1.output
+    jobid: 6
+    reason: Missing output files: results/r0.001_k40_t1.output
+    wildcards: r=0.001, k=40, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k60_t1.output
+    jobid: 20
+    reason: Missing output files: results/r0.01_k60_t1.output
+    wildcards: r=0.01, k=60, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k40_t0.output
+    jobid: 35
+    reason: Missing output files: results/r0.2_k40_t0.output
+    wildcards: r=0.2, k=40, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k40_t0.output
+    jobid: 5
+    reason: Missing output files: results/r0.001_k40_t0.output
+    wildcards: r=0.001, k=40, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k30_t1.output
+    jobid: 4
+    reason: Missing output files: results/r0.001_k30_t1.output
+    wildcards: r=0.001, k=30, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k60_t0.output
+    jobid: 19
+    reason: Missing output files: results/r0.01_k60_t0.output
+    wildcards: r=0.01, k=60, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k30_t1.output
+    jobid: 34
+    reason: Missing output files: results/r0.2_k30_t1.output
+    wildcards: r=0.2, k=30, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k30_t0.output
+    jobid: 3
+    reason: Missing output files: results/r0.001_k30_t0.output
+    wildcards: r=0.001, k=30, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k50_t1.output
+    jobid: 18
+    reason: Missing output files: results/r0.01_k50_t1.output
+    wildcards: r=0.01, k=50, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k30_t0.output
+    jobid: 33
+    reason: Missing output files: results/r0.2_k30_t0.output
+    wildcards: r=0.2, k=30, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k20_t1.output
+    jobid: 2
+    reason: Missing output files: results/r0.001_k20_t1.output
+    wildcards: r=0.001, k=20, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k50_t0.output
+    jobid: 17
+    reason: Missing output files: results/r0.01_k50_t0.output
+    wildcards: r=0.01, k=50, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k20_t1.output
+    jobid: 32
+    reason: Missing output files: results/r0.2_k20_t1.output
+    wildcards: r=0.2, k=20, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k20_t0.output
+    jobid: 1
+    reason: Missing output files: results/r0.001_k20_t0.output
+    wildcards: r=0.001, k=20, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k40_t1.output
+    jobid: 16
+    reason: Missing output files: results/r0.01_k40_t1.output
+    wildcards: r=0.01, k=40, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k20_t0.output
+    jobid: 31
+    reason: Missing output files: results/r0.2_k20_t0.output
+    wildcards: r=0.2, k=20, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k60_t1.output
+    jobid: 30
+    reason: Missing output files: results/r0.05_k60_t1.output
+    wildcards: r=0.05, k=60, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k40_t0.output
+    jobid: 15
+    reason: Missing output files: results/r0.01_k40_t0.output
+    wildcards: r=0.01, k=40, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k60_t0.output
+    jobid: 29
+    reason: Missing output files: results/r0.05_k60_t0.output
+    wildcards: r=0.05, k=60, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k30_t1.output
+    jobid: 14
+    reason: Missing output files: results/r0.01_k30_t1.output
+    wildcards: r=0.01, k=30, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k30_t0.output
+    jobid: 13
+    reason: Missing output files: results/r0.01_k30_t0.output
+    wildcards: r=0.01, k=30, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k50_t1.output
+    jobid: 28
+    reason: Missing output files: results/r0.05_k50_t1.output
+    wildcards: r=0.05, k=50, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k20_t1.output
+    jobid: 12
+    reason: Missing output files: results/r0.01_k20_t1.output
+    wildcards: r=0.01, k=20, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:15:31 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k50_t0.output
+    jobid: 27
+    reason: Missing output files: results/r0.05_k50_t0.output
+    wildcards: r=0.05, k=50, t=0
+    resources: tmpdir=/tmp
+

@@ -1,0 +1,47 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                       count
+----------------------  -------
+all                           1
+plot_kmer_distribution        2
+run_kmer_info                 2
+total                         5
+
+Select jobs to execute...
+Execute 2 jobs...
+
+[Sat Apr 19 13:53:57 2025]
+localrule run_kmer_info:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: results/chr6/kmer_info.txt
+    jobid: 4
+    reason: Missing output files: results/chr6/kmer_info.txt
+    wildcards: output_dir=results/chr6
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 13:53:57 2025]
+localrule run_kmer_info:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/chr21/kmer_info.txt
+    jobid: 2
+    reason: Missing output files: results/chr21/kmer_info.txt
+    wildcards: output_dir=results/chr21
+    resources: tmpdir=/tmp
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule run_kmer_info in file /home/hvw5426/kmer-stats-repeat_Reproduce/kmer_info/snakefile, line 27:
+Job 2  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+results/chr21/kmer_info.txt (missing locally, parent dir contents: diff_counts.txt, occ_counts.txt)
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule run_kmer_info in file /home/hvw5426/kmer-stats-repeat_Reproduce/kmer_info/snakefile, line 27:
+Job 4  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+results/chr6/kmer_info.txt (missing locally, parent dir contents: diff_counts.txt, occ_counts.txt)
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-04-19T135357.095647.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

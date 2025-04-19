@@ -1,0 +1,55 @@
+import os
+import yaml
+
+with open('config.yaml', 'r') as f:
+    config = yaml.safe_load(f)
+
+ANALYSES = [analysis['name'] for analysis in config['analyses']]
+
+rule all:
+    input:
+        expand("{name}/kmer_distribution_histogram.png", name=ANALYSES)
+
+def get_analysis_params(wildcards):
+    for analysis in config['analyses']:
+        if analysis['name'] == wildcards.name:
+            return analysis
+    raise ValueError(f"No analysis found for {wildcards.name}")
+
+rule run_kmer_info:
+    input:
+        fasta = lambda wildcards: get_analysis_params(wildcards)['fasta']
+    output:
+        diff_counts = "{name}/diff_counts.txt",
+        occ_counts = "{name}/occ_counts.txt"
+    params:
+        start = lambda wildcards: get_analysis_params(wildcards)['start'],
+        length = lambda wildcards: get_analysis_params(wildcards)['length'],
+        kmer = lambda wildcards: get_analysis_params(wildcards)['kmer']
+    shell:
+        """
+        mkdir -p {wildcards.name}
+        ./kmer_info \
+            -i {input.fasta} \
+            -s {params.start} \
+            -l {params.length} \
+            -k {params.kmer} \
+            -o {wildcards.name}
+        """
+
+rule plot_kmer_distribution:
+    input:
+        occ_counts = "{name}/occ_counts.txt"
+    output:
+        plot = "{name}/kmer_distribution_histogram.png"
+    params:
+        input_file = "{name}/occ_counts.txt",
+        output_dir = "{name}",
+        thresholds = lambda wildcards: " ".join(map(str, get_analysis_params(wildcards)['thresholds']))
+    shell:
+        """
+        python plot_greater_threshold.py \
+            {params.input_file} \
+            {params.output_dir} \
+            {params.thresholds}
+        """

@@ -1,0 +1,14 @@
+Building DAG of jobs...
+MissingInputException in rule all in file /home/hvw5426/kmer-stats/Newton_method/snakefile, line 1:
+Missing input files for rule all:
+    affected files:
+        /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/k30_r0.01.output
+        /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/k40_r0.01.output
+        /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/k60_r0.01.output
+        /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/k100_r0.01.output
+        /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/k80_r0.01.output
+        /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/k10_r0.01.output
+        /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/k50_r0.01.output
+        /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/k90_r0.01.output
+        /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/k70_r0.01.output
+        /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/k20_r0.01.output

@@ -1,0 +1,795 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count
+---------------  -------
+all                    1
+run_cpp_program       58
+total                 59
+
+Select jobs to execute...
+Execute 58 jobs...
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k180_r0.01_theta0.1.output
+    jobid: 17
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k180_r0.01_theta0.1.output
+    wildcards: k=180, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k390_r0.01_theta0.01.output
+    jobid: 32
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k390_r0.01_theta0.01.output
+    wildcards: k=390, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k630_r0.01_theta0.1.output
+    jobid: 47
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k630_r0.01_theta0.1.output
+    wildcards: k=630, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k4_r0.01_theta0.01.output
+    jobid: 2
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k4_r0.01_theta0.01.output
+    wildcards: k=4, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k4_r0.01_theta0.1.output
+    jobid: 1
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k4_r0.01_theta0.1.output
+    wildcards: k=4, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k150_r0.01_theta0.01.output
+    jobid: 16
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k150_r0.01_theta0.01.output
+    wildcards: k=150, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k390_r0.01_theta0.1.output
+    jobid: 31
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k390_r0.01_theta0.1.output
+    wildcards: k=390, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k600_r0.01_theta0.01.output
+    jobid: 46
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k600_r0.01_theta0.01.output
+    wildcards: k=600, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k150_r0.01_theta0.1.output
+    jobid: 15
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k150_r0.01_theta0.1.output
+    wildcards: k=150, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k360_r0.01_theta0.01.output
+    jobid: 30
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k360_r0.01_theta0.01.output
+    wildcards: k=360, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k600_r0.01_theta0.1.output
+    jobid: 45
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k600_r0.01_theta0.1.output
+    wildcards: k=600, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k570_r0.01_theta0.01.output
+    jobid: 44
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k570_r0.01_theta0.01.output
+    wildcards: k=570, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k120_r0.01_theta0.01.output
+    jobid: 14
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k120_r0.01_theta0.01.output
+    wildcards: k=120, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k360_r0.01_theta0.1.output
+    jobid: 29
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k360_r0.01_theta0.1.output
+    wildcards: k=360, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k570_r0.01_theta0.1.output
+    jobid: 43
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k570_r0.01_theta0.1.output
+    wildcards: k=570, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k780_r0.01_theta0.01.output
+    jobid: 58
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k780_r0.01_theta0.01.output
+    wildcards: k=780, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k120_r0.01_theta0.1.output
+    jobid: 13
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k120_r0.01_theta0.1.output
+    wildcards: k=120, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k330_r0.01_theta0.01.output
+    jobid: 28
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k330_r0.01_theta0.01.output
+    wildcards: k=330, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k330_r0.01_theta0.1.output
+    jobid: 27
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k330_r0.01_theta0.1.output
+    wildcards: k=330, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k540_r0.01_theta0.01.output
+    jobid: 42
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k540_r0.01_theta0.01.output
+    wildcards: k=540, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k780_r0.01_theta0.1.output
+    jobid: 57
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k780_r0.01_theta0.1.output
+    wildcards: k=780, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k90_r0.01_theta0.01.output
+    jobid: 12
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k90_r0.01_theta0.01.output
+    wildcards: k=90, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k300_r0.01_theta0.01.output
+    jobid: 26
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k300_r0.01_theta0.01.output
+    wildcards: k=300, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k540_r0.01_theta0.1.output
+    jobid: 41
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k540_r0.01_theta0.1.output
+    wildcards: k=540, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k750_r0.01_theta0.01.output
+    jobid: 56
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k750_r0.01_theta0.01.output
+    wildcards: k=750, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k90_r0.01_theta0.1.output
+    jobid: 11
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k90_r0.01_theta0.1.output
+    wildcards: k=90, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k60_r0.01_theta0.01.output
+    jobid: 10
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k60_r0.01_theta0.01.output
+    wildcards: k=60, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k300_r0.01_theta0.1.output
+    jobid: 25
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k300_r0.01_theta0.1.output
+    wildcards: k=300, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k510_r0.01_theta0.01.output
+    jobid: 40
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k510_r0.01_theta0.01.output
+    wildcards: k=510, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k750_r0.01_theta0.1.output
+    jobid: 55
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k750_r0.01_theta0.1.output
+    wildcards: k=750, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k60_r0.01_theta0.1.output
+    jobid: 9
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k60_r0.01_theta0.1.output
+    wildcards: k=60, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k270_r0.01_theta0.01.output
+    jobid: 24
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k270_r0.01_theta0.01.output
+    wildcards: k=270, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k510_r0.01_theta0.1.output
+    jobid: 39
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k510_r0.01_theta0.1.output
+    wildcards: k=510, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k720_r0.01_theta0.01.output
+    jobid: 54
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k720_r0.01_theta0.01.output
+    wildcards: k=720, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k720_r0.01_theta0.1.output
+    jobid: 53
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k720_r0.01_theta0.1.output
+    wildcards: k=720, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:24 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k32_r0.01_theta0.01.output
+    jobid: 8
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k32_r0.01_theta0.01.output
+    wildcards: k=32, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k270_r0.01_theta0.1.output
+    jobid: 23
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k270_r0.01_theta0.1.output
+    wildcards: k=270, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k480_r0.01_theta0.01.output
+    jobid: 38
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k480_r0.01_theta0.01.output
+    wildcards: k=480, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k690_r0.01_theta0.01.output
+    jobid: 52
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k690_r0.01_theta0.01.output
+    wildcards: k=690, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k32_r0.01_theta0.1.output
+    jobid: 7
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k32_r0.01_theta0.1.output
+    wildcards: k=32, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k240_r0.01_theta0.01.output
+    jobid: 22
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k240_r0.01_theta0.01.output
+    wildcards: k=240, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k480_r0.01_theta0.1.output
+    jobid: 37
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k480_r0.01_theta0.1.output
+    wildcards: k=480, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k450_r0.01_theta0.01.output
+    jobid: 36
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k450_r0.01_theta0.01.output
+    wildcards: k=450, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k690_r0.01_theta0.1.output
+    jobid: 51
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k690_r0.01_theta0.1.output
+    wildcards: k=690, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k16_r0.01_theta0.01.output
+    jobid: 6
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k16_r0.01_theta0.01.output
+    wildcards: k=16, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k240_r0.01_theta0.1.output
+    jobid: 21
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k240_r0.01_theta0.1.output
+    wildcards: k=240, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k450_r0.01_theta0.1.output
+    jobid: 35
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k450_r0.01_theta0.1.output
+    wildcards: k=450, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k660_r0.01_theta0.01.output
+    jobid: 50
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k660_r0.01_theta0.01.output
+    wildcards: k=660, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k16_r0.01_theta0.1.output
+    jobid: 5
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k16_r0.01_theta0.1.output
+    wildcards: k=16, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k210_r0.01_theta0.01.output
+    jobid: 20
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k210_r0.01_theta0.01.output
+    wildcards: k=210, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k210_r0.01_theta0.1.output
+    jobid: 19
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k210_r0.01_theta0.1.output
+    wildcards: k=210, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k420_r0.01_theta0.01.output
+    jobid: 34
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k420_r0.01_theta0.01.output
+    wildcards: k=420, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k660_r0.01_theta0.1.output
+    jobid: 49
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k660_r0.01_theta0.1.output
+    wildcards: k=660, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k8_r0.01_theta0.01.output
+    jobid: 4
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k8_r0.01_theta0.01.output
+    wildcards: k=8, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k180_r0.01_theta0.01.output
+    jobid: 18
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k180_r0.01_theta0.01.output
+    wildcards: k=180, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k420_r0.01_theta0.1.output
+    jobid: 33
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k420_r0.01_theta0.1.output
+    wildcards: k=420, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k630_r0.01_theta0.01.output
+    jobid: 48
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k630_r0.01_theta0.01.output
+    wildcards: k=630, r=0.01, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 16 14:47:25 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k8_r0.01_theta0.1.output
+    jobid: 3
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k8_r0.01_theta0.1.output
+    wildcards: k=8, r=0.01, theta=0.1
+    resources: tmpdir=/tmp
+
+[Wed Apr 16 14:48:01 2025]
+Finished job 3.
+1 of 59 steps (2%) done
+[Wed Apr 16 14:48:03 2025]
+Finished job 4.
+2 of 59 steps (3%) done
+[Wed Apr 16 14:48:05 2025]
+Finished job 5.
+3 of 59 steps (5%) done
+[Wed Apr 16 14:48:19 2025]
+Finished job 7.
+4 of 59 steps (7%) done
+[Wed Apr 16 14:48:26 2025]
+Finished job 9.
+5 of 59 steps (8%) done
+[Wed Apr 16 14:48:29 2025]
+Finished job 10.
+6 of 59 steps (10%) done
+[Wed Apr 16 14:48:41 2025]
+Finished job 14.
+7 of 59 steps (12%) done
+[Wed Apr 16 14:48:41 2025]
+Finished job 12.
+8 of 59 steps (14%) done
+[Wed Apr 16 14:48:44 2025]
+Finished job 16.
+9 of 59 steps (15%) done
+[Wed Apr 16 14:48:49 2025]
+Finished job 11.
+10 of 59 steps (17%) done
+[Wed Apr 16 14:48:59 2025]
+Finished job 13.
+11 of 59 steps (19%) done
+[Wed Apr 16 14:49:00 2025]
+Finished job 15.
+12 of 59 steps (20%) done
+[Wed Apr 16 14:49:02 2025]
+Finished job 18.
+13 of 59 steps (22%) done
+[Wed Apr 16 14:49:04 2025]
+Finished job 17.
+14 of 59 steps (24%) done
+[Wed Apr 16 14:49:04 2025]
+Finished job 22.
+15 of 59 steps (25%) done
+[Wed Apr 16 14:49:13 2025]
+Finished job 20.
+16 of 59 steps (27%) done
+[Wed Apr 16 14:49:13 2025]
+Finished job 19.
+17 of 59 steps (29%) done
+[Wed Apr 16 14:49:17 2025]
+Finished job 24.
+18 of 59 steps (31%) done
+[Wed Apr 16 14:49:18 2025]
+Finished job 25.
+19 of 59 steps (32%) done
+[Wed Apr 16 14:49:18 2025]
+Finished job 28.
+20 of 59 steps (34%) done
+[Wed Apr 16 14:49:19 2025]
+Finished job 32.
+21 of 59 steps (36%) done
+[Wed Apr 16 14:49:20 2025]
+Finished job 21.
+22 of 59 steps (37%) done
+[Wed Apr 16 14:49:20 2025]
+Finished job 26.
+23 of 59 steps (39%) done
+[Wed Apr 16 14:49:20 2025]
+Finished job 23.
+24 of 59 steps (41%) done
+[Wed Apr 16 14:49:21 2025]
+Finished job 36.
+25 of 59 steps (42%) done
+[Wed Apr 16 14:49:22 2025]
+Finished job 35.
+26 of 59 steps (44%) done
+[Wed Apr 16 14:49:23 2025]
+Finished job 31.
+27 of 59 steps (46%) done
+[Wed Apr 16 14:49:24 2025]
+Finished job 30.
+28 of 59 steps (47%) done
+[Wed Apr 16 14:49:26 2025]
+Finished job 27.
+29 of 59 steps (49%) done
+[Wed Apr 16 14:49:27 2025]
+Finished job 29.
+30 of 59 steps (51%) done
+[Wed Apr 16 14:49:29 2025]
+Finished job 34.
+31 of 59 steps (53%) done
+[Wed Apr 16 14:49:32 2025]
+Finished job 40.
+32 of 59 steps (54%) done
+[Wed Apr 16 14:49:34 2025]
+Finished job 33.
+33 of 59 steps (56%) done
+[Wed Apr 16 14:49:36 2025]
+Finished job 39.
+34 of 59 steps (58%) done
+[Wed Apr 16 14:49:37 2025]
+Finished job 38.
+35 of 59 steps (59%) done
+[Wed Apr 16 14:49:38 2025]
+Finished job 42.
+36 of 59 steps (61%) done
+[Wed Apr 16 14:49:40 2025]
+Finished job 48.
+37 of 59 steps (63%) done
+[Wed Apr 16 14:49:40 2025]
+Finished job 44.
+38 of 59 steps (64%) done
+[Wed Apr 16 14:49:41 2025]
+Finished job 52.
+39 of 59 steps (66%) done
+[Wed Apr 16 14:49:41 2025]
+Finished job 37.
+40 of 59 steps (68%) done
+[Wed Apr 16 14:49:42 2025]
+Finished job 43.
+41 of 59 steps (69%) done
+[Wed Apr 16 14:49:46 2025]
+Finished job 41.
+42 of 59 steps (71%) done
+[Wed Apr 16 14:49:46 2025]
+Finished job 46.
+43 of 59 steps (73%) done
+[Wed Apr 16 14:49:47 2025]
+Finished job 50.
+44 of 59 steps (75%) done
+[Wed Apr 16 14:49:48 2025]
+Finished job 56.
+45 of 59 steps (76%) done
+[Wed Apr 16 14:49:49 2025]
+Finished job 45.
+46 of 59 steps (78%) done
+[Wed Apr 16 14:49:51 2025]
+Finished job 55.
+47 of 59 steps (80%) done
+[Wed Apr 16 14:49:52 2025]
+Finished job 53.
+48 of 59 steps (81%) done
+[Wed Apr 16 14:49:52 2025]
+Finished job 47.
+49 of 59 steps (83%) done
+[Wed Apr 16 14:49:52 2025]
+Finished job 49.
+50 of 59 steps (85%) done
+[Wed Apr 16 14:49:54 2025]
+Finished job 54.
+51 of 59 steps (86%) done
+[Wed Apr 16 14:49:57 2025]
+Finished job 58.
+52 of 59 steps (88%) done
+[Wed Apr 16 14:49:59 2025]
+Finished job 51.
+53 of 59 steps (90%) done
+[Wed Apr 16 14:50:01 2025]
+Finished job 57.
+54 of 59 steps (92%) done
+[Wed Apr 16 14:51:50 2025]
+Finished job 1.
+55 of 59 steps (93%) done
+Terminating processes on user request, this might take some time.
+[Wed Apr 16 15:09:08 2025]
+Error in rule run_cpp_program:
+    jobid: 8
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k32_r0.01_theta0.01.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 32 -e 1e-10 -c 100 -r 0.01 -z 0.01 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k32_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr 16 15:09:08 2025]
+Error in rule run_cpp_program:
+    jobid: 2
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k4_r0.01_theta0.01.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 4 -e 1e-10 -c 100 -r 0.01 -z 0.01 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k4_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr 16 15:09:08 2025]
+Error in rule run_cpp_program:
+    jobid: 6
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k16_r0.01_theta0.01.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 16 -e 1e-10 -c 100 -r 0.01 -z 0.01 > /home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r/k16_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2025-04-16T144723.416127.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

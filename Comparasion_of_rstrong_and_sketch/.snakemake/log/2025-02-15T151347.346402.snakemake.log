@@ -1,0 +1,729 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count
+---------------  -------
+all                    1
+run_cpp_program       40
+total                 41
+
+Select jobs to execute...
+Execute 40 jobs...
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k2_t0.output
+    jobid: 11
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.01, k=2, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k8_t1.output
+    jobid: 26
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.05, k=8, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k32_t1.output
+    jobid: 10
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.001, k=32, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k8_t0.output
+    jobid: 25
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.05, k=8, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k32_t1.output
+    jobid: 40
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.2, k=32, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k32_t0.output
+    jobid: 9
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.001, k=32, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k4_t1.output
+    jobid: 24
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.05, k=4, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k32_t0.output
+    jobid: 39
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.2, k=32, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k16_t1.output
+    jobid: 38
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.2, k=16, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k16_t1.output
+    jobid: 8
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.001, k=16, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k4_t0.output
+    jobid: 23
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.05, k=4, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k16_t0.output
+    jobid: 37
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.2, k=16, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k16_t0.output
+    jobid: 7
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.001, k=16, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k2_t1.output
+    jobid: 22
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.05, k=2, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k2_t0.output
+    jobid: 21
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.05, k=2, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k8_t1.output
+    jobid: 36
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.2, k=8, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k8_t1.output
+    jobid: 6
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.001, k=8, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k32_t1.output
+    jobid: 20
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.01, k=32, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k8_t0.output
+    jobid: 35
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.2, k=8, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k8_t0.output
+    jobid: 5
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.001, k=8, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k4_t1.output
+    jobid: 4
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.001, k=4, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k32_t0.output
+    jobid: 19
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.01, k=32, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k4_t1.output
+    jobid: 34
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.2, k=4, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k4_t0.output
+    jobid: 3
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.001, k=4, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k16_t1.output
+    jobid: 18
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.01, k=16, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k4_t0.output
+    jobid: 33
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.2, k=4, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k2_t1.output
+    jobid: 2
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.001, k=2, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k16_t0.output
+    jobid: 17
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.01, k=16, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k2_t1.output
+    jobid: 32
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.2, k=2, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k2_t0.output
+    jobid: 1
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.001, k=2, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k8_t1.output
+    jobid: 16
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.01, k=8, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k2_t0.output
+    jobid: 31
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.2, k=2, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k32_t1.output
+    jobid: 30
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.05, k=32, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k8_t0.output
+    jobid: 15
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.01, k=8, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k32_t0.output
+    jobid: 29
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.05, k=32, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k4_t1.output
+    jobid: 14
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.01, k=4, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k4_t0.output
+    jobid: 13
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.01, k=4, t=0
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k16_t1.output
+    jobid: 28
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.05, k=16, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k2_t1.output
+    jobid: 12
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.01, k=2, t=1
+    resources: tmpdir=/tmp
+
+
+[Sat Feb 15 15:13:47 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k16_t0.output
+    jobid: 27
+    reason: Set of input files has changed since last execution; Code has changed since last execution; Params have changed since last execution
+    wildcards: r=0.05, k=16, t=0
+    resources: tmpdir=/tmp
+
+[Sat Feb 15 15:13:49 2025]
+Finished job 21.
+1 of 41 steps (2%) done
+[Sat Feb 15 15:13:49 2025]
+Finished job 1.
+2 of 41 steps (5%) done
+[Sat Feb 15 15:13:49 2025]
+Finished job 32.
+3 of 41 steps (7%) done
+[Sat Feb 15 15:13:50 2025]
+Finished job 2.
+4 of 41 steps (10%) done
+[Sat Feb 15 15:13:50 2025]
+Finished job 31.
+5 of 41 steps (12%) done
+[Sat Feb 15 15:13:50 2025]
+Finished job 12.
+6 of 41 steps (15%) done
+[Sat Feb 15 15:13:50 2025]
+Finished job 22.
+7 of 41 steps (17%) done
+[Sat Feb 15 15:13:50 2025]
+Finished job 11.
+8 of 41 steps (20%) done
+[Sat Feb 15 15:13:58 2025]
+Finished job 24.
+9 of 41 steps (22%) done
+[Sat Feb 15 15:13:58 2025]
+Finished job 4.
+10 of 41 steps (24%) done
+[Sat Feb 15 15:13:58 2025]
+Finished job 14.
+11 of 41 steps (27%) done
+[Sat Feb 15 15:13:59 2025]
+Finished job 33.
+12 of 41 steps (29%) done
+[Sat Feb 15 15:13:59 2025]
+Finished job 13.
+13 of 41 steps (32%) done
+[Sat Feb 15 15:13:59 2025]
+Finished job 34.
+14 of 41 steps (34%) done
+[Sat Feb 15 15:13:59 2025]
+Finished job 23.
+15 of 41 steps (37%) done
+[Sat Feb 15 15:13:59 2025]
+Finished job 3.
+16 of 41 steps (39%) done
+Terminating processes on user request, this might take some time.
+[Sat Feb 15 15:14:37 2025]
+Error in rule run_cpp_program:
+    jobid: 26
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k8_t1.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 8 -e 1e-10 -c 10 -r 0.05 > results/r0.05_k8_t1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Feb 15 15:14:37 2025]
+[Sat Feb 15 15:14:37 2025]
+Error in rule run_cpp_program:
+    jobid: 15
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k8_t0.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 8 -e 1e-10 -c 10 -r 0.01 > results/r0.01_k8_t0.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 9
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k32_t0.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 32 -e 1e-10 -c 10 -r 0.001 > results/r0.001_k32_t0.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Feb 15 15:14:37 2025]
+[Sat Feb 15 15:14:37 2025]
+[Sat Feb 15 15:14:37 2025]
+[Sat Feb 15 15:14:37 2025]
+[Sat Feb 15 15:14:37 2025]
+[Sat Feb 15 15:14:37 2025]
+[Sat Feb 15 15:14:37 2025]
+[Sat Feb 15 15:14:37 2025]
+[Sat Feb 15 15:14:37 2025]
+Error in rule run_cpp_program:
+    jobid: 10
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k32_t1.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 32 -e 1e-10 -c 10 -r 0.001 > results/r0.001_k32_t1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 16
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k8_t1.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 8 -e 1e-10 -c 10 -r 0.01 > results/r0.01_k8_t1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Feb 15 15:14:37 2025]
+[Sat Feb 15 15:14:37 2025]
+Error in rule run_cpp_program:
+    jobid: 5
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k8_t0.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 8 -e 1e-10 -c 10 -r 0.001 > results/r0.001_k8_t0.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Feb 15 15:14:37 2025]
+Error in rule run_cpp_program:
+    jobid: 7
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k16_t0.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 16 -e 1e-10 -c 10 -r 0.001 > results/r0.001_k16_t0.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 29
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k32_t0.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 32 -e 1e-10 -c 10 -r 0.05 > results/r0.05_k32_t0.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Feb 15 15:14:37 2025]
+[Sat Feb 15 15:14:37 2025]
+[Sat Feb 15 15:14:37 2025]
+Error in rule run_cpp_program:
+    jobid: 6
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k8_t1.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 8 -e 1e-10 -c 10 -r 0.001 > results/r0.001_k8_t1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Feb 15 15:14:37 2025]
+Error in rule run_cpp_program:
+    jobid: 19
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k32_t0.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 32 -e 1e-10 -c 10 -r 0.01 > results/r0.01_k32_t0.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 40
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k32_t1.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 32 -e 1e-10 -c 10 -r 0.2 > results/r0.2_k32_t1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Feb 15 15:14:37 2025]
+[Sat Feb 15 15:14:37 2025]
+[Sat Feb 15 15:14:37 2025]
+Error in rule run_cpp_program:
+    jobid: 35
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k8_t0.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 8 -e 1e-10 -c 10 -r 0.2 > results/r0.2_k8_t0.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Feb 15 15:14:37 2025]
+Error in rule run_cpp_program:
+    jobid: 37
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k16_t0.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 16 -e 1e-10 -c 10 -r 0.2 > results/r0.2_k16_t0.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Feb 15 15:14:37 2025]
+Error in rule run_cpp_program:
+    jobid: 20
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k32_t1.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 32 -e 1e-10 -c 10 -r 0.01 > results/r0.01_k32_t1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 17
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k16_t0.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 16 -e 1e-10 -c 10 -r 0.01 > results/r0.01_k16_t0.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 8
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.001_k16_t1.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 16 -e 1e-10 -c 10 -r 0.001 > results/r0.001_k16_t1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 36
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k8_t1.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 8 -e 1e-10 -c 10 -r 0.2 > results/r0.2_k8_t1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 27
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k16_t0.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 16 -e 1e-10 -c 10 -r 0.05 > results/r0.05_k16_t0.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 38
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k16_t1.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 16 -e 1e-10 -c 10 -r 0.2 > results/r0.2_k16_t1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 39
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.2_k32_t0.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 32 -e 1e-10 -c 10 -r 0.2 > results/r0.2_k32_t0.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 25
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k8_t0.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 8 -e 1e-10 -c 10 -r 0.05 > results/r0.05_k8_t0.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 28
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k16_t1.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 16 -e 1e-10 -c 10 -r 0.05 > results/r0.05_k16_t1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 30
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.05_k32_t1.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 32 -e 1e-10 -c 10 -r 0.05 > results/r0.05_k32_t1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 18
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: results/r0.01_k16_t1.output
+    shell:
+        
+        ./Simulation -i /research/hvw5426/splitted_fasta/chr21.fasta -l 100000 -s 10962854 -k 16 -e 1e-10 -c 10 -r 0.01 > results/r0.01_k16_t1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2025-02-15T151347.346402.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

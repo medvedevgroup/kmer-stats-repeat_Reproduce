@@ -1,0 +1,91 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                       count
+----------------------  -------
+all                           1
+plot_kmer_distribution        2
+run_kmer_info                 2
+total                         5
+
+Select jobs to execute...
+Execute 2 jobs...
+
+[Sat Apr 19 14:07:11 2025]
+localrule run_kmer_info:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_repeatmasker/diff_counts.txt, chr6_repeatmasker/occ_counts.txt
+    jobid: 4
+    reason: Missing output files: chr6_repeatmasker/occ_counts.txt
+    wildcards: name=chr6_repeatmasker
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 14:07:11 2025]
+localrule run_kmer_info:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/diff_counts.txt, chr21_centromere/occ_counts.txt
+    jobid: 2
+    reason: Missing output files: chr21_centromere/occ_counts.txt
+    wildcards: name=chr21_centromere
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 14:07:12 2025]
+Finished job 2.
+1 of 5 steps (20%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 14:07:12 2025]
+localrule plot_kmer_distribution:
+    input: chr21_centromere/occ_counts.txt
+    output: chr21_centromere/kmer_distribution_histogram.png
+    jobid: 1
+    reason: Missing output files: chr21_centromere/kmer_distribution_histogram.png; Input files updated by another job: chr21_centromere/occ_counts.txt
+    wildcards: name=chr21_centromere
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 14:07:12 2025]
+Finished job 4.
+2 of 5 steps (40%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 14:07:12 2025]
+localrule plot_kmer_distribution:
+    input: chr6_repeatmasker/occ_counts.txt
+    output: chr6_repeatmasker/kmer_distribution_histogram.png
+    jobid: 3
+    reason: Missing output files: chr6_repeatmasker/kmer_distribution_histogram.png; Input files updated by another job: chr6_repeatmasker/occ_counts.txt
+    wildcards: name=chr6_repeatmasker
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 14:07:13 2025]
+Error in rule plot_kmer_distribution:
+    jobid: 3
+    input: chr6_repeatmasker/occ_counts.txt
+    output: chr6_repeatmasker/kmer_distribution_histogram.png
+    shell:
+        
+        python plot_greater_threshold.py             chr6_repeatmasker/occ_counts.txt             chr6_repeatmasker             2 3 4
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Apr 19 14:07:13 2025]
+Error in rule plot_kmer_distribution:
+    jobid: 1
+    input: chr21_centromere/occ_counts.txt
+    output: chr21_centromere/kmer_distribution_histogram.png
+    shell:
+        
+        python plot_greater_threshold.py             chr21_centromere/occ_counts.txt             chr21_centromere             2 3 4
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-04-19T140711.038565.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

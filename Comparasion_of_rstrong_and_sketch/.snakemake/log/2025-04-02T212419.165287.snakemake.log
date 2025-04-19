@@ -1,0 +1,300 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count
+---------------  -------
+all                    1
+run_cpp_program       21
+total                 22
+
+Select jobs to execute...
+Execute 21 jobs...
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.021_k30.output
+    jobid: 3
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.021_k30.output
+    wildcards: r=0.021, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.171_k30.output
+    jobid: 18
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.171_k30.output
+    wildcards: r=0.171, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.011_k30.output
+    jobid: 2
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.011_k30.output
+    wildcards: r=0.011, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.161_k30.output
+    jobid: 17
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.161_k30.output
+    wildcards: r=0.161, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.001_k30.output
+    jobid: 1
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.001_k30.output
+    wildcards: r=0.001, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.151_k30.output
+    jobid: 16
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.151_k30.output
+    wildcards: r=0.151, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.141_k30.output
+    jobid: 15
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.141_k30.output
+    wildcards: r=0.141, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.131_k30.output
+    jobid: 14
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.131_k30.output
+    wildcards: r=0.131, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.121_k30.output
+    jobid: 13
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.121_k30.output
+    wildcards: r=0.121, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.111_k30.output
+    jobid: 12
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.111_k30.output
+    wildcards: r=0.111, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.101_k30.output
+    jobid: 11
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.101_k30.output
+    wildcards: r=0.101, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.091_k30.output
+    jobid: 10
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.091_k30.output
+    wildcards: r=0.091, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.081_k30.output
+    jobid: 9
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.081_k30.output
+    wildcards: r=0.081, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.071_k30.output
+    jobid: 8
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.071_k30.output
+    wildcards: r=0.071, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.061_k30.output
+    jobid: 7
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.061_k30.output
+    wildcards: r=0.061, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.051_k30.output
+    jobid: 6
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.051_k30.output
+    wildcards: r=0.051, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.201_k30.output
+    jobid: 21
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.201_k30.output
+    wildcards: r=0.201, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.041_k30.output
+    jobid: 5
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.041_k30.output
+    wildcards: r=0.041, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.191_k30.output
+    jobid: 20
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.191_k30.output
+    wildcards: r=0.191, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.031_k30.output
+    jobid: 4
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.031_k30.output
+    wildcards: r=0.031, k=30
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  2 21:24:19 2025]
+localrule run_cpp_program:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.181_k30.output
+    jobid: 19
+    reason: Missing output files: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.181_k30.output
+    wildcards: r=0.181, k=30
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 21:24:28 2025]
+Finished job 1.
+1 of 22 steps (5%) done
+[Wed Apr  2 21:24:32 2025]
+Finished job 2.
+2 of 22 steps (9%) done
+[Wed Apr  2 21:24:35 2025]
+Finished job 3.
+3 of 22 steps (14%) done
+[Wed Apr  2 21:24:37 2025]
+Finished job 4.
+4 of 22 steps (18%) done
+[Wed Apr  2 21:24:39 2025]
+Finished job 5.
+5 of 22 steps (23%) done
+[Wed Apr  2 21:24:40 2025]
+Finished job 6.
+6 of 22 steps (27%) done
+[Wed Apr  2 21:24:41 2025]
+Finished job 7.
+7 of 22 steps (32%) done
+[Wed Apr  2 21:24:42 2025]
+Finished job 8.
+8 of 22 steps (36%) done
+[Wed Apr  2 21:24:42 2025]
+Finished job 9.
+9 of 22 steps (41%) done
+[Wed Apr  2 21:24:43 2025]
+Finished job 10.
+10 of 22 steps (45%) done
+[Wed Apr  2 21:24:43 2025]
+Finished job 14.
+11 of 22 steps (50%) done
+[Wed Apr  2 21:24:43 2025]
+Finished job 15.
+12 of 22 steps (55%) done
+[Wed Apr  2 21:24:43 2025]
+Finished job 13.
+13 of 22 steps (59%) done
+[Wed Apr  2 21:24:43 2025]
+Finished job 20.
+14 of 22 steps (64%) done
+[Wed Apr  2 21:24:43 2025]
+Finished job 21.
+15 of 22 steps (68%) done
+[Wed Apr  2 21:24:43 2025]
+Finished job 12.
+16 of 22 steps (73%) done
+[Wed Apr  2 21:24:44 2025]
+Finished job 18.
+17 of 22 steps (77%) done
+[Wed Apr  2 21:24:44 2025]
+Finished job 11.
+18 of 22 steps (82%) done
+[Wed Apr  2 21:24:44 2025]
+Finished job 19.
+19 of 22 steps (86%) done
+[Wed Apr  2 21:24:44 2025]
+Finished job 16.
+20 of 22 steps (91%) done
+[Wed Apr  2 21:24:44 2025]
+Finished job 17.
+21 of 22 steps (95%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Apr  2 21:24:44 2025]
+localrule all:
+    input: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.001_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.011_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.021_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.031_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.041_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.051_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.061_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.071_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.081_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.091_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.101_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.111_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.121_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.131_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.141_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.151_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.161_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.171_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.181_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.191_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.201_k30.output
+    jobid: 0
+    reason: Input files updated by another job: /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.111_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.131_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.071_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.051_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.171_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.061_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.101_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.191_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.201_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.161_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.021_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.011_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.121_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.081_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.151_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.091_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.001_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.041_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.141_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.031_k30.output, /home/hvw5426/kmer-stats/Experiment_plot/Estimate_r/r0.181_k30.output
+    resources: tmpdir=/tmp
+
+[Wed Apr  2 21:24:44 2025]
+Finished job 0.
+22 of 22 steps (100%) done
+Complete log: .snakemake/log/2025-04-02T212419.165287.snakemake.log

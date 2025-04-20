@@ -1,0 +1,53 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+plot_k_variation        2
+total                   3
+
+Select jobs to execute...
+Execute 2 jobs...
+
+[Sat Apr 19 19:49:56 2025]
+localrule plot_k_variation:
+    input: chr21_centromere/varing_k/k4_r0.01.output, chr21_centromere/varing_k/k8_r0.01.output, chr21_centromere/varing_k/k16_r0.01.output, chr21_centromere/varing_k/k32_r0.01.output, chr21_centromere/varing_k/k60_r0.01.output, chr21_centromere/varing_k/k90_r0.01.output, chr21_centromere/varing_k/k120_r0.01.output, chr21_centromere/varing_k/k150_r0.01.output, chr21_centromere/varing_k/k180_r0.01.output, chr21_centromere/varing_k/k210_r0.01.output, chr21_centromere/varing_k/k240_r0.01.output, chr21_centromere/varing_k/k270_r0.01.output, chr21_centromere/varing_k/k300_r0.01.output, chr21_centromere/varing_k/k330_r0.01.output, chr21_centromere/varing_k/k360_r0.01.output, chr21_centromere/varing_k/k390_r0.01.output, chr21_centromere/varing_k/k420_r0.01.output, chr21_centromere/varing_k/k450_r0.01.output, chr21_centromere/varing_k/k480_r0.01.output, chr21_centromere/varing_k/k510_r0.01.output, chr21_centromere/varing_k/k540_r0.01.output, chr21_centromere/varing_k/k570_r0.01.output, chr21_centromere/varing_k/k600_r0.01.output, chr21_centromere/varing_k/k630_r0.01.output, chr21_centromere/varing_k/k660_r0.01.output, chr21_centromere/varing_k/k690_r0.01.output, chr21_centromere/varing_k/k720_r0.01.output, chr21_centromere/varing_k/k750_r0.01.output, chr21_centromere/varing_k/k780_r0.01.output
+    output: chr21_centromere/triple_boxplot_r0.01.png
+    jobid: 31
+    reason: Params have changed since last execution
+    wildcards: output_dir=chr21_centromere, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 19:49:56 2025]
+localrule plot_k_variation:
+    input: chr6_RepeatMasker/varing_k/k4_r0.01.output, chr6_RepeatMasker/varing_k/k8_r0.01.output, chr6_RepeatMasker/varing_k/k16_r0.01.output, chr6_RepeatMasker/varing_k/k32_r0.01.output, chr6_RepeatMasker/varing_k/k60_r0.01.output, chr6_RepeatMasker/varing_k/k90_r0.01.output, chr6_RepeatMasker/varing_k/k120_r0.01.output, chr6_RepeatMasker/varing_k/k150_r0.01.output, chr6_RepeatMasker/varing_k/k180_r0.01.output, chr6_RepeatMasker/varing_k/k210_r0.01.output, chr6_RepeatMasker/varing_k/k240_r0.01.output, chr6_RepeatMasker/varing_k/k270_r0.01.output, chr6_RepeatMasker/varing_k/k300_r0.01.output, chr6_RepeatMasker/varing_k/k330_r0.01.output, chr6_RepeatMasker/varing_k/k360_r0.01.output, chr6_RepeatMasker/varing_k/k390_r0.01.output, chr6_RepeatMasker/varing_k/k420_r0.01.output, chr6_RepeatMasker/varing_k/k450_r0.01.output, chr6_RepeatMasker/varing_k/k480_r0.01.output, chr6_RepeatMasker/varing_k/k510_r0.01.output, chr6_RepeatMasker/varing_k/k540_r0.01.output, chr6_RepeatMasker/varing_k/k570_r0.01.output, chr6_RepeatMasker/varing_k/k600_r0.01.output, chr6_RepeatMasker/varing_k/k630_r0.01.output, chr6_RepeatMasker/varing_k/k660_r0.01.output, chr6_RepeatMasker/varing_k/k690_r0.01.output, chr6_RepeatMasker/varing_k/k720_r0.01.output, chr6_RepeatMasker/varing_k/k750_r0.01.output, chr6_RepeatMasker/varing_k/k780_r0.01.output
+    output: chr6_RepeatMasker/triple_boxplot_r0.01.png
+    jobid: 1
+    reason: Params have changed since last execution
+    wildcards: output_dir=chr6_RepeatMasker, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 19:49:59 2025]
+Finished job 1.
+1 of 3 steps (33%) done
+[Sat Apr 19 19:50:00 2025]
+Finished job 31.
+2 of 3 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 19:50:00 2025]
+localrule all:
+    input: chr6_RepeatMasker/triple_boxplot_r0.01.png, chr21_centromere/triple_boxplot_r0.01.png, chr6_RepeatMasker/dual_boxplot_k30.png, chr21_centromere/dual_boxplot_k30.png
+    jobid: 0
+    reason: Input files updated by another job: chr6_RepeatMasker/triple_boxplot_r0.01.png, chr21_centromere/triple_boxplot_r0.01.png
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 19:50:00 2025]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: .snakemake/log/2025-04-19T194956.210138.snakemake.log

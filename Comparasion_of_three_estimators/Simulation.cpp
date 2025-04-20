@@ -156,12 +156,11 @@ int main (int argc, char* argv[]){
     int num_replicates = 0;
     double r = 0;
     int type = 0;
-    double theta = 0.01;
 
     vector<string> args(argv + 1, argv + argc);
     for (auto i = args.begin(); i != args.end(); ++i) {
         if (*i == "-h" || *i == "--help") {
-            cout << "Syntax: -i [input-file] -l <length>[100] -s <start position>[5]  -k <kmer-size>[33] -e <presion>[0.001] -c <replicates>[30] -r <mutation rate> 0.1 -t <type> 0 -z <sketch theta> 0.01" << endl;
+            cout << "Syntax: -i [input-file] -l <length>[100] -s <start position>[5]  -k <kmer-size>[33] -e <presion>[0.001] -c <replicates>[30] -r <mutation rate> 0.1 -t <type> 0 " << endl;
             return 0;
         } else if (*i == "-l") {
             L = stoull(*++i);
@@ -179,8 +178,6 @@ int main (int argc, char* argv[]){
             r = stod(*++i);
         } else if (*i == "-t") {
             type = stoi(*++i);
-        } else if (*i == "-z") {
-            theta = stod(*++i);
         }
     }
 
@@ -198,7 +195,6 @@ int main (int argc, char* argv[]){
     }
     //cout << "input" << input_String << endl;
     set<string> kmer_set = kspectrum_update(input_String, k);
-    set<string> kmer_set_sketch;
     // if (theta < 1.0){
     //     kmer_set_sketch = kspectrum_sketch(input_String, k, theta);
     // }
@@ -208,40 +204,21 @@ int main (int argc, char* argv[]){
         int copy = pair.second.size();
         coeffs_Map[copy]++;
     }
-    std::random_device rd;
     for(int i=0; i<num_replicates; i++){
         std::string mutatedString = generateMutatedString(input_String, r);
-        int I_obs_sketch=0;
-        
-        uint32_t seed = rd();
-        kmer_set_sketch = kspectrum_sketch(input_String, k, theta, seed);
-        I_obs_sketch = round(static_cast<double>(intersect_size_sketch(kmer_set_sketch, mutatedString, k, theta, seed)) / (theta));
         int I_obs = intersect_size(kmer_set, mutatedString, k);
         mpreal q_hat_sketch = 0;
         mpreal r_hat_sketch = 0;
-        //cout << I_obs_sketch << I_obs << endl;
-        if (I_obs_sketch < kmer_set.size() && I_obs_sketch > 0 ){
-            q_hat_sketch = Newton_Method (coeffs_Map, kmer_set, k, epsilon, I_obs_sketch);
-            r_hat_sketch = 1.0 - pow(1.0 - q_hat_sketch, 1.0/k);
-        }
-        else if (I_obs_sketch == 0){
-            q_hat_sketch = 1.0;
-            r_hat_sketch = 1.0;
-        }
         mpreal q_hat = Newton_Method (coeffs_Map, kmer_set, k, epsilon, I_obs);
 
         //cout<< q_hat << endl;
         mpreal r_hat = 1.0 - pow(1.0 - q_hat, 1.0/k);
         
-        //cout << pow(1.0 - q_hat, 1.0/k) << endl;
-        if (theta < 1.0){
-            cout<< r_hat << " , " << r_hat_sketch << endl;
-        }
-        else{
-            double r_prime = 1.0 - pow(2, log2(I_obs)/k-log2(L)/k);
-            double r_weak = 1.0 - pow(2, log2(I_obs)/k-log2(kmer_set.size())/k);
-            cout<< r_hat <<  " , " << r_weak << " , " << r_prime << endl;
-        }
+
+        double r_prime = 1.0 - pow(2, log2(I_obs)/k-log2(L)/k);
+        double r_weak = 1.0 - pow(2, log2(I_obs)/k-log2(kmer_set.size())/k);
+        cout<< r_hat <<  " , " << r_weak << " , " << r_prime << endl;
+        
     }
     
 

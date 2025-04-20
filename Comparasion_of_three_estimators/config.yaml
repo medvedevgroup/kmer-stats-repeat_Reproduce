@@ -1,0 +1,30 @@
+analyses:
+  - name: "chr6_RepeatMasker"
+    output_dir: "chr6_RepeatMasker"
+    fasta: "/research/hvw5426/splitted_fasta/chr6.fasta"
+    simulation_params:
+      length: 100000
+      start_pos: 559707
+      precision: 1e-10
+      replicates: 100
+    plot_params:
+      k_variation:
+        thresholds: [32, 630]
+        ylimits: [0.8, 0.02, 1.0]  
+      r_variation:
+        threshold: 0.25
+
+  - name: "chr21_centromere"
+    output_dir: "chr21_centromere"
+    fasta: "/research/hvw5426/splitted_fasta/chr21.fasta"
+    simulation_params:
+      length: 100000
+      start_pos: 10962854
+      precision: 1e-10
+      replicates: 100
+    plot_params:
+      k_variation:
+        thresholds: [32, 630]
+        ylimits: [0.8, 0.05, 1.0] 
+      r_variation:
+        threshold: 0.25

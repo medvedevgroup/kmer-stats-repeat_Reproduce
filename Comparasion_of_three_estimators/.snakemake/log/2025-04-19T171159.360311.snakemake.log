@@ -1,0 +1,5 @@
+Building DAG of jobs...
+ChildIOException:
+File/directory is a child to another output:
+('/home/hvw5426/kmer-stats-repeat_Reproduce/Comparasion_of_three_estimators/chr6_simulation/varing_k', create_directories)
+('/home/hvw5426/kmer-stats-repeat_Reproduce/Comparasion_of_three_estimators/chr6_simulation/varing_k/k120_r0.01.output', run_simulation_k)

@@ -1,0 +1,73 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                        count
+-----------------------  -------
+all                            1
+plot_k_variation               1
+plot_r_variation               1
+run_simulation_varing_k        1
+run_simulation_varing_r        1
+total                          5
+
+Select jobs to execute...
+Execute 2 jobs...
+
+[Sat Apr 19 17:01:55 2025]
+localrule run_simulation_varing_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_simulation/varing_r
+    jobid: 4
+    reason: Missing output files: chr6_simulation/varing_r
+    wildcards: output_dir=chr6_simulation
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 17:01:55 2025]
+localrule run_simulation_varing_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_simulation/varing_k
+    jobid: 2
+    reason: Missing output files: chr6_simulation/varing_k
+    wildcards: output_dir=chr6_simulation
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 17:01:55 2025]
+Error in rule run_simulation_varing_r:
+    jobid: 4
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_simulation/varing_r
+    shell:
+        
+        mkdir -p chr6_simulation/varing_r
+        for r in 0.001 0.011 0.021 0.031 0.041 0.051 0.061 0.071 0.081 0.091 0.101 0.111 0.121 0.131 0.141 0.151 0.161 0.171 0.181 0.191 0.201 0.211 0.221 0.231 0.241 0.251 0.261 0.271 0.281 0.291 0.301; do
+            ./Simulation                 -i /research/hvw5426/splitted_fasta/chr6.fasta                 -l 100000                 -s 559707                 -k 30                 -e 1e-10                 -c 100                 -r $r                 > chr6_simulation/varing_r/r$r_k30.output
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job run_simulation_varing_r since they might be corrupted:
+chr6_simulation/varing_r
+[Sat Apr 19 17:01:55 2025]
+Error in rule run_simulation_varing_k:
+    jobid: 2
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_simulation/varing_k
+    shell:
+        
+        mkdir -p chr6_simulation/varing_k
+        for k in 4 8 16 32 60 90 120 150 180 210 240 270 300 330 360 390 420 450 480 510 540 570 600 630 660 690 720 750 780; do
+            ./Simulation                 -i /research/hvw5426/splitted_fasta/chr6.fasta                 -l 100000                 -s 559707                 -k $k                 -e 1e-10                 -c 100                 -r 0.01                 > chr6_simulation/varing_k/k$k_r0.01.output
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job run_simulation_varing_k since they might be corrupted:
+chr6_simulation/varing_k
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-04-19T170155.524561.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

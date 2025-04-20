@@ -1,0 +1,1621 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+plot_k_variation        2
+plot_r_variation        2
+run_simulation_k       56
+run_simulation_r       62
+total                 123
+
+Select jobs to execute...
+Execute 100 jobs...
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.111_k30.output
+    jobid: 103
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.111_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.111
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k210_r0.01.output
+    jobid: 10
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k210_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=210
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.251_k30.output
+    jobid: 85
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.251_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.251
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k600_r0.01.output
+    jobid: 23
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k600_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=600
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k660_r0.01.output
+    jobid: 54
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k660_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=660
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.241_k30.output
+    jobid: 116
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.241_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.241
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k90_r0.01.output
+    jobid: 6
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k90_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=90
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.081_k30.output
+    jobid: 68
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.081_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.081
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k150_r0.01.output
+    jobid: 37
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k150_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=150
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.071_k30.output
+    jobid: 99
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.071_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.071
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k540_r0.01.output
+    jobid: 50
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k540_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=540
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.201_k30.output
+    jobid: 112
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.201_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.201
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.211_k30.output
+    jobid: 81
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.211_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.211
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k480_r0.01.output
+    jobid: 19
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k480_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=480
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k32_r0.01.output
+    jobid: 33
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k32_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=32
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.031_k30.output
+    jobid: 95
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.031_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.031
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k8_r0.01.output
+    jobid: 2
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k8_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=8
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.041_k30.output
+    jobid: 64
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.041_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.041
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k630_r0.01.output
+    jobid: 24
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k630_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=630
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.091_k30.output
+    jobid: 69
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.091_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.091
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k180_r0.01.output
+    jobid: 38
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k180_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=180
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.081_k30.output
+    jobid: 100
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.081_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.081
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k570_r0.01.output
+    jobid: 51
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k570_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=570
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:56 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.211_k30.output
+    jobid: 113
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.211_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.211
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k510_r0.01.output
+    jobid: 20
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k510_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=510
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.221_k30.output
+    jobid: 82
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.221_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.221
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k60_r0.01.output
+    jobid: 34
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k60_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=60
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.041_k30.output
+    jobid: 96
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.041_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.041
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k16_r0.01.output
+    jobid: 3
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k16_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=16
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.051_k30.output
+    jobid: 65
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.051_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.051
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k390_r0.01.output
+    jobid: 16
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k390_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=390
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.181_k30.output
+    jobid: 78
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.181_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.181
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k450_r0.01.output
+    jobid: 47
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k450_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=450
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.171_k30.output
+    jobid: 109
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.171_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.171
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.011_k30.output
+    jobid: 61
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.011_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.011
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.301_k30.output
+    jobid: 122
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.301_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.301
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k780_r0.01.output
+    jobid: 29
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k780_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=780
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.001_k30.output
+    jobid: 92
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.001_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.001
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k330_r0.01.output
+    jobid: 43
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k330_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=330
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.131_k30.output
+    jobid: 105
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.131_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.131
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k270_r0.01.output
+    jobid: 12
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k270_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=270
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.141_k30.output
+    jobid: 74
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.141_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.141
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k660_r0.01.output
+    jobid: 25
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k660_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=660
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.271_k30.output
+    jobid: 87
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.271_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.271
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k720_r0.01.output
+    jobid: 56
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k720_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=720
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.261_k30.output
+    jobid: 118
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.261_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.261
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k150_r0.01.output
+    jobid: 8
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k150_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=150
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.101_k30.output
+    jobid: 70
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.101_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.101
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k210_r0.01.output
+    jobid: 39
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k210_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=210
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.091_k30.output
+    jobid: 101
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.091_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.091
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k600_r0.01.output
+    jobid: 52
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k600_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=600
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.221_k30.output
+    jobid: 114
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.221_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.221
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k540_r0.01.output
+    jobid: 21
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k540_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=540
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.231_k30.output
+    jobid: 83
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.231_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.231
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k90_r0.01.output
+    jobid: 35
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k90_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=90
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.051_k30.output
+    jobid: 97
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.051_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.051
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k32_r0.01.output
+    jobid: 4
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k32_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=32
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.061_k30.output
+    jobid: 66
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.061_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.061
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k420_r0.01.output
+    jobid: 17
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k420_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=420
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.191_k30.output
+    jobid: 79
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.191_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.191
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k480_r0.01.output
+    jobid: 48
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k480_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=480
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.181_k30.output
+    jobid: 110
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.181_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.181
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.021_k30.output
+    jobid: 62
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.021_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.021
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k8_r0.01.output
+    jobid: 31
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k8_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=8
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.011_k30.output
+    jobid: 93
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.011_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.011
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k360_r0.01.output
+    jobid: 44
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k360_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=360
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.141_k30.output
+    jobid: 106
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.141_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.141
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k300_r0.01.output
+    jobid: 13
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k300_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=300
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.151_k30.output
+    jobid: 75
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.151_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.151
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.281_k30.output
+    jobid: 88
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.281_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.281
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k690_r0.01.output
+    jobid: 26
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k690_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=690
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.271_k30.output
+    jobid: 119
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.271_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.271
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k750_r0.01.output
+    jobid: 57
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k750_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=750
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k180_r0.01.output
+    jobid: 9
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k180_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=180
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.111_k30.output
+    jobid: 71
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.111_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.111
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k240_r0.01.output
+    jobid: 40
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k240_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=240
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.101_k30.output
+    jobid: 102
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.101_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.101
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k630_r0.01.output
+    jobid: 53
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k630_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=630
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.231_k30.output
+    jobid: 115
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.231_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.231
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k570_r0.01.output
+    jobid: 22
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k570_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=570
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.241_k30.output
+    jobid: 84
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.241_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.241
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k120_r0.01.output
+    jobid: 36
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k120_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=120
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.061_k30.output
+    jobid: 98
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.061_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.061
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k60_r0.01.output
+    jobid: 5
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k60_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=60
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.071_k30.output
+    jobid: 67
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.071_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.071
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k450_r0.01.output
+    jobid: 18
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k450_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=450
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.201_k30.output
+    jobid: 80
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.201_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.201
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:58 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k510_r0.01.output
+    jobid: 49
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k510_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=510
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:58 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.191_k30.output
+    jobid: 111
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.191_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.191
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:58 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.031_k30.output
+    jobid: 63
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.031_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.031
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:58 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k16_r0.01.output
+    jobid: 32
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k16_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=16
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:58 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.021_k30.output
+    jobid: 94
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.021_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.021
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:58 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k390_r0.01.output
+    jobid: 45
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k390_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=390
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:58 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.151_k30.output
+    jobid: 107
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.151_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.151
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:58 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k330_r0.01.output
+    jobid: 14
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k330_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=330
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:58 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.161_k30.output
+    jobid: 76
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.161_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.161
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:58 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k720_r0.01.output
+    jobid: 27
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k720_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=720
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:58 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.291_k30.output
+    jobid: 89
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.291_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.291
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:58 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k780_r0.01.output
+    jobid: 58
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k780_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=780
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:28:58 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.281_k30.output
+    jobid: 120
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.281_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.281
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:12 2025]
+Finished job 2.
+1 of 123 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:12 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k270_r0.01.output
+    jobid: 41
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k270_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=270
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:13 2025]
+Finished job 87.
+2 of 123 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:14 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k420_r0.01.output
+    jobid: 46
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k420_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=420
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:14 2025]
+Finished job 66.
+3 of 123 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:14 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.121_k30.output
+    jobid: 72
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.121_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.121
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:18 2025]
+Finished job 31.
+4 of 123 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:18 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.251_k30.output
+    jobid: 117
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.251_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.251
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:19 2025]
+Finished job 100.
+5 of 123 steps (4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:19 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.121_k30.output
+    jobid: 104
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.121_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.121
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:19 2025]
+Finished job 95.
+6 of 123 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:19 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k300_r0.01.output
+    jobid: 42
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k300_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=300
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:21 2025]
+Finished job 69.
+7 of 123 steps (6%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:21 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k360_r0.01.output
+    jobid: 15
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k360_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=360
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:22 2025]
+Finished job 78.
+8 of 123 steps (7%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:22 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.161_k30.output
+    jobid: 108
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.161_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.161
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:22 2025]
+Finished job 33.
+9 of 123 steps (7%) done
+[Sun Apr 20 11:29:22 2025]
+Finished job 61.
+10 of 123 steps (8%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Sun Apr 20 11:29:22 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.001_k30.output
+    jobid: 60
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.001_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.001
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 11:29:22 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k120_r0.01.output
+    jobid: 7
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k120_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=120
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Sun Apr 20 11:29:22 2025]
+Finished job 119.
+11 of 123 steps (9%) done
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:23 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k240_r0.01.output
+    jobid: 11
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k240_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=240
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:23 2025]
+Finished job 116.
+12 of 123 steps (10%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:23 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.131_k30.output
+    jobid: 73
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.131_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.131
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:23 2025]
+Finished job 98.
+13 of 123 steps (11%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:23 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.171_k30.output
+    jobid: 77
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.171_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.171
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:23 2025]
+Finished job 103.
+14 of 123 steps (11%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:23 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.301_k30.output
+    jobid: 90
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.301_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.301
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:23 2025]
+Finished job 3.
+15 of 123 steps (12%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:24 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k690_r0.01.output
+    jobid: 55
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k690_r0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=690
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:25 2025]
+Finished job 97.
+16 of 123 steps (13%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:25 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.261_k30.output
+    jobid: 86
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.261_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.261
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:25 2025]
+Finished job 32.
+17 of 123 steps (14%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:25 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.291_k30.output
+    jobid: 121
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.291_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.291
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:25 2025]
+Finished job 68.
+18 of 123 steps (15%) done
+[Sun Apr 20 11:29:25 2025]
+Finished job 65.
+19 of 123 steps (15%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:25 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k750_r0.01.output
+    jobid: 28
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k750_r0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=750
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:26 2025]
+Finished job 102.
+20 of 123 steps (16%) done
+[Sun Apr 20 11:29:26 2025]
+Finished job 92.
+21 of 123 steps (17%) done
+[Sun Apr 20 11:29:26 2025]
+Finished job 107.
+22 of 123 steps (18%) done
+[Sun Apr 20 11:29:26 2025]
+Finished job 81.
+23 of 123 steps (19%) done
+[Sun Apr 20 11:29:26 2025]
+Finished job 113.
+24 of 123 steps (20%) done
+[Sun Apr 20 11:29:27 2025]
+Finished job 106.
+25 of 123 steps (20%) done
+[Sun Apr 20 11:29:27 2025]
+Finished job 112.
+26 of 123 steps (21%) done
+[Sun Apr 20 11:29:27 2025]
+Finished job 64.
+27 of 123 steps (22%) done
+[Sun Apr 20 11:29:28 2025]
+Finished job 122.
+28 of 123 steps (23%) done
+[Sun Apr 20 11:29:28 2025]
+Finished job 82.
+29 of 123 steps (24%) done
+[Sun Apr 20 11:29:29 2025]
+Finished job 96.
+30 of 123 steps (24%) done
+[Sun Apr 20 11:29:29 2025]
+Finished job 114.
+31 of 123 steps (25%) done
+[Sun Apr 20 11:29:29 2025]
+Finished job 118.
+32 of 123 steps (26%) done
+[Sun Apr 20 11:29:29 2025]
+Finished job 110.
+33 of 123 steps (27%) done
+[Sun Apr 20 11:29:30 2025]
+Finished job 67.
+34 of 123 steps (28%) done
+[Sun Apr 20 11:29:30 2025]
+Finished job 109.
+35 of 123 steps (28%) done
+[Sun Apr 20 11:29:30 2025]
+Finished job 111.
+36 of 123 steps (29%) done
+[Sun Apr 20 11:29:30 2025]
+Finished job 63.
+37 of 123 steps (30%) done
+[Sun Apr 20 11:29:30 2025]
+Finished job 101.
+38 of 123 steps (31%) done
+[Sun Apr 20 11:29:30 2025]
+Finished job 94.
+39 of 123 steps (32%) done
+[Sun Apr 20 11:29:30 2025]
+Finished job 120.
+40 of 123 steps (33%) done
+[Sun Apr 20 11:29:31 2025]
+Finished job 115.
+41 of 123 steps (33%) done
+[Sun Apr 20 11:29:31 2025]
+Finished job 83.
+42 of 123 steps (34%) done
+[Sun Apr 20 11:29:31 2025]
+Finished job 89.
+43 of 123 steps (35%) done
+[Sun Apr 20 11:29:31 2025]
+Finished job 93.
+44 of 123 steps (36%) done
+[Sun Apr 20 11:29:31 2025]
+Finished job 99.
+45 of 123 steps (37%) done
+[Sun Apr 20 11:29:31 2025]
+Finished job 105.
+46 of 123 steps (37%) done
+[Sun Apr 20 11:29:32 2025]
+Finished job 70.
+47 of 123 steps (38%) done
+[Sun Apr 20 11:29:32 2025]
+Finished job 79.
+48 of 123 steps (39%) done
+[Sun Apr 20 11:29:32 2025]
+Finished job 74.
+49 of 123 steps (40%) done
+[Sun Apr 20 11:29:33 2025]
+Finished job 85.
+50 of 123 steps (41%) done
+[Sun Apr 20 11:29:33 2025]
+Finished job 4.
+51 of 123 steps (41%) done
+[Sun Apr 20 11:29:33 2025]
+Finished job 76.
+52 of 123 steps (42%) done
+[Sun Apr 20 11:29:33 2025]
+Finished job 80.
+53 of 123 steps (43%) done
+[Sun Apr 20 11:29:34 2025]
+Finished job 34.
+54 of 123 steps (44%) done
+[Sun Apr 20 11:29:34 2025]
+Finished job 71.
+55 of 123 steps (45%) done
+[Sun Apr 20 11:29:34 2025]
+Finished job 62.
+56 of 123 steps (46%) done
+[Sun Apr 20 11:29:34 2025]
+Finished job 75.
+57 of 123 steps (46%) done
+[Sun Apr 20 11:29:34 2025]
+Finished job 8.
+58 of 123 steps (47%) done
+[Sun Apr 20 11:29:35 2025]
+Finished job 84.
+59 of 123 steps (48%) done
+[Sun Apr 20 11:29:35 2025]
+Finished job 5.
+60 of 123 steps (49%) done
+[Sun Apr 20 11:29:36 2025]
+Finished job 72.
+61 of 123 steps (50%) done
+[Sun Apr 20 11:29:36 2025]
+Finished job 88.
+62 of 123 steps (50%) done
+[Sun Apr 20 11:29:39 2025]
+Finished job 6.
+63 of 123 steps (51%) done
+[Sun Apr 20 11:29:40 2025]
+Finished job 117.
+64 of 123 steps (52%) done
+[Sun Apr 20 11:29:41 2025]
+Finished job 36.
+65 of 123 steps (53%) done
+[Sun Apr 20 11:29:41 2025]
+Finished job 35.
+66 of 123 steps (54%) done
+[Sun Apr 20 11:29:41 2025]
+Finished job 104.
+67 of 123 steps (54%) done
+[Sun Apr 20 11:29:42 2025]
+Finished job 86.
+68 of 123 steps (55%) done
+[Sun Apr 20 11:29:42 2025]
+Finished job 108.
+69 of 123 steps (56%) done
+[Sun Apr 20 11:29:42 2025]
+Finished job 77.
+70 of 123 steps (57%) done
+[Sun Apr 20 11:29:45 2025]
+Finished job 60.
+71 of 123 steps (58%) done
+[Sun Apr 20 11:29:45 2025]
+Finished job 38.
+72 of 123 steps (59%) done
+[Sun Apr 20 11:29:45 2025]
+Finished job 37.
+73 of 123 steps (59%) done
+[Sun Apr 20 11:29:45 2025]
+Finished job 121.
+74 of 123 steps (60%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:45 2025]
+localrule plot_r_variation:
+    input: chr21_centromere_sketch_100/varing_r/r0.001_k30.output, chr21_centromere_sketch_100/varing_r/r0.011_k30.output, chr21_centromere_sketch_100/varing_r/r0.021_k30.output, chr21_centromere_sketch_100/varing_r/r0.031_k30.output, chr21_centromere_sketch_100/varing_r/r0.041_k30.output, chr21_centromere_sketch_100/varing_r/r0.051_k30.output, chr21_centromere_sketch_100/varing_r/r0.061_k30.output, chr21_centromere_sketch_100/varing_r/r0.071_k30.output, chr21_centromere_sketch_100/varing_r/r0.081_k30.output, chr21_centromere_sketch_100/varing_r/r0.091_k30.output, chr21_centromere_sketch_100/varing_r/r0.101_k30.output, chr21_centromere_sketch_100/varing_r/r0.111_k30.output, chr21_centromere_sketch_100/varing_r/r0.121_k30.output, chr21_centromere_sketch_100/varing_r/r0.131_k30.output, chr21_centromere_sketch_100/varing_r/r0.141_k30.output, chr21_centromere_sketch_100/varing_r/r0.151_k30.output, chr21_centromere_sketch_100/varing_r/r0.161_k30.output, chr21_centromere_sketch_100/varing_r/r0.171_k30.output, chr21_centromere_sketch_100/varing_r/r0.181_k30.output, chr21_centromere_sketch_100/varing_r/r0.191_k30.output, chr21_centromere_sketch_100/varing_r/r0.201_k30.output, chr21_centromere_sketch_100/varing_r/r0.211_k30.output, chr21_centromere_sketch_100/varing_r/r0.221_k30.output, chr21_centromere_sketch_100/varing_r/r0.231_k30.output, chr21_centromere_sketch_100/varing_r/r0.241_k30.output, chr21_centromere_sketch_100/varing_r/r0.251_k30.output, chr21_centromere_sketch_100/varing_r/r0.261_k30.output, chr21_centromere_sketch_100/varing_r/r0.271_k30.output, chr21_centromere_sketch_100/varing_r/r0.281_k30.output, chr21_centromere_sketch_100/varing_r/r0.291_k30.output, chr21_centromere_sketch_100/varing_r/r0.301_k30.output
+    output: chr21_centromere_sketch_100/dual_sketch_boxplot_k30_r0.25.png
+    jobid: 91
+    reason: Missing output files: chr21_centromere_sketch_100/dual_sketch_boxplot_k30_r0.25.png; Input files updated by another job: chr21_centromere_sketch_100/varing_r/r0.021_k30.output, chr21_centromere_sketch_100/varing_r/r0.261_k30.output, chr21_centromere_sketch_100/varing_r/r0.181_k30.output, chr21_centromere_sketch_100/varing_r/r0.211_k30.output, chr21_centromere_sketch_100/varing_r/r0.101_k30.output, chr21_centromere_sketch_100/varing_r/r0.091_k30.output, chr21_centromere_sketch_100/varing_r/r0.131_k30.output, chr21_centromere_sketch_100/varing_r/r0.151_k30.output, chr21_centromere_sketch_100/varing_r/r0.201_k30.output, chr21_centromere_sketch_100/varing_r/r0.301_k30.output, chr21_centromere_sketch_100/varing_r/r0.031_k30.output, chr21_centromere_sketch_100/varing_r/r0.251_k30.output, chr21_centromere_sketch_100/varing_r/r0.081_k30.output, chr21_centromere_sketch_100/varing_r/r0.241_k30.output, chr21_centromere_sketch_100/varing_r/r0.191_k30.output, chr21_centromere_sketch_100/varing_r/r0.051_k30.output, chr21_centromere_sketch_100/varing_r/r0.171_k30.output, chr21_centromere_sketch_100/varing_r/r0.271_k30.output, chr21_centromere_sketch_100/varing_r/r0.111_k30.output, chr21_centromere_sketch_100/varing_r/r0.121_k30.output, chr21_centromere_sketch_100/varing_r/r0.041_k30.output, chr21_centromere_sketch_100/varing_r/r0.161_k30.output, chr21_centromere_sketch_100/varing_r/r0.011_k30.output, chr21_centromere_sketch_100/varing_r/r0.061_k30.output, chr21_centromere_sketch_100/varing_r/r0.001_k30.output, chr21_centromere_sketch_100/varing_r/r0.071_k30.output, chr21_centromere_sketch_100/varing_r/r0.141_k30.output, chr21_centromere_sketch_100/varing_r/r0.221_k30.output, chr21_centromere_sketch_100/varing_r/r0.281_k30.output, chr21_centromere_sketch_100/varing_r/r0.291_k30.output, chr21_centromere_sketch_100/varing_r/r0.231_k30.output
+    wildcards: output_dir=chr21_centromere_sketch_100, fixed_k=30, threshold=0.25
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:46 2025]
+Finished job 90.
+75 of 123 steps (61%) done
+[Sun Apr 20 11:29:48 2025]
+Finished job 73.
+76 of 123 steps (62%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 11:29:48 2025]
+localrule plot_r_variation:
+    input: chr6_RepeatMasker_sketch_100/varing_r/r0.001_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.011_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.021_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.031_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.041_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.051_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.061_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.071_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.081_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.091_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.101_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.111_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.121_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.131_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.141_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.151_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.161_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.171_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.181_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.191_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.201_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.211_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.221_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.231_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.241_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.251_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.261_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.271_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.281_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.291_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.301_k30.output
+    output: chr6_RepeatMasker_sketch_100/dual_sketch_boxplot_k30_r0.25.png
+    jobid: 59
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/dual_sketch_boxplot_k30_r0.25.png; Input files updated by another job: chr6_RepeatMasker_sketch_100/varing_r/r0.171_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.181_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.201_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.121_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.111_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.091_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.211_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.151_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.001_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.101_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.241_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.291_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.031_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.271_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.071_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.041_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.141_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.131_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.301_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.191_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.061_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.261_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.161_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.011_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.021_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.221_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.081_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.051_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.231_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.281_k30.output, chr6_RepeatMasker_sketch_100/varing_r/r0.251_k30.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, fixed_k=30, threshold=0.25
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 11:29:53 2025]
+Finished job 9.
+77 of 123 steps (63%) done
+[Sun Apr 20 11:29:53 2025]
+Finished job 10.
+78 of 123 steps (63%) done
+[Sun Apr 20 11:29:57 2025]
+Finished job 7.
+79 of 123 steps (64%) done
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule plot_r_variation in file /home/hvw5426/kmer-stats-repeat_Reproduce/Sketch_bias_plot/snakefile, line 143:
+Job 91  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+chr21_centromere_sketch_100/dual_sketch_boxplot_k30_r0.25.png (missing locally, parent dir contents: varing_k, varing_r, dual_sketch_boxplot_k30_r0.250.png)
+[Sun Apr 20 11:30:02 2025]
+Finished job 39.
+80 of 123 steps (65%) done
+[Sun Apr 20 11:30:02 2025]
+Finished job 43.
+81 of 123 steps (66%) done
+[Sun Apr 20 11:30:02 2025]
+Finished job 40.
+82 of 123 steps (67%) done
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule plot_r_variation in file /home/hvw5426/kmer-stats-repeat_Reproduce/Sketch_bias_plot/snakefile, line 143:
+Job 59  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+chr6_RepeatMasker_sketch_100/dual_sketch_boxplot_k30_r0.25.png (missing locally, parent dir contents: varing_k, varing_r, dual_sketch_boxplot_k30_r0.250.png)
+[Sun Apr 20 11:30:07 2025]
+Finished job 12.
+83 of 123 steps (67%) done
+[Sun Apr 20 11:30:07 2025]
+Finished job 16.
+84 of 123 steps (68%) done
+[Sun Apr 20 11:30:08 2025]
+Finished job 13.
+85 of 123 steps (69%) done
+[Sun Apr 20 11:30:09 2025]
+Finished job 41.
+86 of 123 steps (70%) done
+[Sun Apr 20 11:30:10 2025]
+Finished job 45.
+87 of 123 steps (71%) done
+[Sun Apr 20 11:30:11 2025]
+Finished job 14.
+88 of 123 steps (72%) done
+[Sun Apr 20 11:30:11 2025]
+Finished job 44.
+89 of 123 steps (72%) done
+[Sun Apr 20 11:30:12 2025]
+Finished job 42.
+90 of 123 steps (73%) done
+[Sun Apr 20 11:30:14 2025]
+Finished job 11.
+91 of 123 steps (74%) done
+[Sun Apr 20 11:30:18 2025]
+Finished job 17.
+92 of 123 steps (75%) done
+[Sun Apr 20 11:30:20 2025]
+Finished job 47.
+93 of 123 steps (76%) done
+[Sun Apr 20 11:30:21 2025]
+Finished job 18.
+94 of 123 steps (76%) done
+[Sun Apr 20 11:30:22 2025]
+Finished job 21.
+95 of 123 steps (77%) done
+[Sun Apr 20 11:30:23 2025]
+Finished job 15.
+96 of 123 steps (78%) done
+[Sun Apr 20 11:30:23 2025]
+Finished job 49.
+97 of 123 steps (79%) done
+[Sun Apr 20 11:30:24 2025]
+Finished job 48.
+98 of 123 steps (80%) done
+[Sun Apr 20 11:30:25 2025]
+Finished job 23.
+99 of 123 steps (80%) done
+[Sun Apr 20 11:30:28 2025]
+Finished job 52.
+100 of 123 steps (81%) done
+[Sun Apr 20 11:30:28 2025]
+Finished job 46.
+101 of 123 steps (82%) done
+[Sun Apr 20 11:30:28 2025]
+Finished job 19.
+102 of 123 steps (83%) done
+[Sun Apr 20 11:30:29 2025]
+Finished job 51.
+103 of 123 steps (84%) done
+[Sun Apr 20 11:30:32 2025]
+Finished job 50.
+104 of 123 steps (85%) done
+[Sun Apr 20 11:30:33 2025]
+Finished job 25.
+105 of 123 steps (85%) done
+[Sun Apr 20 11:30:33 2025]
+Finished job 53.
+106 of 123 steps (86%) done
+[Sun Apr 20 11:30:33 2025]
+Finished job 20.
+107 of 123 steps (87%) done
+[Sun Apr 20 11:30:34 2025]
+Finished job 56.
+108 of 123 steps (88%) done
+[Sun Apr 20 11:30:35 2025]
+Finished job 22.
+109 of 123 steps (89%) done
+[Sun Apr 20 11:30:36 2025]
+Finished job 24.
+110 of 123 steps (89%) done
+[Sun Apr 20 11:30:39 2025]
+Finished job 54.
+111 of 123 steps (90%) done
+[Sun Apr 20 11:30:41 2025]
+Finished job 26.
+112 of 123 steps (91%) done
+[Sun Apr 20 11:30:42 2025]
+Finished job 57.
+113 of 123 steps (92%) done
+[Sun Apr 20 11:30:46 2025]
+Finished job 27.
+114 of 123 steps (93%) done
+[Sun Apr 20 11:30:49 2025]
+Finished job 55.
+115 of 123 steps (93%) done
+[Sun Apr 20 11:30:51 2025]
+Finished job 58.
+116 of 123 steps (94%) done
+[Sun Apr 20 11:30:51 2025]
+Finished job 29.
+117 of 123 steps (95%) done
+[Sun Apr 20 11:31:00 2025]
+Finished job 28.
+118 of 123 steps (96%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-04-20T112856.723175.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

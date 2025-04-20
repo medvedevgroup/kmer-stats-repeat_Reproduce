@@ -1,0 +1,8 @@
+Building DAG of jobs...
+InputFunctionException in rule all in file /home/hvw5426/kmer-stats-repeat_Reproduce/Sketch_bias_plot/snakefile, line 14:
+Error:
+  AttributeError: 'Wildcards' object has no attribute 'output_dir'
+Wildcards:
+
+Traceback:
+  File "/home/hvw5426/kmer-stats-repeat_Reproduce/Sketch_bias_plot/snakefile", line 25, in <lambda> (rule all, line 14, /home/hvw5426/kmer-stats-repeat_Reproduce/Sketch_bias_plot/snakefile)

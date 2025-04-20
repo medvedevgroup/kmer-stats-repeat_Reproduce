@@ -105,14 +105,14 @@ int main (int argc, char* argv[]){
     //cout << "input" << input_String << endl;
     set<string> kmer_set = kspectrum_update(input_String, k);
 
-    std::unordered_map<int, int> coeffs_Map; // a * x^b, b->a
+    std::map<int, int> coeffs_Map; // a * x^b, b->a
     for (const auto& pair : occurrence){
         int copy = pair.second.size();
         coeffs_Map[copy]++;
     }
     
 
-    std::unordered_map<int, int> diff_Map; // occ - sep : counts
+    std::map<int, int> diff_Map; // occ - sep : counts
     for (const auto& tau : occurrence){
         int num_cluster = 0;
         int cur_pos_tau = -k;

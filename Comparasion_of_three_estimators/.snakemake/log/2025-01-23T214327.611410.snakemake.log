@@ -1,9 +1,0 @@
-Building DAG of jobs...
-InputFunctionException in rule run_cpp_program in file /home/hvw5426/kmer-stats/Newton_method/snakefile, line 5:
-Error:
-  AttributeError: 'Wildcards' object has no attribute 't'
-Wildcards:
-  r=0.001
-  k=2_t0
-Traceback:
-  File "/home/hvw5426/kmer-stats/Newton_method/snakefile", line 17, in <lambda> (rule run_cpp_program, line 12, /home/hvw5426/kmer-stats/Newton_method/snakefile)

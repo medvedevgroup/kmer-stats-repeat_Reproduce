@@ -1,8 +1,0 @@
-Building DAG of jobs...
-MissingInputException in rule all in file /home/hvw5426/kmer-stats-repeat_Reproduce/Comparasion_of_rstrong_and_sketch/snakefile, line 14:
-Missing input files for rule all:
-    affected files:
-        chr6_RepeatMasker_sketch_100/dual_sketch_boxplot_k30_threshold_0.250.png
-        chr21_centromere_sketch_1/dual_sketch_boxplot_k30_threshold_0.250.png
-        chr6_RepeatMasker_sketch_1/dual_sketch_boxplot_k30_threshold_0.250.png
-        chr21_centromere_sketch_100/dual_sketch_boxplot_k30_threshold_0.250.png

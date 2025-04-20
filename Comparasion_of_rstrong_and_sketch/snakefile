@@ -1,25 +1,144 @@
+import os
+import yaml
+import itertools
+
+K_VALUES = [8, 16, 32] + [60 + 30*i for i in range(25)]
+R_VALUES = [round(i * 0.01 + 0.001, 3) for i in range(31)]
+FIXED_K = 30  # Define this as a constant
+FIXED_R = 0.01  # Define this as a constant
+THETA_VALUES = [0.1, 0.01]  # Theta values for sketch plotting
+
+with open('config.yaml', 'r') as f:
+    config = yaml.safe_load(f)
+
+
 rule all:
     input:
-        expand("/home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r_mut1/k{k}_r{r}.output", r=[0.01], k=[8,16,32]+[60+30*i for i in range(25)])
-        #expand("/home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r_mut1/r{r}_k{k}.output", r = [round(i * 0.01 + 0.001, 3) for i in range(31)], k=[30])
+        expand(
+            os.path.join("{output_dir}", "boxplot_triple_k_comparison_r{fixed_r}.png"),
+            output_dir=[analysis['output_dir'] for analysis in config['analyses']],
+            fixed_r=FIXED_R
+        ),
+        expand(
+            os.path.join("{output_dir}", "dual_sketch_boxplot_k{fixed_k}.png"),
+            output_dir=[analysis['output_dir'] for analysis in config['analyses']],
+            fixed_k=FIXED_K
+        )
 
-rule run_cpp_program:
+def get_analysis_by_output_dir(output_dir):
+    for analysis in config['analyses']:
+        if analysis['output_dir'] == output_dir:
+            return analysis
+    raise ValueError(f"No analysis found for output directory {output_dir}")
+
+def get_k_plot_thresholds(output_dir):
+    analysis = get_analysis_by_output_dir(output_dir)
+    return analysis['plot_params']['k_variation']['thresholds']
+
+def get_r_plot_threshold(output_dir):
+    analysis = get_analysis_by_output_dir(output_dir)
+    return analysis['plot_params']['r_variation']['threshold']
+
+def get_k_ylimits(output_dir):
+    analysis = get_analysis_by_output_dir(output_dir)
+    return analysis['plot_params']['k_variation'].get('ylimits', [0.8, 0.035, 1.0])
+
+def get_sketch_repeats(output_dir):
+    analysis = get_analysis_by_output_dir(output_dir)
+    return analysis['simulation_params'].get('sketch_repeats') 
+
+# K-variation simulation rules
+rule run_simulation_k:
     input:
-        "/research/hvw5426/splitted_fasta/chr21.fasta"
+        fasta = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['fasta']
     output:
-        "/home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r_mut1/k{k}_r{r}.output"
-        #"/home/hvw5426/kmer-stats/Experiment_plot/Estimate_sketch_r_mut1/r{r}_k{k}.output"
+        os.path.join("{output_dir}", "varing_k", f"k{{k}}_r{FIXED_R}.output")
     params:
-        length = 100000,  
-        start = 10962854,
-        kmer = lambda wildcards: wildcards.k,
-        mut_rate = lambda wildcards: wildcards.r,
-        replicates = 100,
-        precision = 1e-10,
+        length = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['length'],
+        start_pos = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['start_pos'],
+        precision = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['precision'],
+        replicates = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['replicates'],
+        sketch_repeats = lambda wildcards: get_sketch_repeats(wildcards.output_dir)
     shell:
         """
-        ./Simulation -i {input} -l {params.length} -s {params.start} -k {params.kmer} -e {params.precision} -c {params.replicates} -r {params.mut_rate} > {output}
+        mkdir -p $(dirname {output})
+        ./Simulation \\
+            -i {input.fasta} \\
+            -l {params.length} \\
+            -s {params.start_pos} \\
+            -k {wildcards.k} \\
+            -e {params.precision} \\
+            -c {params.replicates} \\
+            -r {FIXED_R} \\
+            -z {params.sketch_repeats} \\
+            > {output}
         """
-        # """
-        # ./Simulation -t {params.tp} -l {params.length} -s {params.start} -k {params.kmer} -e {params.precision} -c {params.replicates} -r {params.mut_rate} > {output}
-        # """
+
+# R-variation simulation rules
+rule run_simulation_r:
+    input:
+        fasta = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['fasta']
+    output:
+        os.path.join("{output_dir}", "varing_r", f"r{{r}}_k{FIXED_K}.output")
+    params:
+        length = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['length'],
+        start_pos = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['start_pos'],
+        precision = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['precision'],
+        replicates = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['replicates'],
+        sketch_repeats = lambda wildcards: get_sketch_repeats(wildcards.output_dir)
+    shell:
+        """
+        mkdir -p $(dirname {output})
+        ./Simulation \\
+            -i {input.fasta} \\
+            -l {params.length} \\
+            -s {params.start_pos} \\
+            -k {FIXED_K} \\
+            -e {params.precision} \\
+            -c {params.replicates} \\
+            -r {wildcards.r} \\
+            -z {params.sketch_repeats} \\
+            > {output}
+        """
+
+rule plot_k_variation:
+    input:
+        files = expand(os.path.join("{{output_dir}}", "varing_k", f"k{{k}}_r{FIXED_R}.output"), k=K_VALUES)
+    output:
+        plot = os.path.join("{output_dir}", "boxplot_triple_k_comparison_r{fixed_r}.png")
+    params:
+        thresholds = lambda wildcards: get_k_plot_thresholds(wildcards.output_dir),
+        ylimits = lambda wildcards: get_k_ylimits(wildcards.output_dir)
+    shell:
+        """
+        mkdir -p {wildcards.output_dir}
+        
+        cd {wildcards.output_dir} && python ../sketch_boxplot_k.py \\
+            -d varing_k \\
+            -t {params.thresholds[0]} {params.thresholds[1]} \\
+            --ylim {params.ylimits[0]} {params.ylimits[1]} {params.ylimits[2]} \\
+            --theta {THETA_VALUES[0]} {THETA_VALUES[1]}
+        """
+
+rule plot_r_variation:
+    input:
+        files = expand(os.path.join("{{output_dir}}", "varing_r", f"r{{r}}_k{FIXED_K}.output"), r=R_VALUES)
+    output:
+        plot = os.path.join("{output_dir}", "dual_sketch_boxplot_k{fixed_k}.png")
+    params:
+        threshold = lambda wildcards: get_r_plot_threshold(wildcards.output_dir)
+    shell:
+        """
+        mkdir -p {wildcards.output_dir}
+        
+        cd {wildcards.output_dir} && python ../sketch_boxplot_r.py \\
+            -d varing_r \\
+            -t {params.threshold} \\
+            -k {FIXED_K}
+        """
+
+rule clean:
+    shell:
+        """
+        rm -rf {" ".join([analysis['output_dir'] for analysis in config['analyses']])}
+        """

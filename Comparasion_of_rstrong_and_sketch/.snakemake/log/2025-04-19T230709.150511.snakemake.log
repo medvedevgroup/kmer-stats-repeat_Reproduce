@@ -1,0 +1,3743 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+plot_k_variation        4
+plot_r_variation        4
+run_simulation_k      224
+run_simulation_r      248
+total                 481
+
+Select jobs to execute...
+Execute 100 jobs...
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k90_r0.01_theta0.01.output
+    jobid: 11
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k90_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=90, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k150_r0.01_theta0.01.output
+    jobid: 72
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k150_r0.01_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=150, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k720_r0.01_theta0.01.output
+    jobid: 224
+    reason: Missing output files: chr21_centromere_sketch_1/varing_k/k720_r0.01_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, k=720, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k270_r0.01_theta0.01.output
+    jobid: 194
+    reason: Missing output files: chr21_centromere_sketch_1/varing_k/k270_r0.01_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, k=270, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k750_r0.01_theta0.1.output
+    jobid: 54
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k750_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=750, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.041_k30_theta0.1.output
+    jobid: 238
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.041_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.041, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_r/r0.021_k30_theta0.1.output
+    jobid: 360
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_r/r0.021_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, r=0.021, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k480_r0.01_theta0.01.output
+    jobid: 37
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k480_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=480, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k600_r0.01_theta0.01.output
+    jobid: 159
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k600_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=600, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.251_k30_theta0.01.output
+    jobid: 281
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.251_k30_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.251, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.221_k30_theta0.01.output
+    jobid: 464
+    reason: Missing output files: chr21_centromere_sketch_1/varing_r/r0.221_k30_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, r=0.221, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k240_r0.01_theta0.1.output
+    jobid: 20
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k240_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=240, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k360_r0.01_theta0.1.output
+    jobid: 142
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k360_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=360, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k420_r0.01_theta0.1.output
+    jobid: 203
+    reason: Missing output files: chr21_centromere_sketch_1/varing_k/k420_r0.01_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_1, k=420, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k32_r0.01_theta0.01.output
+    jobid: 64
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k32_r0.01_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=32, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k90_r0.01_theta0.01.output
+    jobid: 125
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k90_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=90, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.071_k30_theta0.01.output
+    jobid: 308
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.071_k30_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.071, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k750_r0.01_theta0.1.output
+    jobid: 168
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k750_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=750, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.291_k30_theta0.1.output
+    jobid: 351
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.291_k30_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.291, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.271_k30_theta0.1.output
+    jobid: 473
+    reason: Missing output files: chr21_centromere_sketch_1/varing_r/r0.271_k30_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_1, r=0.271, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k360_r0.01_theta0.01.output
+    jobid: 29
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k360_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=360, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k420_r0.01_theta0.01.output
+    jobid: 90
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k420_r0.01_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=420, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.211_k30_theta0.01.output
+    jobid: 273
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.211_k30_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.211, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.181_k30_theta0.01.output
+    jobid: 456
+    reason: Missing output files: chr21_centromere_sketch_1/varing_r/r0.181_k30_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, r=0.181, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k120_r0.01_theta0.1.output
+    jobid: 12
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k120_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=120, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k180_r0.01_theta0.1.output
+    jobid: 73
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k180_r0.01_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=180, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k570_r0.01_theta0.1.output
+    jobid: 42
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k570_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=570, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k630_r0.01_theta0.1.output
+    jobid: 103
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k630_r0.01_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=630, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_r/r0.261_k30_theta0.1.output
+    jobid: 408
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_r/r0.261_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, r=0.261, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k300_r0.01_theta0.1.output
+    jobid: 195
+    reason: Missing output files: chr21_centromere_sketch_1/varing_k/k300_r0.01_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_1, k=300, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k750_r0.01_theta0.01.output
+    jobid: 55
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k750_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=750, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.041_k30_theta0.01.output
+    jobid: 239
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.041_k30_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.041, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k420_r0.01_theta0.01.output
+    jobid: 147
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k420_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=420, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k480_r0.01_theta0.01.output
+    jobid: 208
+    reason: Missing output files: chr21_centromere_sketch_1/varing_k/k480_r0.01_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, k=480, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.181_k30_theta0.01.output
+    jobid: 330
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.181_k30_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.181, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_r/r0.171_k30_theta0.01.output
+    jobid: 391
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_r/r0.171_k30_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, r=0.171, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_r/r0.021_k30_theta0.01.output
+    jobid: 361
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_r/r0.021_k30_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, r=0.021, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k510_r0.01_theta0.1.output
+    jobid: 38
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k510_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=510, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k630_r0.01_theta0.1.output
+    jobid: 160
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k630_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=630, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k180_r0.01_theta0.1.output
+    jobid: 130
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k180_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=180, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.261_k30_theta0.1.output
+    jobid: 282
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.261_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.261, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.231_k30_theta0.1.output
+    jobid: 465
+    reason: Missing output files: chr21_centromere_sketch_1/varing_r/r0.231_k30_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_1, r=0.231, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k240_r0.01_theta0.01.output
+    jobid: 21
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k240_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=240, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k360_r0.01_theta0.01.output
+    jobid: 143
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k360_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=360, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k420_r0.01_theta0.01.output
+    jobid: 204
+    reason: Missing output files: chr21_centromere_sketch_1/varing_k/k420_r0.01_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, k=420, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k60_r0.01_theta0.1.output
+    jobid: 65
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k60_r0.01_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=60, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k120_r0.01_theta0.1.output
+    jobid: 126
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k120_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=120, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k450_r0.01_theta0.1.output
+    jobid: 34
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k450_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=450, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k570_r0.01_theta0.1.output
+    jobid: 156
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k570_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=570, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.241_k30_theta0.1.output
+    jobid: 278
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.241_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.241, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.211_k30_theta0.1.output
+    jobid: 461
+    reason: Missing output files: chr21_centromere_sketch_1/varing_r/r0.211_k30_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_1, r=0.211, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.081_k30_theta0.1.output
+    jobid: 309
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.081_k30_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.081, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k750_r0.01_theta0.01.output
+    jobid: 169
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k750_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=750, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.291_k30_theta0.01.output
+    jobid: 352
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.291_k30_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.291, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k180_r0.01_theta0.01.output
+    jobid: 17
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k180_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=180, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k300_r0.01_theta0.01.output
+    jobid: 139
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k300_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=300, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k360_r0.01_theta0.01.output
+    jobid: 200
+    reason: Missing output files: chr21_centromere_sketch_1/varing_k/k360_r0.01_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, k=360, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.271_k30_theta0.01.output
+    jobid: 474
+    reason: Missing output files: chr21_centromere_sketch_1/varing_r/r0.271_k30_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, r=0.271, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k390_r0.01_theta0.1.output
+    jobid: 30
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k390_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=390, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k16_r0.01_theta0.1.output
+    jobid: 61
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k16_r0.01_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=16, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k60_r0.01_theta0.1.output
+    jobid: 122
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k60_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=60, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:09 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.061_k30_theta0.1.output
+    jobid: 305
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.061_k30_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.061, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k690_r0.01_theta0.01.output
+    jobid: 165
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k690_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=690, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.271_k30_theta0.01.output
+    jobid: 348
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.271_k30_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.271, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.251_k30_theta0.01.output
+    jobid: 470
+    reason: Missing output files: chr21_centromere_sketch_1/varing_r/r0.251_k30_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, r=0.251, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k330_r0.01_theta0.1.output
+    jobid: 26
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k330_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=330, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k390_r0.01_theta0.1.output
+    jobid: 87
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k390_r0.01_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=390, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.201_k30_theta0.1.output
+    jobid: 270
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.201_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.201, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.171_k30_theta0.1.output
+    jobid: 453
+    reason: Missing output files: chr21_centromere_sketch_1/varing_r/r0.171_k30_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_1, r=0.171, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k60_r0.01_theta0.01.output
+    jobid: 9
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k60_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=60, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k120_r0.01_theta0.01.output
+    jobid: 70
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k120_r0.01_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=120, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k240_r0.01_theta0.01.output
+    jobid: 192
+    reason: Missing output files: chr21_centromere_sketch_1/varing_k/k240_r0.01_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, k=240, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k720_r0.01_theta0.1.output
+    jobid: 52
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k720_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=720, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.031_k30_theta0.1.output
+    jobid: 236
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.031_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.031, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_r/r0.011_k30_theta0.1.output
+    jobid: 358
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_r/r0.011_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, r=0.011, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k450_r0.01_theta0.01.output
+    jobid: 35
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k450_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=450, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k570_r0.01_theta0.01.output
+    jobid: 157
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k570_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=570, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.241_k30_theta0.01.output
+    jobid: 279
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.241_k30_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.241, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.211_k30_theta0.01.output
+    jobid: 462
+    reason: Missing output files: chr21_centromere_sketch_1/varing_r/r0.211_k30_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, r=0.211, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k210_r0.01_theta0.1.output
+    jobid: 18
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k210_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=210, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.171_k30_theta0.01.output
+    jobid: 454
+    reason: Missing output files: chr21_centromere_sketch_1/varing_r/r0.171_k30_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, r=0.171, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.031_k30_theta0.01.output
+    jobid: 237
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.031_k30_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.031, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_r/r0.011_k30_theta0.01.output
+    jobid: 359
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_r/r0.011_k30_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, r=0.011, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k480_r0.01_theta0.1.output
+    jobid: 36
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k480_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=480, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k600_r0.01_theta0.1.output
+    jobid: 158
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k600_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=600, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.251_k30_theta0.1.output
+    jobid: 280
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.251_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.251, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.221_k30_theta0.1.output
+    jobid: 463
+    reason: Missing output files: chr21_centromere_sketch_1/varing_r/r0.221_k30_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_1, r=0.221, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k210_r0.01_theta0.01.output
+    jobid: 19
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k210_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=210, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k330_r0.01_theta0.01.output
+    jobid: 141
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k330_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=330, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k390_r0.01_theta0.01.output
+    jobid: 202
+    reason: Missing output files: chr21_centromere_sketch_1/varing_k/k390_r0.01_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, k=390, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k32_r0.01_theta0.1.output
+    jobid: 63
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k32_r0.01_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=32, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k90_r0.01_theta0.1.output
+    jobid: 124
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k90_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=90, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.071_k30_theta0.1.output
+    jobid: 307
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.071_k30_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.071, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k720_r0.01_theta0.01.output
+    jobid: 167
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k720_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=720, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.281_k30_theta0.01.output
+    jobid: 350
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.281_k30_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.281, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:10 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.261_k30_theta0.01.output
+    jobid: 472
+    reason: Missing output files: chr21_centromere_sketch_1/varing_r/r0.261_k30_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, r=0.261, theta=0.01
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:11 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k360_r0.01_theta0.1.output
+    jobid: 28
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k360_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=360, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:11 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k420_r0.01_theta0.1.output
+    jobid: 89
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k420_r0.01_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=420, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:11 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.211_k30_theta0.1.output
+    jobid: 272
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.211_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.211, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:11 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.181_k30_theta0.1.output
+    jobid: 455
+    reason: Missing output files: chr21_centromere_sketch_1/varing_r/r0.181_k30_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_1, r=0.181, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:07:30 2025]
+Finished job 408.
+1 of 481 steps (0.2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:07:31 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k690_r0.01_theta0.01.output
+    jobid: 222
+    reason: Missing output files: chr21_centromere_sketch_1/varing_k/k690_r0.01_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, k=690, theta=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:07:31 2025]
+Finished job 391.
+2 of 481 steps (0.4%) done
+[Sat Apr 19 23:07:31 2025]
+Finished job 361.
+3 of 481 steps (1%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Sat Apr 19 23:07:31 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.221_k30_theta0.1.output
+    jobid: 274
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.221_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.221, theta=0.1
+    resources: tmpdir=/tmp
+
+
+[Sat Apr 19 23:07:31 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.261_k30_theta0.01.output
+    jobid: 283
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.261_k30_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.261, theta=0.01
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Sat Apr 19 23:07:32 2025]
+Finished job 360.
+4 of 481 steps (1%) done
+Execute 1 jobs...
+
+[Sat Apr 19 23:07:33 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.251_k30_theta0.01.output
+    jobid: 344
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.251_k30_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.251, theta=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:07:37 2025]
+Finished job 359.
+5 of 481 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:07:37 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k570_r0.01_theta0.01.output
+    jobid: 100
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k570_r0.01_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=570, theta=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:07:40 2025]
+Finished job 122.
+6 of 481 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:07:41 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_r/r0.241_k30_theta0.01.output
+    jobid: 405
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_r/r0.241_k30_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, r=0.241, theta=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:07:41 2025]
+Finished job 358.
+7 of 481 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:07:41 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k330_r0.01_theta0.1.output
+    jobid: 83
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k330_r0.01_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=330, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:07:47 2025]
+Finished job 126.
+8 of 481 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:07:47 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.181_k30_theta0.1.output
+    jobid: 266
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.181_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.181, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:07:52 2025]
+Finished job 124.
+9 of 481 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:07:53 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.021_k30_theta0.1.output
+    jobid: 423
+    reason: Missing output files: chr21_centromere_sketch_1/varing_r/r0.021_k30_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_1, r=0.021, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:07:56 2025]
+Finished job 125.
+10 of 481 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:07:56 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.171_k30_theta0.1.output
+    jobid: 327
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.171_k30_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.171, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:07:57 2025]
+Finished job 130.
+11 of 481 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:07:57 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_r/r0.161_k30_theta0.1.output
+    jobid: 388
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_r/r0.161_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, r=0.161, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:08:06 2025]
+Finished job 405.
+12 of 481 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:08:06 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.151_k30_theta0.1.output
+    jobid: 449
+    reason: Missing output files: chr21_centromere_sketch_1/varing_r/r0.151_k30_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_1, r=0.151, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:08:20 2025]
+Finished job 139.
+13 of 481 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:08:20 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k60_r0.01_theta0.1.output
+    jobid: 179
+    reason: Missing output files: chr21_centromere_sketch_1/varing_k/k60_r0.01_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_1, k=60, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:08:21 2025]
+Finished job 388.
+14 of 481 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:08:21 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k16_r0.01_theta0.01.output
+    jobid: 5
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k16_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=16, theta=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:08:27 2025]
+Finished job 143.
+15 of 481 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:08:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.221_k30_theta0.01.output
+    jobid: 338
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.221_k30_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.221, theta=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:08:32 2025]
+Finished job 147.
+16 of 481 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:08:32 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_r/r0.211_k30_theta0.01.output
+    jobid: 399
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_r/r0.211_k30_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, r=0.211, theta=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:08:37 2025]
+Finished job 141.
+17 of 481 steps (4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:08:37 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_r/r0.251_k30_theta0.01.output
+    jobid: 407
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_r/r0.251_k30_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, r=0.251, theta=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:08:41 2025]
+Finished job 142.
+18 of 481 steps (4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:08:41 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.271_k30_theta0.01.output
+    jobid: 285
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.271_k30_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.271, theta=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:08:52 2025]
+Finished job 156.
+19 of 481 steps (4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:08:52 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.181_k30_theta0.1.output
+    jobid: 329
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.181_k30_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.181, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:08:55 2025]
+Finished job 399.
+20 of 481 steps (4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:08:55 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_r/r0.171_k30_theta0.1.output
+    jobid: 390
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_r/r0.171_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, r=0.171, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:08:59 2025]
+Finished job 407.
+21 of 481 steps (4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:09:00 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k720_r0.01_theta0.1.output
+    jobid: 109
+    reason: Missing output files: chr21_centromere_sketch_100/varing_k/k720_r0.01_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, k=720, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:09:02 2025]
+Finished job 157.
+22 of 481 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:09:02 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.011_k30_theta0.1.output
+    jobid: 232
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.011_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.011, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:09:12 2025]
+Finished job 160.
+23 of 481 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:09:12 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.001_k30_theta0.1.output
+    jobid: 293
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.001_k30_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.001, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:09:16 2025]
+Finished job 390.
+24 of 481 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:09:16 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_r/r0.291_k30_theta0.1.output
+    jobid: 414
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_r/r0.291_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, r=0.291, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:09:25 2025]
+Finished job 159.
+25 of 481 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:09:25 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k660_r0.01_theta0.1.output
+    jobid: 48
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_k/k660_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, k=660, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:09:26 2025]
+Finished job 158.
+26 of 481 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:09:26 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k510_r0.01_theta0.01.output
+    jobid: 153
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k510_r0.01_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=510, theta=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:09:33 2025]
+Finished job 414.
+27 of 481 steps (6%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:09:33 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k570_r0.01_theta0.01.output
+    jobid: 214
+    reason: Missing output files: chr21_centromere_sketch_1/varing_k/k570_r0.01_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, k=570, theta=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:09:41 2025]
+Finished job 168.
+28 of 481 steps (6%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:09:42 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.211_k30_theta0.01.output
+    jobid: 336
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.211_k30_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.211, theta=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:09:43 2025]
+Finished job 165.
+29 of 481 steps (6%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:09:43 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.061_k30_theta0.01.output
+    jobid: 432
+    reason: Missing output files: chr21_centromere_sketch_1/varing_r/r0.061_k30_theta0.01.output
+    wildcards: output_dir=chr21_centromere_sketch_1, r=0.061, theta=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:09:55 2025]
+Finished job 167.
+30 of 481 steps (6%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:09:55 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_r/r0.201_k30_theta0.01.output
+    jobid: 397
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_r/r0.201_k30_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, r=0.201, theta=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:09:57 2025]
+Finished job 169.
+31 of 481 steps (6%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:09:58 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_r/r0.071_k30_theta0.01.output
+    jobid: 371
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_r/r0.071_k30_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, r=0.071, theta=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:10:16 2025]
+Finished job 397.
+32 of 481 steps (7%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:10:17 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_1/varing_k/k270_r0.01_theta0.1.output
+    jobid: 136
+    reason: Missing output files: chr6_RepeatMasker_sketch_1/varing_k/k270_r0.01_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_1, k=270, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:10:26 2025]
+Finished job 371.
+33 of 481 steps (7%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:10:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.091_k30_theta0.01.output
+    jobid: 249
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.091_k30_theta0.01.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.091, theta=0.01
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:11:20 2025]
+Finished job 153.
+34 of 481 steps (7%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:11:20 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.141_k30_theta0.1.output
+    jobid: 258
+    reason: Missing output files: chr6_RepeatMasker_sketch_100/varing_r/r0.141_k30_theta0.1.output
+    wildcards: output_dir=chr6_RepeatMasker_sketch_100, r=0.141, theta=0.1
+    resources: tmpdir=/tmp
+
+[Sat Apr 19 23:11:35 2025]
+Finished job 136.
+35 of 481 steps (7%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sat Apr 19 23:11:35 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.131_k30_theta0.1.output
+    jobid: 319
+    reason: Missing output files: chr21_centromere_sketch_100/varing_r/r0.131_k30_theta0.1.output
+    wildcards: output_dir=chr21_centromere_sketch_100, r=0.131, theta=0.1
+    resources: tmpdir=/tmp
+
+Terminating processes on user request, this might take some time.
+[Sat Apr 19 23:30:00 2025]
+Error in rule run_simulation_k:
+    jobid: 61
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k16_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_k/k16_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 16 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_k/k16_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Apr 19 23:30:00 2025]
+[Sat Apr 19 23:30:00 2025]
+[Sat Apr 19 23:30:00 2025]
+[Sat Apr 19 23:30:00 2025]
+[Sat Apr 19 23:30:00 2025]
+[Sat Apr 19 23:30:00 2025]
+[Sat Apr 19 23:30:00 2025]
+Error in rule run_simulation_k:
+    jobid: 63
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k32_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_k/k32_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 32 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_k/k32_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 432
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.061_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_r/r0.061_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.061 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_r/r0.061_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Apr 19 23:30:01 2025]
+Error in rule run_simulation_r:
+    jobid: 308
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.071_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_r/r0.071_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.071 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_r/r0.071_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Apr 19 23:30:01 2025]
+Error in rule run_simulation_r:
+    jobid: 456
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.181_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_r/r0.181_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.181 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_r/r0.181_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 273
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.211_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.211_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.211 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.211_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+Error in rule run_simulation_r:
+    jobid: 232
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.011_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.011_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.011 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.011_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Apr 19 23:30:01 2025]
+Error in rule run_simulation_r:
+    jobid: 461
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.211_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_r/r0.211_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.211 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_r/r0.211_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+Error in rule run_simulation_k:
+    jobid: 65
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k60_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_k/k60_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 60 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_k/k60_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+Error in rule run_simulation_k:
+    jobid: 224
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k720_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_k/k720_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 720 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_k/k720_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+Error in rule run_simulation_r:
+    jobid: 350
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.281_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_r/r0.281_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.281 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_r/r0.281_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+Error in rule run_simulation_k:
+    jobid: 204
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k420_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_k/k420_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 420 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_k/k420_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+[Sat Apr 19 23:30:01 2025]
+Error in rule run_simulation_k:
+    jobid: 73
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k180_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_k/k180_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 180 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_k/k180_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Apr 19 23:30:01 2025]
+Error in rule run_simulation_k:
+    jobid: 54
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k750_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k750_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 750 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k750_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 21
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k240_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k240_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 240 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k240_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Apr 19 23:30:01 2025]
+Error in rule run_simulation_r:
+    jobid: 249
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.091_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.091_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.091 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.091_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 454
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.171_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_r/r0.171_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.171 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_r/r0.171_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Apr 19 23:30:01 2025]
+Error in rule run_simulation_k:
+    jobid: 17
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k180_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k180_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 180 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k180_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 470
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.251_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_r/r0.251_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.251 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_r/r0.251_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 70
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k120_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_k/k120_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 120 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_k/k120_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 103
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k630_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_k/k630_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 630 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_k/k630_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 35
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k450_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k450_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 450 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k450_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 423
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.021_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_r/r0.021_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.021 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_r/r0.021_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 327
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.171_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_r/r0.171_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.171 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_r/r0.171_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 72
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k150_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_k/k150_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 150 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_k/k150_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 280
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.251_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.251_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.251 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.251_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 214
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k570_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_k/k570_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 570 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_k/k570_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 270
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.201_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.201_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.201 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.201_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 351
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.291_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_r/r0.291_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.291 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_r/r0.291_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 305
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.061_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_r/r0.061_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.061 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_r/r0.061_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 194
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k270_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_k/k270_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 270 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_k/k270_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 203
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k420_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_k/k420_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 420 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_k/k420_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 266
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.181_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.181_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.181 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.181_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 474
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.271_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_r/r0.271_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.271 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_r/r0.271_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 238
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.041_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.041_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.041 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.041_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 18
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k210_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k210_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 210 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k210_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 462
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.211_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_r/r0.211_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.211 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_r/r0.211_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 5
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k16_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k16_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 16 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k16_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 274
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.221_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.221_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.221 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.221_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 449
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.151_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_r/r0.151_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.151 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_r/r0.151_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 283
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.261_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.261_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.261 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.261_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 338
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.221_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_r/r0.221_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.221 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_r/r0.221_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 200
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k360_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_k/k360_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 360 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_k/k360_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 30
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k390_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k390_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 390 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k390_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 28
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k360_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k360_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 360 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k360_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 319
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.131_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_r/r0.131_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.131 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_r/r0.131_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 453
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.171_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_r/r0.171_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.171 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_r/r0.171_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 195
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k300_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_k/k300_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 300 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_k/k300_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 281
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.251_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.251_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.251 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.251_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 329
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.181_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_r/r0.181_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.181 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_r/r0.181_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 12
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k120_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k120_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 120 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k120_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 336
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.211_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_r/r0.211_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.211 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_r/r0.211_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 282
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.261_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.261_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.261 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.261_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 179
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k60_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_k/k60_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 60 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_k/k60_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 208
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k480_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_k/k480_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 480 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_k/k480_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 278
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.241_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.241_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.241 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.241_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 83
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k330_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_k/k330_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 330 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_k/k330_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 307
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.071_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_r/r0.071_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.071 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_r/r0.071_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 463
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.221_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_r/r0.221_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.221 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_r/r0.221_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 236
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.031_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.031_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.031 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.031_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 330
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.181_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_r/r0.181_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.181 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_r/r0.181_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 9
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k60_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k60_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 60 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k60_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 465
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.231_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_r/r0.231_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.231 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_r/r0.231_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 239
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.041_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.041_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.041 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.041_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 202
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k390_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_k/k390_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 390 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_k/k390_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 19
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k210_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k210_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 210 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k210_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 192
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k240_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_k/k240_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 240 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_k/k240_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 222
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_k/k690_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_k/k690_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 690 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_k/k690_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 20
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k240_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k240_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 240 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k240_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 272
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.211_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.211_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.211 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.211_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 55
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k750_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k750_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 750 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k750_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 36
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k480_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k480_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 480 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k480_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 464
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.221_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_r/r0.221_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.221 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_r/r0.221_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 473
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.271_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_r/r0.271_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.271 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_r/r0.271_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 11
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k90_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k90_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 90 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k90_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 37
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k480_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k480_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 480 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k480_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 285
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.271_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.271_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.271 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.271_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 87
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k390_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_k/k390_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 390 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_k/k390_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 344
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.251_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_r/r0.251_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.251 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_r/r0.251_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 258
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.141_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.141_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.141 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.141_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 52
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k720_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k720_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 720 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k720_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 89
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k420_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_k/k420_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 420 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_k/k420_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 42
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k570_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k570_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 570 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k570_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 109
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k720_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_k/k720_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 720 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_k/k720_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 472
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.261_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_r/r0.261_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.261 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_r/r0.261_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 293
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.001_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_r/r0.001_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.001 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_r/r0.001_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 237
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.031_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.031_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.031 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.031_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 352
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.291_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_r/r0.291_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.291 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_r/r0.291_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 34
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k450_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k450_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 450 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k450_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 38
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k510_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k510_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 510 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k510_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 455
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_1/varing_r/r0.181_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_1/varing_r/r0.181_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.181 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_1/varing_r/r0.181_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 100
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k570_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_k/k570_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 570 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_k/k570_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 64
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k32_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_k/k32_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 32 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_k/k32_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 279
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_r/r0.241_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_r/r0.241_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.241 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_r/r0.241_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 26
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k330_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k330_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 330 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k330_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 348
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.271_k30_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_r/r0.271_k30_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.271 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_r/r0.271_k30_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 90
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_k/k420_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_k/k420_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 420 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_k/k420_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 309
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere_sketch_100/varing_r/r0.081_k30_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr21_centromere_sketch_100/varing_r/r0.081_k30_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr21.fasta \
+            -l 100000 \
+            -s 10962854 \
+            -k 30 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.081 \
+            -t 0.1 \
+            -z 100 \
+            > chr21_centromere_sketch_100/varing_r/r0.081_k30_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 29
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k360_r0.01_theta0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k360_r0.01_theta0.01.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 360 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.01 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k360_r0.01_theta0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_k:
+    jobid: 48
+    input: /research/hvw5426/splitted_fasta/chr6.fasta
+    output: chr6_RepeatMasker_sketch_100/varing_k/k660_r0.01_theta0.1.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker_sketch_100/varing_k/k660_r0.01_theta0.1.output)
+        ./Simulation \
+            -i /research/hvw5426/splitted_fasta/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 660 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            -t 0.1 \
+            -z 100 \
+            > chr6_RepeatMasker_sketch_100/varing_k/k660_r0.01_theta0.1.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2025-04-19T230709.150511.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

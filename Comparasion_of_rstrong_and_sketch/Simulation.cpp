@@ -156,11 +156,12 @@ int main (int argc, char* argv[]){
     int num_replicates = 0;
     double r = 0;
     int type = 0;
+    int skecth_replicates = 1;
 
     vector<string> args(argv + 1, argv + argc);
     for (auto i = args.begin(); i != args.end(); ++i) {
         if (*i == "-h" || *i == "--help") {
-            cout << "Syntax: -i [input-file] -l <length>[100] -s <start position>[5]  -k <kmer-size>[33] -e <presion>[0.001] -c <replicates>[30] -r <mutation rate> 0.1 -t <type> 0" << endl;
+            cout << "Syntax: -i [input-file] -l <length>[100] -s <start position>[5]  -k <kmer-size>[33] -e <presion>[0.001] -c <replicates>[30] -r <mutation rate> 0.1 -t <type> 0 -z <skecth_replicates> 1" << endl;
             return 0;
         } else if (*i == "-l") {
             L = stoull(*++i);
@@ -178,7 +179,9 @@ int main (int argc, char* argv[]){
             r = stod(*++i);
         } else if (*i == "-t") {
             type = stoi(*++i);
-        }
+        } else if (*i == "-z") {
+            skecth_replicates = stoi(*++i);
+        } 
     }
 
     std::string input_String;
@@ -214,30 +217,32 @@ int main (int argc, char* argv[]){
     mpreal q_hat = Newton_Method (coeffs_Map, kmer_set, k, epsilon, I_obs);
     //cout<< q_hat << endl;
     mpreal r_hat = 1.0 - pow(1.0 - q_hat, 1.0/k);
-    for(int i=0; i<num_replicates; i++){
-        
-        int I_obs_sketch=0;
-        cout << r_hat;
-        vector<double> thresholds = {0.1, 0.01};
 
-        for (double theta: thresholds){
-            uint32_t seed = rd();
-            set<string> kmer_set_sketch = kspectrum_sketch(input_String, k, theta, seed);
-            I_obs_sketch = round(static_cast<double>(intersect_size_sketch(kmer_set_sketch, mutatedString, k, theta, seed)) / (theta));
-            mpreal q_hat_sketch = 0;
-            mpreal r_hat_sketch = 0;
-            if (I_obs_sketch < kmer_set.size() && I_obs_sketch > 0 ){
-                q_hat_sketch = Newton_Method (coeffs_Map, kmer_set, k, epsilon, I_obs_sketch);
-                r_hat_sketch = 1.0 - pow(1.0 - q_hat_sketch, 1.0/k);
+    for(int i=0; i<num_replicates; i++){
+        int I_obs_sketch=0;
+
+        vector<double> thresholds = {0.1, 0.01};
+        for(int j=0; j< skecth_replicates ; j++){
+            cout << r_hat;
+            for (double theta: thresholds){
+                uint32_t seed = rd();
+                set<string> kmer_set_sketch = kspectrum_sketch(input_String, k, theta, seed);
+                I_obs_sketch = round(static_cast<double>(intersect_size_sketch(kmer_set_sketch, mutatedString, k, theta, seed)) / (theta));
+                mpreal q_hat_sketch = 0;
+                mpreal r_hat_sketch = 0;
+                if (I_obs_sketch < kmer_set.size() && I_obs_sketch > 0 ){
+                    q_hat_sketch = Newton_Method (coeffs_Map, kmer_set, k, epsilon, I_obs_sketch);
+                    r_hat_sketch = 1.0 - pow(1.0 - q_hat_sketch, 1.0/k);
+                }
+                else if (I_obs_sketch == 0){
+                    q_hat_sketch = 1.0;
+                    r_hat_sketch = 1.0;
+                }
+                cout << " , " << r_hat_sketch;
             }
-            else if (I_obs_sketch == 0){
-                q_hat_sketch = 1.0;
-                r_hat_sketch = 1.0;
-            }
-            cout << " , " << r_hat_sketch;
+            cout << endl;
         }
-        cout << endl;
-            
+          
     }
 
     //cout<< filename << ":" << start_pos << " " << L <<" "<< k << " " << num_replicates << " " << q_hat.toDouble() << " " << r_hat.toDouble() << " " << r_prime << endl;

@@ -47,12 +47,14 @@ Reproduce the figures in the paper.
          start_pos: 559707 # start position 
          precision: 1e-10 # precision for Newton Method
          replicates: 100 # number of replicates for mutation process
+         fixed_r: 0.01 # set fixed r
        plot_params:
          k_variation:
            thresholds: [32, 630] # threshold to split the boxplot panels.
            ylimits: [0.8, 0.02, 1.0] # max scale for each panel
          r_variation:
            threshold: 0.25 # threshold to split the boxplot panels.
+           fixed_k: 20 # set fixed k
    ```
 
 3. un following command, to generate the statistics information of sequences in the paper
@@ -86,8 +88,10 @@ Reproduce the figures in the paper.
          k_variation:
            thresholds: [32, 630] # threshold to split the boxplot panels.
            ylimits: [0.8, 0.02, 1.0] # max scale for each panel
+           fixed_r: 0.01 # set fixed r
          r_variation:
            threshold: 0.25 # threshold to split the boxplot panels.
+           fixed_k: 20 # set fixed k
    ```
 
 3. un following command, to generate the statistics information of sequences in the paper
@@ -120,9 +124,11 @@ Reproduce the figures in the paper.
          k_variation:
            thresholds: [32, 630] # threshold to split the boxplot panels.
            ylimits: [0.8, 0.02, 1.0] # max scale for each panel
+           fixed_r: 0.01 # set fixed r
          r_variation:
            threshold: 0.151 # threshold to split the boxplot panels.
            ylimits: [0.2, 1.1] # max scale for each panel
+           fixed_k: 20 # set fixed k
    ```
 
 3. un following command, to generate the statistics information of sequences in the paper

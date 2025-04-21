@@ -12,3 +12,10 @@ analyses:
     length: 100000
     kmer: 20
     thresholds: [2, 3, 4, 5, 6]
+
+  - name: "chrY_SimpleRepeat" # chrY:22420785-22423059,
+    fasta: "/research/hvw5426/splitted_fasta/chrY.fasta"
+    start: 22420785
+    length: 2264
+    kmer: 10
+    thresholds: [2, 3, 4, 5, 6]

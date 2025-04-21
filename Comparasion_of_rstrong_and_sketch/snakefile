@@ -4,26 +4,14 @@ import itertools
 
 K_VALUES = [8, 16, 32] + [60 + 30*i for i in range(25)]
 R_VALUES = [round(i * 0.01 + 0.001, 3) for i in range(31)]
-FIXED_K = 30  # Define this as a constant
-FIXED_R = 0.01  # Define this as a constant
 THETA_VALUES = [0.1, 0.01]  # Theta values for sketch plotting
+
+# 默认值，当配置中未指定时使用
+DEFAULT_FIXED_K = 30
+DEFAULT_FIXED_R = 0.01
 
 with open('config.yaml', 'r') as f:
     config = yaml.safe_load(f)
-
-
-rule all:
-    input:
-        expand(
-            os.path.join("{output_dir}", "boxplot_triple_k_comparison_r{fixed_r}.png"),
-            output_dir=[analysis['output_dir'] for analysis in config['analyses']],
-            fixed_r=FIXED_R
-        ),
-        expand(
-            os.path.join("{output_dir}", "dual_sketch_boxplot_k{fixed_k}.png"),
-            output_dir=[analysis['output_dir'] for analysis in config['analyses']],
-            fixed_k=FIXED_K
-        )
 
 def get_analysis_by_output_dir(output_dir):
     for analysis in config['analyses']:
@@ -45,14 +33,49 @@ def get_k_ylimits(output_dir):
 
 def get_sketch_repeats(output_dir):
     analysis = get_analysis_by_output_dir(output_dir)
-    return analysis['simulation_params'].get('sketch_repeats') 
+    return analysis['simulation_params'].get('sketch_repeats', 1)  # 默认为1
+
+def get_fixed_r(output_dir):
+    analysis = get_analysis_by_output_dir(output_dir)
+    return analysis['plot_params']['k_variation'].get('fixed_r', DEFAULT_FIXED_R)
+
+def get_fixed_k(output_dir):
+    analysis = get_analysis_by_output_dir(output_dir)
+    return analysis['plot_params']['r_variation'].get('fixed_k', DEFAULT_FIXED_K)
+
+# 为每个分析创建固定值字典，用于expand函数
+fixed_values = {}
+for analysis in config['analyses']:
+    output_dir = analysis['output_dir']
+    fixed_k = analysis['plot_params']['r_variation'].get('fixed_k', DEFAULT_FIXED_K)
+    fixed_r = analysis['plot_params']['k_variation'].get('fixed_r', DEFAULT_FIXED_R)
+    fixed_values[output_dir] = {'fixed_k': fixed_k, 'fixed_r': fixed_r}
+
+# 打印配置信息用于调试
+for output_dir, values in fixed_values.items():
+    print(f"Analysis {output_dir}: fixed_k = {values['fixed_k']}, fixed_r = {values['fixed_r']}")
+
+rule all:
+    input:
+        expand(
+            os.path.join("{output_dir}", "boxplot_triple_k_comparison_r{fixed_r}.png"),
+            zip,
+            output_dir=[analysis['output_dir'] for analysis in config['analyses']],
+            fixed_r=[fixed_values[a['output_dir']]['fixed_r'] for a in config['analyses']]
+        ),
+        expand(
+            os.path.join("{output_dir}", "dual_sketch_boxplot_k{fixed_k}.png"),
+            zip,
+            output_dir=[analysis['output_dir'] for analysis in config['analyses']],
+            fixed_k=[fixed_values[a['output_dir']]['fixed_k'] for a in config['analyses']]
+        )
 
 # K-variation simulation rules
 rule run_simulation_k:
     input:
         fasta = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['fasta']
     output:
-        os.path.join("{output_dir}", "varing_k", f"k{{k}}_r{FIXED_R}.output")
+        os.path.join("{output_dir}", "varing_k", f"k{{k}}_r{{fixed_r}}.output")
     params:
         length = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['length'],
         start_pos = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['start_pos'],
@@ -69,7 +92,7 @@ rule run_simulation_k:
             -k {wildcards.k} \\
             -e {params.precision} \\
             -c {params.replicates} \\
-            -r {FIXED_R} \\
+            -r {wildcards.fixed_r} \\
             -z {params.sketch_repeats} \\
             > {output}
         """
@@ -79,7 +102,7 @@ rule run_simulation_r:
     input:
         fasta = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['fasta']
     output:
-        os.path.join("{output_dir}", "varing_r", f"r{{r}}_k{FIXED_K}.output")
+        os.path.join("{output_dir}", "varing_r", f"r{{r}}_k{{fixed_k}}.output")
     params:
         length = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['length'],
         start_pos = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['start_pos'],
@@ -93,7 +116,7 @@ rule run_simulation_r:
             -i {input.fasta} \\
             -l {params.length} \\
             -s {params.start_pos} \\
-            -k {FIXED_K} \\
+            -k {wildcards.fixed_k} \\
             -e {params.precision} \\
             -c {params.replicates} \\
             -r {wildcards.r} \\
@@ -103,7 +126,10 @@ rule run_simulation_r:
 
 rule plot_k_variation:
     input:
-        files = expand(os.path.join("{{output_dir}}", "varing_k", f"k{{k}}_r{FIXED_R}.output"), k=K_VALUES)
+        files = lambda wildcards: expand(
+            os.path.join(wildcards.output_dir, "varing_k", f"k{{k}}_r{wildcards.fixed_r}.output"), 
+            k=K_VALUES
+        )
     output:
         plot = os.path.join("{output_dir}", "boxplot_triple_k_comparison_r{fixed_r}.png")
     params:
@@ -117,12 +143,16 @@ rule plot_k_variation:
             -d varing_k \\
             -t {params.thresholds[0]} {params.thresholds[1]} \\
             --ylim {params.ylimits[0]} {params.ylimits[1]} {params.ylimits[2]} \\
-            --theta {THETA_VALUES[0]} {THETA_VALUES[1]}
+            --theta {THETA_VALUES[0]} {THETA_VALUES[1]} \\
+            -r {wildcards.fixed_r}
         """
 
 rule plot_r_variation:
     input:
-        files = expand(os.path.join("{{output_dir}}", "varing_r", f"r{{r}}_k{FIXED_K}.output"), r=R_VALUES)
+        files = lambda wildcards: expand(
+            os.path.join(wildcards.output_dir, "varing_r", f"r{{r}}_k{wildcards.fixed_k}.output"), 
+            r=R_VALUES
+        )
     output:
         plot = os.path.join("{output_dir}", "dual_sketch_boxplot_k{fixed_k}.png")
     params:
@@ -134,7 +164,7 @@ rule plot_r_variation:
         cd {wildcards.output_dir} && python ../sketch_boxplot_r.py \\
             -d varing_r \\
             -t {params.threshold} \\
-            -k {FIXED_K}
+            -k {wildcards.fixed_k}
         """
 
 rule clean:

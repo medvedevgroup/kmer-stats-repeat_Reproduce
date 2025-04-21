@@ -13,8 +13,10 @@ analyses:
       k_variation:
         thresholds: [32, 570]
         ylimits: [0.8, 0.035, 1.1]
+        fixed_r: 0.01
       r_variation:
         threshold: 0.25
+        fixed_k: 30
 
   - name: "chr21_centromere_sketch_100"
     output_dir: "chr21_centromere_sketch_100"
@@ -30,8 +32,10 @@ analyses:
       k_variation:
         thresholds: [32, 570]
         ylimits: [0.8, 0.035, 1.1] 
+        fixed_r: 0.01
       r_variation:
         threshold: 0.151
+        fixed_k: 30
 
   - name: "chr6_RepeatMasker_sketch_1"
     output_dir: "chr6_RepeatMasker_sketch_1"
@@ -47,8 +51,10 @@ analyses:
       k_variation:
         thresholds: [32, 570]
         ylimits: [0.8, 0.035, 1.1]
+        fixed_r: 0.01
       r_variation:
         threshold: 0.151
+        fixed_k: 30
 
   - name: "chr21_centromere_sketch_1"
     output_dir: "chr21_centromere_sketch_1"
@@ -63,6 +69,46 @@ analyses:
       theta_values: [0.1, 0.01]  
       k_variation:
         thresholds: [32, 570]
-        ylimits: [0.8, 0.035, 1.1] 
+        ylimits: [0.8, 0.035, 1.1]
+        fixed_r: 0.01 
       r_variation:
         threshold: 0.151
+        fixed_k: 30
+
+  - name: "chrY_SimpleRepeat_sketch_1" # chrY:22420785-22423059,
+    output_dir: "chrY_SimpleRepeat_sketch_1"
+    fasta: "/research/hvw5426/splitted_fasta/chrY.fasta"
+    simulation_params:
+      length: 2264
+      start_pos: 22420785
+      precision: 1e-10
+      replicates: 100
+      sketch_repeats: 1 
+    plot_params:
+      theta_values: [0.1, 0.01] 
+      k_variation:
+        thresholds: [32, 300]
+        ylimits: [0.8, 0.02, 1.1]
+        fixed_r: 0.01
+      r_variation:
+        threshold: 0.251
+        fixed_k: 10
+  
+  - name: "chrY_SimpleRepeat_sketch_100" # chrY:22420785-22423059,
+    output_dir: "chrY_SimpleRepeat_sketch_100"
+    fasta: "/research/hvw5426/splitted_fasta/chrY.fasta"
+    simulation_params:
+      length: 2264
+      start_pos: 22420785
+      precision: 1e-10
+      replicates: 100
+      sketch_repeats: 100 
+    plot_params:
+      theta_values: [0.1, 0.01] 
+      k_variation:
+        thresholds: [32, 300]
+        ylimits: [0.8, 0.02, 1.1]
+        fixed_r: 0.01
+      r_variation:
+        threshold: 0.251
+        fixed_k: 10

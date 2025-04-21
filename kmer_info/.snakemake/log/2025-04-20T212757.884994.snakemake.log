@@ -1,0 +1,56 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                       count
+----------------------  -------
+all                           1
+plot_kmer_distribution        1
+run_kmer_info                 1
+total                         3
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 21:27:57 2025]
+localrule run_kmer_info:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/diff_counts.txt, chrY_SimpleRepeat/occ_counts.txt
+    jobid: 6
+    reason: Missing output files: chrY_SimpleRepeat/occ_counts.txt
+    wildcards: name=chrY_SimpleRepeat
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 21:27:58 2025]
+Finished job 6.
+1 of 3 steps (33%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 21:27:58 2025]
+localrule plot_kmer_distribution:
+    input: chrY_SimpleRepeat/occ_counts.txt
+    output: chrY_SimpleRepeat/kmer_distribution_histogram.png
+    jobid: 5
+    reason: Missing output files: chrY_SimpleRepeat/kmer_distribution_histogram.png; Input files updated by another job: chrY_SimpleRepeat/occ_counts.txt
+    wildcards: name=chrY_SimpleRepeat
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 21:27:59 2025]
+Finished job 5.
+2 of 3 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 21:27:59 2025]
+localrule all:
+    input: chr21_centromere/kmer_distribution_histogram.png, chr6_repeatmasker/kmer_distribution_histogram.png, chrY_SimpleRepeat/kmer_distribution_histogram.png
+    jobid: 0
+    reason: Input files updated by another job: chrY_SimpleRepeat/kmer_distribution_histogram.png
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 21:27:59 2025]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: .snakemake/log/2025-04-20T212757.884994.snakemake.log

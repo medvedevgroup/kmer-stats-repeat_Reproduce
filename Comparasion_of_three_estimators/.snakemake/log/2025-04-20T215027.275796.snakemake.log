@@ -1,0 +1,845 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+plot_k_variation        1
+plot_r_variation        1
+run_simulation_k       29
+run_simulation_r       31
+total                  63
+
+Select jobs to execute...
+Execute 60 jobs...
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.261_k10.output
+    jobid: 182
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.261_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.261, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k300_r0.01.output
+    jobid: 74
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=300, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k750_r0.01.output
+    jobid: 89
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=750, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.111_k10.output
+    jobid: 167
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.111_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.111, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.101_k10.output
+    jobid: 166
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.101_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.101, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.251_k10.output
+    jobid: 181
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.251_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.251, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k270_r0.01.output
+    jobid: 73
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=270, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k720_r0.01.output
+    jobid: 88
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=720, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.091_k10.output
+    jobid: 165
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.091_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.091, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.241_k10.output
+    jobid: 180
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.241_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k240_r0.01.output
+    jobid: 72
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=240, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k690_r0.01.output
+    jobid: 87
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=690, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k660_r0.01.output
+    jobid: 86
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=660, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.081_k10.output
+    jobid: 164
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.081_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.081, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.231_k10.output
+    jobid: 179
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.231_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.231, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k210_r0.01.output
+    jobid: 71
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=210, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k630_r0.01.output
+    jobid: 85
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=630, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.071_k10.output
+    jobid: 163
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.071_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.071, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.221_k10.output
+    jobid: 178
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.221_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.221, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k180_r0.01.output
+    jobid: 70
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=180, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k150_r0.01.output
+    jobid: 69
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=150, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k600_r0.01.output
+    jobid: 84
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=600, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.061_k10.output
+    jobid: 162
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.061_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.061, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.211_k10.output
+    jobid: 177
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.211_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k120_r0.01.output
+    jobid: 68
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=120, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k570_r0.01.output
+    jobid: 83
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=570, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.051_k10.output
+    jobid: 161
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.051_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.051, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.201_k10.output
+    jobid: 176
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.201_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.201, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.191_k10.output
+    jobid: 175
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.191_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.191, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k90_r0.01.output
+    jobid: 67
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=90, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k540_r0.01.output
+    jobid: 82
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=540, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.041_k10.output
+    jobid: 160
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.041_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.041, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.181_k10.output
+    jobid: 174
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.181_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k60_r0.01.output
+    jobid: 66
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=60, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k510_r0.01.output
+    jobid: 81
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=510, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.031_k10.output
+    jobid: 159
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.031_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.021_k10.output
+    jobid: 158
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.021_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.021, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.171_k10.output
+    jobid: 173
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.171_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.171, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k32_r0.01.output
+    jobid: 65
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=32, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k480_r0.01.output
+    jobid: 80
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=480, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.011_k10.output
+    jobid: 157
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.011_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.011, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.161_k10.output
+    jobid: 172
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.161_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.161, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k16_r0.01.output
+    jobid: 64
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=16, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k450_r0.01.output
+    jobid: 79
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=450, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k420_r0.01.output
+    jobid: 78
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=420, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.001_k10.output
+    jobid: 156
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.001_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.001, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.151_k10.output
+    jobid: 171
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.151_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k8_r0.01.output
+    jobid: 63
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=8, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.301_k10.output
+    jobid: 186
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.301_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.301, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k390_r0.01.output
+    jobid: 77
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=390, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:27 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.141_k10.output
+    jobid: 170
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.141_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.141, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:28 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k4_r0.01.output
+    jobid: 62
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=4, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:28 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.291_k10.output
+    jobid: 185
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.291_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.291, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:28 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.281_k10.output
+    jobid: 184
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.281_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.281, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:28 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k360_r0.01.output
+    jobid: 76
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=360, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:28 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.131_k10.output
+    jobid: 169
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.131_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.131, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:28 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.271_k10.output
+    jobid: 183
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.271_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:28 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k330_r0.01.output
+    jobid: 75
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=330, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:28 2025]
+localrule run_simulation_k:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_k/k780_r0.01.output
+    jobid: 90
+    reason: Code has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, k=780, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun Apr 20 21:50:28 2025]
+localrule run_simulation_r:
+    input: /research/hvw5426/splitted_fasta/chrY.fasta
+    output: chrY_SimpleRepeat/varing_r/r0.121_k10.output
+    jobid: 168
+    reason: Missing output files: chrY_SimpleRepeat/varing_r/r0.121_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.121, fixed_k=10
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 21:50:28 2025]
+Finished job 182.
+1 of 63 steps (2%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 180.
+2 of 63 steps (3%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 69.
+3 of 63 steps (5%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 166.
+4 of 63 steps (6%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 167.
+5 of 63 steps (8%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 181.
+6 of 63 steps (10%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 178.
+7 of 63 steps (11%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 164.
+8 of 63 steps (13%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 159.
+9 of 63 steps (14%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 165.
+10 of 63 steps (16%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 163.
+11 of 63 steps (17%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 176.
+12 of 63 steps (19%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 179.
+13 of 63 steps (21%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 74.
+14 of 63 steps (22%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 162.
+15 of 63 steps (24%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 62.
+16 of 63 steps (25%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 73.
+17 of 63 steps (27%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 63.
+18 of 63 steps (29%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 84.
+19 of 63 steps (30%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 161.
+20 of 63 steps (32%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 88.
+21 of 63 steps (33%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 175.
+22 of 63 steps (35%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 72.
+23 of 63 steps (37%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 71.
+24 of 63 steps (38%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 177.
+25 of 63 steps (40%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 160.
+26 of 63 steps (41%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 172.
+27 of 63 steps (43%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 158.
+28 of 63 steps (44%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 89.
+29 of 63 steps (46%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 186.
+30 of 63 steps (48%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 66.
+31 of 63 steps (49%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 85.
+32 of 63 steps (51%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 173.
+33 of 63 steps (52%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 157.
+34 of 63 steps (54%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 68.
+35 of 63 steps (56%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 169.
+36 of 63 steps (57%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 64.
+37 of 63 steps (59%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 174.
+38 of 63 steps (60%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 86.
+39 of 63 steps (62%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 80.
+40 of 63 steps (63%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 156.
+41 of 63 steps (65%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 87.
+42 of 63 steps (67%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 184.
+43 of 63 steps (68%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 67.
+44 of 63 steps (70%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 170.
+45 of 63 steps (71%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 75.
+46 of 63 steps (73%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 171.
+47 of 63 steps (75%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 183.
+48 of 63 steps (76%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 82.
+49 of 63 steps (78%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 70.
+50 of 63 steps (79%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 83.
+51 of 63 steps (81%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 185.
+52 of 63 steps (83%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 65.
+53 of 63 steps (84%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 90.
+54 of 63 steps (86%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 168.
+55 of 63 steps (87%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 81.
+56 of 63 steps (89%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 76.
+57 of 63 steps (90%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 21:50:28 2025]
+localrule plot_r_variation:
+    input: chrY_SimpleRepeat/varing_r/r0.001_k10.output, chrY_SimpleRepeat/varing_r/r0.011_k10.output, chrY_SimpleRepeat/varing_r/r0.021_k10.output, chrY_SimpleRepeat/varing_r/r0.031_k10.output, chrY_SimpleRepeat/varing_r/r0.041_k10.output, chrY_SimpleRepeat/varing_r/r0.051_k10.output, chrY_SimpleRepeat/varing_r/r0.061_k10.output, chrY_SimpleRepeat/varing_r/r0.071_k10.output, chrY_SimpleRepeat/varing_r/r0.081_k10.output, chrY_SimpleRepeat/varing_r/r0.091_k10.output, chrY_SimpleRepeat/varing_r/r0.101_k10.output, chrY_SimpleRepeat/varing_r/r0.111_k10.output, chrY_SimpleRepeat/varing_r/r0.121_k10.output, chrY_SimpleRepeat/varing_r/r0.131_k10.output, chrY_SimpleRepeat/varing_r/r0.141_k10.output, chrY_SimpleRepeat/varing_r/r0.151_k10.output, chrY_SimpleRepeat/varing_r/r0.161_k10.output, chrY_SimpleRepeat/varing_r/r0.171_k10.output, chrY_SimpleRepeat/varing_r/r0.181_k10.output, chrY_SimpleRepeat/varing_r/r0.191_k10.output, chrY_SimpleRepeat/varing_r/r0.201_k10.output, chrY_SimpleRepeat/varing_r/r0.211_k10.output, chrY_SimpleRepeat/varing_r/r0.221_k10.output, chrY_SimpleRepeat/varing_r/r0.231_k10.output, chrY_SimpleRepeat/varing_r/r0.241_k10.output, chrY_SimpleRepeat/varing_r/r0.251_k10.output, chrY_SimpleRepeat/varing_r/r0.261_k10.output, chrY_SimpleRepeat/varing_r/r0.271_k10.output, chrY_SimpleRepeat/varing_r/r0.281_k10.output, chrY_SimpleRepeat/varing_r/r0.291_k10.output, chrY_SimpleRepeat/varing_r/r0.301_k10.output
+    output: chrY_SimpleRepeat/dual_boxplot_k10.png
+    jobid: 155
+    reason: Missing output files: chrY_SimpleRepeat/dual_boxplot_k10.png; Input files updated by another job: chrY_SimpleRepeat/varing_r/r0.161_k10.output, chrY_SimpleRepeat/varing_r/r0.201_k10.output, chrY_SimpleRepeat/varing_r/r0.051_k10.output, chrY_SimpleRepeat/varing_r/r0.061_k10.output, chrY_SimpleRepeat/varing_r/r0.181_k10.output, chrY_SimpleRepeat/varing_r/r0.171_k10.output, chrY_SimpleRepeat/varing_r/r0.221_k10.output, chrY_SimpleRepeat/varing_r/r0.041_k10.output, chrY_SimpleRepeat/varing_r/r0.291_k10.output, chrY_SimpleRepeat/varing_r/r0.071_k10.output, chrY_SimpleRepeat/varing_r/r0.091_k10.output, chrY_SimpleRepeat/varing_r/r0.131_k10.output, chrY_SimpleRepeat/varing_r/r0.261_k10.output, chrY_SimpleRepeat/varing_r/r0.191_k10.output, chrY_SimpleRepeat/varing_r/r0.001_k10.output, chrY_SimpleRepeat/varing_r/r0.101_k10.output, chrY_SimpleRepeat/varing_r/r0.111_k10.output, chrY_SimpleRepeat/varing_r/r0.121_k10.output, chrY_SimpleRepeat/varing_r/r0.151_k10.output, chrY_SimpleRepeat/varing_r/r0.081_k10.output, chrY_SimpleRepeat/varing_r/r0.231_k10.output, chrY_SimpleRepeat/varing_r/r0.241_k10.output, chrY_SimpleRepeat/varing_r/r0.301_k10.output, chrY_SimpleRepeat/varing_r/r0.031_k10.output, chrY_SimpleRepeat/varing_r/r0.021_k10.output, chrY_SimpleRepeat/varing_r/r0.271_k10.output, chrY_SimpleRepeat/varing_r/r0.011_k10.output, chrY_SimpleRepeat/varing_r/r0.211_k10.output, chrY_SimpleRepeat/varing_r/r0.281_k10.output, chrY_SimpleRepeat/varing_r/r0.251_k10.output, chrY_SimpleRepeat/varing_r/r0.141_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, fixed_k=10
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 21:50:28 2025]
+Finished job 79.
+58 of 63 steps (92%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 77.
+59 of 63 steps (94%) done
+[Sun Apr 20 21:50:28 2025]
+Finished job 78.
+60 of 63 steps (95%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Apr 20 21:50:28 2025]
+localrule plot_k_variation:
+    input: chrY_SimpleRepeat/varing_k/k4_r0.01.output, chrY_SimpleRepeat/varing_k/k8_r0.01.output, chrY_SimpleRepeat/varing_k/k16_r0.01.output, chrY_SimpleRepeat/varing_k/k32_r0.01.output, chrY_SimpleRepeat/varing_k/k60_r0.01.output, chrY_SimpleRepeat/varing_k/k90_r0.01.output, chrY_SimpleRepeat/varing_k/k120_r0.01.output, chrY_SimpleRepeat/varing_k/k150_r0.01.output, chrY_SimpleRepeat/varing_k/k180_r0.01.output, chrY_SimpleRepeat/varing_k/k210_r0.01.output, chrY_SimpleRepeat/varing_k/k240_r0.01.output, chrY_SimpleRepeat/varing_k/k270_r0.01.output, chrY_SimpleRepeat/varing_k/k300_r0.01.output, chrY_SimpleRepeat/varing_k/k330_r0.01.output, chrY_SimpleRepeat/varing_k/k360_r0.01.output, chrY_SimpleRepeat/varing_k/k390_r0.01.output, chrY_SimpleRepeat/varing_k/k420_r0.01.output, chrY_SimpleRepeat/varing_k/k450_r0.01.output, chrY_SimpleRepeat/varing_k/k480_r0.01.output, chrY_SimpleRepeat/varing_k/k510_r0.01.output, chrY_SimpleRepeat/varing_k/k540_r0.01.output, chrY_SimpleRepeat/varing_k/k570_r0.01.output, chrY_SimpleRepeat/varing_k/k600_r0.01.output, chrY_SimpleRepeat/varing_k/k630_r0.01.output, chrY_SimpleRepeat/varing_k/k660_r0.01.output, chrY_SimpleRepeat/varing_k/k690_r0.01.output, chrY_SimpleRepeat/varing_k/k720_r0.01.output, chrY_SimpleRepeat/varing_k/k750_r0.01.output, chrY_SimpleRepeat/varing_k/k780_r0.01.output
+    output: chrY_SimpleRepeat/triple_boxplot_r0.01.png
+    jobid: 61
+    reason: Input files updated by another job: chrY_SimpleRepeat/varing_k/k780_r0.01.output, chrY_SimpleRepeat/varing_k/k90_r0.01.output, chrY_SimpleRepeat/varing_k/k750_r0.01.output, chrY_SimpleRepeat/varing_k/k360_r0.01.output, chrY_SimpleRepeat/varing_k/k330_r0.01.output, chrY_SimpleRepeat/varing_k/k16_r0.01.output, chrY_SimpleRepeat/varing_k/k8_r0.01.output, chrY_SimpleRepeat/varing_k/k630_r0.01.output, chrY_SimpleRepeat/varing_k/k4_r0.01.output, chrY_SimpleRepeat/varing_k/k540_r0.01.output, chrY_SimpleRepeat/varing_k/k32_r0.01.output, chrY_SimpleRepeat/varing_k/k390_r0.01.output, chrY_SimpleRepeat/varing_k/k60_r0.01.output, chrY_SimpleRepeat/varing_k/k270_r0.01.output, chrY_SimpleRepeat/varing_k/k180_r0.01.output, chrY_SimpleRepeat/varing_k/k420_r0.01.output, chrY_SimpleRepeat/varing_k/k240_r0.01.output, chrY_SimpleRepeat/varing_k/k600_r0.01.output, chrY_SimpleRepeat/varing_k/k150_r0.01.output, chrY_SimpleRepeat/varing_k/k210_r0.01.output, chrY_SimpleRepeat/varing_k/k570_r0.01.output, chrY_SimpleRepeat/varing_k/k720_r0.01.output, chrY_SimpleRepeat/varing_k/k450_r0.01.output, chrY_SimpleRepeat/varing_k/k480_r0.01.output, chrY_SimpleRepeat/varing_k/k300_r0.01.output, chrY_SimpleRepeat/varing_k/k120_r0.01.output, chrY_SimpleRepeat/varing_k/k690_r0.01.output, chrY_SimpleRepeat/varing_k/k660_r0.01.output, chrY_SimpleRepeat/varing_k/k510_r0.01.output
+    wildcards: output_dir=chrY_SimpleRepeat, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+[Sun Apr 20 21:50:29 2025]
+Error in rule plot_k_variation:
+    jobid: 61
+    input: chrY_SimpleRepeat/varing_k/k4_r0.01.output, chrY_SimpleRepeat/varing_k/k8_r0.01.output, chrY_SimpleRepeat/varing_k/k16_r0.01.output, chrY_SimpleRepeat/varing_k/k32_r0.01.output, chrY_SimpleRepeat/varing_k/k60_r0.01.output, chrY_SimpleRepeat/varing_k/k90_r0.01.output, chrY_SimpleRepeat/varing_k/k120_r0.01.output, chrY_SimpleRepeat/varing_k/k150_r0.01.output, chrY_SimpleRepeat/varing_k/k180_r0.01.output, chrY_SimpleRepeat/varing_k/k210_r0.01.output, chrY_SimpleRepeat/varing_k/k240_r0.01.output, chrY_SimpleRepeat/varing_k/k270_r0.01.output, chrY_SimpleRepeat/varing_k/k300_r0.01.output, chrY_SimpleRepeat/varing_k/k330_r0.01.output, chrY_SimpleRepeat/varing_k/k360_r0.01.output, chrY_SimpleRepeat/varing_k/k390_r0.01.output, chrY_SimpleRepeat/varing_k/k420_r0.01.output, chrY_SimpleRepeat/varing_k/k450_r0.01.output, chrY_SimpleRepeat/varing_k/k480_r0.01.output, chrY_SimpleRepeat/varing_k/k510_r0.01.output, chrY_SimpleRepeat/varing_k/k540_r0.01.output, chrY_SimpleRepeat/varing_k/k570_r0.01.output, chrY_SimpleRepeat/varing_k/k600_r0.01.output, chrY_SimpleRepeat/varing_k/k630_r0.01.output, chrY_SimpleRepeat/varing_k/k660_r0.01.output, chrY_SimpleRepeat/varing_k/k690_r0.01.output, chrY_SimpleRepeat/varing_k/k720_r0.01.output, chrY_SimpleRepeat/varing_k/k750_r0.01.output, chrY_SimpleRepeat/varing_k/k780_r0.01.output
+    output: chrY_SimpleRepeat/triple_boxplot_r0.01.png
+    shell:
+        
+        mkdir -p chrY_SimpleRepeat
+        
+        cd chrY_SimpleRepeat && python ../boxplot_k.py \
+            -d varing_k \
+            -t 32 300 \
+            --ylim 0.8 0.02 1.1 \
+            -r 0.01
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sun Apr 20 21:50:33 2025]
+Finished job 155.
+61 of 63 steps (97%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-04-20T215027.275796.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

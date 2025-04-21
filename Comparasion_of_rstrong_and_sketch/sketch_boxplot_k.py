@@ -6,9 +6,6 @@ import seaborn as sns
 from glob import glob
 import argparse
 
-# Set fixed r value
-fixed_r = 0.01
-
 def main():
     # Parse command line arguments
     parser = argparse.ArgumentParser(description='Sketch K-mer Variation Boxplot')
@@ -20,10 +17,12 @@ def main():
                         help='Maximum y-axis limits for the three panels [small_k, medium_k, large_k]')
     parser.add_argument('--theta', nargs='+', type=float, default=[0.1, 0.01],
                         help='Theta values to display in the plot, in the order they should appear')
+    parser.add_argument('-r', '--fixed_r', type=float, default=0.01,
+                        help='Fixed r value used in the filenames')
     args = parser.parse_args()
     
     # Process data files
-    all_data = process_all_files(args.directory)
+    all_data = process_all_files(args.directory, args.fixed_r)
     
     if all_data is not None:
         print(f"Processed data for {len(all_data['k_value'].unique())} different k values")
@@ -33,7 +32,8 @@ def main():
             all_data, 
             selected_theta_values=args.theta,
             thresholds=args.thresholds,
-            ylimits=args.ylim
+            ylimits=args.ylim,
+            fixed_r=args.fixed_r
         )
     else:
         print("No data to visualize")
@@ -52,7 +52,7 @@ def extract_k_value(filename):
         return None
 
 # Function to process a single file
-def process_file(file_path):
+def process_file(file_path, fixed_r):
     try:
         # Extract k value from filename
         k_value = extract_k_value(os.path.basename(file_path))
@@ -110,7 +110,7 @@ def process_file(file_path):
         return pd.DataFrame(columns=['r_strong', 'r_sketch', 'k_value', 'r_value', 'theta'])
 
 # Function to process all files
-def process_all_files(directory='./Estimate_sketch_r'):
+def process_all_files(directory='./Estimate_sketch_r', fixed_r=0.01):
    # Try multiple directories
     directories = [directory, '.', './output', '../output']
     
@@ -132,7 +132,7 @@ def process_all_files(directory='./Estimate_sketch_r'):
     # Process each file and combine the results
     dataframes = []
     for file in file_list:
-        df = process_file(file)
+        df = process_file(file, fixed_r)
         if not df.empty:
             dataframes.append(df)
     
@@ -145,7 +145,7 @@ def process_all_files(directory='./Estimate_sketch_r'):
     return all_data
 
 # Function to create boxplots with three subplots (small, medium, large k values)
-def create_triple_subplot_boxplot(data, selected_theta_values=[0.1, 0.01], thresholds=[32, 570], ylimits=[0.8, 0.035, 1.0]):
+def create_triple_subplot_boxplot(data, selected_theta_values=[0.1, 0.01], thresholds=[32, 570], ylimits=[0.8, 0.035, 1.0], fixed_r=0.01):
     # Ensure we have two thresholds
     if len(thresholds) < 2:
         thresholds = [32, 570]  # Default values

@@ -2,26 +2,11 @@ import os
 import yaml
 import itertools
 
-K_VALUES = [4, 8, 16, 32] + [60 + 30*i for i in range(25)]
-R_VALUES = [round(i * 0.01 + 0.001, 3) for i in range(31)]
-FIXED_K = 30  # Define this as a constant
-FIXED_R = 0.01  # Define this as a constant
-
 with open('config.yaml', 'r') as f:
     config = yaml.safe_load(f)
 
-rule all:
-    input:
-        expand(
-            os.path.join("{output_dir}", "triple_boxplot_r{fixed_r}.png"),
-            output_dir=[analysis['output_dir'] for analysis in config['analyses']],
-            fixed_r=FIXED_R
-        ),
-        expand(
-            os.path.join("{output_dir}", "dual_boxplot_k{fixed_k}.png"),
-            output_dir=[analysis['output_dir'] for analysis in config['analyses']],
-            fixed_k=FIXED_K
-        )
+K_VALUES = [4, 8, 16, 32] + [60 + 30*i for i in range(25)]
+R_VALUES = [round(i * 0.01 + 0.001, 3) for i in range(31)]
 
 def get_analysis_by_output_dir(output_dir):
     for analysis in config['analyses']:
@@ -41,11 +26,41 @@ def get_k_ylimits(output_dir):
     analysis = get_analysis_by_output_dir(output_dir)
     return analysis['plot_params']['k_variation'].get('ylimits', [0.8, 0.05, 1.0])
 
+def get_fixed_r(output_dir):
+    analysis = get_analysis_by_output_dir(output_dir)
+    return analysis['plot_params']['k_variation'].get('fixed_r') 
+
+def get_fixed_k(output_dir):
+    analysis = get_analysis_by_output_dir(output_dir)
+    return analysis['plot_params']['r_variation'].get('fixed_k') 
+
+fixed_values = {}
+for analysis in config['analyses']:
+    output_dir = analysis['output_dir']
+    fixed_k = analysis['plot_params']['r_variation'].get('fixed_k')
+    fixed_r = analysis['plot_params']['k_variation'].get('fixed_r')
+    fixed_values[output_dir] = {'fixed_k': fixed_k, 'fixed_r': fixed_r}
+
+rule all:
+    input:
+        expand(
+            os.path.join("{output_dir}", "triple_boxplot_r{fixed_r}.png"),
+            zip,
+            output_dir=[analysis['output_dir'] for analysis in config['analyses']],
+            fixed_r=[fixed_values[a['output_dir']]['fixed_r'] for a in config['analyses']]
+        ),
+        expand(
+            os.path.join("{output_dir}", "dual_boxplot_k{fixed_k}.png"),
+            zip,
+            output_dir=[analysis['output_dir'] for analysis in config['analyses']],
+            fixed_k=[fixed_values[a['output_dir']]['fixed_k'] for a in config['analyses']]
+        )
+
 rule run_simulation_k:
     input:
         fasta = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['fasta']
     output:
-        os.path.join("{output_dir}", "varing_k", f"k{{k}}_r{FIXED_R}.output")
+        os.path.join("{output_dir}", "varing_k", f"k{{k}}_r{{fixed_r}}.output")
     params:
         length = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['length'],
         start_pos = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['start_pos'],
@@ -61,7 +76,7 @@ rule run_simulation_k:
             -k {wildcards.k} \\
             -e {params.precision} \\
             -c {params.replicates} \\
-            -r {FIXED_R} \\
+            -r {wildcards.fixed_r} \\
             > {output}
         """
 
@@ -69,7 +84,7 @@ rule run_simulation_r:
     input:
         fasta = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['fasta']
     output:
-        os.path.join("{output_dir}", "varing_r", f"r{{r}}_k{FIXED_K}.output")
+        os.path.join("{output_dir}", "varing_r", f"r{{r}}_k{{fixed_k}}.output")
     params:
         length = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['length'],
         start_pos = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['start_pos'],
@@ -82,7 +97,7 @@ rule run_simulation_r:
             -i {input.fasta} \\
             -l {params.length} \\
             -s {params.start_pos} \\
-            -k {FIXED_K} \\
+            -k {wildcards.fixed_k} \\
             -e {params.precision} \\
             -c {params.replicates} \\
             -r {wildcards.r} \\
@@ -91,7 +106,10 @@ rule run_simulation_r:
 
 rule plot_k_variation:
     input:
-        files = expand(os.path.join("{{output_dir}}", "varing_k", f"k{{k}}_r{FIXED_R}.output"), k=K_VALUES)
+        files = lambda wildcards: expand(
+            os.path.join(wildcards.output_dir, "varing_k", f"k{{k}}_r{wildcards.fixed_r}.output"), 
+            k=K_VALUES
+        )
     output:
         plot = os.path.join("{output_dir}", "triple_boxplot_r{fixed_r}.png")
     params:
@@ -104,12 +122,16 @@ rule plot_k_variation:
         cd {wildcards.output_dir} && python ../boxplot_k.py \\
             -d varing_k \\
             -t {params.thresholds[0]} {params.thresholds[1]} \\
-            --ylim {params.ylimits[0]} {params.ylimits[1]} {params.ylimits[2]}
+            --ylim {params.ylimits[0]} {params.ylimits[1]} {params.ylimits[2]} \\
+            -r {wildcards.fixed_r}
         """
 
 rule plot_r_variation:
     input:
-        files = expand(os.path.join("{{output_dir}}", "varing_r", f"r{{r}}_k{FIXED_K}.output"), r=R_VALUES)
+        files = lambda wildcards: expand(
+            os.path.join(wildcards.output_dir, "varing_r", f"r{{r}}_k{wildcards.fixed_k}.output"), 
+            r=R_VALUES
+        )
     output:
         plot = os.path.join("{output_dir}", "dual_boxplot_k{fixed_k}.png")
     params:
@@ -121,7 +143,7 @@ rule plot_r_variation:
         cd {wildcards.output_dir} && python ../boxplot_r.py \\
             -d varing_r \\
             -t {params.threshold} \\
-            -k {FIXED_K}
+            -k {wildcards.fixed_k}
         """
 
 rule clean:

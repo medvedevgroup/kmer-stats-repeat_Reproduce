@@ -5,9 +5,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from glob import glob
 
-# Set fixed r value as a global variable
-fixed_r = 0.01
-
 def main():
     parser = argparse.ArgumentParser(description='K-mer Variation Boxplot')
     parser.add_argument('-d', '--directory', type=str, help='Input directory', required=True)
@@ -15,15 +12,18 @@ def main():
                         help='Thresholds for splitting k values')
     parser.add_argument('--ylim', nargs='+', type=float, default=[0.8, 0.05, 1.0],
                         help='Maximum y-axis limits for the three panels [small_k, medium_k, large_k]')
+    parser.add_argument('-r', '--fixed_r', type=float, default=0.01,
+                        help='Fixed r value used in the filenames')
     args = parser.parse_args()
 
-    all_data = process_all_files(args.directory)
+    all_data = process_all_files(args.directory, args.fixed_r)
     
     if all_data is not None:
         create_triple_subplot_boxplot(
             all_data, 
             thresholds=args.thresholds,
-            ylimits=args.ylim
+            ylimits=args.ylim,
+            fixed_r=args.fixed_r
         )
 
 def extract_k_value(filename):
@@ -67,7 +67,7 @@ def process_file(file_path):
         print(f"Error processing file {file_path}: {e}")
         return pd.DataFrame()
 
-def process_all_files(directory='.'):
+def process_all_files(directory='.', fixed_r=0.01):
     # Print the directory we're searching in for debugging
     print(f"Searching for files in directory: {directory}")
     
@@ -122,7 +122,7 @@ def process_all_files(directory='.'):
     all_data = pd.concat(dataframes, ignore_index=True)
     return all_data
 
-def create_triple_subplot_boxplot(data, thresholds=[32, 630], ylimits=[0.8, 0.05, 1.0]):
+def create_triple_subplot_boxplot(data, thresholds=[32, 630], ylimits=[0.8, 0.05, 1.0], fixed_r=0.01):
     # Convert thresholds to integers for cleaner display
     thresholds = [int(t) for t in thresholds]
     

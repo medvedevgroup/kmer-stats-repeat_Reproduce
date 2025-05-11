@@ -1,0 +1,68 @@
+analyses:
+  - name: "chr6_RepeatMasker"
+    output_dir: "chr6_RepeatMasker"
+    fasta: "../sequence_data/chr6.fasta"
+    simulation_params:
+      length: 100000
+      start_pos: 559707
+      precision: 1e-10
+      replicates: 100
+      r_values: [0.001, 0.031, 0.061, 0.091, 0.121, 0.151, 0.181, 0.211, 0.241, 0.271, 0.301, 0.331, 0.361]
+      k_values: [8,10,12,14,16,18,20,22,24,26,28,30,32, 34, 36, 38, 40, 42, 44, 46,48,50,52,54,56,58,60,62,64]
+    plot_params:
+       heatmap:
+        title: "EASY"
+        cmap: "Greys"
+        annotate: True
+        figsize: "20,10"
+
+  - name: "chr21_centromere"
+    output_dir: "chr21_centromere"
+    fasta: "../sequence_data/chr21.fasta"
+    simulation_params:
+      length: 100000
+      start_pos: 10962854
+      precision: 1e-10
+      replicates: 100
+      r_values: [0.001, 0.031, 0.061, 0.091, 0.121, 0.151, 0.181, 0.211, 0.241, 0.271, 0.301, 0.331, 0.361]
+      k_values: [8,10,12,14,16,18,20,22,24,26,28,30,32, 34, 36, 38, 40, 42, 44, 46,48,50,52,54,56,58,60,62,64]
+    plot_params:
+       heatmap:
+        title: "HARDEST"
+        cmap: "Greys"
+        annotate: True
+        figsize: "20,10"
+
+  - name: "chrY_SimpleRepeat" # chrY:22420785-22423059,
+    output_dir: "chrY_SimpleRepeat"
+    fasta: "../sequence_data/chrY.fasta"
+    simulation_params:
+      length: 2264
+      start_pos: 22420785
+      precision: 1e-10
+      replicates: 100
+      r_values: [0.001, 0.031, 0.061, 0.091, 0.121, 0.151, 0.181, 0.211, 0.241, 0.271, 0.301, 0.331, 0.361]
+      k_values: [8,10,12,14,16,18,20,22,24,26,28,30,32]
+    plot_params:
+       heatmap:
+        title: "HARD"
+        cmap: "Greys"
+        annotate: True
+        figsize: "10,10"
+
+  - name: "chrY_RBMY1A1" # chrY:22410155-22424578,
+    output_dir: "chrY_RBMY1A1"
+    fasta: "../sequence_data/chrY.fasta"
+    simulation_params:
+      length: 14400
+      start_pos: 22410155
+      precision: 1e-10
+      replicates: 100
+      r_values: [0.001, 0.031, 0.061, 0.091, 0.121, 0.151, 0.181, 0.211, 0.241, 0.271, 0.301, 0.331, 0.361]
+      k_values: [8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40]
+    plot_params:
+       heatmap:
+        title: "MEDIUM"
+        cmap: "Greys"
+        annotate: True
+        figsize: "10,10"

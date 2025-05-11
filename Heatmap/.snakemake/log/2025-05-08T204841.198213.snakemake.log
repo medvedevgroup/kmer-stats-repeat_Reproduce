@@ -1,0 +1,2105 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+combine_results         3
+generate_heatmap        3
+run_simulation        150
+total                 157
+
+Select jobs to execute...
+Execute 100 jobs...
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.241_k128.txt
+    jobid: 136
+    reason: Missing output files: chr21_centromere/results/result_r0.241_k128.txt
+    wildcards: output_dir=chr21_centromere, r=0.241, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.241_k128.txt
+    jobid: 296
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.241_k128.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.241, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.091_k128.txt
+    jobid: 106
+    reason: Missing output files: chr21_centromere/results/result_r0.091_k128.txt
+    wildcards: output_dir=chr21_centromere, r=0.091, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.181_k4.txt
+    jobid: 279
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.181_k4.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.181, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k4.txt
+    jobid: 229
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k4.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k4.txt
+    jobid: 199
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k4.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.331_k4.txt
+    jobid: 309
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.331_k4.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.331, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.181_k4.txt
+    jobid: 119
+    reason: Missing output files: chr21_centromere/results/result_r0.181_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.181, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k8.txt
+    jobid: 212
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.241_k8.txt
+    jobid: 292
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.241_k8.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.241, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.331_k128.txt
+    jobid: 314
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.331_k128.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.331, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.031_k128.txt
+    jobid: 94
+    reason: Missing output files: chr21_centromere/results/result_r0.031_k128.txt
+    wildcards: output_dir=chr21_centromere, r=0.031, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.181_k128.txt
+    jobid: 284
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.181_k128.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.181, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.181_k128.txt
+    jobid: 124
+    reason: Missing output files: chr21_centromere/results/result_r0.181_k128.txt
+    wildcards: output_dir=chr21_centromere, r=0.181, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.331_k128.txt
+    jobid: 154
+    reason: Missing output files: chr21_centromere/results/result_r0.331_k128.txt
+    wildcards: output_dir=chr21_centromere, r=0.331, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.271_k4.txt
+    jobid: 297
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.271_k4.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.271, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.271_k4.txt
+    jobid: 137
+    reason: Missing output files: chr21_centromere/results/result_r0.271_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.271, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k4.txt
+    jobid: 217
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k4.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k8.txt
+    jobid: 230
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.181_k8.txt
+    jobid: 280
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.181_k8.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.181, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k8.txt
+    jobid: 200
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.331_k8.txt
+    jobid: 310
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.331_k8.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.331, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.181_k8.txt
+    jobid: 120
+    reason: Missing output files: chr21_centromere/results/result_r0.181_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.181, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.331_k8.txt
+    jobid: 150
+    reason: Missing output files: chr21_centromere/results/result_r0.331_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.331, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k16.txt
+    jobid: 213
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.241_k16.txt
+    jobid: 293
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.241_k16.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.241, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.241_k16.txt
+    jobid: 133
+    reason: Missing output files: chr21_centromere/results/result_r0.241_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.241, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.061_k64.txt
+    jobid: 179
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.061_k64.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.061, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k64.txt
+    jobid: 239
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k64.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k64.txt
+    jobid: 209
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k64.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.061_k64.txt
+    jobid: 259
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.061_k64.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.061, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.211_k64.txt
+    jobid: 289
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.211_k64.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.211, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.361_k64.txt
+    jobid: 319
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.361_k64.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.361, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.061_k64.txt
+    jobid: 99
+    reason: Missing output files: chr21_centromere/results/result_r0.061_k64.txt
+    wildcards: output_dir=chr21_centromere, r=0.061, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.211_k64.txt
+    jobid: 129
+    reason: Missing output files: chr21_centromere/results/result_r0.211_k64.txt
+    wildcards: output_dir=chr21_centromere, r=0.211, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.361_k64.txt
+    jobid: 159
+    reason: Missing output files: chr21_centromere/results/result_r0.361_k64.txt
+    wildcards: output_dir=chr21_centromere, r=0.361, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k128.txt
+    jobid: 222
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k128.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.121_k128.txt
+    jobid: 272
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.121_k128.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.121, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.121_k128.txt
+    jobid: 192
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.121_k128.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.121, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.271_k128.txt
+    jobid: 302
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.271_k128.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.271, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.121_k128.txt
+    jobid: 112
+    reason: Missing output files: chr21_centromere/results/result_r0.121_k128.txt
+    wildcards: output_dir=chr21_centromere, r=0.121, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.271_k128.txt
+    jobid: 142
+    reason: Missing output files: chr21_centromere/results/result_r0.271_k128.txt
+    wildcards: output_dir=chr21_centromere, r=0.271, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k4.txt
+    jobid: 205
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k4.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.361_k4.txt
+    jobid: 315
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.361_k4.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.361, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k4.txt
+    jobid: 235
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k4.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.211_k4.txt
+    jobid: 285
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.211_k4.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.211, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.211_k4.txt
+    jobid: 125
+    reason: Missing output files: chr21_centromere/results/result_r0.211_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.211, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.361_k4.txt
+    jobid: 155
+    reason: Missing output files: chr21_centromere/results/result_r0.361_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.361, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.271_k8.txt
+    jobid: 298
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.271_k8.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.271, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.271_k8.txt
+    jobid: 138
+    reason: Missing output files: chr21_centromere/results/result_r0.271_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.271, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k8.txt
+    jobid: 218
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k16.txt
+    jobid: 231
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.181_k16.txt
+    jobid: 281
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.181_k16.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.181, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k16.txt
+    jobid: 201
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.181_k16.txt
+    jobid: 121
+    reason: Missing output files: chr21_centromere/results/result_r0.181_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.181, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.331_k16.txt
+    jobid: 311
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.331_k16.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.331, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.331_k16.txt
+    jobid: 151
+    reason: Missing output files: chr21_centromere/results/result_r0.331_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.331, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k32.txt
+    jobid: 214
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.241_k32.txt
+    jobid: 294
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.241_k32.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.241, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.241_k32.txt
+    jobid: 134
+    reason: Missing output files: chr21_centromere/results/result_r0.241_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.241, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.301_k64.txt
+    jobid: 147
+    reason: Missing output files: chr21_centromere/results/result_r0.301_k64.txt
+    wildcards: output_dir=chr21_centromere, r=0.301, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.151_k64.txt
+    jobid: 197
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.151_k64.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.001_k64.txt
+    jobid: 247
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.001_k64.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.001, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.001_k64.txt
+    jobid: 167
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.001_k64.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.001, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.301_k64.txt
+    jobid: 227
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.301_k64.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.301, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.151_k64.txt
+    jobid: 277
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.151_k64.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.151, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.301_k64.txt
+    jobid: 307
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.301_k64.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.301, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.001_k64.txt
+    jobid: 87
+    reason: Missing output files: chr21_centromere/results/result_r0.001_k64.txt
+    wildcards: output_dir=chr21_centromere, r=0.001, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.151_k64.txt
+    jobid: 117
+    reason: Missing output files: chr21_centromere/results/result_r0.151_k64.txt
+    wildcards: output_dir=chr21_centromere, r=0.151, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.061_k128.txt
+    jobid: 180
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.061_k128.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.061, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:41 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k128.txt
+    jobid: 240
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k128.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k128.txt
+    jobid: 210
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k128.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.061_k128.txt
+    jobid: 260
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.061_k128.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.061, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.211_k128.txt
+    jobid: 290
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.211_k128.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.211, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.361_k128.txt
+    jobid: 320
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.361_k128.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.361, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.061_k128.txt
+    jobid: 100
+    reason: Missing output files: chr21_centromere/results/result_r0.061_k128.txt
+    wildcards: output_dir=chr21_centromere, r=0.061, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.211_k128.txt
+    jobid: 130
+    reason: Missing output files: chr21_centromere/results/result_r0.211_k128.txt
+    wildcards: output_dir=chr21_centromere, r=0.211, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.361_k128.txt
+    jobid: 160
+    reason: Missing output files: chr21_centromere/results/result_r0.361_k128.txt
+    wildcards: output_dir=chr21_centromere, r=0.361, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k8.txt
+    jobid: 206
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.361_k8.txt
+    jobid: 316
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.361_k8.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.361, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k8.txt
+    jobid: 236
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.211_k8.txt
+    jobid: 286
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.211_k8.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.211, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k16.txt
+    jobid: 219
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.091_k64.txt
+    jobid: 265
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.091_k64.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.091, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.091_k64.txt
+    jobid: 105
+    reason: Missing output files: chr21_centromere/results/result_r0.091_k64.txt
+    wildcards: output_dir=chr21_centromere, r=0.091, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.091_k64.txt
+    jobid: 185
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.091_k64.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.091, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.241_k64.txt
+    jobid: 295
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.241_k64.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.241, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.241_k64.txt
+    jobid: 135
+    reason: Missing output files: chr21_centromere/results/result_r0.241_k64.txt
+    wildcards: output_dir=chr21_centromere, r=0.241, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.151_k128.txt
+    jobid: 198
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.151_k128.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.001_k128.txt
+    jobid: 248
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.001_k128.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.001, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.001_k128.txt
+    jobid: 168
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.001_k128.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.001, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.301_k128.txt
+    jobid: 228
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.301_k128.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.301, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.151_k128.txt
+    jobid: 278
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.151_k128.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.151, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.301_k128.txt
+    jobid: 308
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.301_k128.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.301, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.001_k128.txt
+    jobid: 88
+    reason: Missing output files: chr21_centromere/results/result_r0.001_k128.txt
+    wildcards: output_dir=chr21_centromere, r=0.001, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.151_k128.txt
+    jobid: 118
+    reason: Missing output files: chr21_centromere/results/result_r0.151_k128.txt
+    wildcards: output_dir=chr21_centromere, r=0.151, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.301_k128.txt
+    jobid: 148
+    reason: Missing output files: chr21_centromere/results/result_r0.301_k128.txt
+    wildcards: output_dir=chr21_centromere, r=0.301, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.241_k4.txt
+    jobid: 291
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.241_k4.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.241, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.241_k4.txt
+    jobid: 131
+    reason: Missing output files: chr21_centromere/results/result_r0.241_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.241, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k4.txt
+    jobid: 211
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k4.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=4
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:42 2025]
+Finished job 229.
+1 of 157 steps (1%) done
+[Thu May  8 20:48:42 2025]
+Finished job 230.
+2 of 157 steps (1%) done
+[Thu May  8 20:48:42 2025]
+Finished job 199.
+3 of 157 steps (2%) done
+[Thu May  8 20:48:42 2025]
+Finished job 217.
+4 of 157 steps (3%) done
+[Thu May  8 20:48:42 2025]
+Finished job 209.
+5 of 157 steps (3%) done
+Select jobs to execute...
+Execute 5 jobs...
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.271_k16.txt
+    jobid: 299
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.271_k16.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.271, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.031_k128.txt
+    jobid: 254
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.031_k128.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.031, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k128.txt
+    jobid: 204
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k128.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.031_k128.txt
+    jobid: 174
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.031_k128.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.331_k64.txt
+    jobid: 313
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.331_k64.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.331, k=64
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:42 2025]
+Finished job 222.
+6 of 157 steps (4%) done
+[Thu May  8 20:48:42 2025]
+Finished job 239.
+7 of 157 steps (4%) done
+[Thu May  8 20:48:42 2025]
+Finished job 235.
+8 of 157 steps (5%) done
+[Thu May  8 20:48:42 2025]
+Finished job 218.
+9 of 157 steps (6%) done
+[Thu May  8 20:48:42 2025]
+Finished job 201.
+10 of 157 steps (6%) done
+[Thu May  8 20:48:42 2025]
+Finished job 205.
+11 of 157 steps (7%) done
+[Thu May  8 20:48:42 2025]
+Finished job 200.
+12 of 157 steps (8%) done
+Select jobs to execute...
+Execute 7 jobs...
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k32.txt
+    jobid: 220
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.271_k16.txt
+    jobid: 139
+    reason: Missing output files: chr21_centromere/results/result_r0.271_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.271, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k64.txt
+    jobid: 215
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k64.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k128.txt
+    jobid: 234
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k128.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.031_k64.txt
+    jobid: 173
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.031_k64.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.331_k32.txt
+    jobid: 312
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.331_k32.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.331, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:42 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.271_k32.txt
+    jobid: 140
+    reason: Missing output files: chr21_centromere/results/result_r0.271_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.271, k=32
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:42 2025]
+Finished job 214.
+13 of 157 steps (8%) done
+[Thu May  8 20:48:42 2025]
+Finished job 212.
+14 of 157 steps (9%) done
+[Thu May  8 20:48:42 2025]
+Finished job 231.
+15 of 157 steps (10%) done
+[Thu May  8 20:48:42 2025]
+Finished job 213.
+16 of 157 steps (10%) done
+Select jobs to execute...
+Execute 4 jobs...
+
+[Thu May  8 20:48:43 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k64.txt
+    jobid: 233
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k64.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:43 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.181_k32.txt
+    jobid: 282
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.181_k32.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.181, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:43 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.181_k64.txt
+    jobid: 283
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.181_k64.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.181, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:43 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.271_k32.txt
+    jobid: 300
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.271_k32.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.271, k=32
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:43 2025]
+Finished job 236.
+17 of 157 steps (11%) done
+[Thu May  8 20:48:43 2025]
+Finished job 179.
+18 of 157 steps (11%) done
+[Thu May  8 20:48:43 2025]
+Finished job 197.
+19 of 157 steps (12%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Thu May  8 20:48:43 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.181_k64.txt
+    jobid: 123
+    reason: Missing output files: chr21_centromere/results/result_r0.181_k64.txt
+    wildcards: output_dir=chr21_centromere, r=0.181, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:43 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.121_k64.txt
+    jobid: 191
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.121_k64.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.121, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:43 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k32.txt
+    jobid: 202
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=32
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:43 2025]
+Finished job 227.
+20 of 157 steps (13%) done
+[Thu May  8 20:48:43 2025]
+Finished job 174.
+21 of 157 steps (13%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Thu May  8 20:48:43 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.211_k8.txt
+    jobid: 126
+    reason: Missing output files: chr21_centromere/results/result_r0.211_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.211, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:43 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.211_k32.txt
+    jobid: 128
+    reason: Missing output files: chr21_centromere/results/result_r0.211_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.211, k=32
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:43 2025]
+Finished job 180.
+22 of 157 steps (14%) done
+[Thu May  8 20:48:43 2025]
+Finished job 192.
+23 of 157 steps (15%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Thu May  8 20:48:43 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.361_k32.txt
+    jobid: 158
+    reason: Missing output files: chr21_centromere/results/result_r0.361_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.361, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:43 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.271_k64.txt
+    jobid: 301
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.271_k64.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.271, k=64
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:43 2025]
+Finished job 173.
+24 of 157 steps (15%) done
+[Thu May  8 20:48:43 2025]
+Finished job 185.
+25 of 157 steps (16%) done
+[Thu May  8 20:48:43 2025]
+Finished job 240.
+26 of 157 steps (17%) done
+[Thu May  8 20:48:43 2025]
+Finished job 204.
+27 of 157 steps (17%) done
+Select jobs to execute...
+Execute 4 jobs...
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.361_k32.txt
+    jobid: 318
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.361_k32.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.361, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k32.txt
+    jobid: 208
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k64.txt
+    jobid: 203
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k64.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k16.txt
+    jobid: 207
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=16
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:44 2025]
+Finished job 211.
+28 of 157 steps (18%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k128.txt
+    jobid: 216
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k128.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=128
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:44 2025]
+Finished job 198.
+29 of 157 steps (18%) done
+[Thu May  8 20:48:44 2025]
+Finished job 215.
+30 of 157 steps (19%) done
+[Thu May  8 20:48:44 2025]
+Finished job 167.
+31 of 157 steps (20%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k16.txt
+    jobid: 237
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k32.txt
+    jobid: 232
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.211_k16.txt
+    jobid: 287
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.211_k16.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.211, k=16
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:44 2025]
+Finished job 206.
+32 of 157 steps (20%) done
+[Thu May  8 20:48:44 2025]
+Finished job 210.
+33 of 157 steps (21%) done
+[Thu May  8 20:48:44 2025]
+Finished job 228.
+34 of 157 steps (22%) done
+[Thu May  8 20:48:44 2025]
+Finished job 233.
+35 of 157 steps (22%) done
+[Thu May  8 20:48:44 2025]
+Finished job 202.
+36 of 157 steps (23%) done
+Select jobs to execute...
+Execute 5 jobs...
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.361_k16.txt
+    jobid: 157
+    reason: Missing output files: chr21_centromere/results/result_r0.361_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.361, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.361_k16.txt
+    jobid: 317
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.361_k16.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.361, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.211_k16.txt
+    jobid: 127
+    reason: Missing output files: chr21_centromere/results/result_r0.211_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.211, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.361_k8.txt
+    jobid: 156
+    reason: Missing output files: chr21_centromere/results/result_r0.361_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.361, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.181_k32.txt
+    jobid: 122
+    reason: Missing output files: chr21_centromere/results/result_r0.181_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.181, k=32
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:44 2025]
+Finished job 219.
+37 of 157 steps (24%) done
+[Thu May  8 20:48:44 2025]
+Finished job 297.
+38 of 157 steps (24%) done
+[Thu May  8 20:48:44 2025]
+Finished job 168.
+39 of 157 steps (25%) done
+[Thu May  8 20:48:44 2025]
+Finished job 234.
+40 of 157 steps (25%) done
+[Thu May  8 20:48:44 2025]
+Finished job 220.
+41 of 157 steps (26%) done
+Select jobs to execute...
+Execute 5 jobs...
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.091_k128.txt
+    jobid: 186
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.091_k128.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.091, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.091_k128.txt
+    jobid: 266
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.091_k128.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.091, k=128
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.331_k4.txt
+    jobid: 149
+    reason: Missing output files: chr21_centromere/results/result_r0.331_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.331, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k64.txt
+    jobid: 221
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k64.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=64
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:44 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.271_k64.txt
+    jobid: 141
+    reason: Missing output files: chr21_centromere/results/result_r0.271_k64.txt
+    wildcards: output_dir=chr21_centromere, r=0.271, k=64
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Thu May  8 20:48:44 2025]
+Finished job 208.
+42 of 157 steps (27%) done
+Execute 1 jobs...
+
+[Thu May  8 20:48:45 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.331_k32.txt
+    jobid: 152
+    reason: Missing output files: chr21_centromere/results/result_r0.331_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.331, k=32
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Thu May  8 20:48:45 2025]
+Finished job 191.
+43 of 157 steps (27%) done
+Execute 1 jobs...
+
+[Thu May  8 20:48:45 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.121_k64.txt
+    jobid: 271
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.121_k64.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.121, k=64
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:45 2025]
+Finished job 237.
+44 of 157 steps (28%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 20:48:45 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.121_k64.txt
+    jobid: 111
+    reason: Missing output files: chr21_centromere/results/result_r0.121_k64.txt
+    wildcards: output_dir=chr21_centromere, r=0.121, k=64
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:45 2025]
+Finished job 216.
+45 of 157 steps (29%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 20:48:45 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.331_k64.txt
+    jobid: 153
+    reason: Missing output files: chr21_centromere/results/result_r0.331_k64.txt
+    wildcards: output_dir=chr21_centromere, r=0.331, k=64
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:45 2025]
+Finished job 203.
+46 of 157 steps (29%) done
+[Thu May  8 20:48:45 2025]
+Finished job 298.
+47 of 157 steps (30%) done
+[Thu May  8 20:48:45 2025]
+Finished job 232.
+48 of 157 steps (31%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Thu May  8 20:48:45 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.241_k8.txt
+    jobid: 132
+    reason: Missing output files: chr21_centromere/results/result_r0.241_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.241, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:45 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k32.txt
+    jobid: 238
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 20:48:45 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.211_k32.txt
+    jobid: 288
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.211_k32.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.211, k=32
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Thu May  8 20:48:46 2025]
+Finished job 207.
+49 of 157 steps (31%) done
+Execute 1 jobs...
+
+[Thu May  8 20:48:46 2025]
+localrule run_simulation:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/results/result_r0.031_k64.txt
+    jobid: 253
+    reason: Missing output files: chrY_RBMY1A1/results/result_r0.031_k64.txt
+    wildcards: output_dir=chrY_RBMY1A1, r=0.031, k=64
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:46 2025]
+Finished job 311.
+50 of 157 steps (32%) done
+[Thu May  8 20:48:46 2025]
+Finished job 319.
+51 of 157 steps (32%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 20:48:46 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/results/result_r0.031_k64.txt
+    jobid: 93
+    reason: Missing output files: chr21_centromere/results/result_r0.031_k64.txt
+    wildcards: output_dir=chr21_centromere, r=0.031, k=64
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:46 2025]
+Finished job 281.
+52 of 157 steps (33%) done
+[Thu May  8 20:48:46 2025]
+Finished job 289.
+53 of 157 steps (34%) done
+[Thu May  8 20:48:46 2025]
+Finished job 315.
+54 of 157 steps (34%) done
+[Thu May  8 20:48:46 2025]
+Finished job 310.
+55 of 157 steps (35%) done
+[Thu May  8 20:48:46 2025]
+Finished job 221.
+56 of 157 steps (36%) done
+[Thu May  8 20:48:46 2025]
+Finished job 302.
+57 of 157 steps (36%) done
+[Thu May  8 20:48:46 2025]
+Finished job 285.
+58 of 157 steps (37%) done
+[Thu May  8 20:48:46 2025]
+Finished job 308.
+59 of 157 steps (38%) done
+[Thu May  8 20:48:47 2025]
+Finished job 247.
+60 of 157 steps (38%) done
+[Thu May  8 20:48:47 2025]
+Finished job 299.
+61 of 157 steps (39%) done
+[Thu May  8 20:48:47 2025]
+Finished job 280.
+62 of 157 steps (39%) done
+[Thu May  8 20:48:47 2025]
+Finished job 279.
+63 of 157 steps (40%) done
+[Thu May  8 20:48:47 2025]
+Finished job 186.
+64 of 157 steps (41%) done
+[Thu May  8 20:48:47 2025]
+Finished job 248.
+65 of 157 steps (41%) done
+[Thu May  8 20:48:47 2025]
+Finished job 292.
+66 of 157 steps (42%) done
+[Thu May  8 20:48:47 2025]
+Finished job 254.
+67 of 157 steps (43%) done
+[Thu May  8 20:48:47 2025]
+Finished job 238.
+68 of 157 steps (43%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 20:48:47 2025]
+localrule combine_results:
+    input: chrY_SimpleRepeat/results/result_r0.001_k4.txt, chrY_SimpleRepeat/results/result_r0.001_k8.txt, chrY_SimpleRepeat/results/result_r0.001_k16.txt, chrY_SimpleRepeat/results/result_r0.001_k32.txt, chrY_SimpleRepeat/results/result_r0.001_k64.txt, chrY_SimpleRepeat/results/result_r0.001_k128.txt, chrY_SimpleRepeat/results/result_r0.031_k4.txt, chrY_SimpleRepeat/results/result_r0.031_k8.txt, chrY_SimpleRepeat/results/result_r0.031_k16.txt, chrY_SimpleRepeat/results/result_r0.031_k32.txt, chrY_SimpleRepeat/results/result_r0.031_k64.txt, chrY_SimpleRepeat/results/result_r0.031_k128.txt, chrY_SimpleRepeat/results/result_r0.061_k4.txt, chrY_SimpleRepeat/results/result_r0.061_k8.txt, chrY_SimpleRepeat/results/result_r0.061_k16.txt, chrY_SimpleRepeat/results/result_r0.061_k32.txt, chrY_SimpleRepeat/results/result_r0.061_k64.txt, chrY_SimpleRepeat/results/result_r0.061_k128.txt, chrY_SimpleRepeat/results/result_r0.091_k4.txt, chrY_SimpleRepeat/results/result_r0.091_k8.txt, chrY_SimpleRepeat/results/result_r0.091_k16.txt, chrY_SimpleRepeat/results/result_r0.091_k32.txt, chrY_SimpleRepeat/results/result_r0.091_k64.txt, chrY_SimpleRepeat/results/result_r0.091_k128.txt, chrY_SimpleRepeat/results/result_r0.121_k4.txt, chrY_SimpleRepeat/results/result_r0.121_k8.txt, chrY_SimpleRepeat/results/result_r0.121_k16.txt, chrY_SimpleRepeat/results/result_r0.121_k32.txt, chrY_SimpleRepeat/results/result_r0.121_k64.txt, chrY_SimpleRepeat/results/result_r0.121_k128.txt, chrY_SimpleRepeat/results/result_r0.151_k4.txt, chrY_SimpleRepeat/results/result_r0.151_k8.txt, chrY_SimpleRepeat/results/result_r0.151_k16.txt, chrY_SimpleRepeat/results/result_r0.151_k32.txt, chrY_SimpleRepeat/results/result_r0.151_k64.txt, chrY_SimpleRepeat/results/result_r0.151_k128.txt, chrY_SimpleRepeat/results/result_r0.181_k4.txt, chrY_SimpleRepeat/results/result_r0.181_k8.txt, chrY_SimpleRepeat/results/result_r0.181_k16.txt, chrY_SimpleRepeat/results/result_r0.181_k32.txt, chrY_SimpleRepeat/results/result_r0.181_k64.txt, chrY_SimpleRepeat/results/result_r0.181_k128.txt, chrY_SimpleRepeat/results/result_r0.211_k4.txt, chrY_SimpleRepeat/results/result_r0.211_k8.txt, chrY_SimpleRepeat/results/result_r0.211_k16.txt, chrY_SimpleRepeat/results/result_r0.211_k32.txt, chrY_SimpleRepeat/results/result_r0.211_k64.txt, chrY_SimpleRepeat/results/result_r0.211_k128.txt, chrY_SimpleRepeat/results/result_r0.241_k4.txt, chrY_SimpleRepeat/results/result_r0.241_k8.txt, chrY_SimpleRepeat/results/result_r0.241_k16.txt, chrY_SimpleRepeat/results/result_r0.241_k32.txt, chrY_SimpleRepeat/results/result_r0.241_k64.txt, chrY_SimpleRepeat/results/result_r0.241_k128.txt, chrY_SimpleRepeat/results/result_r0.271_k4.txt, chrY_SimpleRepeat/results/result_r0.271_k8.txt, chrY_SimpleRepeat/results/result_r0.271_k16.txt, chrY_SimpleRepeat/results/result_r0.271_k32.txt, chrY_SimpleRepeat/results/result_r0.271_k64.txt, chrY_SimpleRepeat/results/result_r0.271_k128.txt, chrY_SimpleRepeat/results/result_r0.301_k4.txt, chrY_SimpleRepeat/results/result_r0.301_k8.txt, chrY_SimpleRepeat/results/result_r0.301_k16.txt, chrY_SimpleRepeat/results/result_r0.301_k32.txt, chrY_SimpleRepeat/results/result_r0.301_k64.txt, chrY_SimpleRepeat/results/result_r0.301_k128.txt, chrY_SimpleRepeat/results/result_r0.331_k4.txt, chrY_SimpleRepeat/results/result_r0.331_k8.txt, chrY_SimpleRepeat/results/result_r0.331_k16.txt, chrY_SimpleRepeat/results/result_r0.331_k32.txt, chrY_SimpleRepeat/results/result_r0.331_k64.txt, chrY_SimpleRepeat/results/result_r0.331_k128.txt, chrY_SimpleRepeat/results/result_r0.361_k4.txt, chrY_SimpleRepeat/results/result_r0.361_k8.txt, chrY_SimpleRepeat/results/result_r0.361_k16.txt, chrY_SimpleRepeat/results/result_r0.361_k32.txt, chrY_SimpleRepeat/results/result_r0.361_k64.txt, chrY_SimpleRepeat/results/result_r0.361_k128.txt
+    output: chrY_SimpleRepeat/all_results.csv
+    jobid: 162
+    reason: Input files updated by another job: chrY_SimpleRepeat/results/result_r0.271_k64.txt, chrY_SimpleRepeat/results/result_r0.001_k64.txt, chrY_SimpleRepeat/results/result_r0.151_k64.txt, chrY_SimpleRepeat/results/result_r0.181_k4.txt, chrY_SimpleRepeat/results/result_r0.031_k64.txt, chrY_SimpleRepeat/results/result_r0.331_k32.txt, chrY_SimpleRepeat/results/result_r0.271_k16.txt, chrY_SimpleRepeat/results/result_r0.091_k64.txt, chrY_SimpleRepeat/results/result_r0.211_k16.txt, chrY_SimpleRepeat/results/result_r0.271_k128.txt, chrY_SimpleRepeat/results/result_r0.361_k16.txt, chrY_SimpleRepeat/results/result_r0.151_k128.txt, chrY_SimpleRepeat/results/result_r0.181_k8.txt, chrY_SimpleRepeat/results/result_r0.241_k32.txt, chrY_SimpleRepeat/results/result_r0.001_k128.txt, chrY_SimpleRepeat/results/result_r0.271_k32.txt, chrY_SimpleRepeat/results/result_r0.301_k128.txt, chrY_SimpleRepeat/results/result_r0.211_k128.txt, chrY_SimpleRepeat/results/result_r0.181_k128.txt, chrY_SimpleRepeat/results/result_r0.361_k8.txt, chrY_SimpleRepeat/results/result_r0.361_k4.txt, chrY_SimpleRepeat/results/result_r0.211_k32.txt, chrY_SimpleRepeat/results/result_r0.211_k64.txt, chrY_SimpleRepeat/results/result_r0.331_k8.txt, chrY_SimpleRepeat/results/result_r0.361_k64.txt, chrY_SimpleRepeat/results/result_r0.181_k32.txt, chrY_SimpleRepeat/results/result_r0.211_k4.txt, chrY_SimpleRepeat/results/result_r0.181_k16.txt, chrY_SimpleRepeat/results/result_r0.331_k4.txt, chrY_SimpleRepeat/results/result_r0.241_k8.txt, chrY_SimpleRepeat/results/result_r0.241_k16.txt, chrY_SimpleRepeat/results/result_r0.121_k128.txt, chrY_SimpleRepeat/results/result_r0.061_k64.txt, chrY_SimpleRepeat/results/result_r0.121_k64.txt, chrY_SimpleRepeat/results/result_r0.271_k8.txt, chrY_SimpleRepeat/results/result_r0.241_k64.txt, chrY_SimpleRepeat/results/result_r0.241_k128.txt, chrY_SimpleRepeat/results/result_r0.301_k64.txt, chrY_SimpleRepeat/results/result_r0.031_k128.txt, chrY_SimpleRepeat/results/result_r0.241_k4.txt, chrY_SimpleRepeat/results/result_r0.271_k4.txt, chrY_SimpleRepeat/results/result_r0.331_k16.txt, chrY_SimpleRepeat/results/result_r0.361_k32.txt, chrY_SimpleRepeat/results/result_r0.361_k128.txt, chrY_SimpleRepeat/results/result_r0.091_k128.txt, chrY_SimpleRepeat/results/result_r0.331_k128.txt, chrY_SimpleRepeat/results/result_r0.181_k64.txt, chrY_SimpleRepeat/results/result_r0.211_k8.txt, chrY_SimpleRepeat/results/result_r0.331_k64.txt, chrY_SimpleRepeat/results/result_r0.061_k128.txt; Set of input files has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:47 2025]
+Finished job 260.
+69 of 157 steps (44%) done
+[Thu May  8 20:48:48 2025]
+Finished job 309.
+70 of 157 steps (45%) done
+[Thu May  8 20:48:48 2025]
+Finished job 284.
+71 of 157 steps (45%) done
+[Thu May  8 20:48:48 2025]
+Finished job 291.
+72 of 157 steps (46%) done
+[Thu May  8 20:48:48 2025]
+Finished job 307.
+73 of 157 steps (46%) done
+[Thu May  8 20:48:48 2025]
+Finished job 282.
+74 of 157 steps (47%) done
+[Thu May  8 20:48:49 2025]
+Finished job 259.
+75 of 157 steps (48%) done
+[Thu May  8 20:48:49 2025]
+Finished job 301.
+76 of 157 steps (48%) done
+[Thu May  8 20:48:49 2025]
+Finished job 162.
+77 of 157 steps (49%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 20:48:49 2025]
+localrule generate_heatmap:
+    input: chrY_SimpleRepeat/all_results.csv
+    output: chrY_SimpleRepeat/heatmap_deviation.png
+    jobid: 161
+    reason: Input files updated by another job: chrY_SimpleRepeat/all_results.csv
+    wildcards: output_dir=chrY_SimpleRepeat
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:49 2025]
+Finished job 287.
+78 of 157 steps (50%) done
+[Thu May  8 20:48:49 2025]
+Finished job 314.
+79 of 157 steps (50%) done
+[Thu May  8 20:48:49 2025]
+Finished job 316.
+80 of 157 steps (51%) done
+[Thu May  8 20:48:49 2025]
+Finished job 277.
+81 of 157 steps (52%) done
+[Thu May  8 20:48:49 2025]
+Finished job 286.
+82 of 157 steps (52%) done
+[Thu May  8 20:48:50 2025]
+Finished job 293.
+83 of 157 steps (53%) done
+[Thu May  8 20:48:50 2025]
+Finished job 272.
+84 of 157 steps (54%) done
+[Thu May  8 20:48:50 2025]
+Finished job 318.
+85 of 157 steps (54%) done
+[Thu May  8 20:48:50 2025]
+Finished job 294.
+86 of 157 steps (55%) done
+[Thu May  8 20:48:50 2025]
+Finished job 317.
+87 of 157 steps (55%) done
+[Thu May  8 20:48:50 2025]
+Finished job 253.
+88 of 157 steps (56%) done
+[Thu May  8 20:48:50 2025]
+Finished job 295.
+89 of 157 steps (57%) done
+[Thu May  8 20:48:51 2025]
+Finished job 283.
+90 of 157 steps (57%) done
+[Thu May  8 20:48:51 2025]
+Finished job 320.
+91 of 157 steps (58%) done
+[Thu May  8 20:48:51 2025]
+Finished job 290.
+92 of 157 steps (59%) done
+[Thu May  8 20:48:51 2025]
+Finished job 313.
+93 of 157 steps (59%) done
+[Thu May  8 20:48:51 2025]
+Finished job 278.
+94 of 157 steps (60%) done
+[Thu May  8 20:48:51 2025]
+Finished job 296.
+95 of 157 steps (61%) done
+[Thu May  8 20:48:51 2025]
+Finished job 312.
+96 of 157 steps (61%) done
+[Thu May  8 20:48:51 2025]
+Finished job 265.
+97 of 157 steps (62%) done
+[Thu May  8 20:48:51 2025]
+Finished job 288.
+98 of 157 steps (62%) done
+[Thu May  8 20:48:51 2025]
+Finished job 300.
+99 of 157 steps (63%) done
+[Thu May  8 20:48:51 2025]
+Finished job 271.
+100 of 157 steps (64%) done
+[Thu May  8 20:48:51 2025]
+Finished job 119.
+101 of 157 steps (64%) done
+[Thu May  8 20:48:52 2025]
+Finished job 266.
+102 of 157 steps (65%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 20:48:52 2025]
+localrule combine_results:
+    input: chrY_RBMY1A1/results/result_r0.001_k4.txt, chrY_RBMY1A1/results/result_r0.001_k8.txt, chrY_RBMY1A1/results/result_r0.001_k16.txt, chrY_RBMY1A1/results/result_r0.001_k32.txt, chrY_RBMY1A1/results/result_r0.001_k64.txt, chrY_RBMY1A1/results/result_r0.001_k128.txt, chrY_RBMY1A1/results/result_r0.031_k4.txt, chrY_RBMY1A1/results/result_r0.031_k8.txt, chrY_RBMY1A1/results/result_r0.031_k16.txt, chrY_RBMY1A1/results/result_r0.031_k32.txt, chrY_RBMY1A1/results/result_r0.031_k64.txt, chrY_RBMY1A1/results/result_r0.031_k128.txt, chrY_RBMY1A1/results/result_r0.061_k4.txt, chrY_RBMY1A1/results/result_r0.061_k8.txt, chrY_RBMY1A1/results/result_r0.061_k16.txt, chrY_RBMY1A1/results/result_r0.061_k32.txt, chrY_RBMY1A1/results/result_r0.061_k64.txt, chrY_RBMY1A1/results/result_r0.061_k128.txt, chrY_RBMY1A1/results/result_r0.091_k4.txt, chrY_RBMY1A1/results/result_r0.091_k8.txt, chrY_RBMY1A1/results/result_r0.091_k16.txt, chrY_RBMY1A1/results/result_r0.091_k32.txt, chrY_RBMY1A1/results/result_r0.091_k64.txt, chrY_RBMY1A1/results/result_r0.091_k128.txt, chrY_RBMY1A1/results/result_r0.121_k4.txt, chrY_RBMY1A1/results/result_r0.121_k8.txt, chrY_RBMY1A1/results/result_r0.121_k16.txt, chrY_RBMY1A1/results/result_r0.121_k32.txt, chrY_RBMY1A1/results/result_r0.121_k64.txt, chrY_RBMY1A1/results/result_r0.121_k128.txt, chrY_RBMY1A1/results/result_r0.151_k4.txt, chrY_RBMY1A1/results/result_r0.151_k8.txt, chrY_RBMY1A1/results/result_r0.151_k16.txt, chrY_RBMY1A1/results/result_r0.151_k32.txt, chrY_RBMY1A1/results/result_r0.151_k64.txt, chrY_RBMY1A1/results/result_r0.151_k128.txt, chrY_RBMY1A1/results/result_r0.181_k4.txt, chrY_RBMY1A1/results/result_r0.181_k8.txt, chrY_RBMY1A1/results/result_r0.181_k16.txt, chrY_RBMY1A1/results/result_r0.181_k32.txt, chrY_RBMY1A1/results/result_r0.181_k64.txt, chrY_RBMY1A1/results/result_r0.181_k128.txt, chrY_RBMY1A1/results/result_r0.211_k4.txt, chrY_RBMY1A1/results/result_r0.211_k8.txt, chrY_RBMY1A1/results/result_r0.211_k16.txt, chrY_RBMY1A1/results/result_r0.211_k32.txt, chrY_RBMY1A1/results/result_r0.211_k64.txt, chrY_RBMY1A1/results/result_r0.211_k128.txt, chrY_RBMY1A1/results/result_r0.241_k4.txt, chrY_RBMY1A1/results/result_r0.241_k8.txt, chrY_RBMY1A1/results/result_r0.241_k16.txt, chrY_RBMY1A1/results/result_r0.241_k32.txt, chrY_RBMY1A1/results/result_r0.241_k64.txt, chrY_RBMY1A1/results/result_r0.241_k128.txt, chrY_RBMY1A1/results/result_r0.271_k4.txt, chrY_RBMY1A1/results/result_r0.271_k8.txt, chrY_RBMY1A1/results/result_r0.271_k16.txt, chrY_RBMY1A1/results/result_r0.271_k32.txt, chrY_RBMY1A1/results/result_r0.271_k64.txt, chrY_RBMY1A1/results/result_r0.271_k128.txt, chrY_RBMY1A1/results/result_r0.301_k4.txt, chrY_RBMY1A1/results/result_r0.301_k8.txt, chrY_RBMY1A1/results/result_r0.301_k16.txt, chrY_RBMY1A1/results/result_r0.301_k32.txt, chrY_RBMY1A1/results/result_r0.301_k64.txt, chrY_RBMY1A1/results/result_r0.301_k128.txt, chrY_RBMY1A1/results/result_r0.331_k4.txt, chrY_RBMY1A1/results/result_r0.331_k8.txt, chrY_RBMY1A1/results/result_r0.331_k16.txt, chrY_RBMY1A1/results/result_r0.331_k32.txt, chrY_RBMY1A1/results/result_r0.331_k64.txt, chrY_RBMY1A1/results/result_r0.331_k128.txt, chrY_RBMY1A1/results/result_r0.361_k4.txt, chrY_RBMY1A1/results/result_r0.361_k8.txt, chrY_RBMY1A1/results/result_r0.361_k16.txt, chrY_RBMY1A1/results/result_r0.361_k32.txt, chrY_RBMY1A1/results/result_r0.361_k64.txt, chrY_RBMY1A1/results/result_r0.361_k128.txt
+    output: chrY_RBMY1A1/all_results.csv
+    jobid: 242
+    reason: Input files updated by another job: chrY_RBMY1A1/results/result_r0.001_k64.txt, chrY_RBMY1A1/results/result_r0.091_k128.txt, chrY_RBMY1A1/results/result_r0.031_k128.txt, chrY_RBMY1A1/results/result_r0.301_k64.txt, chrY_RBMY1A1/results/result_r0.361_k4.txt, chrY_RBMY1A1/results/result_r0.331_k64.txt, chrY_RBMY1A1/results/result_r0.331_k4.txt, chrY_RBMY1A1/results/result_r0.361_k32.txt, chrY_RBMY1A1/results/result_r0.361_k8.txt, chrY_RBMY1A1/results/result_r0.181_k16.txt, chrY_RBMY1A1/results/result_r0.241_k4.txt, chrY_RBMY1A1/results/result_r0.211_k4.txt, chrY_RBMY1A1/results/result_r0.151_k128.txt, chrY_RBMY1A1/results/result_r0.211_k32.txt, chrY_RBMY1A1/results/result_r0.241_k32.txt, chrY_RBMY1A1/results/result_r0.211_k16.txt, chrY_RBMY1A1/results/result_r0.061_k64.txt, chrY_RBMY1A1/results/result_r0.331_k16.txt, chrY_RBMY1A1/results/result_r0.271_k4.txt, chrY_RBMY1A1/results/result_r0.181_k64.txt, chrY_RBMY1A1/results/result_r0.361_k128.txt, chrY_RBMY1A1/results/result_r0.271_k8.txt, chrY_RBMY1A1/results/result_r0.271_k128.txt, chrY_RBMY1A1/results/result_r0.241_k8.txt, chrY_RBMY1A1/results/result_r0.151_k64.txt, chrY_RBMY1A1/results/result_r0.331_k8.txt, chrY_RBMY1A1/results/result_r0.181_k128.txt, chrY_RBMY1A1/results/result_r0.361_k64.txt, chrY_RBMY1A1/results/result_r0.241_k128.txt, chrY_RBMY1A1/results/result_r0.211_k8.txt, chrY_RBMY1A1/results/result_r0.331_k128.txt, chrY_RBMY1A1/results/result_r0.061_k128.txt, chrY_RBMY1A1/results/result_r0.181_k4.txt, chrY_RBMY1A1/results/result_r0.181_k32.txt, chrY_RBMY1A1/results/result_r0.121_k128.txt, chrY_RBMY1A1/results/result_r0.121_k64.txt, chrY_RBMY1A1/results/result_r0.211_k64.txt, chrY_RBMY1A1/results/result_r0.091_k64.txt, chrY_RBMY1A1/results/result_r0.361_k16.txt, chrY_RBMY1A1/results/result_r0.271_k32.txt, chrY_RBMY1A1/results/result_r0.241_k64.txt, chrY_RBMY1A1/results/result_r0.211_k128.txt, chrY_RBMY1A1/results/result_r0.271_k64.txt, chrY_RBMY1A1/results/result_r0.241_k16.txt, chrY_RBMY1A1/results/result_r0.031_k64.txt, chrY_RBMY1A1/results/result_r0.001_k128.txt, chrY_RBMY1A1/results/result_r0.271_k16.txt, chrY_RBMY1A1/results/result_r0.331_k32.txt, chrY_RBMY1A1/results/result_r0.301_k128.txt, chrY_RBMY1A1/results/result_r0.181_k8.txt; Set of input files has changed since last execution
+    wildcards: output_dir=chrY_RBMY1A1
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:52 2025]
+Finished job 125.
+103 of 157 steps (66%) done
+[Thu May  8 20:48:53 2025]
+Finished job 137.
+104 of 157 steps (66%) done
+[Thu May  8 20:48:53 2025]
+Finished job 161.
+105 of 157 steps (67%) done
+[Thu May  8 20:48:53 2025]
+Finished job 242.
+106 of 157 steps (68%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 20:48:53 2025]
+localrule generate_heatmap:
+    input: chrY_RBMY1A1/all_results.csv
+    output: chrY_RBMY1A1/heatmap_deviation.png
+    jobid: 241
+    reason: Input files updated by another job: chrY_RBMY1A1/all_results.csv
+    wildcards: output_dir=chrY_RBMY1A1
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:48:54 2025]
+Finished job 131.
+107 of 157 steps (68%) done
+[Thu May  8 20:48:55 2025]
+Finished job 149.
+108 of 157 steps (69%) done
+[Thu May  8 20:48:56 2025]
+Finished job 155.
+109 of 157 steps (69%) done
+[Thu May  8 20:48:57 2025]
+Finished job 241.
+110 of 157 steps (70%) done
+[Thu May  8 20:49:00 2025]
+Finished job 88.
+111 of 157 steps (71%) done
+[Thu May  8 20:49:00 2025]
+Finished job 120.
+112 of 157 steps (71%) done
+[Thu May  8 20:49:00 2025]
+Finished job 150.
+113 of 157 steps (72%) done
+[Thu May  8 20:49:01 2025]
+Finished job 87.
+114 of 157 steps (73%) done
+[Thu May  8 20:49:04 2025]
+Finished job 132.
+115 of 157 steps (73%) done
+[Thu May  8 20:49:05 2025]
+Finished job 156.
+116 of 157 steps (74%) done
+[Thu May  8 20:49:05 2025]
+Finished job 126.
+117 of 157 steps (75%) done
+[Thu May  8 20:49:06 2025]
+Finished job 138.
+118 of 157 steps (75%) done
+[Thu May  8 20:49:10 2025]
+Finished job 133.
+119 of 157 steps (76%) done
+[Thu May  8 20:49:12 2025]
+Finished job 112.
+120 of 157 steps (76%) done
+[Thu May  8 20:49:12 2025]
+Finished job 93.
+121 of 157 steps (77%) done
+[Thu May  8 20:49:12 2025]
+Finished job 105.
+122 of 157 steps (78%) done
+[Thu May  8 20:49:13 2025]
+Finished job 100.
+123 of 157 steps (78%) done
+[Thu May  8 20:49:13 2025]
+Finished job 127.
+124 of 157 steps (79%) done
+[Thu May  8 20:49:13 2025]
+Finished job 121.
+125 of 157 steps (80%) done
+[Thu May  8 20:49:13 2025]
+Finished job 128.
+126 of 157 steps (80%) done
+[Thu May  8 20:49:13 2025]
+Finished job 134.
+127 of 157 steps (81%) done
+[Thu May  8 20:49:13 2025]
+Finished job 160.
+128 of 157 steps (82%) done
+[Thu May  8 20:49:13 2025]
+Finished job 151.
+129 of 157 steps (82%) done
+[Thu May  8 20:49:13 2025]
+Finished job 135.
+130 of 157 steps (83%) done
+[Thu May  8 20:49:13 2025]
+Finished job 99.
+131 of 157 steps (83%) done
+[Thu May  8 20:49:14 2025]
+Finished job 94.
+132 of 157 steps (84%) done
+[Thu May  8 20:49:14 2025]
+Finished job 129.
+133 of 157 steps (85%) done
+[Thu May  8 20:49:14 2025]
+Finished job 154.
+134 of 157 steps (85%) done
+[Thu May  8 20:49:14 2025]
+Finished job 142.
+135 of 157 steps (86%) done
+[Thu May  8 20:49:14 2025]
+Finished job 139.
+136 of 157 steps (87%) done
+[Thu May  8 20:49:14 2025]
+Finished job 136.
+137 of 157 steps (87%) done
+[Thu May  8 20:49:15 2025]
+Finished job 117.
+138 of 157 steps (88%) done
+[Thu May  8 20:49:15 2025]
+Finished job 147.
+139 of 157 steps (89%) done
+[Thu May  8 20:49:15 2025]
+Finished job 153.
+140 of 157 steps (89%) done
+[Thu May  8 20:49:15 2025]
+Finished job 122.
+141 of 157 steps (90%) done
+[Thu May  8 20:49:15 2025]
+Finished job 141.
+142 of 157 steps (90%) done
+[Thu May  8 20:49:16 2025]
+Finished job 106.
+143 of 157 steps (91%) done
+[Thu May  8 20:49:16 2025]
+Finished job 111.
+144 of 157 steps (92%) done
+[Thu May  8 20:49:16 2025]
+Finished job 152.
+145 of 157 steps (92%) done
+[Thu May  8 20:49:17 2025]
+Finished job 157.
+146 of 157 steps (93%) done
+[Thu May  8 20:49:17 2025]
+Finished job 140.
+147 of 157 steps (94%) done
+[Thu May  8 20:49:17 2025]
+Finished job 158.
+148 of 157 steps (94%) done
+[Thu May  8 20:49:17 2025]
+Finished job 159.
+149 of 157 steps (95%) done
+[Thu May  8 20:49:17 2025]
+Finished job 123.
+150 of 157 steps (96%) done
+[Thu May  8 20:49:18 2025]
+Finished job 148.
+151 of 157 steps (96%) done
+[Thu May  8 20:49:18 2025]
+Finished job 130.
+152 of 157 steps (97%) done
+[Thu May  8 20:49:18 2025]
+Finished job 118.
+153 of 157 steps (97%) done
+[Thu May  8 20:49:18 2025]
+Finished job 124.
+154 of 157 steps (98%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 20:49:18 2025]
+localrule combine_results:
+    input: chr21_centromere/results/result_r0.001_k4.txt, chr21_centromere/results/result_r0.001_k8.txt, chr21_centromere/results/result_r0.001_k16.txt, chr21_centromere/results/result_r0.001_k32.txt, chr21_centromere/results/result_r0.001_k64.txt, chr21_centromere/results/result_r0.001_k128.txt, chr21_centromere/results/result_r0.031_k4.txt, chr21_centromere/results/result_r0.031_k8.txt, chr21_centromere/results/result_r0.031_k16.txt, chr21_centromere/results/result_r0.031_k32.txt, chr21_centromere/results/result_r0.031_k64.txt, chr21_centromere/results/result_r0.031_k128.txt, chr21_centromere/results/result_r0.061_k4.txt, chr21_centromere/results/result_r0.061_k8.txt, chr21_centromere/results/result_r0.061_k16.txt, chr21_centromere/results/result_r0.061_k32.txt, chr21_centromere/results/result_r0.061_k64.txt, chr21_centromere/results/result_r0.061_k128.txt, chr21_centromere/results/result_r0.091_k4.txt, chr21_centromere/results/result_r0.091_k8.txt, chr21_centromere/results/result_r0.091_k16.txt, chr21_centromere/results/result_r0.091_k32.txt, chr21_centromere/results/result_r0.091_k64.txt, chr21_centromere/results/result_r0.091_k128.txt, chr21_centromere/results/result_r0.121_k4.txt, chr21_centromere/results/result_r0.121_k8.txt, chr21_centromere/results/result_r0.121_k16.txt, chr21_centromere/results/result_r0.121_k32.txt, chr21_centromere/results/result_r0.121_k64.txt, chr21_centromere/results/result_r0.121_k128.txt, chr21_centromere/results/result_r0.151_k4.txt, chr21_centromere/results/result_r0.151_k8.txt, chr21_centromere/results/result_r0.151_k16.txt, chr21_centromere/results/result_r0.151_k32.txt, chr21_centromere/results/result_r0.151_k64.txt, chr21_centromere/results/result_r0.151_k128.txt, chr21_centromere/results/result_r0.181_k4.txt, chr21_centromere/results/result_r0.181_k8.txt, chr21_centromere/results/result_r0.181_k16.txt, chr21_centromere/results/result_r0.181_k32.txt, chr21_centromere/results/result_r0.181_k64.txt, chr21_centromere/results/result_r0.181_k128.txt, chr21_centromere/results/result_r0.211_k4.txt, chr21_centromere/results/result_r0.211_k8.txt, chr21_centromere/results/result_r0.211_k16.txt, chr21_centromere/results/result_r0.211_k32.txt, chr21_centromere/results/result_r0.211_k64.txt, chr21_centromere/results/result_r0.211_k128.txt, chr21_centromere/results/result_r0.241_k4.txt, chr21_centromere/results/result_r0.241_k8.txt, chr21_centromere/results/result_r0.241_k16.txt, chr21_centromere/results/result_r0.241_k32.txt, chr21_centromere/results/result_r0.241_k64.txt, chr21_centromere/results/result_r0.241_k128.txt, chr21_centromere/results/result_r0.271_k4.txt, chr21_centromere/results/result_r0.271_k8.txt, chr21_centromere/results/result_r0.271_k16.txt, chr21_centromere/results/result_r0.271_k32.txt, chr21_centromere/results/result_r0.271_k64.txt, chr21_centromere/results/result_r0.271_k128.txt, chr21_centromere/results/result_r0.301_k4.txt, chr21_centromere/results/result_r0.301_k8.txt, chr21_centromere/results/result_r0.301_k16.txt, chr21_centromere/results/result_r0.301_k32.txt, chr21_centromere/results/result_r0.301_k64.txt, chr21_centromere/results/result_r0.301_k128.txt, chr21_centromere/results/result_r0.331_k4.txt, chr21_centromere/results/result_r0.331_k8.txt, chr21_centromere/results/result_r0.331_k16.txt, chr21_centromere/results/result_r0.331_k32.txt, chr21_centromere/results/result_r0.331_k64.txt, chr21_centromere/results/result_r0.331_k128.txt, chr21_centromere/results/result_r0.361_k4.txt, chr21_centromere/results/result_r0.361_k8.txt, chr21_centromere/results/result_r0.361_k16.txt, chr21_centromere/results/result_r0.361_k32.txt, chr21_centromere/results/result_r0.361_k64.txt, chr21_centromere/results/result_r0.361_k128.txt
+    output: chr21_centromere/all_results.csv
+    jobid: 82
+    reason: Input files updated by another job: chr21_centromere/results/result_r0.211_k4.txt, chr21_centromere/results/result_r0.361_k64.txt, chr21_centromere/results/result_r0.271_k16.txt, chr21_centromere/results/result_r0.301_k64.txt, chr21_centromere/results/result_r0.361_k4.txt, chr21_centromere/results/result_r0.271_k64.txt, chr21_centromere/results/result_r0.331_k32.txt, chr21_centromere/results/result_r0.181_k32.txt, chr21_centromere/results/result_r0.181_k128.txt, chr21_centromere/results/result_r0.031_k128.txt, chr21_centromere/results/result_r0.061_k64.txt, chr21_centromere/results/result_r0.151_k128.txt, chr21_centromere/results/result_r0.211_k128.txt, chr21_centromere/results/result_r0.361_k16.txt, chr21_centromere/results/result_r0.331_k64.txt, chr21_centromere/results/result_r0.181_k4.txt, chr21_centromere/results/result_r0.151_k64.txt, chr21_centromere/results/result_r0.271_k4.txt, chr21_centromere/results/result_r0.271_k8.txt, chr21_centromere/results/result_r0.331_k4.txt, chr21_centromere/results/result_r0.181_k16.txt, chr21_centromere/results/result_r0.121_k64.txt, chr21_centromere/results/result_r0.241_k16.txt, chr21_centromere/results/result_r0.361_k8.txt, chr21_centromere/results/result_r0.271_k128.txt, chr21_centromere/results/result_r0.091_k64.txt, chr21_centromere/results/result_r0.211_k32.txt, chr21_centromere/results/result_r0.241_k32.txt, chr21_centromere/results/result_r0.121_k128.txt, chr21_centromere/results/result_r0.241_k128.txt, chr21_centromere/results/result_r0.361_k128.txt, chr21_centromere/results/result_r0.091_k128.txt, chr21_centromere/results/result_r0.211_k64.txt, chr21_centromere/results/result_r0.211_k16.txt, chr21_centromere/results/result_r0.061_k128.txt, chr21_centromere/results/result_r0.331_k16.txt, chr21_centromere/results/result_r0.301_k128.txt, chr21_centromere/results/result_r0.271_k32.txt, chr21_centromere/results/result_r0.001_k64.txt, chr21_centromere/results/result_r0.241_k64.txt, chr21_centromere/results/result_r0.001_k128.txt, chr21_centromere/results/result_r0.241_k8.txt, chr21_centromere/results/result_r0.181_k8.txt, chr21_centromere/results/result_r0.331_k128.txt, chr21_centromere/results/result_r0.031_k64.txt, chr21_centromere/results/result_r0.211_k8.txt, chr21_centromere/results/result_r0.331_k8.txt, chr21_centromere/results/result_r0.241_k4.txt, chr21_centromere/results/result_r0.361_k32.txt, chr21_centromere/results/result_r0.181_k64.txt; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:49:19 2025]
+Finished job 82.
+155 of 157 steps (99%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 20:49:19 2025]
+localrule generate_heatmap:
+    input: chr21_centromere/all_results.csv
+    output: chr21_centromere/heatmap_deviation.png
+    jobid: 81
+    reason: Input files updated by another job: chr21_centromere/all_results.csv
+    wildcards: output_dir=chr21_centromere
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:49:22 2025]
+Finished job 81.
+156 of 157 steps (99%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 20:49:22 2025]
+localrule all:
+    input: chr6_RepeatMasker/heatmap_deviation.png, chr21_centromere/heatmap_deviation.png, chrY_SimpleRepeat/heatmap_deviation.png, chrY_RBMY1A1/heatmap_deviation.png
+    jobid: 0
+    reason: Input files updated by another job: chrY_SimpleRepeat/heatmap_deviation.png, chrY_RBMY1A1/heatmap_deviation.png, chr21_centromere/heatmap_deviation.png
+    resources: tmpdir=/tmp
+
+[Thu May  8 20:49:22 2025]
+Finished job 0.
+157 of 157 steps (100%) done
+Complete log: .snakemake/log/2025-05-08T204841.198213.snakemake.log

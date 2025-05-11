@@ -1,0 +1,1359 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+combine_results         1
+generate_heatmap        1
+run_simulation        100
+total                 103
+
+Select jobs to execute...
+Execute 100 jobs...
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.351_k150.txt
+    jobid: 100
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.351_k150.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.351, k=150
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.091_k150.txt
+    jobid: 40
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.091_k150.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.091, k=150
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.201_k150.txt
+    jobid: 70
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.201_k150.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.201, k=150
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.001_k150.txt
+    jobid: 10
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.001_k150.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.001, k=150
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.061_k4.txt
+    jobid: 23
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.061_k4.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.061, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.301_k4.txt
+    jobid: 83
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.301_k4.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.301, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.151_k4.txt
+    jobid: 53
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.151_k4.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.151, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.001_k32.txt
+    jobid: 6
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.001_k32.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.001, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.201_k32.txt
+    jobid: 66
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.201_k32.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.201, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.091_k32.txt
+    jobid: 36
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.091_k32.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.091, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.351_k32.txt
+    jobid: 96
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.351_k32.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.351, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.121_k120.txt
+    jobid: 49
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.121_k120.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.121, k=120
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.031_k120.txt
+    jobid: 19
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.031_k120.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.031, k=120
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.251_k120.txt
+    jobid: 79
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.251_k120.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.251, k=120
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.061_k210.txt
+    jobid: 32
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.061_k210.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.061, k=210
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.301_k210.txt
+    jobid: 92
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.301_k210.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.301, k=210
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.151_k210.txt
+    jobid: 62
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.151_k210.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.151, k=210
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.031_k16.txt
+    jobid: 15
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.031_k16.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.031, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.251_k16.txt
+    jobid: 75
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.251_k16.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.251, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.121_k16.txt
+    jobid: 45
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.121_k16.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.121, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.151_k90.txt
+    jobid: 58
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.151_k90.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.151, k=90
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.061_k90.txt
+    jobid: 28
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.061_k90.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.061, k=90
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.301_k90.txt
+    jobid: 88
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.301_k90.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.301, k=90
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.351_k180.txt
+    jobid: 101
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.351_k180.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.351, k=180
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.091_k180.txt
+    jobid: 41
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.091_k180.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.091, k=180
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.001_k180.txt
+    jobid: 11
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.001_k180.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.001, k=180
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.201_k180.txt
+    jobid: 71
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.201_k180.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.201, k=180
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.061_k8.txt
+    jobid: 24
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.061_k8.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.061, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.301_k8.txt
+    jobid: 84
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.301_k8.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.301, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.151_k8.txt
+    jobid: 54
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.151_k8.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.151, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.001_k60.txt
+    jobid: 7
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.001_k60.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.001, k=60
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.201_k60.txt
+    jobid: 67
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.201_k60.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.201, k=60
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.091_k60.txt
+    jobid: 37
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.091_k60.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.091, k=60
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.351_k60.txt
+    jobid: 97
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.351_k60.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.351, k=60
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.121_k150.txt
+    jobid: 50
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.121_k150.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.121, k=150
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.031_k150.txt
+    jobid: 20
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.031_k150.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.031, k=150
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.251_k150.txt
+    jobid: 80
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.251_k150.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.251, k=150
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.091_k4.txt
+    jobid: 33
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.091_k4.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.091, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.351_k4.txt
+    jobid: 93
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.351_k4.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.351, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.001_k4.txt
+    jobid: 3
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.001_k4.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.001, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.201_k4.txt
+    jobid: 63
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.201_k4.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.201, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.031_k32.txt
+    jobid: 16
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.031_k32.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.031, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.251_k32.txt
+    jobid: 76
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.251_k32.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.251, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.121_k32.txt
+    jobid: 46
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.121_k32.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.121, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.151_k120.txt
+    jobid: 59
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.151_k120.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.151, k=120
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.061_k120.txt
+    jobid: 29
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.061_k120.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.061, k=120
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.301_k120.txt
+    jobid: 89
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.301_k120.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.301, k=120
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.091_k210.txt
+    jobid: 42
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.091_k210.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.091, k=210
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.351_k210.txt
+    jobid: 102
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.351_k210.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.351, k=210
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.001_k210.txt
+    jobid: 12
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.001_k210.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.001, k=210
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.201_k210.txt
+    jobid: 72
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.201_k210.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.201, k=210
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.061_k16.txt
+    jobid: 25
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.061_k16.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.061, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.301_k16.txt
+    jobid: 85
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.301_k16.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.301, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.151_k16.txt
+    jobid: 55
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.151_k16.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.151, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.001_k90.txt
+    jobid: 8
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.001_k90.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.001, k=90
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.201_k90.txt
+    jobid: 68
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.201_k90.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.201, k=90
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:31 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.091_k90.txt
+    jobid: 38
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.091_k90.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.091, k=90
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.351_k90.txt
+    jobid: 98
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.351_k90.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.351, k=90
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.121_k180.txt
+    jobid: 51
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.121_k180.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.121, k=180
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.031_k180.txt
+    jobid: 21
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.031_k180.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.031, k=180
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.251_k180.txt
+    jobid: 81
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.251_k180.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.251, k=180
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.091_k8.txt
+    jobid: 34
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.091_k8.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.091, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.351_k8.txt
+    jobid: 94
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.351_k8.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.351, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.001_k8.txt
+    jobid: 4
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.001_k8.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.001, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.201_k8.txt
+    jobid: 64
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.201_k8.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.201, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.031_k60.txt
+    jobid: 17
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.031_k60.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.031, k=60
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.251_k60.txt
+    jobid: 77
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.251_k60.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.251, k=60
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.121_k60.txt
+    jobid: 47
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.121_k60.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.121, k=60
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.151_k150.txt
+    jobid: 60
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.151_k150.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.151, k=150
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.061_k150.txt
+    jobid: 30
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.061_k150.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.061, k=150
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.301_k150.txt
+    jobid: 90
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.301_k150.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.301, k=150
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.121_k4.txt
+    jobid: 43
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.121_k4.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.121, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.031_k4.txt
+    jobid: 13
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.031_k4.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.031, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.251_k4.txt
+    jobid: 73
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.251_k4.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.251, k=4
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.301_k32.txt
+    jobid: 86
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.301_k32.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.301, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.061_k32.txt
+    jobid: 26
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.061_k32.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.061, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.151_k32.txt
+    jobid: 56
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.151_k32.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.151, k=32
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.001_k120.txt
+    jobid: 9
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.001_k120.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.001, k=120
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.201_k120.txt
+    jobid: 69
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.201_k120.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.201, k=120
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.091_k120.txt
+    jobid: 39
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.091_k120.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.091, k=120
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.351_k120.txt
+    jobid: 99
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.351_k120.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.351, k=120
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.121_k210.txt
+    jobid: 52
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.121_k210.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.121, k=210
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.031_k210.txt
+    jobid: 22
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.031_k210.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.031, k=210
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.251_k210.txt
+    jobid: 82
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.251_k210.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.251, k=210
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.091_k16.txt
+    jobid: 35
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.091_k16.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.091, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.351_k16.txt
+    jobid: 95
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.351_k16.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.351, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.001_k16.txt
+    jobid: 5
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.001_k16.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.001, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.201_k16.txt
+    jobid: 65
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.201_k16.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.201, k=16
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.031_k90.txt
+    jobid: 18
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.031_k90.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.031, k=90
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.251_k90.txt
+    jobid: 78
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.251_k90.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.251, k=90
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.121_k90.txt
+    jobid: 48
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.121_k90.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.121, k=90
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.151_k180.txt
+    jobid: 61
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.151_k180.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.151, k=180
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.061_k180.txt
+    jobid: 31
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.061_k180.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.061, k=180
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.301_k180.txt
+    jobid: 91
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.301_k180.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.301, k=180
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.121_k8.txt
+    jobid: 44
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.121_k8.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.121, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.031_k8.txt
+    jobid: 14
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.031_k8.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.031, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.251_k8.txt
+    jobid: 74
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.251_k8.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.251, k=8
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.061_k60.txt
+    jobid: 27
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.061_k60.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.061, k=60
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.301_k60.txt
+    jobid: 87
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.301_k60.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.301, k=60
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 10:47:32 2025]
+localrule run_simulation:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/results/result_r0.151_k60.txt
+    jobid: 57
+    reason: Missing output files: chr6_RepeatMasker/results/result_r0.151_k60.txt
+    wildcards: output_dir=chr6_RepeatMasker, r=0.151, k=60
+    resources: tmpdir=/tmp
+
+[Thu May  8 10:47:49 2025]
+Finished job 43.
+1 of 103 steps (1%) done
+[Thu May  8 10:47:49 2025]
+Finished job 93.
+2 of 103 steps (2%) done
+[Thu May  8 10:47:51 2025]
+Finished job 83.
+3 of 103 steps (3%) done
+[Thu May  8 10:47:51 2025]
+Finished job 23.
+4 of 103 steps (4%) done
+[Thu May  8 10:47:51 2025]
+Finished job 13.
+5 of 103 steps (5%) done
+[Thu May  8 10:47:52 2025]
+Finished job 53.
+6 of 103 steps (6%) done
+[Thu May  8 10:47:53 2025]
+Finished job 3.
+7 of 103 steps (7%) done
+[Thu May  8 10:47:55 2025]
+Finished job 63.
+8 of 103 steps (8%) done
+[Thu May  8 10:47:55 2025]
+Finished job 33.
+9 of 103 steps (9%) done
+[Thu May  8 10:47:56 2025]
+Finished job 73.
+10 of 103 steps (10%) done
+[Thu May  8 10:48:02 2025]
+Finished job 4.
+11 of 103 steps (11%) done
+[Thu May  8 10:48:05 2025]
+Finished job 84.
+12 of 103 steps (12%) done
+[Thu May  8 10:48:05 2025]
+Finished job 54.
+13 of 103 steps (13%) done
+[Thu May  8 10:48:06 2025]
+Finished job 24.
+14 of 103 steps (14%) done
+[Thu May  8 10:48:06 2025]
+Finished job 34.
+15 of 103 steps (15%) done
+[Thu May  8 10:48:08 2025]
+Finished job 14.
+16 of 103 steps (16%) done
+[Thu May  8 10:48:08 2025]
+Finished job 44.
+17 of 103 steps (17%) done
+[Thu May  8 10:48:08 2025]
+Finished job 94.
+18 of 103 steps (17%) done
+[Thu May  8 10:48:10 2025]
+Finished job 74.
+19 of 103 steps (18%) done
+[Thu May  8 10:48:12 2025]
+Finished job 64.
+20 of 103 steps (19%) done
+[Thu May  8 10:48:15 2025]
+Finished job 16.
+21 of 103 steps (20%) done
+[Thu May  8 10:48:16 2025]
+Finished job 25.
+22 of 103 steps (21%) done
+[Thu May  8 10:48:18 2025]
+Finished job 45.
+23 of 103 steps (22%) done
+[Thu May  8 10:48:20 2025]
+Finished job 36.
+24 of 103 steps (23%) done
+[Thu May  8 10:48:20 2025]
+Finished job 46.
+25 of 103 steps (24%) done
+[Thu May  8 10:48:21 2025]
+Finished job 40.
+26 of 103 steps (25%) done
+[Thu May  8 10:48:21 2025]
+Finished job 37.
+27 of 103 steps (26%) done
+[Thu May  8 10:48:21 2025]
+Finished job 85.
+28 of 103 steps (27%) done
+[Thu May  8 10:48:21 2025]
+Finished job 31.
+29 of 103 steps (28%) done
+[Thu May  8 10:48:21 2025]
+Finished job 8.
+30 of 103 steps (29%) done
+[Thu May  8 10:48:22 2025]
+Finished job 76.
+31 of 103 steps (30%) done
+[Thu May  8 10:48:22 2025]
+Finished job 11.
+32 of 103 steps (31%) done
+[Thu May  8 10:48:22 2025]
+Finished job 21.
+33 of 103 steps (32%) done
+[Thu May  8 10:48:23 2025]
+Finished job 6.
+34 of 103 steps (33%) done
+[Thu May  8 10:48:23 2025]
+Finished job 17.
+35 of 103 steps (34%) done
+[Thu May  8 10:48:23 2025]
+Finished job 70.
+36 of 103 steps (35%) done
+[Thu May  8 10:48:23 2025]
+Finished job 18.
+37 of 103 steps (36%) done
+[Thu May  8 10:48:23 2025]
+Finished job 20.
+38 of 103 steps (37%) done
+[Thu May  8 10:48:23 2025]
+Finished job 80.
+39 of 103 steps (38%) done
+[Thu May  8 10:48:23 2025]
+Finished job 96.
+40 of 103 steps (39%) done
+[Thu May  8 10:48:23 2025]
+Finished job 97.
+41 of 103 steps (40%) done
+[Thu May  8 10:48:23 2025]
+Finished job 67.
+42 of 103 steps (41%) done
+[Thu May  8 10:48:23 2025]
+Finished job 86.
+43 of 103 steps (42%) done
+[Thu May  8 10:48:23 2025]
+Finished job 19.
+44 of 103 steps (43%) done
+[Thu May  8 10:48:24 2025]
+Finished job 95.
+45 of 103 steps (44%) done
+[Thu May  8 10:48:24 2025]
+Finished job 92.
+46 of 103 steps (45%) done
+[Thu May  8 10:48:25 2025]
+Finished job 72.
+47 of 103 steps (46%) done
+[Thu May  8 10:48:25 2025]
+Finished job 75.
+48 of 103 steps (47%) done
+[Thu May  8 10:48:25 2025]
+Finished job 65.
+49 of 103 steps (48%) done
+[Thu May  8 10:48:25 2025]
+Finished job 38.
+50 of 103 steps (49%) done
+[Thu May  8 10:48:25 2025]
+Finished job 68.
+51 of 103 steps (50%) done
+[Thu May  8 10:48:25 2025]
+Finished job 7.
+52 of 103 steps (50%) done
+[Thu May  8 10:48:25 2025]
+Finished job 89.
+53 of 103 steps (51%) done
+[Thu May  8 10:48:25 2025]
+Finished job 100.
+54 of 103 steps (52%) done
+[Thu May  8 10:48:25 2025]
+Finished job 87.
+55 of 103 steps (53%) done
+[Thu May  8 10:48:25 2025]
+Finished job 41.
+56 of 103 steps (54%) done
+[Thu May  8 10:48:26 2025]
+Finished job 58.
+57 of 103 steps (55%) done
+[Thu May  8 10:48:26 2025]
+Finished job 57.
+58 of 103 steps (56%) done
+[Thu May  8 10:48:26 2025]
+Finished job 101.
+59 of 103 steps (57%) done
+[Thu May  8 10:48:26 2025]
+Finished job 50.
+60 of 103 steps (58%) done
+[Thu May  8 10:48:26 2025]
+Finished job 56.
+61 of 103 steps (59%) done
+[Thu May  8 10:48:26 2025]
+Finished job 5.
+62 of 103 steps (60%) done
+[Thu May  8 10:48:26 2025]
+Finished job 47.
+63 of 103 steps (61%) done
+[Thu May  8 10:48:26 2025]
+Finished job 26.
+64 of 103 steps (62%) done
+[Thu May  8 10:48:27 2025]
+Finished job 88.
+65 of 103 steps (63%) done
+[Thu May  8 10:48:27 2025]
+Finished job 99.
+66 of 103 steps (64%) done
+[Thu May  8 10:48:27 2025]
+Finished job 81.
+67 of 103 steps (65%) done
+[Thu May  8 10:48:27 2025]
+Finished job 10.
+68 of 103 steps (66%) done
+[Thu May  8 10:48:27 2025]
+Finished job 55.
+69 of 103 steps (67%) done
+[Thu May  8 10:48:28 2025]
+Finished job 42.
+70 of 103 steps (68%) done
+[Thu May  8 10:48:28 2025]
+Finished job 15.
+71 of 103 steps (69%) done
+[Thu May  8 10:48:28 2025]
+Finished job 35.
+72 of 103 steps (70%) done
+[Thu May  8 10:48:28 2025]
+Finished job 52.
+73 of 103 steps (71%) done
+[Thu May  8 10:48:28 2025]
+Finished job 69.
+74 of 103 steps (72%) done
+[Thu May  8 10:48:28 2025]
+Finished job 51.
+75 of 103 steps (73%) done
+[Thu May  8 10:48:28 2025]
+Finished job 49.
+76 of 103 steps (74%) done
+[Thu May  8 10:48:29 2025]
+Finished job 60.
+77 of 103 steps (75%) done
+[Thu May  8 10:48:29 2025]
+Finished job 79.
+78 of 103 steps (76%) done
+[Thu May  8 10:48:29 2025]
+Finished job 27.
+79 of 103 steps (77%) done
+[Thu May  8 10:48:29 2025]
+Finished job 98.
+80 of 103 steps (78%) done
+[Thu May  8 10:48:29 2025]
+Finished job 48.
+81 of 103 steps (79%) done
+[Thu May  8 10:48:29 2025]
+Finished job 78.
+82 of 103 steps (80%) done
+[Thu May  8 10:48:29 2025]
+Finished job 29.
+83 of 103 steps (81%) done
+[Thu May  8 10:48:29 2025]
+Finished job 28.
+84 of 103 steps (82%) done
+[Thu May  8 10:48:30 2025]
+Finished job 82.
+85 of 103 steps (83%) done
+[Thu May  8 10:48:30 2025]
+Finished job 30.
+86 of 103 steps (83%) done
+[Thu May  8 10:48:30 2025]
+Finished job 90.
+87 of 103 steps (84%) done
+[Thu May  8 10:48:30 2025]
+Finished job 39.
+88 of 103 steps (85%) done
+[Thu May  8 10:48:30 2025]
+Finished job 32.
+89 of 103 steps (86%) done
+[Thu May  8 10:48:30 2025]
+Finished job 62.
+90 of 103 steps (87%) done
+[Thu May  8 10:48:30 2025]
+Finished job 66.
+91 of 103 steps (88%) done
+[Thu May  8 10:48:30 2025]
+Finished job 61.
+92 of 103 steps (89%) done
+[Thu May  8 10:48:30 2025]
+Finished job 59.
+93 of 103 steps (90%) done
+[Thu May  8 10:48:30 2025]
+Finished job 9.
+94 of 103 steps (91%) done
+[Thu May  8 10:48:31 2025]
+Finished job 77.
+95 of 103 steps (92%) done
+[Thu May  8 10:48:31 2025]
+Finished job 22.
+96 of 103 steps (93%) done
+[Thu May  8 10:48:31 2025]
+Finished job 102.
+97 of 103 steps (94%) done
+[Thu May  8 10:48:31 2025]
+Finished job 91.
+98 of 103 steps (95%) done
+[Thu May  8 10:48:31 2025]
+Finished job 12.
+99 of 103 steps (96%) done
+[Thu May  8 10:48:31 2025]
+Finished job 71.
+100 of 103 steps (97%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 10:48:31 2025]
+localrule combine_results:
+    input: chr6_RepeatMasker/results/result_r0.001_k4.txt, chr6_RepeatMasker/results/result_r0.001_k8.txt, chr6_RepeatMasker/results/result_r0.001_k16.txt, chr6_RepeatMasker/results/result_r0.001_k32.txt, chr6_RepeatMasker/results/result_r0.001_k60.txt, chr6_RepeatMasker/results/result_r0.001_k90.txt, chr6_RepeatMasker/results/result_r0.001_k120.txt, chr6_RepeatMasker/results/result_r0.001_k150.txt, chr6_RepeatMasker/results/result_r0.001_k180.txt, chr6_RepeatMasker/results/result_r0.001_k210.txt, chr6_RepeatMasker/results/result_r0.031_k4.txt, chr6_RepeatMasker/results/result_r0.031_k8.txt, chr6_RepeatMasker/results/result_r0.031_k16.txt, chr6_RepeatMasker/results/result_r0.031_k32.txt, chr6_RepeatMasker/results/result_r0.031_k60.txt, chr6_RepeatMasker/results/result_r0.031_k90.txt, chr6_RepeatMasker/results/result_r0.031_k120.txt, chr6_RepeatMasker/results/result_r0.031_k150.txt, chr6_RepeatMasker/results/result_r0.031_k180.txt, chr6_RepeatMasker/results/result_r0.031_k210.txt, chr6_RepeatMasker/results/result_r0.061_k4.txt, chr6_RepeatMasker/results/result_r0.061_k8.txt, chr6_RepeatMasker/results/result_r0.061_k16.txt, chr6_RepeatMasker/results/result_r0.061_k32.txt, chr6_RepeatMasker/results/result_r0.061_k60.txt, chr6_RepeatMasker/results/result_r0.061_k90.txt, chr6_RepeatMasker/results/result_r0.061_k120.txt, chr6_RepeatMasker/results/result_r0.061_k150.txt, chr6_RepeatMasker/results/result_r0.061_k180.txt, chr6_RepeatMasker/results/result_r0.061_k210.txt, chr6_RepeatMasker/results/result_r0.091_k4.txt, chr6_RepeatMasker/results/result_r0.091_k8.txt, chr6_RepeatMasker/results/result_r0.091_k16.txt, chr6_RepeatMasker/results/result_r0.091_k32.txt, chr6_RepeatMasker/results/result_r0.091_k60.txt, chr6_RepeatMasker/results/result_r0.091_k90.txt, chr6_RepeatMasker/results/result_r0.091_k120.txt, chr6_RepeatMasker/results/result_r0.091_k150.txt, chr6_RepeatMasker/results/result_r0.091_k180.txt, chr6_RepeatMasker/results/result_r0.091_k210.txt, chr6_RepeatMasker/results/result_r0.121_k4.txt, chr6_RepeatMasker/results/result_r0.121_k8.txt, chr6_RepeatMasker/results/result_r0.121_k16.txt, chr6_RepeatMasker/results/result_r0.121_k32.txt, chr6_RepeatMasker/results/result_r0.121_k60.txt, chr6_RepeatMasker/results/result_r0.121_k90.txt, chr6_RepeatMasker/results/result_r0.121_k120.txt, chr6_RepeatMasker/results/result_r0.121_k150.txt, chr6_RepeatMasker/results/result_r0.121_k180.txt, chr6_RepeatMasker/results/result_r0.121_k210.txt, chr6_RepeatMasker/results/result_r0.151_k4.txt, chr6_RepeatMasker/results/result_r0.151_k8.txt, chr6_RepeatMasker/results/result_r0.151_k16.txt, chr6_RepeatMasker/results/result_r0.151_k32.txt, chr6_RepeatMasker/results/result_r0.151_k60.txt, chr6_RepeatMasker/results/result_r0.151_k90.txt, chr6_RepeatMasker/results/result_r0.151_k120.txt, chr6_RepeatMasker/results/result_r0.151_k150.txt, chr6_RepeatMasker/results/result_r0.151_k180.txt, chr6_RepeatMasker/results/result_r0.151_k210.txt, chr6_RepeatMasker/results/result_r0.201_k4.txt, chr6_RepeatMasker/results/result_r0.201_k8.txt, chr6_RepeatMasker/results/result_r0.201_k16.txt, chr6_RepeatMasker/results/result_r0.201_k32.txt, chr6_RepeatMasker/results/result_r0.201_k60.txt, chr6_RepeatMasker/results/result_r0.201_k90.txt, chr6_RepeatMasker/results/result_r0.201_k120.txt, chr6_RepeatMasker/results/result_r0.201_k150.txt, chr6_RepeatMasker/results/result_r0.201_k180.txt, chr6_RepeatMasker/results/result_r0.201_k210.txt, chr6_RepeatMasker/results/result_r0.251_k4.txt, chr6_RepeatMasker/results/result_r0.251_k8.txt, chr6_RepeatMasker/results/result_r0.251_k16.txt, chr6_RepeatMasker/results/result_r0.251_k32.txt, chr6_RepeatMasker/results/result_r0.251_k60.txt, chr6_RepeatMasker/results/result_r0.251_k90.txt, chr6_RepeatMasker/results/result_r0.251_k120.txt, chr6_RepeatMasker/results/result_r0.251_k150.txt, chr6_RepeatMasker/results/result_r0.251_k180.txt, chr6_RepeatMasker/results/result_r0.251_k210.txt, chr6_RepeatMasker/results/result_r0.301_k4.txt, chr6_RepeatMasker/results/result_r0.301_k8.txt, chr6_RepeatMasker/results/result_r0.301_k16.txt, chr6_RepeatMasker/results/result_r0.301_k32.txt, chr6_RepeatMasker/results/result_r0.301_k60.txt, chr6_RepeatMasker/results/result_r0.301_k90.txt, chr6_RepeatMasker/results/result_r0.301_k120.txt, chr6_RepeatMasker/results/result_r0.301_k150.txt, chr6_RepeatMasker/results/result_r0.301_k180.txt, chr6_RepeatMasker/results/result_r0.301_k210.txt, chr6_RepeatMasker/results/result_r0.351_k4.txt, chr6_RepeatMasker/results/result_r0.351_k8.txt, chr6_RepeatMasker/results/result_r0.351_k16.txt, chr6_RepeatMasker/results/result_r0.351_k32.txt, chr6_RepeatMasker/results/result_r0.351_k60.txt, chr6_RepeatMasker/results/result_r0.351_k90.txt, chr6_RepeatMasker/results/result_r0.351_k120.txt, chr6_RepeatMasker/results/result_r0.351_k150.txt, chr6_RepeatMasker/results/result_r0.351_k180.txt, chr6_RepeatMasker/results/result_r0.351_k210.txt
+    output: chr6_RepeatMasker/all_results.csv
+    jobid: 2
+    reason: Missing output files: chr6_RepeatMasker/all_results.csv; Input files updated by another job: chr6_RepeatMasker/results/result_r0.091_k60.txt, chr6_RepeatMasker/results/result_r0.201_k180.txt, chr6_RepeatMasker/results/result_r0.091_k150.txt, chr6_RepeatMasker/results/result_r0.031_k180.txt, chr6_RepeatMasker/results/result_r0.121_k120.txt, chr6_RepeatMasker/results/result_r0.121_k4.txt, chr6_RepeatMasker/results/result_r0.301_k32.txt, chr6_RepeatMasker/results/result_r0.251_k32.txt, chr6_RepeatMasker/results/result_r0.301_k180.txt, chr6_RepeatMasker/results/result_r0.351_k90.txt, chr6_RepeatMasker/results/result_r0.061_k180.txt, chr6_RepeatMasker/results/result_r0.201_k120.txt, chr6_RepeatMasker/results/result_r0.091_k90.txt, chr6_RepeatMasker/results/result_r0.301_k8.txt, chr6_RepeatMasker/results/result_r0.151_k150.txt, chr6_RepeatMasker/results/result_r0.091_k210.txt, chr6_RepeatMasker/results/result_r0.201_k90.txt, chr6_RepeatMasker/results/result_r0.031_k4.txt, chr6_RepeatMasker/results/result_r0.301_k60.txt, chr6_RepeatMasker/results/result_r0.091_k16.txt, chr6_RepeatMasker/results/result_r0.151_k4.txt, chr6_RepeatMasker/results/result_r0.201_k8.txt, chr6_RepeatMasker/results/result_r0.001_k32.txt, chr6_RepeatMasker/results/result_r0.001_k8.txt, chr6_RepeatMasker/results/result_r0.251_k120.txt, chr6_RepeatMasker/results/result_r0.061_k120.txt, chr6_RepeatMasker/results/result_r0.301_k150.txt, chr6_RepeatMasker/results/result_r0.121_k16.txt, chr6_RepeatMasker/results/result_r0.061_k210.txt, chr6_RepeatMasker/results/result_r0.301_k4.txt, chr6_RepeatMasker/results/result_r0.091_k180.txt, chr6_RepeatMasker/results/result_r0.151_k60.txt, chr6_RepeatMasker/results/result_r0.031_k32.txt, chr6_RepeatMasker/results/result_r0.351_k8.txt, chr6_RepeatMasker/results/result_r0.201_k60.txt, chr6_RepeatMasker/results/result_r0.251_k210.txt, chr6_RepeatMasker/results/result_r0.031_k8.txt, chr6_RepeatMasker/results/result_r0.001_k16.txt, chr6_RepeatMasker/results/result_r0.151_k210.txt, chr6_RepeatMasker/results/result_r0.091_k32.txt, chr6_RepeatMasker/results/result_r0.121_k60.txt, chr6_RepeatMasker/results/result_r0.031_k150.txt, chr6_RepeatMasker/results/result_r0.351_k4.txt, chr6_RepeatMasker/results/result_r0.121_k32.txt, chr6_RepeatMasker/results/result_r0.301_k90.txt, chr6_RepeatMasker/results/result_r0.121_k90.txt, chr6_RepeatMasker/results/result_r0.121_k180.txt, chr6_RepeatMasker/results/result_r0.151_k120.txt, chr6_RepeatMasker/results/result_r0.001_k150.txt, chr6_RepeatMasker/results/result_r0.001_k210.txt, chr6_RepeatMasker/results/result_r0.091_k8.txt, chr6_RepeatMasker/results/result_r0.351_k210.txt, chr6_RepeatMasker/results/result_r0.151_k16.txt, chr6_RepeatMasker/results/result_r0.351_k180.txt, chr6_RepeatMasker/results/result_r0.301_k210.txt, chr6_RepeatMasker/results/result_r0.061_k150.txt, chr6_RepeatMasker/results/result_r0.031_k60.txt, chr6_RepeatMasker/results/result_r0.001_k4.txt, chr6_RepeatMasker/results/result_r0.251_k150.txt, chr6_RepeatMasker/results/result_r0.351_k16.txt, chr6_RepeatMasker/results/result_r0.351_k120.txt, chr6_RepeatMasker/results/result_r0.351_k150.txt, chr6_RepeatMasker/results/result_r0.201_k16.txt, chr6_RepeatMasker/results/result_r0.351_k60.txt, chr6_RepeatMasker/results/result_r0.251_k60.txt, chr6_RepeatMasker/results/result_r0.121_k150.txt, chr6_RepeatMasker/results/result_r0.251_k90.txt, chr6_RepeatMasker/results/result_r0.151_k90.txt, chr6_RepeatMasker/results/result_r0.061_k32.txt, chr6_RepeatMasker/results/result_r0.061_k90.txt, chr6_RepeatMasker/results/result_r0.001_k180.txt, chr6_RepeatMasker/results/result_r0.251_k16.txt, chr6_RepeatMasker/results/result_r0.251_k180.txt, chr6_RepeatMasker/results/result_r0.031_k16.txt, chr6_RepeatMasker/results/result_r0.001_k90.txt, chr6_RepeatMasker/results/result_r0.121_k210.txt, chr6_RepeatMasker/results/result_r0.031_k120.txt, chr6_RepeatMasker/results/result_r0.091_k120.txt, chr6_RepeatMasker/results/result_r0.031_k210.txt, chr6_RepeatMasker/results/result_r0.251_k8.txt, chr6_RepeatMasker/results/result_r0.091_k4.txt, chr6_RepeatMasker/results/result_r0.201_k32.txt, chr6_RepeatMasker/results/result_r0.301_k16.txt, chr6_RepeatMasker/results/result_r0.061_k16.txt, chr6_RepeatMasker/results/result_r0.151_k180.txt, chr6_RepeatMasker/results/result_r0.201_k4.txt, chr6_RepeatMasker/results/result_r0.251_k4.txt, chr6_RepeatMasker/results/result_r0.151_k8.txt, chr6_RepeatMasker/results/result_r0.001_k120.txt, chr6_RepeatMasker/results/result_r0.201_k150.txt, chr6_RepeatMasker/results/result_r0.201_k210.txt, chr6_RepeatMasker/results/result_r0.031_k90.txt, chr6_RepeatMasker/results/result_r0.061_k8.txt, chr6_RepeatMasker/results/result_r0.001_k60.txt, chr6_RepeatMasker/results/result_r0.301_k120.txt, chr6_RepeatMasker/results/result_r0.061_k4.txt, chr6_RepeatMasker/results/result_r0.061_k60.txt, chr6_RepeatMasker/results/result_r0.151_k32.txt, chr6_RepeatMasker/results/result_r0.351_k32.txt, chr6_RepeatMasker/results/result_r0.121_k8.txt
+    wildcards: output_dir=chr6_RepeatMasker
+    resources: tmpdir=/tmp
+
+[Thu May  8 10:48:32 2025]
+Finished job 2.
+101 of 103 steps (98%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 10:48:32 2025]
+localrule generate_heatmap:
+    input: chr6_RepeatMasker/all_results.csv
+    output: chr6_RepeatMasker/heatmap_deviation.png
+    jobid: 1
+    reason: Missing output files: chr6_RepeatMasker/heatmap_deviation.png; Input files updated by another job: chr6_RepeatMasker/all_results.csv
+    wildcards: output_dir=chr6_RepeatMasker
+    resources: tmpdir=/tmp
+
+[Thu May  8 10:48:35 2025]
+Finished job 1.
+102 of 103 steps (99%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 10:48:35 2025]
+localrule all:
+    input: chr6_RepeatMasker/heatmap_deviation.png, chr21_centromere/heatmap_deviation.png, chrY_SimpleRepeat/heatmap_deviation.png, chrY_RBMY1A1/heatmap_deviation.png
+    jobid: 0
+    reason: Input files updated by another job: chr6_RepeatMasker/heatmap_deviation.png
+    resources: tmpdir=/tmp
+
+[Thu May  8 10:48:35 2025]
+Finished job 0.
+103 of 103 steps (100%) done
+Complete log: .snakemake/log/2025-05-08T104731.362361.snakemake.log

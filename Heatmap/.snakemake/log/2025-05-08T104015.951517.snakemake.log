@@ -1,0 +1,40 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+generate_heatmap        1
+total                   2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 10:40:16 2025]
+localrule generate_heatmap:
+    input: chr6_RepeatMasker/all_results.csv
+    output: chr6_RepeatMasker/heatmap_deviation.png
+    jobid: 1
+    reason: Missing output files: chr6_RepeatMasker/heatmap_deviation.png
+    wildcards: output_dir=chr6_RepeatMasker
+    resources: tmpdir=/tmp
+
+[Thu May  8 10:40:18 2025]
+Finished job 1.
+1 of 2 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 10:40:18 2025]
+localrule all:
+    input: chr6_RepeatMasker/heatmap_deviation.png, chr21_centromere/heatmap_deviation.png, chrY_SimpleRepeat/heatmap_deviation.png, chrY_RBMY1A1/heatmap_deviation.png
+    jobid: 0
+    reason: Input files updated by another job: chr6_RepeatMasker/heatmap_deviation.png
+    resources: tmpdir=/tmp
+
+[Thu May  8 10:40:18 2025]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2025-05-08T104015.951517.snakemake.log

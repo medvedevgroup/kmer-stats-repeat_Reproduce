@@ -1,0 +1,40 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+generate_heatmap        1
+total                   2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri May  9 18:17:36 2025]
+localrule generate_heatmap:
+    input: chrY_RBMY1A1/all_results.csv
+    output: chrY_RBMY1A1/heatmap_deviation.png
+    jobid: 826
+    reason: Params have changed since last execution
+    wildcards: output_dir=chrY_RBMY1A1
+    resources: tmpdir=/tmp
+
+[Fri May  9 18:17:39 2025]
+Finished job 826.
+1 of 2 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri May  9 18:17:39 2025]
+localrule all:
+    input: chr6_RepeatMasker/heatmap_deviation.png, chr21_centromere/heatmap_deviation.png, chrY_SimpleRepeat/heatmap_deviation.png, chrY_RBMY1A1/heatmap_deviation.png
+    jobid: 0
+    reason: Input files updated by another job: chrY_RBMY1A1/heatmap_deviation.png
+    resources: tmpdir=/tmp
+
+[Fri May  9 18:17:39 2025]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2025-05-09T181736.096887.snakemake.log

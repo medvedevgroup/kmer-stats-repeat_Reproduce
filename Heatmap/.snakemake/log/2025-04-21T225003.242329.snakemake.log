@@ -1,0 +1,8 @@
+Building DAG of jobs...
+InputFunctionException in rule combine_results in file /home/hvw5426/kmer-stats-repeat_Reproduce/2-Dimensional-plots/snakefile, line 48:
+Error:
+  KeyError: 'r_values'
+Wildcards:
+  output_dir=chr6_RepeatMasker
+Traceback:
+  File "/home/hvw5426/kmer-stats-repeat_Reproduce/2-Dimensional-plots/snakefile", line 52, in <lambda> (rule combine_results, line 83, /home/hvw5426/kmer-stats-repeat_Reproduce/2-Dimensional-plots/snakefile)

@@ -1,0 +1,9 @@
+Building DAG of jobs...
+InputFunctionException in rule generate_heatmap in file /home/hvw5426/kmer-stats-repeat_Reproduce/2-Dimensional-plots/snakefile, line 100:
+Error:
+  KeyError: 'plot_params'
+Wildcards:
+  output_dir=chr21_centromere
+Traceback:
+  File "/home/hvw5426/kmer-stats-repeat_Reproduce/2-Dimensional-plots/snakefile", line 106, in <lambda>
+  File "/home/hvw5426/kmer-stats-repeat_Reproduce/2-Dimensional-plots/snakefile", line 106, in <genexpr> (rule generate_heatmap, line 144, /home/hvw5426/kmer-stats-repeat_Reproduce/2-Dimensional-plots/snakefile)

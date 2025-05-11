@@ -1,0 +1,2775 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+combine_results         1
+generate_heatmap        1
+run_simulation        195
+total                 198
+
+Select jobs to execute...
+Execute 100 jobs...
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.201_k180.txt
+    jobid: 167
+    reason: Missing output files: chr21_centromere/results/result_r0.201_k180.txt
+    wildcards: output_dir=chr21_centromere, r=0.201, k=180
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.301_k300.txt
+    jobid: 197
+    reason: Missing output files: chr21_centromere/results/result_r0.301_k300.txt
+    wildcards: output_dir=chr21_centromere, r=0.301, k=300
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.051_k210.txt
+    jobid: 77
+    reason: Missing output files: chr21_centromere/results/result_r0.051_k210.txt
+    wildcards: output_dir=chr21_centromere, r=0.051, k=210
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.101_k60.txt
+    jobid: 137
+    reason: Missing output files: chr21_centromere/results/result_r0.101_k60.txt
+    wildcards: output_dir=chr21_centromere, r=0.101, k=60
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.011_k8.txt
+    jobid: 17
+    reason: Missing output files: chr21_centromere/results/result_r0.011_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.011, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.021_k8.txt
+    jobid: 30
+    reason: Missing output files: chr21_centromere/results/result_r0.021_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.021, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.061_k210.txt
+    jobid: 90
+    reason: Missing output files: chr21_centromere/results/result_r0.061_k210.txt
+    wildcards: output_dir=chr21_centromere, r=0.061, k=210
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.041_k90.txt
+    jobid: 60
+    reason: Missing output files: chr21_centromere/results/result_r0.041_k90.txt
+    wildcards: output_dir=chr21_centromere, r=0.041, k=90
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.301_k180.txt
+    jobid: 193
+    reason: Missing output files: chr21_centromere/results/result_r0.301_k180.txt
+    wildcards: output_dir=chr21_centromere, r=0.301, k=180
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.041_k8.txt
+    jobid: 56
+    reason: Missing output files: chr21_centromere/results/result_r0.041_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.041, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.081_k210.txt
+    jobid: 116
+    reason: Missing output files: chr21_centromere/results/result_r0.081_k210.txt
+    wildcards: output_dir=chr21_centromere, r=0.081, k=210
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.061_k90.txt
+    jobid: 86
+    reason: Missing output files: chr21_centromere/results/result_r0.061_k90.txt
+    wildcards: output_dir=chr21_centromere, r=0.061, k=90
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.151_k4.txt
+    jobid: 146
+    reason: Missing output files: chr21_centromere/results/result_r0.151_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.151, k=4
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.251_k60.txt
+    jobid: 176
+    reason: Missing output files: chr21_centromere/results/result_r0.251_k60.txt
+    wildcards: output_dir=chr21_centromere, r=0.251, k=60
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.011_k240.txt
+    jobid: 26
+    reason: Missing output files: chr21_centromere/results/result_r0.011_k240.txt
+    wildcards: output_dir=chr21_centromere, r=0.011, k=240
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.021_k240.txt
+    jobid: 39
+    reason: Missing output files: chr21_centromere/results/result_r0.021_k240.txt
+    wildcards: output_dir=chr21_centromere, r=0.021, k=240
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.071_k90.txt
+    jobid: 99
+    reason: Missing output files: chr21_centromere/results/result_r0.071_k90.txt
+    wildcards: output_dir=chr21_centromere, r=0.071, k=90
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.001_k120.txt
+    jobid: 9
+    reason: Missing output files: chr21_centromere/results/result_r0.001_k120.txt
+    wildcards: output_dir=chr21_centromere, r=0.001, k=120
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.051_k8.txt
+    jobid: 69
+    reason: Missing output files: chr21_centromere/results/result_r0.051_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.051, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.091_k210.txt
+    jobid: 129
+    reason: Missing output files: chr21_centromere/results/result_r0.091_k210.txt
+    wildcards: output_dir=chr21_centromere, r=0.091, k=210
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.201_k4.txt
+    jobid: 159
+    reason: Missing output files: chr21_centromere/results/result_r0.201_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.201, k=4
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.301_k60.txt
+    jobid: 189
+    reason: Missing output files: chr21_centromere/results/result_r0.301_k60.txt
+    wildcards: output_dir=chr21_centromere, r=0.301, k=60
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.011_k120.txt
+    jobid: 22
+    reason: Missing output files: chr21_centromere/results/result_r0.011_k120.txt
+    wildcards: output_dir=chr21_centromere, r=0.011, k=120
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.061_k8.txt
+    jobid: 82
+    reason: Missing output files: chr21_centromere/results/result_r0.061_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.061, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.031_k240.txt
+    jobid: 52
+    reason: Missing output files: chr21_centromere/results/result_r0.031_k240.txt
+    wildcards: output_dir=chr21_centromere, r=0.031, k=240
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.081_k90.txt
+    jobid: 112
+    reason: Missing output files: chr21_centromere/results/result_r0.081_k90.txt
+    wildcards: output_dir=chr21_centromere, r=0.081, k=90
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.101_k210.txt
+    jobid: 142
+    reason: Missing output files: chr21_centromere/results/result_r0.101_k210.txt
+    wildcards: output_dir=chr21_centromere, r=0.101, k=210
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.251_k4.txt
+    jobid: 172
+    reason: Missing output files: chr21_centromere/results/result_r0.251_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.251, k=4
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.001_k16.txt
+    jobid: 5
+    reason: Missing output files: chr21_centromere/results/result_r0.001_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.001, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.041_k240.txt
+    jobid: 65
+    reason: Missing output files: chr21_centromere/results/result_r0.041_k240.txt
+    wildcards: output_dir=chr21_centromere, r=0.041, k=240
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.021_k120.txt
+    jobid: 35
+    reason: Missing output files: chr21_centromere/results/result_r0.021_k120.txt
+    wildcards: output_dir=chr21_centromere, r=0.021, k=120
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.071_k8.txt
+    jobid: 95
+    reason: Missing output files: chr21_centromere/results/result_r0.071_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.071, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.091_k90.txt
+    jobid: 125
+    reason: Missing output files: chr21_centromere/results/result_r0.091_k90.txt
+    wildcards: output_dir=chr21_centromere, r=0.091, k=90
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.151_k210.txt
+    jobid: 155
+    reason: Missing output files: chr21_centromere/results/result_r0.151_k210.txt
+    wildcards: output_dir=chr21_centromere, r=0.151, k=210
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.301_k4.txt
+    jobid: 185
+    reason: Missing output files: chr21_centromere/results/result_r0.301_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.301, k=4
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.201_k210.txt
+    jobid: 168
+    reason: Missing output files: chr21_centromere/results/result_r0.201_k210.txt
+    wildcards: output_dir=chr21_centromere, r=0.201, k=210
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.031_k120.txt
+    jobid: 48
+    reason: Missing output files: chr21_centromere/results/result_r0.031_k120.txt
+    wildcards: output_dir=chr21_centromere, r=0.031, k=120
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.011_k16.txt
+    jobid: 18
+    reason: Missing output files: chr21_centromere/results/result_r0.011_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.011, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.101_k90.txt
+    jobid: 138
+    reason: Missing output files: chr21_centromere/results/result_r0.101_k90.txt
+    wildcards: output_dir=chr21_centromere, r=0.101, k=90
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.081_k8.txt
+    jobid: 108
+    reason: Missing output files: chr21_centromere/results/result_r0.081_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.081, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:25 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.051_k240.txt
+    jobid: 78
+    reason: Missing output files: chr21_centromere/results/result_r0.051_k240.txt
+    wildcards: output_dir=chr21_centromere, r=0.051, k=240
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.021_k16.txt
+    jobid: 31
+    reason: Missing output files: chr21_centromere/results/result_r0.021_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.021, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.061_k240.txt
+    jobid: 91
+    reason: Missing output files: chr21_centromere/results/result_r0.061_k240.txt
+    wildcards: output_dir=chr21_centromere, r=0.061, k=240
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.041_k120.txt
+    jobid: 61
+    reason: Missing output files: chr21_centromere/results/result_r0.041_k120.txt
+    wildcards: output_dir=chr21_centromere, r=0.041, k=120
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.091_k8.txt
+    jobid: 121
+    reason: Missing output files: chr21_centromere/results/result_r0.091_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.091, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.151_k90.txt
+    jobid: 151
+    reason: Missing output files: chr21_centromere/results/result_r0.151_k90.txt
+    wildcards: output_dir=chr21_centromere, r=0.151, k=90
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.251_k210.txt
+    jobid: 181
+    reason: Missing output files: chr21_centromere/results/result_r0.251_k210.txt
+    wildcards: output_dir=chr21_centromere, r=0.251, k=210
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.001_k270.txt
+    jobid: 14
+    reason: Missing output files: chr21_centromere/results/result_r0.001_k270.txt
+    wildcards: output_dir=chr21_centromere, r=0.001, k=270
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.051_k120.txt
+    jobid: 74
+    reason: Missing output files: chr21_centromere/results/result_r0.051_k120.txt
+    wildcards: output_dir=chr21_centromere, r=0.051, k=120
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.031_k16.txt
+    jobid: 44
+    reason: Missing output files: chr21_centromere/results/result_r0.031_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.031, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.071_k240.txt
+    jobid: 104
+    reason: Missing output files: chr21_centromere/results/result_r0.071_k240.txt
+    wildcards: output_dir=chr21_centromere, r=0.071, k=240
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.101_k8.txt
+    jobid: 134
+    reason: Missing output files: chr21_centromere/results/result_r0.101_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.101, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.201_k90.txt
+    jobid: 164
+    reason: Missing output files: chr21_centromere/results/result_r0.201_k90.txt
+    wildcards: output_dir=chr21_centromere, r=0.201, k=90
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.301_k210.txt
+    jobid: 194
+    reason: Missing output files: chr21_centromere/results/result_r0.301_k210.txt
+    wildcards: output_dir=chr21_centromere, r=0.301, k=210
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.041_k16.txt
+    jobid: 57
+    reason: Missing output files: chr21_centromere/results/result_r0.041_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.041, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.081_k240.txt
+    jobid: 117
+    reason: Missing output files: chr21_centromere/results/result_r0.081_k240.txt
+    wildcards: output_dir=chr21_centromere, r=0.081, k=240
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.011_k270.txt
+    jobid: 27
+    reason: Missing output files: chr21_centromere/results/result_r0.011_k270.txt
+    wildcards: output_dir=chr21_centromere, r=0.011, k=270
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.061_k120.txt
+    jobid: 87
+    reason: Missing output files: chr21_centromere/results/result_r0.061_k120.txt
+    wildcards: output_dir=chr21_centromere, r=0.061, k=120
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.151_k8.txt
+    jobid: 147
+    reason: Missing output files: chr21_centromere/results/result_r0.151_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.151, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.251_k90.txt
+    jobid: 177
+    reason: Missing output files: chr21_centromere/results/result_r0.251_k90.txt
+    wildcards: output_dir=chr21_centromere, r=0.251, k=90
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.021_k270.txt
+    jobid: 40
+    reason: Missing output files: chr21_centromere/results/result_r0.021_k270.txt
+    wildcards: output_dir=chr21_centromere, r=0.021, k=270
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.071_k120.txt
+    jobid: 100
+    reason: Missing output files: chr21_centromere/results/result_r0.071_k120.txt
+    wildcards: output_dir=chr21_centromere, r=0.071, k=120
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.001_k150.txt
+    jobid: 10
+    reason: Missing output files: chr21_centromere/results/result_r0.001_k150.txt
+    wildcards: output_dir=chr21_centromere, r=0.001, k=150
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.051_k16.txt
+    jobid: 70
+    reason: Missing output files: chr21_centromere/results/result_r0.051_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.051, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.091_k240.txt
+    jobid: 130
+    reason: Missing output files: chr21_centromere/results/result_r0.091_k240.txt
+    wildcards: output_dir=chr21_centromere, r=0.091, k=240
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.201_k8.txt
+    jobid: 160
+    reason: Missing output files: chr21_centromere/results/result_r0.201_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.201, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.301_k90.txt
+    jobid: 190
+    reason: Missing output files: chr21_centromere/results/result_r0.301_k90.txt
+    wildcards: output_dir=chr21_centromere, r=0.301, k=90
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.011_k150.txt
+    jobid: 23
+    reason: Missing output files: chr21_centromere/results/result_r0.011_k150.txt
+    wildcards: output_dir=chr21_centromere, r=0.011, k=150
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.061_k16.txt
+    jobid: 83
+    reason: Missing output files: chr21_centromere/results/result_r0.061_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.061, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.031_k270.txt
+    jobid: 53
+    reason: Missing output files: chr21_centromere/results/result_r0.031_k270.txt
+    wildcards: output_dir=chr21_centromere, r=0.031, k=270
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.081_k120.txt
+    jobid: 113
+    reason: Missing output files: chr21_centromere/results/result_r0.081_k120.txt
+    wildcards: output_dir=chr21_centromere, r=0.081, k=120
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.101_k240.txt
+    jobid: 143
+    reason: Missing output files: chr21_centromere/results/result_r0.101_k240.txt
+    wildcards: output_dir=chr21_centromere, r=0.101, k=240
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.251_k8.txt
+    jobid: 173
+    reason: Missing output files: chr21_centromere/results/result_r0.251_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.251, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.001_k32.txt
+    jobid: 6
+    reason: Missing output files: chr21_centromere/results/result_r0.001_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.001, k=32
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.041_k270.txt
+    jobid: 66
+    reason: Missing output files: chr21_centromere/results/result_r0.041_k270.txt
+    wildcards: output_dir=chr21_centromere, r=0.041, k=270
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.021_k150.txt
+    jobid: 36
+    reason: Missing output files: chr21_centromere/results/result_r0.021_k150.txt
+    wildcards: output_dir=chr21_centromere, r=0.021, k=150
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.071_k16.txt
+    jobid: 96
+    reason: Missing output files: chr21_centromere/results/result_r0.071_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.071, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.091_k120.txt
+    jobid: 126
+    reason: Missing output files: chr21_centromere/results/result_r0.091_k120.txt
+    wildcards: output_dir=chr21_centromere, r=0.091, k=120
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.151_k240.txt
+    jobid: 156
+    reason: Missing output files: chr21_centromere/results/result_r0.151_k240.txt
+    wildcards: output_dir=chr21_centromere, r=0.151, k=240
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.301_k8.txt
+    jobid: 186
+    reason: Missing output files: chr21_centromere/results/result_r0.301_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.301, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.031_k150.txt
+    jobid: 49
+    reason: Missing output files: chr21_centromere/results/result_r0.031_k150.txt
+    wildcards: output_dir=chr21_centromere, r=0.031, k=150
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.081_k16.txt
+    jobid: 109
+    reason: Missing output files: chr21_centromere/results/result_r0.081_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.081, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.011_k32.txt
+    jobid: 19
+    reason: Missing output files: chr21_centromere/results/result_r0.011_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.011, k=32
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.051_k270.txt
+    jobid: 79
+    reason: Missing output files: chr21_centromere/results/result_r0.051_k270.txt
+    wildcards: output_dir=chr21_centromere, r=0.051, k=270
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.101_k120.txt
+    jobid: 139
+    reason: Missing output files: chr21_centromere/results/result_r0.101_k120.txt
+    wildcards: output_dir=chr21_centromere, r=0.101, k=120
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.201_k240.txt
+    jobid: 169
+    reason: Missing output files: chr21_centromere/results/result_r0.201_k240.txt
+    wildcards: output_dir=chr21_centromere, r=0.201, k=240
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.021_k32.txt
+    jobid: 32
+    reason: Missing output files: chr21_centromere/results/result_r0.021_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.021, k=32
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.061_k270.txt
+    jobid: 92
+    reason: Missing output files: chr21_centromere/results/result_r0.061_k270.txt
+    wildcards: output_dir=chr21_centromere, r=0.061, k=270
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.041_k150.txt
+    jobid: 62
+    reason: Missing output files: chr21_centromere/results/result_r0.041_k150.txt
+    wildcards: output_dir=chr21_centromere, r=0.041, k=150
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.091_k270.txt
+    jobid: 131
+    reason: Missing output files: chr21_centromere/results/result_r0.091_k270.txt
+    wildcards: output_dir=chr21_centromere, r=0.091, k=270
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.021_k180.txt
+    jobid: 37
+    reason: Missing output files: chr21_centromere/results/result_r0.021_k180.txt
+    wildcards: output_dir=chr21_centromere, r=0.021, k=180
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.201_k300.txt
+    jobid: 171
+    reason: Missing output files: chr21_centromere/results/result_r0.201_k300.txt
+    wildcards: output_dir=chr21_centromere, r=0.201, k=300
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.101_k180.txt
+    jobid: 141
+    reason: Missing output files: chr21_centromere/results/result_r0.101_k180.txt
+    wildcards: output_dir=chr21_centromere, r=0.101, k=180
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.021_k90.txt
+    jobid: 34
+    reason: Missing output files: chr21_centromere/results/result_r0.021_k90.txt
+    wildcards: output_dir=chr21_centromere, r=0.021, k=90
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.071_k4.txt
+    jobid: 94
+    reason: Missing output files: chr21_centromere/results/result_r0.071_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.071, k=4
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.001_k8.txt
+    jobid: 4
+    reason: Missing output files: chr21_centromere/results/result_r0.001_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.001, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.041_k210.txt
+    jobid: 64
+    reason: Missing output files: chr21_centromere/results/result_r0.041_k210.txt
+    wildcards: output_dir=chr21_centromere, r=0.041, k=210
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.091_k60.txt
+    jobid: 124
+    reason: Missing output files: chr21_centromere/results/result_r0.091_k60.txt
+    wildcards: output_dir=chr21_centromere, r=0.091, k=60
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.151_k180.txt
+    jobid: 154
+    reason: Missing output files: chr21_centromere/results/result_r0.151_k180.txt
+    wildcards: output_dir=chr21_centromere, r=0.151, k=180
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:16:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.251_k300.txt
+    jobid: 184
+    reason: Missing output files: chr21_centromere/results/result_r0.251_k300.txt
+    wildcards: output_dir=chr21_centromere, r=0.251, k=300
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:38 2025]
+Finished job 17.
+1 of 198 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:38 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.201_k16.txt
+    jobid: 161
+    reason: Missing output files: chr21_centromere/results/result_r0.201_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.201, k=16
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:39 2025]
+Finished job 146.
+2 of 198 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:39 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.301_k120.txt
+    jobid: 191
+    reason: Missing output files: chr21_centromere/results/result_r0.301_k120.txt
+    wildcards: output_dir=chr21_centromere, r=0.301, k=120
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:39 2025]
+Finished job 172.
+3 of 198 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:39 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.011_k180.txt
+    jobid: 24
+    reason: Missing output files: chr21_centromere/results/result_r0.011_k180.txt
+    wildcards: output_dir=chr21_centromere, r=0.011, k=180
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:41 2025]
+Finished job 159.
+4 of 198 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:41 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.051_k32.txt
+    jobid: 71
+    reason: Missing output files: chr21_centromere/results/result_r0.051_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.051, k=32
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:42 2025]
+Finished job 56.
+5 of 198 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:42 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.061_k32.txt
+    jobid: 84
+    reason: Missing output files: chr21_centromere/results/result_r0.061_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.061, k=32
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:42 2025]
+Finished job 94.
+6 of 198 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:42 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.101_k270.txt
+    jobid: 144
+    reason: Missing output files: chr21_centromere/results/result_r0.101_k270.txt
+    wildcards: output_dir=chr21_centromere, r=0.101, k=270
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:42 2025]
+Finished job 185.
+7 of 198 steps (4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:42 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.031_k300.txt
+    jobid: 54
+    reason: Missing output files: chr21_centromere/results/result_r0.031_k300.txt
+    wildcards: output_dir=chr21_centromere, r=0.031, k=300
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:45 2025]
+Finished job 5.
+8 of 198 steps (4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:45 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.091_k4.txt
+    jobid: 120
+    reason: Missing output files: chr21_centromere/results/result_r0.091_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.091, k=4
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:45 2025]
+Finished job 69.
+9 of 198 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:45 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.251_k180.txt
+    jobid: 180
+    reason: Missing output files: chr21_centromere/results/result_r0.251_k180.txt
+    wildcards: output_dir=chr21_centromere, r=0.251, k=180
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:45 2025]
+Finished job 30.
+10 of 198 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:45 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.051_k90.txt
+    jobid: 73
+    reason: Missing output files: chr21_centromere/results/result_r0.051_k90.txt
+    wildcards: output_dir=chr21_centromere, r=0.051, k=90
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:47 2025]
+Finished job 134.
+11 of 198 steps (6%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:48 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.001_k240.txt
+    jobid: 13
+    reason: Missing output files: chr21_centromere/results/result_r0.001_k240.txt
+    wildcards: output_dir=chr21_centromere, r=0.001, k=240
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:48 2025]
+Finished job 147.
+12 of 198 steps (6%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:48 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.041_k300.txt
+    jobid: 67
+    reason: Missing output files: chr21_centromere/results/result_r0.041_k300.txt
+    wildcards: output_dir=chr21_centromere, r=0.041, k=300
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:48 2025]
+Finished job 4.
+13 of 198 steps (7%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:48 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.091_k150.txt
+    jobid: 127
+    reason: Missing output files: chr21_centromere/results/result_r0.091_k150.txt
+    wildcards: output_dir=chr21_centromere, r=0.091, k=150
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:51 2025]
+Finished job 82.
+14 of 198 steps (7%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:51 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.301_k16.txt
+    jobid: 187
+    reason: Missing output files: chr21_centromere/results/result_r0.301_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.301, k=16
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:53 2025]
+Finished job 18.
+15 of 198 steps (8%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:53 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.071_k32.txt
+    jobid: 97
+    reason: Missing output files: chr21_centromere/results/result_r0.071_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.071, k=32
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:54 2025]
+Finished job 95.
+16 of 198 steps (8%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:54 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.001_k60.txt
+    jobid: 7
+    reason: Missing output files: chr21_centromere/results/result_r0.001_k60.txt
+    wildcards: output_dir=chr21_centromere, r=0.001, k=60
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:55 2025]
+Finished job 6.
+17 of 198 steps (9%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:55 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.151_k270.txt
+    jobid: 157
+    reason: Missing output files: chr21_centromere/results/result_r0.151_k270.txt
+    wildcards: output_dir=chr21_centromere, r=0.151, k=270
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:56 2025]
+Finished job 120.
+18 of 198 steps (9%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:56 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.031_k180.txt
+    jobid: 50
+    reason: Missing output files: chr21_centromere/results/result_r0.031_k180.txt
+    wildcards: output_dir=chr21_centromere, r=0.031, k=180
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:58 2025]
+Finished job 121.
+19 of 198 steps (10%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:58 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.081_k32.txt
+    jobid: 110
+    reason: Missing output files: chr21_centromere/results/result_r0.081_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.081, k=32
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:16:59 2025]
+Finished job 108.
+20 of 198 steps (10%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:16:59 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.041_k32.txt
+    jobid: 58
+    reason: Missing output files: chr21_centromere/results/result_r0.041_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.041, k=32
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:01 2025]
+Finished job 160.
+21 of 198 steps (11%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:01 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.081_k270.txt
+    jobid: 118
+    reason: Missing output files: chr21_centromere/results/result_r0.081_k270.txt
+    wildcards: output_dir=chr21_centromere, r=0.081, k=270
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:01 2025]
+Finished job 44.
+22 of 198 steps (11%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:01 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.251_k120.txt
+    jobid: 178
+    reason: Missing output files: chr21_centromere/results/result_r0.251_k120.txt
+    wildcards: output_dir=chr21_centromere, r=0.251, k=120
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:02 2025]
+Finished job 31.
+23 of 198 steps (12%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:03 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.101_k4.txt
+    jobid: 133
+    reason: Missing output files: chr21_centromere/results/result_r0.101_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.101, k=4
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:04 2025]
+Finished job 173.
+24 of 198 steps (12%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:04 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.251_k150.txt
+    jobid: 179
+    reason: Missing output files: chr21_centromere/results/result_r0.251_k150.txt
+    wildcards: output_dir=chr21_centromere, r=0.251, k=150
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:05 2025]
+Finished job 19.
+25 of 198 steps (13%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:06 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.011_k300.txt
+    jobid: 28
+    reason: Missing output files: chr21_centromere/results/result_r0.011_k300.txt
+    wildcards: output_dir=chr21_centromere, r=0.011, k=300
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:06 2025]
+Finished job 57.
+26 of 198 steps (13%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:06 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.061_k150.txt
+    jobid: 88
+    reason: Missing output files: chr21_centromere/results/result_r0.061_k150.txt
+    wildcards: output_dir=chr21_centromere, r=0.061, k=150
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:07 2025]
+Finished job 186.
+27 of 198 steps (14%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:07 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.151_k16.txt
+    jobid: 148
+    reason: Missing output files: chr21_centromere/results/result_r0.151_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.151, k=16
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:07 2025]
+Finished job 155.
+28 of 198 steps (14%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:07 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.151_k32.txt
+    jobid: 149
+    reason: Missing output files: chr21_centromere/results/result_r0.151_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.151, k=32
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:08 2025]
+Finished job 70.
+29 of 198 steps (15%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:08 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.071_k210.txt
+    jobid: 103
+    reason: Missing output files: chr21_centromere/results/result_r0.071_k210.txt
+    wildcards: output_dir=chr21_centromere, r=0.071, k=210
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:09 2025]
+Finished job 10.
+30 of 198 steps (15%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:10 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.151_k150.txt
+    jobid: 153
+    reason: Missing output files: chr21_centromere/results/result_r0.151_k150.txt
+    wildcards: output_dir=chr21_centromere, r=0.151, k=150
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:10 2025]
+Finished job 9.
+31 of 198 steps (16%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:10 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.011_k210.txt
+    jobid: 25
+    reason: Missing output files: chr21_centromere/results/result_r0.011_k210.txt
+    wildcards: output_dir=chr21_centromere, r=0.011, k=210
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:12 2025]
+Finished job 32.
+32 of 198 steps (16%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:12 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.001_k180.txt
+    jobid: 11
+    reason: Missing output files: chr21_centromere/results/result_r0.001_k180.txt
+    wildcards: output_dir=chr21_centromere, r=0.001, k=180
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:13 2025]
+Finished job 22.
+33 of 198 steps (17%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:13 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.061_k60.txt
+    jobid: 85
+    reason: Missing output files: chr21_centromere/results/result_r0.061_k60.txt
+    wildcards: output_dir=chr21_centromere, r=0.061, k=60
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:13 2025]
+Finished job 52.
+34 of 198 steps (17%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:13 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.071_k150.txt
+    jobid: 101
+    reason: Missing output files: chr21_centromere/results/result_r0.071_k150.txt
+    wildcards: output_dir=chr21_centromere, r=0.071, k=150
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:13 2025]
+Finished job 181.
+35 of 198 steps (18%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:14 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.101_k300.txt
+    jobid: 145
+    reason: Missing output files: chr21_centromere/results/result_r0.101_k300.txt
+    wildcards: output_dir=chr21_centromere, r=0.101, k=300
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:15 2025]
+Finished job 161.
+36 of 198 steps (18%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:15 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.021_k300.txt
+    jobid: 41
+    reason: Missing output files: chr21_centromere/results/result_r0.021_k300.txt
+    wildcards: output_dir=chr21_centromere, r=0.021, k=300
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:15 2025]
+Finished job 83.
+37 of 198 steps (19%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:15 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.041_k4.txt
+    jobid: 55
+    reason: Missing output files: chr21_centromere/results/result_r0.041_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.041, k=4
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:15 2025]
+Finished job 91.
+38 of 198 steps (19%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:15 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.251_k270.txt
+    jobid: 183
+    reason: Missing output files: chr21_centromere/results/result_r0.251_k270.txt
+    wildcards: output_dir=chr21_centromere, r=0.251, k=270
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:16 2025]
+Finished job 164.
+39 of 198 steps (20%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:16 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.081_k180.txt
+    jobid: 115
+    reason: Missing output files: chr21_centromere/results/result_r0.081_k180.txt
+    wildcards: output_dir=chr21_centromere, r=0.081, k=180
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:16 2025]
+Finished job 14.
+40 of 198 steps (20%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:16 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.301_k150.txt
+    jobid: 192
+    reason: Missing output files: chr21_centromere/results/result_r0.301_k150.txt
+    wildcards: output_dir=chr21_centromere, r=0.301, k=150
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:16 2025]
+Finished job 133.
+41 of 198 steps (21%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:16 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.251_k32.txt
+    jobid: 175
+    reason: Missing output files: chr21_centromere/results/result_r0.251_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.251, k=32
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:18 2025]
+Finished job 96.
+42 of 198 steps (21%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:18 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.201_k32.txt
+    jobid: 162
+    reason: Missing output files: chr21_centromere/results/result_r0.201_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.201, k=32
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:18 2025]
+Finished job 124.
+43 of 198 steps (22%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:18 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.081_k150.txt
+    jobid: 114
+    reason: Missing output files: chr21_centromere/results/result_r0.081_k150.txt
+    wildcards: output_dir=chr21_centromere, r=0.081, k=150
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:19 2025]
+Finished job 104.
+44 of 198 steps (22%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:19 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.091_k300.txt
+    jobid: 132
+    reason: Missing output files: chr21_centromere/results/result_r0.091_k300.txt
+    wildcards: output_dir=chr21_centromere, r=0.091, k=300
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:19 2025]
+Finished job 84.
+45 of 198 steps (23%) done
+[Mon Apr 21 23:17:19 2025]
+Finished job 71.
+46 of 198 steps (23%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Mon Apr 21 23:17:19 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.061_k4.txt
+    jobid: 81
+    reason: Missing output files: chr21_centromere/results/result_r0.061_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.061, k=4
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:17:19 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.001_k90.txt
+    jobid: 8
+    reason: Missing output files: chr21_centromere/results/result_r0.001_k90.txt
+    wildcards: output_dir=chr21_centromere, r=0.001, k=90
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Mon Apr 21 23:17:20 2025]
+Finished job 37.
+47 of 198 steps (24%) done
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:21 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.051_k60.txt
+    jobid: 72
+    reason: Missing output files: chr21_centromere/results/result_r0.051_k60.txt
+    wildcards: output_dir=chr21_centromere, r=0.051, k=60
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:21 2025]
+Finished job 7.
+48 of 198 steps (24%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:21 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.091_k16.txt
+    jobid: 122
+    reason: Missing output files: chr21_centromere/results/result_r0.091_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.091, k=16
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:22 2025]
+Finished job 78.
+49 of 198 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:22 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.251_k240.txt
+    jobid: 182
+    reason: Missing output files: chr21_centromere/results/result_r0.251_k240.txt
+    wildcards: output_dir=chr21_centromere, r=0.251, k=240
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:22 2025]
+Finished job 109.
+50 of 198 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:22 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.051_k4.txt
+    jobid: 68
+    reason: Missing output files: chr21_centromere/results/result_r0.051_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.051, k=4
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:22 2025]
+Finished job 141.
+51 of 198 steps (26%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:22 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.091_k180.txt
+    jobid: 128
+    reason: Missing output files: chr21_centromere/results/result_r0.091_k180.txt
+    wildcards: output_dir=chr21_centromere, r=0.091, k=180
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:22 2025]
+Finished job 191.
+52 of 198 steps (26%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:23 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.251_k16.txt
+    jobid: 174
+    reason: Missing output files: chr21_centromere/results/result_r0.251_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.251, k=16
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:23 2025]
+Finished job 167.
+53 of 198 steps (27%) done
+[Mon Apr 21 23:17:23 2025]
+Finished job 190.
+54 of 198 steps (27%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Mon Apr 21 23:17:23 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.021_k210.txt
+    jobid: 38
+    reason: Missing output files: chr21_centromere/results/result_r0.021_k210.txt
+    wildcards: output_dir=chr21_centromere, r=0.021, k=210
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:17:23 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.051_k300.txt
+    jobid: 80
+    reason: Missing output files: chr21_centromere/results/result_r0.051_k300.txt
+    wildcards: output_dir=chr21_centromere, r=0.051, k=300
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Mon Apr 21 23:17:23 2025]
+Finished job 64.
+55 of 198 steps (28%) done
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:23 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.021_k60.txt
+    jobid: 33
+    reason: Missing output files: chr21_centromere/results/result_r0.021_k60.txt
+    wildcards: output_dir=chr21_centromere, r=0.021, k=60
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:23 2025]
+Finished job 77.
+56 of 198 steps (28%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:23 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.001_k210.txt
+    jobid: 12
+    reason: Missing output files: chr21_centromere/results/result_r0.001_k210.txt
+    wildcards: output_dir=chr21_centromere, r=0.001, k=210
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:24 2025]
+Finished job 24.
+57 of 198 steps (29%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:24 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.301_k32.txt
+    jobid: 188
+    reason: Missing output files: chr21_centromere/results/result_r0.301_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.301, k=32
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:26 2025]
+Finished job 55.
+58 of 198 steps (29%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.071_k180.txt
+    jobid: 102
+    reason: Missing output files: chr21_centromere/results/result_r0.071_k180.txt
+    wildcards: output_dir=chr21_centromere, r=0.071, k=180
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:26 2025]
+Finished job 54.
+59 of 198 steps (30%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.071_k60.txt
+    jobid: 98
+    reason: Missing output files: chr21_centromere/results/result_r0.071_k60.txt
+    wildcards: output_dir=chr21_centromere, r=0.071, k=60
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:26 2025]
+Finished job 193.
+60 of 198 steps (30%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.031_k4.txt
+    jobid: 42
+    reason: Missing output files: chr21_centromere/results/result_r0.031_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.031, k=4
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:26 2025]
+Finished job 197.
+61 of 198 steps (31%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:26 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.151_k300.txt
+    jobid: 158
+    reason: Missing output files: chr21_centromere/results/result_r0.151_k300.txt
+    wildcards: output_dir=chr21_centromere, r=0.151, k=300
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:27 2025]
+Finished job 144.
+62 of 198 steps (31%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:27 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.031_k8.txt
+    jobid: 43
+    reason: Missing output files: chr21_centromere/results/result_r0.031_k8.txt
+    wildcards: output_dir=chr21_centromere, r=0.031, k=8
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:27 2025]
+Finished job 138.
+63 of 198 steps (32%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:27 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.031_k210.txt
+    jobid: 51
+    reason: Missing output files: chr21_centromere/results/result_r0.031_k210.txt
+    wildcards: output_dir=chr21_centromere, r=0.031, k=210
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:27 2025]
+Finished job 116.
+64 of 198 steps (32%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:27 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.031_k90.txt
+    jobid: 47
+    reason: Missing output files: chr21_centromere/results/result_r0.031_k90.txt
+    wildcards: output_dir=chr21_centromere, r=0.031, k=90
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:27 2025]
+Finished job 27.
+65 of 198 steps (33%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:28 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.081_k4.txt
+    jobid: 107
+    reason: Missing output files: chr21_centromere/results/result_r0.081_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.081, k=4
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:28 2025]
+Finished job 23.
+66 of 198 steps (33%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:28 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.011_k4.txt
+    jobid: 16
+    reason: Missing output files: chr21_centromere/results/result_r0.011_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.011, k=4
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:28 2025]
+Finished job 34.
+67 of 198 steps (34%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:28 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.051_k180.txt
+    jobid: 76
+    reason: Missing output files: chr21_centromere/results/result_r0.051_k180.txt
+    wildcards: output_dir=chr21_centromere, r=0.051, k=180
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:28 2025]
+Finished job 180.
+68 of 198 steps (34%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:28 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.101_k32.txt
+    jobid: 136
+    reason: Missing output files: chr21_centromere/results/result_r0.101_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.101, k=32
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:28 2025]
+Finished job 137.
+69 of 198 steps (35%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:29 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.301_k270.txt
+    jobid: 196
+    reason: Missing output files: chr21_centromere/results/result_r0.301_k270.txt
+    wildcards: output_dir=chr21_centromere, r=0.301, k=270
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:29 2025]
+Finished job 177.
+70 of 198 steps (35%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:29 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.031_k60.txt
+    jobid: 46
+    reason: Missing output files: chr21_centromere/results/result_r0.031_k60.txt
+    wildcards: output_dir=chr21_centromere, r=0.031, k=60
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:29 2025]
+Finished job 176.
+71 of 198 steps (36%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:30 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.071_k300.txt
+    jobid: 106
+    reason: Missing output files: chr21_centromere/results/result_r0.071_k300.txt
+    wildcards: output_dir=chr21_centromere, r=0.071, k=300
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:30 2025]
+Finished job 48.
+72 of 198 steps (36%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:30 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.201_k150.txt
+    jobid: 166
+    reason: Missing output files: chr21_centromere/results/result_r0.201_k150.txt
+    wildcards: output_dir=chr21_centromere, r=0.201, k=150
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:30 2025]
+Finished job 113.
+73 of 198 steps (37%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:30 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.051_k150.txt
+    jobid: 75
+    reason: Missing output files: chr21_centromere/results/result_r0.051_k150.txt
+    wildcards: output_dir=chr21_centromere, r=0.051, k=150
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:31 2025]
+Finished job 35.
+74 of 198 steps (37%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:31 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.001_k300.txt
+    jobid: 15
+    reason: Missing output files: chr21_centromere/results/result_r0.001_k300.txt
+    wildcards: output_dir=chr21_centromere, r=0.001, k=300
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:32 2025]
+Finished job 81.
+75 of 198 steps (38%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:32 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.101_k16.txt
+    jobid: 135
+    reason: Missing output files: chr21_centromere/results/result_r0.101_k16.txt
+    wildcards: output_dir=chr21_centromere, r=0.101, k=16
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:33 2025]
+Finished job 99.
+76 of 198 steps (38%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:33 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.301_k240.txt
+    jobid: 195
+    reason: Missing output files: chr21_centromere/results/result_r0.301_k240.txt
+    wildcards: output_dir=chr21_centromere, r=0.301, k=240
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:33 2025]
+Finished job 61.
+77 of 198 steps (39%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:33 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.151_k60.txt
+    jobid: 150
+    reason: Missing output files: chr21_centromere/results/result_r0.151_k60.txt
+    wildcards: output_dir=chr21_centromere, r=0.151, k=60
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:33 2025]
+Finished job 86.
+78 of 198 steps (39%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:34 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.151_k120.txt
+    jobid: 152
+    reason: Missing output files: chr21_centromere/results/result_r0.151_k120.txt
+    wildcards: output_dir=chr21_centromere, r=0.151, k=120
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:34 2025]
+Finished job 142.
+79 of 198 steps (40%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:34 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.041_k60.txt
+    jobid: 59
+    reason: Missing output files: chr21_centromere/results/result_r0.041_k60.txt
+    wildcards: output_dir=chr21_centromere, r=0.041, k=60
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:34 2025]
+Finished job 68.
+80 of 198 steps (40%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:34 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.081_k300.txt
+    jobid: 119
+    reason: Missing output files: chr21_centromere/results/result_r0.081_k300.txt
+    wildcards: output_dir=chr21_centromere, r=0.081, k=300
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:34 2025]
+Finished job 49.
+81 of 198 steps (41%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:35 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.031_k32.txt
+    jobid: 45
+    reason: Missing output files: chr21_centromere/results/result_r0.031_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.031, k=32
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:35 2025]
+Finished job 117.
+82 of 198 steps (41%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:35 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.061_k300.txt
+    jobid: 93
+    reason: Missing output files: chr21_centromere/results/result_r0.061_k300.txt
+    wildcards: output_dir=chr21_centromere, r=0.061, k=300
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:35 2025]
+Finished job 189.
+83 of 198 steps (42%) done
+[Mon Apr 21 23:17:35 2025]
+Finished job 73.
+84 of 198 steps (42%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Mon Apr 21 23:17:35 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.011_k90.txt
+    jobid: 21
+    reason: Missing output files: chr21_centromere/results/result_r0.011_k90.txt
+    wildcards: output_dir=chr21_centromere, r=0.011, k=90
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:17:35 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.201_k60.txt
+    jobid: 163
+    reason: Missing output files: chr21_centromere/results/result_r0.201_k60.txt
+    wildcards: output_dir=chr21_centromere, r=0.201, k=60
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Mon Apr 21 23:17:35 2025]
+Finished job 67.
+85 of 198 steps (43%) done
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:35 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.061_k180.txt
+    jobid: 89
+    reason: Missing output files: chr21_centromere/results/result_r0.061_k180.txt
+    wildcards: output_dir=chr21_centromere, r=0.061, k=180
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:36 2025]
+Finished job 65.
+86 of 198 steps (43%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:36 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.081_k60.txt
+    jobid: 111
+    reason: Missing output files: chr21_centromere/results/result_r0.081_k60.txt
+    wildcards: output_dir=chr21_centromere, r=0.081, k=60
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:37 2025]
+Finished job 90.
+87 of 198 steps (44%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:37 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.021_k4.txt
+    jobid: 29
+    reason: Missing output files: chr21_centromere/results/result_r0.021_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.021, k=4
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:37 2025]
+Finished job 139.
+88 of 198 steps (44%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:37 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.041_k180.txt
+    jobid: 63
+    reason: Missing output files: chr21_centromere/results/result_r0.041_k180.txt
+    wildcards: output_dir=chr21_centromere, r=0.041, k=180
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:38 2025]
+Finished job 168.
+89 of 198 steps (45%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:38 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.001_k4.txt
+    jobid: 3
+    reason: Missing output files: chr21_centromere/results/result_r0.001_k4.txt
+    wildcards: output_dir=chr21_centromere, r=0.001, k=4
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:38 2025]
+Finished job 62.
+90 of 198 steps (45%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:38 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.091_k32.txt
+    jobid: 123
+    reason: Missing output files: chr21_centromere/results/result_r0.091_k32.txt
+    wildcards: output_dir=chr21_centromere, r=0.091, k=32
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:39 2025]
+Finished job 171.
+91 of 198 steps (46%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:39 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.071_k270.txt
+    jobid: 105
+    reason: Missing output files: chr21_centromere/results/result_r0.071_k270.txt
+    wildcards: output_dir=chr21_centromere, r=0.071, k=270
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:39 2025]
+Finished job 131.
+92 of 198 steps (46%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:39 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.101_k150.txt
+    jobid: 140
+    reason: Missing output files: chr21_centromere/results/result_r0.101_k150.txt
+    wildcards: output_dir=chr21_centromere, r=0.101, k=150
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:39 2025]
+Finished job 129.
+93 of 198 steps (47%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:17:40 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.201_k120.txt
+    jobid: 165
+    reason: Missing output files: chr21_centromere/results/result_r0.201_k120.txt
+    wildcards: output_dir=chr21_centromere, r=0.201, k=120
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:40 2025]
+Finished job 151.
+94 of 198 steps (47%) done
+[Mon Apr 21 23:17:40 2025]
+Finished job 60.
+95 of 198 steps (48%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Mon Apr 21 23:17:40 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.201_k270.txt
+    jobid: 170
+    reason: Missing output files: chr21_centromere/results/result_r0.201_k270.txt
+    wildcards: output_dir=chr21_centromere, r=0.201, k=270
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 23:17:40 2025]
+localrule run_simulation:
+    input: /research/hvw5426/splitted_fasta/chr21.fasta
+    output: chr21_centromere/results/result_r0.011_k60.txt
+    jobid: 20
+    reason: Missing output files: chr21_centromere/results/result_r0.011_k60.txt
+    wildcards: output_dir=chr21_centromere, r=0.011, k=60
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:17:40 2025]
+Finished job 42.
+96 of 198 steps (48%) done
+[Mon Apr 21 23:17:40 2025]
+Finished job 107.
+97 of 198 steps (49%) done
+[Mon Apr 21 23:17:40 2025]
+Finished job 154.
+98 of 198 steps (49%) done
+[Mon Apr 21 23:17:40 2025]
+Finished job 156.
+99 of 198 steps (50%) done
+[Mon Apr 21 23:17:40 2025]
+Finished job 130.
+100 of 198 steps (51%) done
+[Mon Apr 21 23:17:40 2025]
+Finished job 36.
+101 of 198 steps (51%) done
+[Mon Apr 21 23:17:41 2025]
+Finished job 26.
+102 of 198 steps (52%) done
+[Mon Apr 21 23:17:41 2025]
+Finished job 100.
+103 of 198 steps (52%) done
+[Mon Apr 21 23:17:41 2025]
+Finished job 112.
+104 of 198 steps (53%) done
+[Mon Apr 21 23:17:41 2025]
+Finished job 194.
+105 of 198 steps (53%) done
+[Mon Apr 21 23:17:41 2025]
+Finished job 169.
+106 of 198 steps (54%) done
+[Mon Apr 21 23:17:41 2025]
+Finished job 125.
+107 of 198 steps (54%) done
+[Mon Apr 21 23:17:42 2025]
+Finished job 13.
+108 of 198 steps (55%) done
+[Mon Apr 21 23:17:42 2025]
+Finished job 143.
+109 of 198 steps (55%) done
+[Mon Apr 21 23:17:42 2025]
+Finished job 74.
+110 of 198 steps (56%) done
+[Mon Apr 21 23:17:43 2025]
+Finished job 16.
+111 of 198 steps (56%) done
+[Mon Apr 21 23:17:43 2025]
+Finished job 126.
+112 of 198 steps (57%) done
+[Mon Apr 21 23:17:43 2025]
+Finished job 184.
+113 of 198 steps (57%) done
+[Mon Apr 21 23:17:44 2025]
+Finished job 58.
+114 of 198 steps (58%) done
+[Mon Apr 21 23:17:44 2025]
+Finished job 87.
+115 of 198 steps (58%) done
+[Mon Apr 21 23:17:44 2025]
+Finished job 92.
+116 of 198 steps (59%) done
+[Mon Apr 21 23:17:45 2025]
+Finished job 79.
+117 of 198 steps (59%) done
+[Mon Apr 21 23:17:45 2025]
+Finished job 40.
+118 of 198 steps (60%) done
+[Mon Apr 21 23:17:45 2025]
+Finished job 66.
+119 of 198 steps (60%) done
+[Mon Apr 21 23:17:45 2025]
+Finished job 53.
+120 of 198 steps (61%) done
+[Mon Apr 21 23:17:46 2025]
+Finished job 187.
+121 of 198 steps (61%) done
+[Mon Apr 21 23:17:47 2025]
+Finished job 39.
+122 of 198 steps (62%) done
+[Mon Apr 21 23:17:47 2025]
+Finished job 8.
+123 of 198 steps (62%) done
+[Mon Apr 21 23:17:47 2025]
+Finished job 29.
+124 of 198 steps (63%) done
+[Mon Apr 21 23:17:48 2025]
+Finished job 43.
+125 of 198 steps (63%) done
+[Mon Apr 21 23:17:48 2025]
+Finished job 178.
+126 of 198 steps (64%) done
+[Mon Apr 21 23:17:48 2025]
+Finished job 3.
+127 of 198 steps (64%) done
+[Mon Apr 21 23:17:50 2025]
+Finished job 97.
+128 of 198 steps (65%) done
+[Mon Apr 21 23:17:52 2025]
+Finished job 11.
+129 of 198 steps (65%) done
+[Mon Apr 21 23:17:54 2025]
+Finished job 127.
+130 of 198 steps (66%) done
+[Mon Apr 21 23:17:54 2025]
+Finished job 110.
+131 of 198 steps (66%) done
+[Mon Apr 21 23:17:56 2025]
+Finished job 50.
+132 of 198 steps (67%) done
+[Mon Apr 21 23:17:56 2025]
+Finished job 162.
+133 of 198 steps (67%) done
+[Mon Apr 21 23:17:57 2025]
+Finished job 33.
+134 of 198 steps (68%) done
+[Mon Apr 21 23:17:59 2025]
+Finished job 157.
+135 of 198 steps (68%) done
+[Mon Apr 21 23:17:59 2025]
+Finished job 148.
+136 of 198 steps (69%) done
+[Mon Apr 21 23:18:00 2025]
+Finished job 12.
+137 of 198 steps (69%) done
+[Mon Apr 21 23:18:00 2025]
+Finished job 122.
+138 of 198 steps (70%) done
+[Mon Apr 21 23:18:00 2025]
+Finished job 149.
+139 of 198 steps (70%) done
+[Mon Apr 21 23:18:01 2025]
+Finished job 118.
+140 of 198 steps (71%) done
+[Mon Apr 21 23:18:03 2025]
+Finished job 145.
+141 of 198 steps (71%) done
+[Mon Apr 21 23:18:03 2025]
+Finished job 88.
+142 of 198 steps (72%) done
+[Mon Apr 21 23:18:03 2025]
+Finished job 85.
+143 of 198 steps (72%) done
+[Mon Apr 21 23:18:04 2025]
+Finished job 179.
+144 of 198 steps (73%) done
+[Mon Apr 21 23:18:04 2025]
+Finished job 47.
+145 of 198 steps (73%) done
+[Mon Apr 21 23:18:05 2025]
+Finished job 153.
+146 of 198 steps (74%) done
+[Mon Apr 21 23:18:05 2025]
+Finished job 103.
+147 of 198 steps (74%) done
+[Mon Apr 21 23:18:05 2025]
+Finished job 101.
+148 of 198 steps (75%) done
+[Mon Apr 21 23:18:05 2025]
+Finished job 25.
+149 of 198 steps (75%) done
+[Mon Apr 21 23:18:05 2025]
+Finished job 115.
+150 of 198 steps (76%) done
+[Mon Apr 21 23:18:06 2025]
+Finished job 72.
+151 of 198 steps (76%) done
+[Mon Apr 21 23:18:06 2025]
+Finished job 174.
+152 of 198 steps (77%) done
+[Mon Apr 21 23:18:06 2025]
+Finished job 175.
+153 of 198 steps (77%) done
+[Mon Apr 21 23:18:06 2025]
+Finished job 102.
+154 of 198 steps (78%) done
+[Mon Apr 21 23:18:06 2025]
+Finished job 114.
+155 of 198 steps (78%) done
+[Mon Apr 21 23:18:06 2025]
+Finished job 192.
+156 of 198 steps (79%) done
+[Mon Apr 21 23:18:06 2025]
+Finished job 132.
+157 of 198 steps (79%) done
+[Mon Apr 21 23:18:06 2025]
+Finished job 28.
+158 of 198 steps (80%) done
+[Mon Apr 21 23:18:07 2025]
+Finished job 183.
+159 of 198 steps (80%) done
+[Mon Apr 21 23:18:07 2025]
+Finished job 15.
+160 of 198 steps (81%) done
+[Mon Apr 21 23:18:07 2025]
+Finished job 45.
+161 of 198 steps (81%) done
+[Mon Apr 21 23:18:07 2025]
+Finished job 80.
+162 of 198 steps (82%) done
+[Mon Apr 21 23:18:07 2025]
+Finished job 182.
+163 of 198 steps (82%) done
+[Mon Apr 21 23:18:07 2025]
+Finished job 20.
+164 of 198 steps (83%) done
+[Mon Apr 21 23:18:08 2025]
+Finished job 41.
+165 of 198 steps (83%) done
+[Mon Apr 21 23:18:08 2025]
+Finished job 128.
+166 of 198 steps (84%) done
+[Mon Apr 21 23:18:08 2025]
+Finished job 51.
+167 of 198 steps (84%) done
+[Mon Apr 21 23:18:08 2025]
+Finished job 188.
+168 of 198 steps (85%) done
+[Mon Apr 21 23:18:08 2025]
+Finished job 135.
+169 of 198 steps (85%) done
+[Mon Apr 21 23:18:09 2025]
+Finished job 46.
+170 of 198 steps (86%) done
+[Mon Apr 21 23:18:09 2025]
+Finished job 98.
+171 of 198 steps (86%) done
+[Mon Apr 21 23:18:09 2025]
+Finished job 38.
+172 of 198 steps (87%) done
+[Mon Apr 21 23:18:09 2025]
+Finished job 136.
+173 of 198 steps (87%) done
+[Mon Apr 21 23:18:10 2025]
+Finished job 59.
+174 of 198 steps (88%) done
+[Mon Apr 21 23:18:10 2025]
+Finished job 158.
+175 of 198 steps (88%) done
+[Mon Apr 21 23:18:10 2025]
+Finished job 76.
+176 of 198 steps (89%) done
+[Mon Apr 21 23:18:11 2025]
+Finished job 21.
+177 of 198 steps (89%) done
+[Mon Apr 21 23:18:12 2025]
+Finished job 150.
+178 of 198 steps (90%) done
+[Mon Apr 21 23:18:12 2025]
+Finished job 152.
+179 of 198 steps (90%) done
+[Mon Apr 21 23:18:12 2025]
+Finished job 196.
+180 of 198 steps (91%) done
+[Mon Apr 21 23:18:13 2025]
+Finished job 111.
+181 of 198 steps (91%) done
+[Mon Apr 21 23:18:13 2025]
+Finished job 106.
+182 of 198 steps (92%) done
+[Mon Apr 21 23:18:13 2025]
+Finished job 166.
+183 of 198 steps (92%) done
+[Mon Apr 21 23:18:14 2025]
+Finished job 119.
+184 of 198 steps (93%) done
+[Mon Apr 21 23:18:14 2025]
+Finished job 75.
+185 of 198 steps (93%) done
+[Mon Apr 21 23:18:14 2025]
+Finished job 165.
+186 of 198 steps (94%) done
+[Mon Apr 21 23:18:14 2025]
+Finished job 123.
+187 of 198 steps (94%) done
+[Mon Apr 21 23:18:15 2025]
+Finished job 63.
+188 of 198 steps (95%) done
+[Mon Apr 21 23:18:15 2025]
+Finished job 89.
+189 of 198 steps (95%) done
+[Mon Apr 21 23:18:15 2025]
+Finished job 93.
+190 of 198 steps (96%) done
+[Mon Apr 21 23:18:15 2025]
+Finished job 163.
+191 of 198 steps (96%) done
+[Mon Apr 21 23:18:15 2025]
+Finished job 195.
+192 of 198 steps (97%) done
+[Mon Apr 21 23:18:15 2025]
+Finished job 170.
+193 of 198 steps (97%) done
+[Mon Apr 21 23:18:16 2025]
+Finished job 140.
+194 of 198 steps (98%) done
+[Mon Apr 21 23:18:16 2025]
+Finished job 105.
+195 of 198 steps (98%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:18:16 2025]
+localrule combine_results:
+    input: chr21_centromere/results/result_r0.001_k4.txt, chr21_centromere/results/result_r0.001_k8.txt, chr21_centromere/results/result_r0.001_k16.txt, chr21_centromere/results/result_r0.001_k32.txt, chr21_centromere/results/result_r0.001_k60.txt, chr21_centromere/results/result_r0.001_k90.txt, chr21_centromere/results/result_r0.001_k120.txt, chr21_centromere/results/result_r0.001_k150.txt, chr21_centromere/results/result_r0.001_k180.txt, chr21_centromere/results/result_r0.001_k210.txt, chr21_centromere/results/result_r0.001_k240.txt, chr21_centromere/results/result_r0.001_k270.txt, chr21_centromere/results/result_r0.001_k300.txt, chr21_centromere/results/result_r0.011_k4.txt, chr21_centromere/results/result_r0.011_k8.txt, chr21_centromere/results/result_r0.011_k16.txt, chr21_centromere/results/result_r0.011_k32.txt, chr21_centromere/results/result_r0.011_k60.txt, chr21_centromere/results/result_r0.011_k90.txt, chr21_centromere/results/result_r0.011_k120.txt, chr21_centromere/results/result_r0.011_k150.txt, chr21_centromere/results/result_r0.011_k180.txt, chr21_centromere/results/result_r0.011_k210.txt, chr21_centromere/results/result_r0.011_k240.txt, chr21_centromere/results/result_r0.011_k270.txt, chr21_centromere/results/result_r0.011_k300.txt, chr21_centromere/results/result_r0.021_k4.txt, chr21_centromere/results/result_r0.021_k8.txt, chr21_centromere/results/result_r0.021_k16.txt, chr21_centromere/results/result_r0.021_k32.txt, chr21_centromere/results/result_r0.021_k60.txt, chr21_centromere/results/result_r0.021_k90.txt, chr21_centromere/results/result_r0.021_k120.txt, chr21_centromere/results/result_r0.021_k150.txt, chr21_centromere/results/result_r0.021_k180.txt, chr21_centromere/results/result_r0.021_k210.txt, chr21_centromere/results/result_r0.021_k240.txt, chr21_centromere/results/result_r0.021_k270.txt, chr21_centromere/results/result_r0.021_k300.txt, chr21_centromere/results/result_r0.031_k4.txt, chr21_centromere/results/result_r0.031_k8.txt, chr21_centromere/results/result_r0.031_k16.txt, chr21_centromere/results/result_r0.031_k32.txt, chr21_centromere/results/result_r0.031_k60.txt, chr21_centromere/results/result_r0.031_k90.txt, chr21_centromere/results/result_r0.031_k120.txt, chr21_centromere/results/result_r0.031_k150.txt, chr21_centromere/results/result_r0.031_k180.txt, chr21_centromere/results/result_r0.031_k210.txt, chr21_centromere/results/result_r0.031_k240.txt, chr21_centromere/results/result_r0.031_k270.txt, chr21_centromere/results/result_r0.031_k300.txt, chr21_centromere/results/result_r0.041_k4.txt, chr21_centromere/results/result_r0.041_k8.txt, chr21_centromere/results/result_r0.041_k16.txt, chr21_centromere/results/result_r0.041_k32.txt, chr21_centromere/results/result_r0.041_k60.txt, chr21_centromere/results/result_r0.041_k90.txt, chr21_centromere/results/result_r0.041_k120.txt, chr21_centromere/results/result_r0.041_k150.txt, chr21_centromere/results/result_r0.041_k180.txt, chr21_centromere/results/result_r0.041_k210.txt, chr21_centromere/results/result_r0.041_k240.txt, chr21_centromere/results/result_r0.041_k270.txt, chr21_centromere/results/result_r0.041_k300.txt, chr21_centromere/results/result_r0.051_k4.txt, chr21_centromere/results/result_r0.051_k8.txt, chr21_centromere/results/result_r0.051_k16.txt, chr21_centromere/results/result_r0.051_k32.txt, chr21_centromere/results/result_r0.051_k60.txt, chr21_centromere/results/result_r0.051_k90.txt, chr21_centromere/results/result_r0.051_k120.txt, chr21_centromere/results/result_r0.051_k150.txt, chr21_centromere/results/result_r0.051_k180.txt, chr21_centromere/results/result_r0.051_k210.txt, chr21_centromere/results/result_r0.051_k240.txt, chr21_centromere/results/result_r0.051_k270.txt, chr21_centromere/results/result_r0.051_k300.txt, chr21_centromere/results/result_r0.061_k4.txt, chr21_centromere/results/result_r0.061_k8.txt, chr21_centromere/results/result_r0.061_k16.txt, chr21_centromere/results/result_r0.061_k32.txt, chr21_centromere/results/result_r0.061_k60.txt, chr21_centromere/results/result_r0.061_k90.txt, chr21_centromere/results/result_r0.061_k120.txt, chr21_centromere/results/result_r0.061_k150.txt, chr21_centromere/results/result_r0.061_k180.txt, chr21_centromere/results/result_r0.061_k210.txt, chr21_centromere/results/result_r0.061_k240.txt, chr21_centromere/results/result_r0.061_k270.txt, chr21_centromere/results/result_r0.061_k300.txt, chr21_centromere/results/result_r0.071_k4.txt, chr21_centromere/results/result_r0.071_k8.txt, chr21_centromere/results/result_r0.071_k16.txt, chr21_centromere/results/result_r0.071_k32.txt, chr21_centromere/results/result_r0.071_k60.txt, chr21_centromere/results/result_r0.071_k90.txt, chr21_centromere/results/result_r0.071_k120.txt, chr21_centromere/results/result_r0.071_k150.txt, chr21_centromere/results/result_r0.071_k180.txt, chr21_centromere/results/result_r0.071_k210.txt, chr21_centromere/results/result_r0.071_k240.txt, chr21_centromere/results/result_r0.071_k270.txt, chr21_centromere/results/result_r0.071_k300.txt, chr21_centromere/results/result_r0.081_k4.txt, chr21_centromere/results/result_r0.081_k8.txt, chr21_centromere/results/result_r0.081_k16.txt, chr21_centromere/results/result_r0.081_k32.txt, chr21_centromere/results/result_r0.081_k60.txt, chr21_centromere/results/result_r0.081_k90.txt, chr21_centromere/results/result_r0.081_k120.txt, chr21_centromere/results/result_r0.081_k150.txt, chr21_centromere/results/result_r0.081_k180.txt, chr21_centromere/results/result_r0.081_k210.txt, chr21_centromere/results/result_r0.081_k240.txt, chr21_centromere/results/result_r0.081_k270.txt, chr21_centromere/results/result_r0.081_k300.txt, chr21_centromere/results/result_r0.091_k4.txt, chr21_centromere/results/result_r0.091_k8.txt, chr21_centromere/results/result_r0.091_k16.txt, chr21_centromere/results/result_r0.091_k32.txt, chr21_centromere/results/result_r0.091_k60.txt, chr21_centromere/results/result_r0.091_k90.txt, chr21_centromere/results/result_r0.091_k120.txt, chr21_centromere/results/result_r0.091_k150.txt, chr21_centromere/results/result_r0.091_k180.txt, chr21_centromere/results/result_r0.091_k210.txt, chr21_centromere/results/result_r0.091_k240.txt, chr21_centromere/results/result_r0.091_k270.txt, chr21_centromere/results/result_r0.091_k300.txt, chr21_centromere/results/result_r0.101_k4.txt, chr21_centromere/results/result_r0.101_k8.txt, chr21_centromere/results/result_r0.101_k16.txt, chr21_centromere/results/result_r0.101_k32.txt, chr21_centromere/results/result_r0.101_k60.txt, chr21_centromere/results/result_r0.101_k90.txt, chr21_centromere/results/result_r0.101_k120.txt, chr21_centromere/results/result_r0.101_k150.txt, chr21_centromere/results/result_r0.101_k180.txt, chr21_centromere/results/result_r0.101_k210.txt, chr21_centromere/results/result_r0.101_k240.txt, chr21_centromere/results/result_r0.101_k270.txt, chr21_centromere/results/result_r0.101_k300.txt, chr21_centromere/results/result_r0.151_k4.txt, chr21_centromere/results/result_r0.151_k8.txt, chr21_centromere/results/result_r0.151_k16.txt, chr21_centromere/results/result_r0.151_k32.txt, chr21_centromere/results/result_r0.151_k60.txt, chr21_centromere/results/result_r0.151_k90.txt, chr21_centromere/results/result_r0.151_k120.txt, chr21_centromere/results/result_r0.151_k150.txt, chr21_centromere/results/result_r0.151_k180.txt, chr21_centromere/results/result_r0.151_k210.txt, chr21_centromere/results/result_r0.151_k240.txt, chr21_centromere/results/result_r0.151_k270.txt, chr21_centromere/results/result_r0.151_k300.txt, chr21_centromere/results/result_r0.201_k4.txt, chr21_centromere/results/result_r0.201_k8.txt, chr21_centromere/results/result_r0.201_k16.txt, chr21_centromere/results/result_r0.201_k32.txt, chr21_centromere/results/result_r0.201_k60.txt, chr21_centromere/results/result_r0.201_k90.txt, chr21_centromere/results/result_r0.201_k120.txt, chr21_centromere/results/result_r0.201_k150.txt, chr21_centromere/results/result_r0.201_k180.txt, chr21_centromere/results/result_r0.201_k210.txt, chr21_centromere/results/result_r0.201_k240.txt, chr21_centromere/results/result_r0.201_k270.txt, chr21_centromere/results/result_r0.201_k300.txt, chr21_centromere/results/result_r0.251_k4.txt, chr21_centromere/results/result_r0.251_k8.txt, chr21_centromere/results/result_r0.251_k16.txt, chr21_centromere/results/result_r0.251_k32.txt, chr21_centromere/results/result_r0.251_k60.txt, chr21_centromere/results/result_r0.251_k90.txt, chr21_centromere/results/result_r0.251_k120.txt, chr21_centromere/results/result_r0.251_k150.txt, chr21_centromere/results/result_r0.251_k180.txt, chr21_centromere/results/result_r0.251_k210.txt, chr21_centromere/results/result_r0.251_k240.txt, chr21_centromere/results/result_r0.251_k270.txt, chr21_centromere/results/result_r0.251_k300.txt, chr21_centromere/results/result_r0.301_k4.txt, chr21_centromere/results/result_r0.301_k8.txt, chr21_centromere/results/result_r0.301_k16.txt, chr21_centromere/results/result_r0.301_k32.txt, chr21_centromere/results/result_r0.301_k60.txt, chr21_centromere/results/result_r0.301_k90.txt, chr21_centromere/results/result_r0.301_k120.txt, chr21_centromere/results/result_r0.301_k150.txt, chr21_centromere/results/result_r0.301_k180.txt, chr21_centromere/results/result_r0.301_k210.txt, chr21_centromere/results/result_r0.301_k240.txt, chr21_centromere/results/result_r0.301_k270.txt, chr21_centromere/results/result_r0.301_k300.txt
+    output: chr21_centromere/all_results.csv
+    jobid: 2
+    reason: Input files updated by another job: chr21_centromere/results/result_r0.101_k60.txt, chr21_centromere/results/result_r0.021_k16.txt, chr21_centromere/results/result_r0.201_k8.txt, chr21_centromere/results/result_r0.011_k270.txt, chr21_centromere/results/result_r0.251_k16.txt, chr21_centromere/results/result_r0.201_k4.txt, chr21_centromere/results/result_r0.251_k270.txt, chr21_centromere/results/result_r0.071_k4.txt, chr21_centromere/results/result_r0.061_k90.txt, chr21_centromere/results/result_r0.071_k8.txt, chr21_centromere/results/result_r0.001_k16.txt, chr21_centromere/results/result_r0.091_k270.txt, chr21_centromere/results/result_r0.001_k180.txt, chr21_centromere/results/result_r0.051_k8.txt, chr21_centromere/results/result_r0.021_k120.txt, chr21_centromere/results/result_r0.021_k270.txt, chr21_centromere/results/result_r0.081_k8.txt, chr21_centromere/results/result_r0.011_k16.txt, chr21_centromere/results/result_r0.041_k150.txt, chr21_centromere/results/result_r0.071_k120.txt, chr21_centromere/results/result_r0.071_k270.txt, chr21_centromere/results/result_r0.151_k120.txt, chr21_centromere/results/result_r0.041_k32.txt, chr21_centromere/results/result_r0.001_k210.txt, chr21_centromere/results/result_r0.011_k8.txt, chr21_centromere/results/result_r0.301_k150.txt, chr21_centromere/results/result_r0.081_k240.txt, chr21_centromere/results/result_r0.031_k240.txt, chr21_centromere/results/result_r0.251_k4.txt, chr21_centromere/results/result_r0.011_k210.txt, chr21_centromere/results/result_r0.091_k120.txt, chr21_centromere/results/result_r0.251_k60.txt, chr21_centromere/results/result_r0.041_k16.txt, chr21_centromere/results/result_r0.301_k90.txt, chr21_centromere/results/result_r0.091_k4.txt, chr21_centromere/results/result_r0.301_k60.txt, chr21_centromere/results/result_r0.251_k240.txt, chr21_centromere/results/result_r0.081_k180.txt, chr21_centromere/results/result_r0.041_k4.txt, chr21_centromere/results/result_r0.041_k300.txt, chr21_centromere/results/result_r0.051_k180.txt, chr21_centromere/results/result_r0.081_k210.txt, chr21_centromere/results/result_r0.061_k270.txt, chr21_centromere/results/result_r0.201_k120.txt, chr21_centromere/results/result_r0.021_k4.txt, chr21_centromere/results/result_r0.051_k60.txt, chr21_centromere/results/result_r0.091_k180.txt, chr21_centromere/results/result_r0.051_k300.txt, chr21_centromere/results/result_r0.251_k300.txt, chr21_centromere/results/result_r0.011_k150.txt, chr21_centromere/results/result_r0.251_k90.txt, chr21_centromere/results/result_r0.071_k60.txt, chr21_centromere/results/result_r0.021_k180.txt, chr21_centromere/results/result_r0.151_k210.txt, chr21_centromere/results/result_r0.041_k240.txt, chr21_centromere/results/result_r0.061_k16.txt, chr21_centromere/results/result_r0.151_k16.txt, chr21_centromere/results/result_r0.251_k210.txt, chr21_centromere/results/result_r0.201_k90.txt, chr21_centromere/results/result_r0.091_k60.txt, chr21_centromere/results/result_r0.301_k4.txt, chr21_centromere/results/result_r0.301_k120.txt, chr21_centromere/results/result_r0.031_k16.txt, chr21_centromere/results/result_r0.021_k32.txt, chr21_centromere/results/result_r0.031_k4.txt, chr21_centromere/results/result_r0.041_k90.txt, chr21_centromere/results/result_r0.071_k210.txt, chr21_centromere/results/result_r0.061_k60.txt, chr21_centromere/results/result_r0.101_k16.txt, chr21_centromere/results/result_r0.061_k8.txt, chr21_centromere/results/result_r0.011_k300.txt, chr21_centromere/results/result_r0.251_k8.txt, chr21_centromere/results/result_r0.091_k32.txt, chr21_centromere/results/result_r0.151_k240.txt, chr21_centromere/results/result_r0.011_k90.txt, chr21_centromere/results/result_r0.011_k120.txt, chr21_centromere/results/result_r0.081_k300.txt, chr21_centromere/results/result_r0.101_k150.txt, chr21_centromere/results/result_r0.051_k4.txt, chr21_centromere/results/result_r0.061_k120.txt, chr21_centromere/results/result_r0.041_k120.txt, chr21_centromere/results/result_r0.101_k300.txt, chr21_centromere/results/result_r0.051_k16.txt, chr21_centromere/results/result_r0.091_k240.txt, chr21_centromere/results/result_r0.301_k270.txt, chr21_centromere/results/result_r0.061_k32.txt, chr21_centromere/results/result_r0.091_k16.txt, chr21_centromere/results/result_r0.011_k240.txt, chr21_centromere/results/result_r0.001_k300.txt, chr21_centromere/results/result_r0.021_k240.txt, chr21_centromere/results/result_r0.081_k32.txt, chr21_centromere/results/result_r0.301_k210.txt, chr21_centromere/results/result_r0.201_k240.txt, chr21_centromere/results/result_r0.081_k4.txt, chr21_centromere/results/result_r0.041_k210.txt, chr21_centromere/results/result_r0.031_k150.txt, chr21_centromere/results/result_r0.031_k180.txt, chr21_centromere/results/result_r0.031_k210.txt, chr21_centromere/results/result_r0.041_k8.txt, chr21_centromere/results/result_r0.071_k32.txt, chr21_centromere/results/result_r0.201_k60.txt, chr21_centromere/results/result_r0.301_k8.txt, chr21_centromere/results/result_r0.021_k150.txt, chr21_centromere/results/result_r0.021_k300.txt, chr21_centromere/results/result_r0.031_k8.txt, chr21_centromere/results/result_r0.051_k90.txt, chr21_centromere/results/result_r0.081_k270.txt, chr21_centromere/results/result_r0.101_k90.txt, chr21_centromere/results/result_r0.201_k16.txt, chr21_centromere/results/result_r0.081_k90.txt, chr21_centromere/results/result_r0.051_k150.txt, chr21_centromere/results/result_r0.101_k4.txt, chr21_centromere/results/result_r0.001_k270.txt, chr21_centromere/results/result_r0.031_k270.txt, chr21_centromere/results/result_r0.031_k120.txt, chr21_centromere/results/result_r0.201_k150.txt, chr21_centromere/results/result_r0.091_k150.txt, chr21_centromere/results/result_r0.011_k60.txt, chr21_centromere/results/result_r0.091_k90.txt, chr21_centromere/results/result_r0.091_k8.txt, chr21_centromere/results/result_r0.151_k270.txt, chr21_centromere/results/result_r0.301_k16.txt, chr21_centromere/results/result_r0.021_k8.txt, chr21_centromere/results/result_r0.021_k60.txt, chr21_centromere/results/result_r0.001_k240.txt, chr21_centromere/results/result_r0.301_k180.txt, chr21_centromere/results/result_r0.201_k210.txt, chr21_centromere/results/result_r0.151_k180.txt, chr21_centromere/results/result_r0.151_k90.txt, chr21_centromere/results/result_r0.001_k8.txt, chr21_centromere/results/result_r0.041_k270.txt, chr21_centromere/results/result_r0.071_k150.txt, chr21_centromere/results/result_r0.201_k300.txt, chr21_centromere/results/result_r0.201_k180.txt, chr21_centromere/results/result_r0.151_k300.txt, chr21_centromere/results/result_r0.021_k90.txt, chr21_centromere/results/result_r0.011_k32.txt, chr21_centromere/results/result_r0.071_k16.txt, chr21_centromere/results/result_r0.081_k120.txt, chr21_centromere/results/result_r0.071_k90.txt, chr21_centromere/results/result_r0.101_k32.txt, chr21_centromere/results/result_r0.061_k150.txt, chr21_centromere/results/result_r0.071_k300.txt, chr21_centromere/results/result_r0.101_k120.txt, chr21_centromere/results/result_r0.151_k60.txt, chr21_centromere/results/result_r0.001_k150.txt, chr21_centromere/results/result_r0.091_k210.txt, chr21_centromere/results/result_r0.061_k300.txt, chr21_centromere/results/result_r0.101_k270.txt, chr21_centromere/results/result_r0.151_k150.txt, chr21_centromere/results/result_r0.031_k32.txt, chr21_centromere/results/result_r0.251_k120.txt, chr21_centromere/results/result_r0.201_k32.txt, chr21_centromere/results/result_r0.101_k8.txt, chr21_centromere/results/result_r0.061_k210.txt, chr21_centromere/results/result_r0.301_k240.txt, chr21_centromere/results/result_r0.051_k120.txt, chr21_centromere/results/result_r0.071_k240.txt, chr21_centromere/results/result_r0.051_k240.txt, chr21_centromere/results/result_r0.081_k16.txt, chr21_centromere/results/result_r0.151_k8.txt, chr21_centromere/results/result_r0.001_k60.txt, chr21_centromere/results/result_r0.041_k60.txt, chr21_centromere/results/result_r0.251_k180.txt, chr21_centromere/results/result_r0.011_k180.txt, chr21_centromere/results/result_r0.051_k270.txt, chr21_centromere/results/result_r0.301_k300.txt, chr21_centromere/results/result_r0.001_k90.txt, chr21_centromere/results/result_r0.081_k150.txt, chr21_centromere/results/result_r0.201_k270.txt, chr21_centromere/results/result_r0.001_k4.txt, chr21_centromere/results/result_r0.021_k210.txt, chr21_centromere/results/result_r0.091_k300.txt, chr21_centromere/results/result_r0.011_k4.txt, chr21_centromere/results/result_r0.101_k180.txt, chr21_centromere/results/result_r0.151_k4.txt, chr21_centromere/results/result_r0.001_k120.txt, chr21_centromere/results/result_r0.051_k210.txt, chr21_centromere/results/result_r0.101_k240.txt, chr21_centromere/results/result_r0.031_k90.txt, chr21_centromere/results/result_r0.251_k32.txt, chr21_centromere/results/result_r0.031_k300.txt, chr21_centromere/results/result_r0.101_k210.txt, chr21_centromere/results/result_r0.151_k32.txt, chr21_centromere/results/result_r0.031_k60.txt, chr21_centromere/results/result_r0.251_k150.txt, chr21_centromere/results/result_r0.051_k32.txt, chr21_centromere/results/result_r0.301_k32.txt, chr21_centromere/results/result_r0.041_k180.txt, chr21_centromere/results/result_r0.061_k240.txt, chr21_centromere/results/result_r0.081_k60.txt, chr21_centromere/results/result_r0.071_k180.txt, chr21_centromere/results/result_r0.001_k32.txt, chr21_centromere/results/result_r0.061_k4.txt, chr21_centromere/results/result_r0.061_k180.txt; Set of input files has changed since last execution; Code has changed since last execution
+    wildcards: output_dir=chr21_centromere
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:18:17 2025]
+Finished job 2.
+196 of 198 steps (99%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Apr 21 23:18:17 2025]
+localrule generate_heatmap:
+    input: chr21_centromere/all_results.csv
+    output: chr21_centromere/heatmap_deviation.png
+    jobid: 1
+    reason: Missing output files: chr21_centromere/heatmap_deviation.png; Input files updated by another job: chr21_centromere/all_results.csv
+    wildcards: output_dir=chr21_centromere
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 23:18:17 2025]
+Error in rule generate_heatmap:
+    jobid: 1
+    input: chr21_centromere/all_results.csv
+    output: chr21_centromere/heatmap_deviation.png
+    shell:
+        
+        python plot_deviation_heatmap.py             -i chr21_centromere/all_results.csv             -o chr21_centromere/heatmap_deviation.png             --title "Mutation Rate Estimation Error (chr6)"             --cmap viridis             --vmin 0.0             --vmax 1.0             --figsize 14,10             --annotate
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-04-21T231625.536306.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

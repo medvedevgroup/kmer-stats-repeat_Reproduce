@@ -1,0 +1,102 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+generate_heatmap        4
+total                   5
+
+Select jobs to execute...
+Execute 4 jobs...
+
+[Fri May  9 18:09:34 2025]
+localrule generate_heatmap:
+    input: chrY_SimpleRepeat/all_results.csv
+    output: chrY_SimpleRepeat/heatmap_deviation.png
+    jobid: 655
+    reason: Missing output files: chrY_SimpleRepeat/heatmap_deviation.png; Params have changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat
+    resources: tmpdir=/tmp
+
+
+[Fri May  9 18:09:34 2025]
+localrule generate_heatmap:
+    input: chr21_centromere/all_results.csv
+    output: chr21_centromere/heatmap_deviation.png
+    jobid: 328
+    reason: Missing output files: chr21_centromere/heatmap_deviation.png
+    wildcards: output_dir=chr21_centromere
+    resources: tmpdir=/tmp
+
+
+[Fri May  9 18:09:34 2025]
+localrule generate_heatmap:
+    input: chr6_RepeatMasker/all_results.csv
+    output: chr6_RepeatMasker/heatmap_deviation.png
+    jobid: 1
+    reason: Missing output files: chr6_RepeatMasker/heatmap_deviation.png
+    wildcards: output_dir=chr6_RepeatMasker
+    resources: tmpdir=/tmp
+
+
+[Fri May  9 18:09:34 2025]
+localrule generate_heatmap:
+    input: chrY_RBMY1A1/all_results.csv
+    output: chrY_RBMY1A1/heatmap_deviation.png
+    jobid: 826
+    reason: Missing output files: chrY_RBMY1A1/heatmap_deviation.png; Params have changed since last execution
+    wildcards: output_dir=chrY_RBMY1A1
+    resources: tmpdir=/tmp
+
+[Fri May  9 18:09:35 2025]
+Error in rule generate_heatmap:
+    jobid: 826
+    input: chrY_RBMY1A1/all_results.csv
+    output: chrY_RBMY1A1/heatmap_deviation.png
+    shell:
+        
+        python plot_bias_heatmap.py             -i chrY_RBMY1A1/all_results.csv             -o chrY_RBMY1A1/heatmap_deviation.png             --title "MEDIUM"             --cmap coolwarm             --figsize 12,10             --annotate
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri May  9 18:09:35 2025]
+Error in rule generate_heatmap:
+    jobid: 655
+    input: chrY_SimpleRepeat/all_results.csv
+    output: chrY_SimpleRepeat/heatmap_deviation.png
+    shell:
+        
+        python plot_bias_heatmap.py             -i chrY_SimpleRepeat/all_results.csv             -o chrY_SimpleRepeat/heatmap_deviation.png             --title "HARD"             --cmap coolwarm             --figsize 10,10             --annotate
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri May  9 18:09:35 2025]
+Error in rule generate_heatmap:
+    jobid: 1
+    input: chr6_RepeatMasker/all_results.csv
+    output: chr6_RepeatMasker/heatmap_deviation.png
+    shell:
+        
+        python plot_bias_heatmap.py             -i chr6_RepeatMasker/all_results.csv             -o chr6_RepeatMasker/heatmap_deviation.png             --title "EASY"             --cmap coolwarm             --figsize 20,10             --annotate
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri May  9 18:09:35 2025]
+Error in rule generate_heatmap:
+    jobid: 328
+    input: chr21_centromere/all_results.csv
+    output: chr21_centromere/heatmap_deviation.png
+    shell:
+        
+        python plot_bias_heatmap.py             -i chr21_centromere/all_results.csv             -o chr21_centromere/heatmap_deviation.png             --title "HARDEST"             --cmap coolwarm             --figsize 20,10             --annotate
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-05-09T180933.207970.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

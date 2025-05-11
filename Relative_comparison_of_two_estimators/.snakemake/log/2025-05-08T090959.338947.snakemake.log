@@ -1,0 +1,79 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+plot_r_variation        4
+total                   5
+
+Select jobs to execute...
+Execute 4 jobs...
+
+[Thu May  8 09:09:59 2025]
+localrule plot_r_variation:
+    input: chr6_RepeatMasker/varing_r/r0.001_k20.output, chr6_RepeatMasker/varing_r/r0.011_k20.output, chr6_RepeatMasker/varing_r/r0.021_k20.output, chr6_RepeatMasker/varing_r/r0.031_k20.output, chr6_RepeatMasker/varing_r/r0.041_k20.output, chr6_RepeatMasker/varing_r/r0.051_k20.output, chr6_RepeatMasker/varing_r/r0.061_k20.output, chr6_RepeatMasker/varing_r/r0.071_k20.output, chr6_RepeatMasker/varing_r/r0.081_k20.output, chr6_RepeatMasker/varing_r/r0.091_k20.output, chr6_RepeatMasker/varing_r/r0.101_k20.output, chr6_RepeatMasker/varing_r/r0.111_k20.output, chr6_RepeatMasker/varing_r/r0.121_k20.output, chr6_RepeatMasker/varing_r/r0.131_k20.output, chr6_RepeatMasker/varing_r/r0.141_k20.output, chr6_RepeatMasker/varing_r/r0.151_k20.output, chr6_RepeatMasker/varing_r/r0.161_k20.output, chr6_RepeatMasker/varing_r/r0.171_k20.output, chr6_RepeatMasker/varing_r/r0.181_k20.output, chr6_RepeatMasker/varing_r/r0.191_k20.output, chr6_RepeatMasker/varing_r/r0.201_k20.output, chr6_RepeatMasker/varing_r/r0.211_k20.output, chr6_RepeatMasker/varing_r/r0.221_k20.output, chr6_RepeatMasker/varing_r/r0.231_k20.output, chr6_RepeatMasker/varing_r/r0.241_k20.output, chr6_RepeatMasker/varing_r/r0.251_k20.output, chr6_RepeatMasker/varing_r/r0.261_k20.output, chr6_RepeatMasker/varing_r/r0.271_k20.output
+    output: chr6_RepeatMasker/diff_boxplot_r_k20.png
+    jobid: 121
+    reason: Set of input files has changed since last execution
+    wildcards: output_dir=chr6_RepeatMasker, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 09:09:59 2025]
+localrule plot_r_variation:
+    input: chrY_SimpleRepeat/varing_r/r0.001_k10.output, chrY_SimpleRepeat/varing_r/r0.011_k10.output, chrY_SimpleRepeat/varing_r/r0.021_k10.output, chrY_SimpleRepeat/varing_r/r0.031_k10.output, chrY_SimpleRepeat/varing_r/r0.041_k10.output, chrY_SimpleRepeat/varing_r/r0.051_k10.output, chrY_SimpleRepeat/varing_r/r0.061_k10.output, chrY_SimpleRepeat/varing_r/r0.071_k10.output, chrY_SimpleRepeat/varing_r/r0.081_k10.output, chrY_SimpleRepeat/varing_r/r0.091_k10.output, chrY_SimpleRepeat/varing_r/r0.101_k10.output, chrY_SimpleRepeat/varing_r/r0.111_k10.output, chrY_SimpleRepeat/varing_r/r0.121_k10.output, chrY_SimpleRepeat/varing_r/r0.131_k10.output, chrY_SimpleRepeat/varing_r/r0.141_k10.output, chrY_SimpleRepeat/varing_r/r0.151_k10.output, chrY_SimpleRepeat/varing_r/r0.161_k10.output, chrY_SimpleRepeat/varing_r/r0.171_k10.output, chrY_SimpleRepeat/varing_r/r0.181_k10.output, chrY_SimpleRepeat/varing_r/r0.191_k10.output, chrY_SimpleRepeat/varing_r/r0.201_k10.output, chrY_SimpleRepeat/varing_r/r0.211_k10.output, chrY_SimpleRepeat/varing_r/r0.221_k10.output, chrY_SimpleRepeat/varing_r/r0.231_k10.output, chrY_SimpleRepeat/varing_r/r0.241_k10.output, chrY_SimpleRepeat/varing_r/r0.251_k10.output, chrY_SimpleRepeat/varing_r/r0.261_k10.output, chrY_SimpleRepeat/varing_r/r0.271_k10.output
+    output: chrY_SimpleRepeat/diff_boxplot_r_k10.png
+    jobid: 179
+    reason: Set of input files has changed since last execution
+    wildcards: output_dir=chrY_SimpleRepeat, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 09:09:59 2025]
+localrule plot_r_variation:
+    input: chr21_centromere/varing_r/r0.001_k30.output, chr21_centromere/varing_r/r0.011_k30.output, chr21_centromere/varing_r/r0.021_k30.output, chr21_centromere/varing_r/r0.031_k30.output, chr21_centromere/varing_r/r0.041_k30.output, chr21_centromere/varing_r/r0.051_k30.output, chr21_centromere/varing_r/r0.061_k30.output, chr21_centromere/varing_r/r0.071_k30.output, chr21_centromere/varing_r/r0.081_k30.output, chr21_centromere/varing_r/r0.091_k30.output, chr21_centromere/varing_r/r0.101_k30.output, chr21_centromere/varing_r/r0.111_k30.output, chr21_centromere/varing_r/r0.121_k30.output, chr21_centromere/varing_r/r0.131_k30.output, chr21_centromere/varing_r/r0.141_k30.output, chr21_centromere/varing_r/r0.151_k30.output, chr21_centromere/varing_r/r0.161_k30.output, chr21_centromere/varing_r/r0.171_k30.output, chr21_centromere/varing_r/r0.181_k30.output, chr21_centromere/varing_r/r0.191_k30.output, chr21_centromere/varing_r/r0.201_k30.output, chr21_centromere/varing_r/r0.211_k30.output, chr21_centromere/varing_r/r0.221_k30.output, chr21_centromere/varing_r/r0.231_k30.output, chr21_centromere/varing_r/r0.241_k30.output, chr21_centromere/varing_r/r0.251_k30.output, chr21_centromere/varing_r/r0.261_k30.output, chr21_centromere/varing_r/r0.271_k30.output
+    output: chr21_centromere/diff_boxplot_r_k30.png
+    jobid: 150
+    reason: Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Thu May  8 09:09:59 2025]
+localrule plot_r_variation:
+    input: chrY_RBMY1A1/varing_r/r0.001_k20.output, chrY_RBMY1A1/varing_r/r0.011_k20.output, chrY_RBMY1A1/varing_r/r0.021_k20.output, chrY_RBMY1A1/varing_r/r0.031_k20.output, chrY_RBMY1A1/varing_r/r0.041_k20.output, chrY_RBMY1A1/varing_r/r0.051_k20.output, chrY_RBMY1A1/varing_r/r0.061_k20.output, chrY_RBMY1A1/varing_r/r0.071_k20.output, chrY_RBMY1A1/varing_r/r0.081_k20.output, chrY_RBMY1A1/varing_r/r0.091_k20.output, chrY_RBMY1A1/varing_r/r0.101_k20.output, chrY_RBMY1A1/varing_r/r0.111_k20.output, chrY_RBMY1A1/varing_r/r0.121_k20.output, chrY_RBMY1A1/varing_r/r0.131_k20.output, chrY_RBMY1A1/varing_r/r0.141_k20.output, chrY_RBMY1A1/varing_r/r0.151_k20.output, chrY_RBMY1A1/varing_r/r0.161_k20.output, chrY_RBMY1A1/varing_r/r0.171_k20.output, chrY_RBMY1A1/varing_r/r0.181_k20.output, chrY_RBMY1A1/varing_r/r0.191_k20.output, chrY_RBMY1A1/varing_r/r0.201_k20.output, chrY_RBMY1A1/varing_r/r0.211_k20.output, chrY_RBMY1A1/varing_r/r0.221_k20.output, chrY_RBMY1A1/varing_r/r0.231_k20.output, chrY_RBMY1A1/varing_r/r0.241_k20.output, chrY_RBMY1A1/varing_r/r0.251_k20.output, chrY_RBMY1A1/varing_r/r0.261_k20.output, chrY_RBMY1A1/varing_r/r0.271_k20.output
+    output: chrY_RBMY1A1/diff_boxplot_r_k20.png
+    jobid: 208
+    reason: Set of input files has changed since last execution
+    wildcards: output_dir=chrY_RBMY1A1, fixed_k=20
+    resources: tmpdir=/tmp
+
+[Thu May  8 09:10:03 2025]
+Finished job 150.
+1 of 5 steps (20%) done
+[Thu May  8 09:10:03 2025]
+Finished job 121.
+2 of 5 steps (40%) done
+[Thu May  8 09:10:04 2025]
+Finished job 208.
+3 of 5 steps (60%) done
+[Thu May  8 09:10:04 2025]
+Finished job 179.
+4 of 5 steps (80%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu May  8 09:10:04 2025]
+localrule all:
+    input: chr6_RepeatMasker/triple_boxplot_r0.01.png, chr21_centromere/triple_boxplot_r0.01.png, chrY_SimpleRepeat/triple_boxplot_r0.01.png, chrY_RBMY1A1/triple_boxplot_r0.01.png, chr6_RepeatMasker/diff_boxplot_r_k20.png, chr21_centromere/diff_boxplot_r_k30.png, chrY_SimpleRepeat/diff_boxplot_r_k10.png, chrY_RBMY1A1/diff_boxplot_r_k20.png
+    jobid: 0
+    reason: Input files updated by another job: chr21_centromere/diff_boxplot_r_k30.png, chr6_RepeatMasker/diff_boxplot_r_k20.png, chrY_SimpleRepeat/diff_boxplot_r_k10.png, chrY_RBMY1A1/diff_boxplot_r_k20.png
+    resources: tmpdir=/tmp
+
+[Thu May  8 09:10:04 2025]
+Finished job 0.
+5 of 5 steps (100%) done
+Complete log: .snakemake/log/2025-05-08T090959.338947.snakemake.log

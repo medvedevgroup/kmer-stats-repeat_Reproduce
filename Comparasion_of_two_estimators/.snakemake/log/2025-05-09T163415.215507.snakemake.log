@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+plot_k_variation        1
+total                   2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri May  9 16:34:15 2025]
+localrule plot_k_variation:
+    input: chr21_centromere/varing_k/k4_r0.01.output, chr21_centromere/varing_k/k8_r0.01.output, chr21_centromere/varing_k/k16_r0.01.output, chr21_centromere/varing_k/k32_r0.01.output, chr21_centromere/varing_k/k60_r0.01.output, chr21_centromere/varing_k/k90_r0.01.output, chr21_centromere/varing_k/k120_r0.01.output, chr21_centromere/varing_k/k150_r0.01.output, chr21_centromere/varing_k/k180_r0.01.output, chr21_centromere/varing_k/k210_r0.01.output, chr21_centromere/varing_k/k240_r0.01.output, chr21_centromere/varing_k/k270_r0.01.output, chr21_centromere/varing_k/k300_r0.01.output, chr21_centromere/varing_k/k330_r0.01.output, chr21_centromere/varing_k/k360_r0.01.output, chr21_centromere/varing_k/k390_r0.01.output, chr21_centromere/varing_k/k420_r0.01.output, chr21_centromere/varing_k/k450_r0.01.output, chr21_centromere/varing_k/k480_r0.01.output, chr21_centromere/varing_k/k510_r0.01.output, chr21_centromere/varing_k/k540_r0.01.output, chr21_centromere/varing_k/k570_r0.01.output, chr21_centromere/varing_k/k600_r0.01.output, chr21_centromere/varing_k/k630_r0.01.output, chr21_centromere/varing_k/k660_r0.01.output
+    output: chr21_centromere/triple_boxplot_r0.01.png
+    jobid: 27
+    reason: Missing output files: chr21_centromere/triple_boxplot_r0.01.png
+    wildcards: output_dir=chr21_centromere, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule plot_k_variation in file /home/hvw5426/kmer-stats-repeat_Reproduce/Comparasion_of_two_estimators/snakefile, line 107:
+Job 27  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+chr21_centromere/triple_boxplot_r0.01.png (missing locally, parent dir contents: dual_boxplot_k30.png, varing_k, varing_r, boxplot_r0.01.png)
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-05-09T163415.215507.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

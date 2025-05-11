@@ -1,0 +1,3 @@
+[submodule "kmer_info/lastz"]
+	path = kmer_info/lastz
+	url = git@github.com:lastz/lastz.git

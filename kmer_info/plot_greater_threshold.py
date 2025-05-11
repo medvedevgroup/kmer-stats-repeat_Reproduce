@@ -93,46 +93,64 @@ def plot_kmer_distribution(results_df, output_dir):
     mpl.rcParams['axes.edgecolor'] = '#333333'
     
     # Create figure
-    plt.figure(figsize=(5, 3.5), dpi=100)
+    plt.figure(figsize=(3.5, 2), dpi=100)
     
-    # Draw bar plot
+    # Sort the dataframe by threshold in descending order for proper y-axis ordering
+    results_df = results_df.sort_values('Threshold (≥)', ascending=False)
+    
+    # Create custom y positions with reduced spacing
+    num_bars = len(results_df)
+    # Use smaller spacing value (0.7 instead of the default 1.0)
+    positions = np.arange(num_bars) * 0.3
+    
+    # Draw bar plot with custom positions and narrower bars
     bar_color = '#555555'
-    bars = plt.bar(results_df['Threshold (≥)'].astype(str), 
+    bars = plt.barh(positions, 
                    results_df['Percentage of kmers'], 
                    color=bar_color, 
-                   width=0.8,
+                   height=0.2,  # Narrower bars
                    edgecolor='#333333',
                    linewidth=1)
+    
+    # Set custom y-tick positions and labels
+    plt.yticks(positions, results_df['Threshold (≥)'].astype(str))
     
     # Set background
     plt.gca().set_facecolor('white')
     plt.gcf().set_facecolor('white')
     
     # Add grid lines
-    plt.grid(axis='y', linestyle='--', alpha=0.3, color='gray')
+    plt.grid(axis='x', linestyle='--', alpha=0.3, color='gray')
     
-    # Adjust layout
+    # Adjust layout and limits
     plt.subplots_adjust(left=0.12)
-    plt.ylim(0, max(results_df['Percentage of kmers'])*1.15)
+    plt.xlim(0, max(results_df['Percentage of kmers'])*1.15)
     
-    # Add labels
-    plt.xlabel('Copy Number Threshold (≥)', fontsize=12, fontweight='bold', color='#333333')
-    plt.ylabel('Percentage of kmers (%)', fontsize=12, fontweight='bold', color='#333333')
+    # Set y-axis limits to fit the custom positions
+    plt.ylim(-0.2, max(positions) + 0.2)
+    
+    # Move x-axis to the top of the plot
+    ax = plt.gca()
+    ax.xaxis.set_label_position('top')
+    ax.xaxis.tick_top()
+    
+    # Set the x-axis label at the top
+    plt.xlabel('Percentage of kmers (%)', fontsize=16, fontweight='bold', color='#333333')
     
     # Set tick parameters
     plt.tick_params(axis='both', which='major', labelsize=10, colors='#333333', width=1.5)
-    plt.xticks(fontweight='bold')
-    plt.yticks(fontweight='bold')
+    plt.xticks(fontweight='bold', fontsize=16)
+    plt.yticks(fontweight='bold', fontsize=14)
     
     # Final layout adjustment
-    plt.tight_layout(pad=2.0)
+    plt.tight_layout(pad=1.5)
     
     # Ensure output directory exists
     os.makedirs(output_dir, exist_ok=True)
     
     # Save figures
     output_path = os.path.join(output_dir, 'kmer_distribution_histogram.png')
-    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.savefig(output_path, dpi=100, bbox_inches='tight')
     plt.close()
     
     print(f"Plot saved to {output_path}")

@@ -1,0 +1,54 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+plot_k_variation        1
+plot_r_variation        1
+total                   3
+
+Select jobs to execute...
+Execute 2 jobs...
+
+[Sun May 11 09:48:55 2025]
+localrule plot_k_variation:
+    input: chr21_centromere/varing_k/k8_r0.01.output, chr21_centromere/varing_k/k16_r0.01.output, chr21_centromere/varing_k/k32_r0.01.output, chr21_centromere/varing_k/k120_r0.01.output, chr21_centromere/varing_k/k150_r0.01.output, chr21_centromere/varing_k/k180_r0.01.output, chr21_centromere/varing_k/k210_r0.01.output, chr21_centromere/varing_k/k240_r0.01.output, chr21_centromere/varing_k/k270_r0.01.output, chr21_centromere/varing_k/k300_r0.01.output, chr21_centromere/varing_k/k330_r0.01.output, chr21_centromere/varing_k/k360_r0.01.output, chr21_centromere/varing_k/k390_r0.01.output, chr21_centromere/varing_k/k420_r0.01.output, chr21_centromere/varing_k/k450_r0.01.output, chr21_centromere/varing_k/k480_r0.01.output, chr21_centromere/varing_k/k510_r0.01.output, chr21_centromere/varing_k/k540_r0.01.output, chr21_centromere/varing_k/k570_r0.01.output, chr21_centromere/varing_k/k600_r0.01.output, chr21_centromere/varing_k/k630_r0.01.output, chr21_centromere/varing_k/k660_r0.01.output
+    output: chr21_centromere/triple_boxplot_r0.01.png
+    jobid: 24
+    reason: Missing output files: chr21_centromere/triple_boxplot_r0.01.png
+    wildcards: output_dir=chr21_centromere, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Sun May 11 09:48:55 2025]
+localrule plot_r_variation:
+    input: chr21_centromere/varing_r/r0.001_k30.output, chr21_centromere/varing_r/r0.011_k30.output, chr21_centromere/varing_r/r0.021_k30.output, chr21_centromere/varing_r/r0.031_k30.output, chr21_centromere/varing_r/r0.041_k30.output, chr21_centromere/varing_r/r0.051_k30.output, chr21_centromere/varing_r/r0.061_k30.output, chr21_centromere/varing_r/r0.071_k30.output, chr21_centromere/varing_r/r0.081_k30.output, chr21_centromere/varing_r/r0.091_k30.output, chr21_centromere/varing_r/r0.101_k30.output, chr21_centromere/varing_r/r0.111_k30.output, chr21_centromere/varing_r/r0.121_k30.output, chr21_centromere/varing_r/r0.131_k30.output, chr21_centromere/varing_r/r0.141_k30.output, chr21_centromere/varing_r/r0.151_k30.output, chr21_centromere/varing_r/r0.161_k30.output, chr21_centromere/varing_r/r0.171_k30.output, chr21_centromere/varing_r/r0.181_k30.output, chr21_centromere/varing_r/r0.191_k30.output, chr21_centromere/varing_r/r0.201_k30.output, chr21_centromere/varing_r/r0.211_k30.output, chr21_centromere/varing_r/r0.221_k30.output, chr21_centromere/varing_r/r0.231_k30.output, chr21_centromere/varing_r/r0.241_k30.output, chr21_centromere/varing_r/r0.251_k30.output, chr21_centromere/varing_r/r0.261_k30.output, chr21_centromere/varing_r/r0.271_k30.output, chr21_centromere/varing_r/r0.281_k30.output, chr21_centromere/varing_r/r0.291_k30.output, chr21_centromere/varing_r/r0.301_k30.output, chr21_centromere/varing_r/r0.311_k30.output, chr21_centromere/varing_r/r0.321_k30.output, chr21_centromere/varing_r/r0.331_k30.output, chr21_centromere/varing_r/r0.341_k30.output
+    output: chr21_centromere/dual_boxplot_k30.png
+    jobid: 129
+    reason: Missing output files: chr21_centromere/dual_boxplot_k30.png
+    wildcards: output_dir=chr21_centromere, fixed_k=30
+    resources: tmpdir=/tmp
+
+[Sun May 11 09:48:56 2025]
+Finished job 24.
+1 of 3 steps (33%) done
+[Sun May 11 09:48:58 2025]
+Finished job 129.
+2 of 3 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun May 11 09:48:58 2025]
+localrule all:
+    input: chr6_RepeatMasker/triple_boxplot_r0.01.png, chr21_centromere/triple_boxplot_r0.01.png, chrY_SimpleRepeat/triple_boxplot_r0.01.png, chrY_RBMY1A1/triple_boxplot_r0.01.png, chr6_RepeatMasker/dual_boxplot_k20.png, chr21_centromere/dual_boxplot_k30.png, chrY_SimpleRepeat/dual_boxplot_k10.png, chrY_RBMY1A1/dual_boxplot_k20.png
+    jobid: 0
+    reason: Input files updated by another job: chr21_centromere/dual_boxplot_k30.png, chr21_centromere/triple_boxplot_r0.01.png
+    resources: tmpdir=/tmp
+
+[Sun May 11 09:48:58 2025]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: .snakemake/log/2025-05-11T094854.462694.snakemake.log

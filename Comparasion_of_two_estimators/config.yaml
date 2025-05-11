@@ -1,0 +1,68 @@
+analyses:
+  - name: "chr6_RepeatMasker"
+    output_dir: "chr6_RepeatMasker"
+    fasta: "../sequence_data/chr6.fasta"
+    simulation_params:
+      length: 100000
+      start_pos: 559707
+      precision: 1e-10
+      replicates: 100
+    plot_params:
+      k_variation:
+        thresholds: [32, 630]
+        ylimits: [0.8, 0.02, 1.1] 
+        fixed_r: 0.01 
+      r_variation:
+        threshold: 0.25
+        fixed_k: 20
+
+  - name: "chr21_centromere"
+    output_dir: "chr21_centromere"
+    fasta: "../sequence_data/chr21.fasta"
+    simulation_params:
+      length: 100000
+      start_pos: 10962854
+      precision: 1e-10
+      replicates: 100
+    plot_params:
+      k_variation:
+        thresholds: [32, 660]
+        ylimits: [0.8, 0.05, 1.1] 
+        fixed_r: 0.01
+      r_variation:
+        threshold: 0.24
+        fixed_k: 30
+
+  - name: "chrY_SimpleRepeat" # chrY:22420785-22423059,
+    output_dir: "chrY_SimpleRepeat"
+    fasta: "../sequence_data/chrY.fasta"
+    simulation_params:
+      length: 2264
+      start_pos: 22420785
+      precision: 1e-10
+      replicates: 100
+    plot_params:
+      k_variation:
+        thresholds: [16, 300]
+        ylimits: [0.8, 0.05, 1.1]
+        fixed_r: 0.01
+      r_variation:
+        threshold: 0.001
+        fixed_k: 10
+
+  - name: "chrY_RBMY1A1" # chrY:22410155-22424578,
+    output_dir: "chrY_RBMY1A1"
+    fasta: "../sequence_data/chrY.fasta"
+    simulation_params:
+      length: 14400
+      start_pos: 22410155
+      precision: 1e-10
+      replicates: 100
+    plot_params:
+      k_variation:
+        thresholds: [16, 450]
+        ylimits: [0.8, 0.02, 1.1]
+        fixed_r: 0.01
+      r_variation:
+        threshold: 0.251
+        fixed_k: 20

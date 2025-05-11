@@ -49,7 +49,16 @@ set<string> kspectrum_update(string s, int k){
     return kmers;
 }
 
-
+int hammingDist(const string& str1, const string& str2) 
+{ 
+    int i = 0, count = 0; 
+    while (str1[i] != '\0') { 
+        if (str1[i] != str2[i]) 
+            count++; 
+        i++; 
+    } 
+    return count; 
+} 
 
 string readSubstring(string filename, int start ,int n){
     ifstream file(filename); 
@@ -126,6 +135,20 @@ int main (int argc, char* argv[]){
         }
         diff_Map[occ_count - num_cluster] ++;
     }
+
+    std::map<int, int> HD_Map;
+    std::vector<std::string> kmer_vec(kmer_set.begin(), kmer_set.end());
+
+    for (size_t i = 0; i < kmer_vec.size(); ++i) {
+        const auto& tau = kmer_vec[i];
+        for (size_t j = i + 1; j < kmer_vec.size(); ++j) {
+            const auto& upsilon = kmer_vec[j];
+            int HD = hammingDist(tau, upsilon);
+            HD_Map[HD]++;
+        }
+    }
+
+
     if (ensure_directory_exists("./"+ outfolder)){
         std::ofstream occfile("./"+ outfolder + "/occ_counts.txt");
         for (const auto& pair : coeffs_Map){
@@ -138,6 +161,12 @@ int main (int argc, char* argv[]){
             difffile << pair.first << " : " << pair.second << std::endl;
         }
         difffile.close();
+
+        std::ofstream HDfile("./"+ outfolder + "/HD_counts.txt");
+        for (const auto& pair : HD_Map){
+            HDfile << pair.first << " : " << pair.second << std::endl;
+        }
+        HDfile.close();
     }
     
     

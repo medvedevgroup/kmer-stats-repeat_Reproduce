@@ -8,7 +8,8 @@ ANALYSES = [analysis['name'] for analysis in config['analyses']]
 
 rule all:
     input:
-        expand("{name}/kmer_distribution_histogram.png", name=ANALYSES)
+        expand("{name}/kmer_distribution_histogram.png", name=ANALYSES),
+        expand("{name}/hamming_distance_histogram.png", name=ANALYSES)
 
 def get_analysis_params(wildcards):
     for analysis in config['analyses']:
@@ -21,7 +22,8 @@ rule run_kmer_info:
         fasta = lambda wildcards: get_analysis_params(wildcards)['fasta']
     output:
         diff_counts = "{name}/diff_counts.txt",
-        occ_counts = "{name}/occ_counts.txt"
+        occ_counts = "{name}/occ_counts.txt",
+        HD_counts = "{name}/HD_counts.txt"
     params:
         start = lambda wildcards: get_analysis_params(wildcards)['start'],
         length = lambda wildcards: get_analysis_params(wildcards)['length'],
@@ -52,4 +54,21 @@ rule plot_kmer_distribution:
             {params.input_file} \
             {params.output_dir} \
             {params.thresholds}
+        """
+
+rule plot_hamming_distance:
+    input:
+        HD_counts = "{name}/HD_counts.txt"
+    output:
+        plot = "{name}/hamming_distance_histogram.png"
+    params:
+        input_file = "{name}/HD_counts.txt",
+        output_dir = "{name}",
+        log_option = lambda wildcards: "--no-log" if not get_analysis_params(wildcards).get('use_log_scale', True) else ""
+    shell:
+        """
+        python plot_HD.py \
+            {params.input_file} \
+            {params.output_dir} \
+            {params.log_option}
         """

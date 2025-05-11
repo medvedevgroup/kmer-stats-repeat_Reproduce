@@ -1,0 +1,40 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                       count
+----------------------  -------
+all                           1
+plot_kmer_distribution        1
+total                         2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed May  7 23:03:36 2025]
+localrule plot_kmer_distribution:
+    input: chr6_repeatmasker/occ_counts.txt
+    output: chr6_repeatmasker/kmer_distribution_histogram.png
+    jobid: 3
+    reason: Missing output files: chr6_repeatmasker/kmer_distribution_histogram.png
+    wildcards: name=chr6_repeatmasker
+    resources: tmpdir=/tmp
+
+[Wed May  7 23:03:37 2025]
+Finished job 3.
+1 of 2 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed May  7 23:03:37 2025]
+localrule all:
+    input: chr21_centromere/kmer_distribution_histogram.png, chr6_repeatmasker/kmer_distribution_histogram.png, chrY_SimpleRepeat/kmer_distribution_histogram.png, chrY_RBMY1A1/kmer_distribution_histogram.png, chr21_centromere/hamming_distance_histogram.png, chr6_repeatmasker/hamming_distance_histogram.png, chrY_SimpleRepeat/hamming_distance_histogram.png, chrY_RBMY1A1/hamming_distance_histogram.png
+    jobid: 0
+    reason: Input files updated by another job: chr6_repeatmasker/kmer_distribution_histogram.png
+    resources: tmpdir=/tmp
+
+[Wed May  7 23:03:37 2025]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2025-05-07T230335.741645.snakemake.log

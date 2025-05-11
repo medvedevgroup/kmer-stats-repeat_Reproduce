@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in rule run_kmer_info in file /home/hvw5426/kmer-stats-repeat_Reproduce/kmer_info/snakefile, line 19:
+Missing input files for rule run_kmer_info:
+    output: chrY_RBMY1A1/diff_counts.txt, chrY_RBMY1A1/occ_counts.txt
+    wildcards: name=chrY_RBMY1A1
+    affected files:
+        ../sequence_data/chr21.fasta/chrY.fasta

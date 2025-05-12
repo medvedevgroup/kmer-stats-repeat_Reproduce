@@ -1,0 +1,1270 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+plot_k_variation        3
+plot_r_variation        3
+run_simulation_k       66
+run_simulation_r      105
+total                 178
+
+Select jobs to execute...
+Execute 100 jobs...
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.051_k20.output
+    jobid: 207
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.051_k20.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, r=0.051, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_r/r0.101_k10.output
+    jobid: 176
+    reason: Missing output files: chrY_SimpleRepeat/varying_r/r0.101_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.101, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_k/k120_r0.01.output
+    jobid: 52
+    reason: Missing output files: chrY_SimpleRepeat/varying_k/k120_r0.01.output
+    wildcards: output_dir=chrY_SimpleRepeat, k=120, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_k/k16_r0.01.output
+    jobid: 3
+    reason: Missing output files: chr6_RepeatMasker/varying_k/k16_r0.01.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, k=16, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.331_k20.output
+    jobid: 127
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.331_k20.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, r=0.331, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.031_k20.output
+    jobid: 97
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.031_k20.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, r=0.031, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.181_k20.output
+    jobid: 220
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.181_k20.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, r=0.181, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.161_k20.output
+    jobid: 110
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.161_k20.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, r=0.161, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_r/r0.191_k10.output
+    jobid: 185
+    reason: Missing output files: chrY_SimpleRepeat/varying_r/r0.191_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.191, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.291_k20.output
+    jobid: 123
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.291_k20.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, r=0.291, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_k/k390_r0.01.output
+    jobid: 61
+    reason: Missing output files: chrY_SimpleRepeat/varying_k/k390_r0.01.output
+    wildcards: output_dir=chrY_SimpleRepeat, k=390, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_k/k300_r0.01.output
+    jobid: 12
+    reason: Missing output files: chr6_RepeatMasker/varying_k/k300_r0.01.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, k=300, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_k/k120_r0.01.output
+    jobid: 75
+    reason: Missing output files: chrY_RBMY1A1/varying_k/k120_r0.01.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, k=120, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.121_k20.output
+    jobid: 106
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.121_k20.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, r=0.121, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.271_k20.output
+    jobid: 229
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.271_k20.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, r=0.271, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_r/r0.021_k10.output
+    jobid: 168
+    reason: Missing output files: chrY_SimpleRepeat/varying_r/r0.021_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.021, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_r/r0.321_k10.output
+    jobid: 198
+    reason: Missing output files: chrY_SimpleRepeat/varying_r/r0.321_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.321, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.251_k20.output
+    jobid: 119
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.251_k20.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, r=0.251, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_k/k270_r0.01.output
+    jobid: 57
+    reason: Missing output files: chrY_SimpleRepeat/varying_k/k270_r0.01.output
+    wildcards: output_dir=chrY_SimpleRepeat, k=270, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_k/k510_r0.01.output
+    jobid: 88
+    reason: Missing output files: chrY_RBMY1A1/varying_k/k510_r0.01.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, k=510, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.101_k20.output
+    jobid: 212
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.101_k20.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, r=0.101, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_r/r0.151_k10.output
+    jobid: 181
+    reason: Missing output files: chrY_SimpleRepeat/varying_r/r0.151_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.081_k20.output
+    jobid: 102
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.081_k20.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, r=0.081, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.231_k20.output
+    jobid: 225
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.231_k20.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, r=0.231, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_k/k180_r0.01.output
+    jobid: 8
+    reason: Missing output files: chr6_RepeatMasker/varying_k/k180_r0.01.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, k=180, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_k/k8_r0.01.output
+    jobid: 71
+    reason: Missing output files: chrY_RBMY1A1/varying_k/k8_r0.01.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, k=8, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_r/r0.281_k10.output
+    jobid: 194
+    reason: Missing output files: chrY_SimpleRepeat/varying_r/r0.281_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.281, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_k/k390_r0.01.output
+    jobid: 84
+    reason: Missing output files: chrY_RBMY1A1/varying_k/k390_r0.01.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, k=390, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.061_k20.output
+    jobid: 208
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.061_k20.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, r=0.061, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_k/k150_r0.01.output
+    jobid: 53
+    reason: Missing output files: chrY_SimpleRepeat/varying_k/k150_r0.01.output
+    wildcards: output_dir=chrY_SimpleRepeat, k=150, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_r/r0.111_k10.output
+    jobid: 177
+    reason: Missing output files: chrY_SimpleRepeat/varying_r/r0.111_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.111, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_k/k570_r0.01.output
+    jobid: 21
+    reason: Missing output files: chr6_RepeatMasker/varying_k/k570_r0.01.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, k=570, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.211_k20.output
+    jobid: 115
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.211_k20.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, r=0.211, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_k/k32_r0.01.output
+    jobid: 4
+    reason: Missing output files: chr6_RepeatMasker/varying_k/k32_r0.01.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, k=32, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.341_k20.output
+    jobid: 128
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.341_k20.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, r=0.341, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.041_k20.output
+    jobid: 98
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.041_k20.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, r=0.041, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.191_k20.output
+    jobid: 221
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.191_k20.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, r=0.191, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_k/k540_r0.01.output
+    jobid: 66
+    reason: Missing output files: chrY_SimpleRepeat/varying_k/k540_r0.01.output
+    wildcards: output_dir=chrY_SimpleRepeat, k=540, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_r/r0.241_k10.output
+    jobid: 190
+    reason: Missing output files: chrY_SimpleRepeat/varying_r/r0.241_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.171_k20.output
+    jobid: 111
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.171_k20.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, r=0.171, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.321_k20.output
+    jobid: 234
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.321_k20.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, r=0.321, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_k/k450_r0.01.output
+    jobid: 17
+    reason: Missing output files: chr6_RepeatMasker/varying_k/k450_r0.01.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, k=450, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_k/k270_r0.01.output
+    jobid: 80
+    reason: Missing output files: chrY_RBMY1A1/varying_k/k270_r0.01.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, k=270, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.021_k20.output
+    jobid: 204
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.021_k20.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, r=0.021, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_k/k16_r0.01.output
+    jobid: 49
+    reason: Missing output files: chrY_SimpleRepeat/varying_k/k16_r0.01.output
+    wildcards: output_dir=chrY_SimpleRepeat, k=16, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_r/r0.071_k10.output
+    jobid: 173
+    reason: Missing output files: chrY_SimpleRepeat/varying_r/r0.071_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.071, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.001_k20.output
+    jobid: 94
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.001_k20.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, r=0.001, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.151_k20.output
+    jobid: 217
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.151_k20.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, r=0.151, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.301_k20.output
+    jobid: 124
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.301_k20.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, r=0.301, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_k/k420_r0.01.output
+    jobid: 62
+    reason: Missing output files: chrY_SimpleRepeat/varying_k/k420_r0.01.output
+    wildcards: output_dir=chrY_SimpleRepeat, k=420, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_r/r0.201_k10.output
+    jobid: 186
+    reason: Missing output files: chrY_SimpleRepeat/varying_r/r0.201_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.201, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_k/k330_r0.01.output
+    jobid: 13
+    reason: Missing output files: chr6_RepeatMasker/varying_k/k330_r0.01.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, k=330, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_k/k150_r0.01.output
+    jobid: 76
+    reason: Missing output files: chrY_RBMY1A1/varying_k/k150_r0.01.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, k=150, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.131_k20.output
+    jobid: 107
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.131_k20.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, r=0.131, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.281_k20.output
+    jobid: 230
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.281_k20.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, r=0.281, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_r/r0.031_k10.output
+    jobid: 169
+    reason: Missing output files: chrY_SimpleRepeat/varying_r/r0.031_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, fixed_k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_r/r0.331_k10.output
+    jobid: 199
+    reason: Missing output files: chrY_SimpleRepeat/varying_r/r0.331_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, fixed_k=10
+    resources: tmpdir=/tmp
+
+Failed to set marker file for job started ([Errno 122] Disk quota exceeded). Snakemake will work, but cannot ensure that output files are complete in case of a kill signal or power loss. Please ensure write permissions for the directory {self.workflow.persistence.path}.
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.261_k20.output
+    jobid: 120
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.261_k20.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, r=0.261, fixed_k=20
+    resources: tmpdir=/tmp
+
+Failed to set marker file for job started ([Errno 122] Disk quota exceeded). Snakemake will work, but cannot ensure that output files are complete in case of a kill signal or power loss. Please ensure write permissions for the directory {self.workflow.persistence.path}.
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_k/k300_r0.01.output
+    jobid: 58
+    reason: Missing output files: chrY_SimpleRepeat/varying_k/k300_r0.01.output
+    wildcards: output_dir=chrY_SimpleRepeat, k=300, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+Failed to set marker file for job started ([Errno 122] Disk quota exceeded). Snakemake will work, but cannot ensure that output files are complete in case of a kill signal or power loss. Please ensure write permissions for the directory {self.workflow.persistence.path}.
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_k/k540_r0.01.output
+    jobid: 89
+    reason: Missing output files: chrY_RBMY1A1/varying_k/k540_r0.01.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, k=540, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+Failed to set marker file for job started ([Errno 122] Disk quota exceeded). Snakemake will work, but cannot ensure that output files are complete in case of a kill signal or power loss. Please ensure write permissions for the directory {self.workflow.persistence.path}.
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.111_k20.output
+    jobid: 213
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.111_k20.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, r=0.111, fixed_k=20
+    resources: tmpdir=/tmp
+
+Failed to set marker file for job started ([Errno 122] Disk quota exceeded). Snakemake will work, but cannot ensure that output files are complete in case of a kill signal or power loss. Please ensure write permissions for the directory {self.workflow.persistence.path}.
+
+[Mon May 12 10:35:48 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_r/r0.161_k10.output
+    jobid: 182
+    reason: Missing output files: chrY_SimpleRepeat/varying_r/r0.161_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.161, fixed_k=10
+    resources: tmpdir=/tmp
+
+Failed to set marker file for job started ([Errno 122] Disk quota exceeded). Snakemake will work, but cannot ensure that output files are complete in case of a kill signal or power loss. Please ensure write permissions for the directory {self.workflow.persistence.path}.
+
+[Mon May 12 10:35:49 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.091_k20.output
+    jobid: 103
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.091_k20.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, r=0.091, fixed_k=20
+    resources: tmpdir=/tmp
+
+Failed to set marker file for job started ([Errno 122] Disk quota exceeded). Snakemake will work, but cannot ensure that output files are complete in case of a kill signal or power loss. Please ensure write permissions for the directory {self.workflow.persistence.path}.
+
+[Mon May 12 10:35:49 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.241_k20.output
+    jobid: 226
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.241_k20.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, r=0.241, fixed_k=20
+    resources: tmpdir=/tmp
+
+Failed to set marker file for job started ([Errno 122] Disk quota exceeded). Snakemake will work, but cannot ensure that output files are complete in case of a kill signal or power loss. Please ensure write permissions for the directory {self.workflow.persistence.path}.
+
+[Mon May 12 10:35:49 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_k/k210_r0.01.output
+    jobid: 9
+    reason: Missing output files: chr6_RepeatMasker/varying_k/k210_r0.01.output; Updated input files: ../sequence_data/chr6.fasta
+    wildcards: output_dir=chr6_RepeatMasker, k=210, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+Failed to set marker file for job started ([Errno 122] Disk quota exceeded). Snakemake will work, but cannot ensure that output files are complete in case of a kill signal or power loss. Please ensure write permissions for the directory {self.workflow.persistence.path}.
+
+[Mon May 12 10:35:49 2025]
+localrule run_simulation_k:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_k/k16_r0.01.output
+    jobid: 72
+    reason: Missing output files: chrY_RBMY1A1/varying_k/k16_r0.01.output; Updated input files: ../sequence_data/chrY.fasta
+    wildcards: output_dir=chrY_RBMY1A1, k=16, fixed_r=0.01
+    resources: tmpdir=/tmp
+
+Failed to set marker file for job started ([Errno 122] Disk quota exceeded). Snakemake will work, but cannot ensure that output files are complete in case of a kill signal or power loss. Please ensure write permissions for the directory {self.workflow.persistence.path}.
+
+[Mon May 12 10:35:49 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_SimpleRepeat/varying_r/r0.291_k10.output
+    jobid: 195
+    reason: Missing output files: chrY_SimpleRepeat/varying_r/r0.291_k10.output
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.291, fixed_k=10
+    resources: tmpdir=/tmp
+
+Failed to set marker file for job started ([Errno 122] Disk quota exceeded). Snakemake will work, but cannot ensure that output files are complete in case of a kill signal or power loss. Please ensure write permissions for the directory {self.workflow.persistence.path}.
+
+[Mon May 12 10:35:49 2025]
+
+
+[Mon May 12 10:35:49 2025]
+
+
+[Mon May 12 10:35:49 2025]
+
+
+[Mon May 12 10:35:49 2025]
+
+
+[Mon May 12 10:35:49 2025]
+
+
+[Mon May 12 10:35:49 2025]
+
+
+[Mon May 12 10:35:49 2025]
+
+
+[Mon May 12 10:35:49 2025]
+
+
+[Mon May 12 10:35:49 2025]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Mon May 12 10:35:50 2025]
+Finished job 176.
+1 of 178 steps (1%) done
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_r since they might be corrupted:
+chrY_SimpleRepeat/varying_r/r0.191_k10.output
+[Mon May 12 10:35:50 2025]
+Finished job 199.
+2 of 178 steps (1%) done
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_r since they might be corrupted:
+chrY_SimpleRepeat/varying_r/r0.021_k10.output
+[Mon May 12 10:35:51 2025]
+Finished job 49.
+3 of 178 steps (2%) done
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_r since they might be corrupted:
+chrY_SimpleRepeat/varying_r/r0.151_k10.output
+[Mon May 12 10:35:51 2025]
+Finished job 182.
+4 of 178 steps (2%) done
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_k since they might be corrupted:
+chrY_SimpleRepeat/varying_k/k540_r0.01.output
+[Mon May 12 10:35:51 2025]
+Finished job 61.
+5 of 178 steps (3%) done
+[Mon May 12 10:35:51 2025]
+Finished job 57.
+6 of 178 steps (3%) done
+[Mon May 12 10:35:51 2025]
+Finished job 190.
+7 of 178 steps (4%) done
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_k since they might be corrupted:
+chrY_SimpleRepeat/varying_k/k570_r0.01.output
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_r since they might be corrupted:
+chrY_SimpleRepeat/varying_r/r0.291_k10.output
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_r since they might be corrupted:
+chrY_SimpleRepeat/varying_r/r0.201_k10.output
+[Mon May 12 10:35:51 2025]
+Finished job 177.
+8 of 178 steps (4%) done
+[Mon May 12 10:35:51 2025]
+Finished job 198.
+9 of 178 steps (5%) done
+[Mon May 12 10:35:51 2025]
+Finished job 169.
+10 of 178 steps (6%) done
+[Mon May 12 10:35:51 2025]
+Finished job 194.
+11 of 178 steps (6%) done
+[Mon May 12 10:35:51 2025]
+Finished job 178.
+12 of 178 steps (7%) done
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_r since they might be corrupted:
+chrY_SimpleRepeat/varying_r/r0.301_k10.output
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_r since they might be corrupted:
+chrY_SimpleRepeat/varying_r/r0.001_k10.output
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_k since they might be corrupted:
+chrY_SimpleRepeat/varying_k/k420_r0.01.output
+[Mon May 12 10:35:51 2025]
+Finished job 173.
+13 of 178 steps (7%) done
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_k since they might be corrupted:
+chrY_SimpleRepeat/varying_k/k150_r0.01.output
+[Mon May 12 10:35:51 2025]
+Finished job 50.
+14 of 178 steps (8%) done
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_r since they might be corrupted:
+chrY_SimpleRepeat/varying_r/r0.251_k10.output
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_k since they might be corrupted:
+chrY_SimpleRepeat/varying_k/k300_r0.01.output
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_r since they might be corrupted:
+chrY_SimpleRepeat/varying_r/r0.081_k10.output
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_k since they might be corrupted:
+chrY_SimpleRepeat/varying_k/k180_r0.01.output
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_k since they might be corrupted:
+chrY_SimpleRepeat/varying_k/k210_r0.01.output
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_k since they might be corrupted:
+chrY_SimpleRepeat/varying_k/k600_r0.01.output
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_r since they might be corrupted:
+chrY_SimpleRepeat/varying_r/r0.131_k10.output
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_k since they might be corrupted:
+chrY_RBMY1A1/varying_k/k8_r0.01.output
+[Mon May 12 10:35:53 2025]
+Finished job 207.
+15 of 178 steps (8%) done
+[Mon May 12 10:35:53 2025]
+Finished job 225.
+16 of 178 steps (9%) done
+[Mon May 12 10:35:53 2025]
+Finished job 217.
+17 of 178 steps (10%) done
+[Mon May 12 10:35:54 2025]
+Finished job 222.
+18 of 178 steps (10%) done
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_r since they might be corrupted:
+chrY_RBMY1A1/varying_r/r0.021_k20.output
+[Mon May 12 10:35:54 2025]
+Finished job 72.
+19 of 178 steps (11%) done
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_k since they might be corrupted:
+chrY_RBMY1A1/varying_k/k120_r0.01.output
+[Mon May 12 10:35:54 2025]
+Finished job 73.
+20 of 178 steps (11%) done
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_r since they might be corrupted:
+chrY_RBMY1A1/varying_r/r0.191_k20.output
+[Mon May 12 10:35:54 2025]
+Finished job 220.
+21 of 178 steps (12%) done
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+Removing output files of failed job run_simulation_r since they might be corrupted:
+chrY_RBMY1A1/varying_r/r0.211_k20.output
+[Mon May 12 10:35:54 2025]
+Error in rule run_simulation_r:
+    jobid: 234
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.321_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_RBMY1A1/varying_r/r0.321_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.321 \
+            > chrY_RBMY1A1/varying_r/r0.321_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+WorkflowError:
+Error recording metadata for finished job ([Errno 122] Disk quota exceeded). Please ensure write permissions for the directory /home/hvw5426/kmer-stats-repeat_Reproduce/Comparison_of_two_estimator/.snakemake
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+Removing output files of failed job run_simulation_r since they might be corrupted:
+chrY_RBMY1A1/varying_r/r0.061_k20.output
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+Error in rule run_simulation_r:
+    jobid: 226
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.241_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_RBMY1A1/varying_r/r0.241_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.241 \
+            > chrY_RBMY1A1/varying_r/r0.241_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+Error in rule run_simulation_k:
+    jobid: 5
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_k/k90_r0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_k/k90_r0.01.output)
+        ./Simulation \
+            -i ../sequence_data/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 90 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            > chr6_RepeatMasker/varying_k/k90_r0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+Error in rule run_simulation_r:
+    jobid: 117
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.231_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.231_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.231 \
+            > chr6_RepeatMasker/varying_r/r0.231_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 10:35:54 2025]
+Error in rule run_simulation_r:
+    jobid: 115
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.211_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.211_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.211 \
+            > chr6_RepeatMasker/varying_r/r0.211_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+Error in rule run_simulation_r:
+    jobid: 100
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.061_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.061_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.061 \
+            > chr6_RepeatMasker/varying_r/r0.061_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+Error in rule run_simulation_r:
+    jobid: 120
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.261_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.261_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.261 \
+            > chr6_RepeatMasker/varying_r/r0.261_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 10:35:54 2025]
+Error in rule run_simulation_r:
+    jobid: 205
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.031_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_RBMY1A1/varying_r/r0.031_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.031 \
+            > chrY_RBMY1A1/varying_r/r0.031_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+Error in rule run_simulation_k:
+    jobid: 13
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_k/k330_r0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_k/k330_r0.01.output)
+        ./Simulation \
+            -i ../sequence_data/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 330 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            > chr6_RepeatMasker/varying_k/k330_r0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Terminating processes on user request, this might take some time.
+[Mon May 12 10:35:54 2025]
+Error in rule run_simulation_r:
+    jobid: 99
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.051_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.051_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.051 \
+            > chr6_RepeatMasker/varying_r/r0.051_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+Error in rule run_simulation_k:
+    jobid: 21
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_k/k570_r0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_k/k570_r0.01.output)
+        ./Simulation \
+            -i ../sequence_data/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 570 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            > chr6_RepeatMasker/varying_k/k570_r0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+Error in rule run_simulation_k:
+    jobid: 4
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_k/k32_r0.01.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_k/k32_r0.01.output)
+        ./Simulation \
+            -i ../sequence_data/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 32 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.01 \
+            > chr6_RepeatMasker/varying_k/k32_r0.01.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+Error in rule run_simulation_r:
+    jobid: 110
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.161_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.161_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.161 \
+            > chr6_RepeatMasker/varying_r/r0.161_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+Error in rule run_simulation_r:
+    jobid: 106
+    input: ../sequence_data/chr6.fasta
+    output: chr6_RepeatMasker/varying_r/r0.121_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.121_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chr6.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.121 \
+            > chr6_RepeatMasker/varying_r/r0.121_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 235
+    input: ../sequence_data/chrY.fasta
+    output: chrY_RBMY1A1/varying_r/r0.331_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_RBMY1A1/varying_r/r0.331_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.331 \
+            > chrY_RBMY1A1/varying_r/r0.331_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 10:35:54 2025]
+[Mon May 12 10:35:54 2025]
+Traceback (most recent call last):
+
+  File "/research/hvw5426/miniforge3/envs/snakemake/lib/python3.12/site-packages/snakemake/cli.py", line 2078, in args_to_api
+    dag_api.execute_workflow(
+
+  File "/research/hvw5426/miniforge3/envs/snakemake/lib/python3.12/site-packages/snakemake/api.py", line 589, in execute_workflow
+    workflow.execute(
+
+  File "/research/hvw5426/miniforge3/envs/snakemake/lib/python3.12/site-packages/snakemake/workflow.py", line 1283, in execute
+    self._onerror(logger.get_logfile())
+                  ^^^^^^^^^^^^^^^^^^^^
+
+  File "/research/hvw5426/miniforge3/envs/snakemake/lib/python3.12/site-packages/snakemake/logging.py", line 353, in get_logfile
+    self.logfile_handler.flush()
+
+  File "/research/hvw5426/miniforge3/envs/snakemake/lib/python3.12/logging/__init__.py", line 1144, in flush
+    self.stream.flush()
+
+OSError: [Errno 122] Disk quota exceeded
+

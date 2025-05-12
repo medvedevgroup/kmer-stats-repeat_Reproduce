@@ -60,7 +60,7 @@ rule run_simulation_k:
     input:
         fasta = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['fasta']
     output:
-        os.path.join("{output_dir}", "varing_k", f"k{{k}}_r{{fixed_r}}.output")
+        os.path.join("{output_dir}", "varying_k", f"k{{k}}_r{{fixed_r}}.output")
     params:
         length = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['length'],
         start_pos = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['start_pos'],
@@ -84,7 +84,7 @@ rule run_simulation_r:
     input:
         fasta = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['fasta']
     output:
-        os.path.join("{output_dir}", "varing_r", f"r{{r}}_k{{fixed_k}}.output")
+        os.path.join("{output_dir}", "varying_r", f"r{{r}}_k{{fixed_k}}.output")
     params:
         length = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['length'],
         start_pos = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['start_pos'],
@@ -107,7 +107,7 @@ rule run_simulation_r:
 rule plot_k_variation:
     input:
         files = lambda wildcards: expand(
-            os.path.join(wildcards.output_dir, "varing_k", f"k{{k}}_r{wildcards.fixed_r}.output"), 
+            os.path.join(wildcards.output_dir, "varying_k", f"k{{k}}_r{wildcards.fixed_r}.output"), 
             k=K_VALUES
         )
     output:
@@ -120,7 +120,7 @@ rule plot_k_variation:
         mkdir -p {wildcards.output_dir}
         
         cd {wildcards.output_dir} && python ../boxplot_k.py \\
-            -d varing_k \\
+            -d varying_k \\
             -t {params.thresholds[0]} {params.thresholds[1]} \\
             --ylim {params.ylimits[0]} {params.ylimits[1]} {params.ylimits[2]} \\
             -r {wildcards.fixed_r}
@@ -129,7 +129,7 @@ rule plot_k_variation:
 rule plot_r_variation:
     input:
         files = lambda wildcards: expand(
-            os.path.join(wildcards.output_dir, "varing_r", f"r{{r}}_k{wildcards.fixed_k}.output"), 
+            os.path.join(wildcards.output_dir, "varying_r", f"r{{r}}_k{wildcards.fixed_k}.output"), 
             r=R_VALUES
         )
     output:
@@ -139,7 +139,7 @@ rule plot_r_variation:
         mkdir -p {wildcards.output_dir}
         
         cd {wildcards.output_dir} && python ../boxplot_r.py \\
-            -d varing_r \\
+            -d varying_r \\
             -k {wildcards.fixed_k}
         """
 

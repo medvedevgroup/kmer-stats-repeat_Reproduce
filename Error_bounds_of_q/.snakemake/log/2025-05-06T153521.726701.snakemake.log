@@ -1,5 +1,0 @@
-Building DAG of jobs...
-MissingInputException in rule all in file /home/hvw5426/kmer-stats-repeat_Reproduce/Error_bounds_of_q/snakefile, line 47:
-Missing input files for rule all:
-    affected files:
-        chr21_centromere/boxplot_error_q_k30.png

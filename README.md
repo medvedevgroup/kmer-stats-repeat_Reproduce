@@ -9,7 +9,9 @@ Reproduce the empirical results  in the paper.
 
 ## Datasets
 
-We use following four datasets in our paper. The four complete chromosomes are in folder `./sequence_data/`
+We use following four datasets in our paper. User could download the corresponding chromosome sequence from https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_009914755.3/ and put in folder `./sequence_data/`.
+
+
 
 | Dataset name               | starting position | Chromosome |
 | -------------------------- | ----------------- | ---------- |

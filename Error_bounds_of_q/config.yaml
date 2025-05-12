@@ -1,0 +1,25 @@
+analyses:
+  - name: "chr21_centromere"
+    output_dir: "chr21_centromere"
+    fasta: "../sequence_data/chr21.fasta"
+    simulation_params:
+      length: 100000
+      start_pos: 10962854
+      precision: 1e-8
+      replicates: 100
+    plot_params:
+      r_variation:
+        fixed_k: 30
+
+  - name: "chrY_SimpleRepeat" # chrY:22420785-22423059,
+    output_dir: "chrY_SimpleRepeat"
+    fasta: "../sequence_data/chrY.fasta"
+    simulation_params:
+      length: 2264
+      start_pos: 22420785
+      precision: 1e-10
+      replicates: 100
+    plot_params:
+      r_variation:
+        fixed_k: 10
+        

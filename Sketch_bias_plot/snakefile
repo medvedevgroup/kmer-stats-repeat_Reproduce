@@ -3,9 +3,8 @@ import yaml
 import itertools
 
 K_VALUES = [8, 16, 32] + [60 + 30*i for i in range(25)]
-R_VALUES = [round(i * 0.01 + 0.001, 3) for i in range(31)]
+R_VALUES = [round(i * 0.01 + 0.001, 3) for i in range(19)]
 
-# 默认值，当配置中未指定时使用
 DEFAULT_FIXED_K = 30
 DEFAULT_FIXED_R = 0.01
 
@@ -22,17 +21,19 @@ def get_k_plot_thresholds(output_dir):
     analysis = get_analysis_by_output_dir(output_dir)
     return analysis['plot_params']['k_variation']['thresholds']
 
-def get_r_plot_threshold(output_dir):
-    analysis = get_analysis_by_output_dir(output_dir)
-    return analysis['plot_params']['r_variation']['threshold']
+# No longer needed as we removed the threshold parameter
+# def get_r_plot_threshold(output_dir):
+#     analysis = get_analysis_by_output_dir(output_dir)
+#     return analysis['plot_params']['r_variation']['threshold']
 
 def get_k_ylimits(output_dir):
     analysis = get_analysis_by_output_dir(output_dir)
     return analysis['plot_params']['k_variation'].get('ylimits', [0.8, 0.035, 1.0])
 
-def get_r_ylimits(output_dir):
-    analysis = get_analysis_by_output_dir(output_dir)
-    return analysis['plot_params']['r_variation'].get('ylimits', [0.2, 0.2])
+# No longer needed as we're using automatic y-axis range calculation
+# def get_r_ylimits(output_dir):
+#     analysis = get_analysis_by_output_dir(output_dir)
+#     return analysis['plot_params']['r_variation'].get('ylimits', [0.2, 0.2])
 
 def get_sketch_repeats(output_dir):
     analysis = get_analysis_by_output_dir(output_dir)
@@ -50,7 +51,6 @@ def get_fixed_k(output_dir):
     analysis = get_analysis_by_output_dir(output_dir)
     return analysis['plot_params']['r_variation'].get('fixed_k', DEFAULT_FIXED_K)
 
-# 为每个分析创建固定值字典
 fixed_values = {}
 for analysis in config['analyses']:
     output_dir = analysis['output_dir']
@@ -58,7 +58,7 @@ for analysis in config['analyses']:
     fixed_r = analysis['plot_params']['k_variation'].get('fixed_r', DEFAULT_FIXED_R)
     fixed_values[output_dir] = {'fixed_k': fixed_k, 'fixed_r': fixed_r}
 
-# 打印配置信息用于调试
+
 for output_dir, values in fixed_values.items():
     print(f"Analysis {output_dir}: fixed_k = {values['fixed_k']}, fixed_r = {values['fixed_r']}")
 
@@ -71,9 +71,9 @@ rule all:
             output_dir=[analysis['output_dir'] for analysis in config['analyses']],
             fixed_r=[fixed_values[a['output_dir']]['fixed_r'] for a in config['analyses']]
         ),
-        # R variation plots
+        # R variation plots (with updated filename)
         expand(
-            os.path.join("{output_dir}", "dual_sketch_boxplot_k{fixed_k}.png"),
+            os.path.join("{output_dir}", "single_panel_sketch_r_k{fixed_k}.png"),
             zip,
             output_dir=[analysis['output_dir'] for analysis in config['analyses']],
             fixed_k=[fixed_values[a['output_dir']]['fixed_k'] for a in config['analyses']]
@@ -162,19 +162,14 @@ rule plot_r_variation:
             r=R_VALUES
         )
     output:
-        plot = os.path.join("{output_dir}", "dual_sketch_boxplot_k{fixed_k}.png")
-    params:
-        threshold = lambda wildcards: get_r_plot_threshold(wildcards.output_dir),
-        ylimits = lambda wildcards: get_r_ylimits(wildcards.output_dir)
+        plot = os.path.join("{output_dir}", "single_panel_sketch_r_k{fixed_k}.png")
     shell:
         """
         mkdir -p {wildcards.output_dir}
         
         cd {wildcards.output_dir} && python ../boxplot_sketch_bias_r.py \\
             -d varing_r \\
-            -k {wildcards.fixed_k} \\
-            --r_threshold {params.threshold} \\
-            --ylim {params.ylimits[0]} {params.ylimits[1]}
+            -k {wildcards.fixed_k}
         """
 
 rule clean:

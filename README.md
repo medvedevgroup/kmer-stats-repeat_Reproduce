@@ -4,8 +4,8 @@ Reproduce the figures in the paper.
 
 ## Dependencies
 
-	1. Snakemake
-	1. Matplotlib
+1. Snakemake
+2. Matplotlib
 
 ## Datasets
 

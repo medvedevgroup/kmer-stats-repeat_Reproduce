@@ -209,16 +209,17 @@ int main (int argc, char* argv[]){
         coeffs_Map[copy]++;
     }
     std::random_device rd;
-    /*generate once mutation*/
-    std::string mutatedString = generateMutatedString(input_String, r);
-    int I_obs = intersect_size(kmer_set, mutatedString, k);
-        
-    //cout << "I_obs" << I_obs <<endl;
-    mpreal q_hat = Newton_Method (coeffs_Map, kmer_set, k, epsilon, I_obs);
-    //cout<< q_hat << endl;
-    mpreal r_hat = 1.0 - pow(1.0 - q_hat, 1.0/k);
+   
 
     for(int i=0; i<num_replicates; i++){
+         /*generate once mutation*/
+        std::string mutatedString = generateMutatedString(input_String, r);
+        int I_obs = intersect_size(kmer_set, mutatedString, k);
+            
+        //cout << "I_obs" << I_obs <<endl;
+        mpreal q_hat = Newton_Method (coeffs_Map, kmer_set, k, epsilon, I_obs);
+        //cout<< q_hat << endl;
+        mpreal r_hat = 1.0 - pow(1.0 - q_hat, 1.0/k);
         int I_obs_sketch=0;
 
         vector<double> thresholds = {0.1, 0.01};

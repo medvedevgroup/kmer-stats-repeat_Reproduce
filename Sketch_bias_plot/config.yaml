@@ -15,8 +15,6 @@ analyses:
         ylimits: [0.8, 0.035, 1.1]
         fixed_r: 0.01
       r_variation:
-        threshold: 0.151
-        ylimits: [0.2, 1.1]
         fixed_k: 30
 
   - name: "chr21_centromere_sketch_100"
@@ -34,8 +32,6 @@ analyses:
         ylimits: [0.8, 0.035, 1.1] 
         fixed_r: 0.01
       r_variation:
-        threshold: 0.151
-        ylimits: [0.2, 1.1]
         fixed_k: 30
 
   - name: "chrY_SimpleRepeat_sketch_100" # chrY:22420785-22423059,
@@ -53,7 +49,5 @@ analyses:
         ylimits: [0.8, 0.02, 1.1]
         fixed_r: 0.01
       r_variation:
-        threshold: 0.251
-        ylimits: [0.2, 1.1]
         fixed_k: 10
 

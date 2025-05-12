@@ -1,0 +1,29 @@
+Building DAG of jobs...
+IncompleteFilesException:
+The files below seem to be incomplete. If you are sure that certain files are not incomplete, mark them as complete with
+
+    snakemake --cleanup-metadata <filenames>
+
+To re-generate the files rerun your command with the --rerun-incomplete flag.
+Incomplete files:
+chr21_centromere/varing_k/k180_r0.01.output
+chr21_centromere/varing_k/k210_r0.01.output
+chr21_centromere/varing_k/k240_r0.01.output
+chr21_centromere/varing_k/k270_r0.01.output
+chr21_centromere/varing_k/k300_r0.01.output
+chr21_centromere/varing_k/k330_r0.01.output
+chr21_centromere/varing_k/k360_r0.01.output
+chr21_centromere/varing_k/k390_r0.01.output
+chr21_centromere/varing_k/k420_r0.01.output
+chr21_centromere/varing_k/k450_r0.01.output
+chr21_centromere/varing_k/k480_r0.01.output
+chr21_centromere/varing_k/k510_r0.01.output
+chr21_centromere/varing_k/k540_r0.01.output
+chr21_centromere/varing_k/k570_r0.01.output
+chr21_centromere/varing_k/k600_r0.01.output
+chr21_centromere/varing_k/k630_r0.01.output
+chr21_centromere/varing_k/k660_r0.01.output
+chr21_centromere/varing_k/k690_r0.01.output
+chr21_centromere/varing_k/k720_r0.01.output
+chr21_centromere/varing_k/k750_r0.01.output
+chr21_centromere/varing_k/k780_r0.01.output

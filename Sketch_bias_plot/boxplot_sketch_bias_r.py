@@ -13,10 +13,6 @@ def main():
                         help='Input directory with sketch output files')
     parser.add_argument('-k', '--k_value', type=int, default=30,
                         help='k value used in the filenames')
-    parser.add_argument('--r_threshold', type=float, default=None,
-                        help='Threshold for splitting r values (default: median of r values)')
-    parser.add_argument('--ylim', nargs='+', type=float, default=[0.2, 1.1],
-                        help='Maximum y-axis limits for the two panels [small_r, large_r]')
     args = parser.parse_args()
     
     # Process all the data files
@@ -25,8 +21,8 @@ def main():
     if all_data is not None:
         print(f"Processed data for {len(all_data['true_r'].unique())} different r values")
         
-        # Create the dual-panel boxplot
-        create_dual_subplot_boxplots(all_data, args.r_threshold, args.ylim, args.k_value)
+        # Create the single panel boxplot without outliers
+        create_single_panel_boxplot(all_data, args.k_value)
     else:
         print("No data to visualize")
 
@@ -173,8 +169,50 @@ def prepare_data_for_plotting(data):
     
     return pd.DataFrame(melted_data), true_r_values
 
-# Function to create boxplots with two subplots based on r value
-def create_dual_subplot_boxplots(data, r_threshold=None, ylimits=[0.2, 1.1], k_value=30):
+# Function to calculate non-outlier min and max for each group
+def calculate_non_outlier_range(data, true_r_values, methods):
+    # Store min and max for each group
+    min_vals = []
+    max_vals = []
+    
+    # For each r value and method combination
+    for r in true_r_values:
+        for method in methods:
+            # Get the data for this group
+            group_data = data[(data['true_r'] == r) & (data['method'] == method)]['estimated_r']
+            
+            if not group_data.empty:
+                # Calculate IQR (Interquartile Range)
+                q1 = group_data.quantile(0.25)
+                q3 = group_data.quantile(0.75)
+                iqr = q3 - q1
+                
+                # Calculate lower and upper bounds (1.5 * IQR)
+                lower_bound = q1 - 1.5 * iqr
+                upper_bound = q3 + 1.5 * iqr
+                
+                # Filter out outliers
+                non_outliers = group_data[(group_data >= lower_bound) & (group_data <= upper_bound)]
+                
+                if not non_outliers.empty:
+                    min_vals.append(non_outliers.min())
+                    max_vals.append(non_outliers.max())
+    
+    # Also include true r values in the range
+    min_vals.extend(true_r_values)
+    
+    # Get all r_strong values as well
+    r_strong_vals = data['r_strong'].unique()
+    max_vals.extend(r_strong_vals)
+    
+    # Return min and max of all non-outlier values
+    if min_vals and max_vals:
+        return min(min_vals), max(max_vals)
+    else:
+        return None, None
+
+# Function to create a single panel boxplot
+def create_single_panel_boxplot(data, k_value=30):
     # Prepare data for plotting
     melted_data, true_r_values = prepare_data_for_plotting(data)
     
@@ -184,134 +222,110 @@ def create_dual_subplot_boxplots(data, r_threshold=None, ylimits=[0.2, 1.1], k_v
         'r_sketch (θ=0.01)': '#FFD700'   # Yellow
     }
     
-    # Calculate threshold for splitting the data
-    if r_threshold is None:
-        r_threshold = np.percentile(true_r_values, 50)  # Default to median
-        print(f"Using median as r threshold: {r_threshold}")
+    # Calculate non-outlier range
+    methods = ['r_sketch (θ=0.1)', 'r_sketch (θ=0.01)']
+    y_min_non_outlier, y_max_non_outlier = calculate_non_outlier_range(melted_data, true_r_values, methods)
+    
+    # Create figure with a single panel
+    fig, ax = plt.subplots(figsize=(24, 15))
+    
+    # Create the boxplot for r_sketch values without outliers
+    sns.set(style="whitegrid", font_scale=1.5)  # Increased font scale
+    sns_plot = sns.boxplot(x='true_r', y='estimated_r', hue='method', data=melted_data,
+                     palette=custom_palette,
+                     width=0.9,
+                     linewidth=1.0,
+                     showfliers=False,  # Remove outliers
+                     ax=ax)
+    
+    # Add r_strong values as horizontal lines across each true_r group
+    x_positions = range(len(true_r_values))
+    for i, r in enumerate(true_r_values):
+        # Get the r_strong value for this true_r
+        r_data = melted_data[melted_data['true_r'] == r]
+        if not r_data.empty:
+            r_strong = r_data['r_strong'].iloc[0]
+            
+            # Calculate the width of each group (for the horizontal line)
+            width = 0.4  # Half the default width of boxplot groups
+            
+            # Draw horizontal line for r_strong (in red)
+            ax.plot([i-width, i+width], [r_strong, r_strong], '-', color='#FF0000', 
+                    linewidth=2.0, solid_capstyle='round')
+    
+    # Set x-axis ticks - show only every 3rd tick
+    visible_ticks = []
+    tick_labels = []
+    
+    for i, r in enumerate(true_r_values):
+        if i % 3 == 0:  # Every 3rd tick (skip 2)
+            visible_ticks.append(i)
+            tick_labels.append(f"{r:.3f}")
+    
+    ax.set_xticks(visible_ticks)
+    ax.set_xticklabels(tick_labels, rotation=45, fontsize=60)  # Increased tick label font size
+    
+    # Set simplified axis labels with larger font
+    ax.set_xlabel('r', fontsize=60)  # Changed from 'True r Value' to 'r'
+    ax.set_ylabel('Estimated r', fontsize=60)  # Changed from 'Estimated r Value' to 'estimated r'
+    
+    # Set y-axis limits based on non-outlier range
+    if y_min_non_outlier is not None and y_max_non_outlier is not None:
+        # Add a small padding
+        padding = (y_max_non_outlier - y_min_non_outlier) * 0.05
+        y_min = max(0, y_min_non_outlier - padding)  # Ensure y_min is not negative
+        y_max = y_max_non_outlier + padding
+        
+        # Set the limits
+        ax.set_ylim(y_min, y_max)
+        print(f"Setting y-axis range to: {y_min:.6f} - {y_max:.6f} (based on non-outlier data)")
     else:
-        print(f"Using provided r threshold: {r_threshold}")
+        # Fallback to a reasonable range
+        y_min = 0
+        y_max = max(true_r_values) * 2
+        ax.set_ylim(y_min, y_max)
+        print(f"Using fallback y-axis range: {y_min} - {y_max}")
     
-    # Ensure we have two y-limits
-    if len(ylimits) < 2:
-        ylimits = ylimits + [0.2] * (2 - len(ylimits))
+    # Reduce Y-axis ticks density - show fewer ticks
+    # First, get the current ticks
+    current_yticks = ax.get_yticks()
     
-    # Split data into two groups based on r value
-    small_r_data = melted_data[melted_data['true_r'] < r_threshold]
-    large_r_data = melted_data[melted_data['true_r'] >= r_threshold]
+    # Only keep every 3rd tick to make them more sparse
+    reduced_yticks = current_yticks[::3]
     
-    # Get unique r values for each group (sorted)
-    small_r_values = sorted([r for r in true_r_values if r < r_threshold])
-    large_r_values = sorted([r for r in true_r_values if r >= r_threshold])
+    # Apply the reduced ticks
+    ax.set_yticks(reduced_yticks)
     
-    print(f"Small r values (< {r_threshold}): {small_r_values}")
-    print(f"Large r values (>= {r_threshold}): {large_r_values}")
+    # Increase y-tick font size
+    ax.tick_params(axis='y', labelsize=60)
     
-    # Create figure with two subplots
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(36, 15), gridspec_kw={'width_ratios': [1.1, 1]})
+    # Add grid for easier reading
+    ax.grid(True, axis='y', linestyle='--', alpha=0.7)
     
-    # Function to plot on a specific axis with specific data
-    def plot_on_axis(ax, data, r_values, title, ylim=None):
-        if len(data) == 0 or len(r_values) == 0:
-            ax.text(0.5, 0.5, 'No data available', 
-                    horizontalalignment='center', verticalalignment='center')
-            return None, None, None
-        
-        # Create the boxplot for r_sketch values
-        sns.set(style="whitegrid", font_scale=1.2)
-        sns_plot = sns.boxplot(x='true_r', y='estimated_r', hue='method', data=data,
-                         palette=custom_palette,
-                         width=0.9,
-                         linewidth=1.0,
-                         fliersize=5,
-                         ax=ax)
-        
-        # Add r_strong values as horizontal lines across each true_r group
-        x_positions = range(len(r_values))
-        for i, r in enumerate(r_values):
-            # Get the r_strong value for this true_r
-            r_data = data[data['true_r'] == r]
-            if not r_data.empty:
-                r_strong = r_data['r_strong'].iloc[0]
-                
-                # Calculate the width of each group (for the horizontal line)
-                width = 0.4  # Half the default width of boxplot groups
-                
-                # Draw horizontal line for r_strong (in red)
-                ax.plot([i-width, i+width], [r_strong, r_strong], '-', color='#FF0000', 
-                        linewidth=2.0, solid_capstyle='round')
-        
-        # Add a line showing the true r values (baseline)
-        # Remove the label parameter to avoid duplicate "True r" in legend
-        ax.plot(x_positions, r_values, 'o-', color='gray', alpha=0.8, markersize=8, 
-                linestyle='--', linewidth=2.0)
-        
-        # Set x-axis ticks to show the true r values
-        ax.set_xticks(x_positions)
-        ax.set_xticklabels([f"{r:.3f}" for r in r_values], rotation=45)
-        
-        # Set title and labels
-        ax.set_title(title, fontsize=24)
-        ax.set_xlabel('True r Value', fontsize=20)
-        ax.set_ylabel('Estimated r Value', fontsize=20)
-        
-        # Set y-axis limits if provided
-        # if ylim is not None:
-        #     max_y = max(data['estimated_r'].max(), max(r_values) * 1.1)
-        #     ax.set_ylim(0, min(max_y, ylim))
-        # Set y-axis limits if provided
-        if ylim is not None:
-            data_max = max(data['estimated_r'].max(), max(r_values))
-            upper_limit = max(ylim, data_max * 1.1) 
-            ax.set_ylim(0, upper_limit)
-        
-        # Add grid for easier reading
-        ax.grid(True, axis='y', linestyle='--', alpha=0.7)
-        
-        # Add a manually created legend entry for r_strong and true r
-        from matplotlib.lines import Line2D
-        custom_lines = [
-            Line2D([0], [0], color='#FF0000', lw=2),
-            Line2D([0], [0], color='gray', linestyle='--', marker='o', markersize=6, lw=2)
-        ]
-        custom_labels = ['r_strong', 'True r']
-        
-        # Get the existing legend handles and labels
-        handles, labels = ax.get_legend_handles_labels()
-        
-        # Combine with the custom legend entries
-        all_handles = handles + custom_lines
-        all_labels = labels + custom_labels
-        
-        return sns_plot, all_handles, all_labels
+    # Create a manually crafted legend with just r_strong (removed True r)
+    from matplotlib.lines import Line2D
+    custom_lines = [
+        Line2D([0], [0], color='#FF0000', lw=2)
+    ]
+    custom_labels = ['$\hat{r}$']
     
-    # Plot on first subplot (r < threshold)
-    plot1, handles1, labels1 = plot_on_axis(ax1, small_r_data, small_r_values, 
-                                          f'r < {r_threshold:.3f}', ylim=ylimits[0])
+    # Get the existing legend handles and labels
+    handles, labels = ax.get_legend_handles_labels()
     
-    # Plot on second subplot (r >= threshold)
-    plot2, handles2, labels2 = plot_on_axis(ax2, large_r_data, large_r_values, 
-                                          f'r ≥ {r_threshold:.3f}', ylim=ylimits[1])
+    # Combine with the custom legend entries
+    all_handles = handles + custom_lines
+    all_labels = labels + custom_labels
     
-    # Remove both legends first
-    for ax in [ax1, ax2]:
-        if ax.get_legend():
-            ax.get_legend().remove()
-    
-    # Create a single legend on the first subplot with all entries
-    if plot1 is not None and handles1 is not None:
-        ax1.legend(handles=handles1, labels=labels1, fontsize=16, frameon=True, framealpha=0.9, loc='upper left')
-    elif plot2 is not None and handles2 is not None:
-        ax2.legend(handles=handles2, labels=labels2, fontsize=16, frameon=True, framealpha=0.9, loc='upper left')
-    
-    # Add overall title
-    plt.suptitle(f'Comparison of r_strong and r_sketch with different θ values (k={k_value})', fontsize=28)
+    # Add the combined legend with larger font
+    ax.legend(handles=all_handles, labels=all_labels, fontsize=45, frameon=True, framealpha=0.9, loc='upper left')
     
     # Adjust layout
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
+    plt.tight_layout()
     
     # Save the plot
-    plt.savefig(f"dual_sketch_boxplot_k{k_value}.png", dpi=300)
-    print(f"Plot saved as 'dual_sketch_boxplot_k{k_value}.png'")
+    output_filename = f"single_panel_sketch_r_k{k_value}.png"
+    plt.savefig(output_filename, dpi=100)
+    print(f"Plot saved as '{output_filename}'")
 
 # Main execution
 if __name__ == "__main__":

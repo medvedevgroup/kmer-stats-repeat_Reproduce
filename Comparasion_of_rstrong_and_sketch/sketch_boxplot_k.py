@@ -59,55 +59,39 @@ def process_file(file_path, fixed_r):
         if k_value is None:
             return pd.DataFrame()
         
-        # Print debugging info
         print(f"Processing file: {file_path}, extracted k: {k_value}")
         
-        # Try to read with specific "comma + space" delimiter
-        try:
-            # Use pandas with specific delimiter ", " (comma followed by space)
-            df = pd.read_csv(file_path, header=None, names=['r_strong', 'r_sketch'],
-                            sep=", ", engine='python')
-        except Exception as e:
-            print(f"Reading with 'comma + space' delimiter failed: {e}")
-            
-            # Fallback: Try manually parsing
-            print(f"Attempt 2: Manual parsing of {file_path}")
-            rows = []
-            with open(file_path, 'r') as f:
-                for line in f:
-                    line = line.strip()
-                    # Split by comma+space
-                    parts = line.split(", ")
-                    if len(parts) >= 2:
-                        try:
-                            rows.append([float(parts[0]), float(parts[1])])
-                        except ValueError:
-                            print(f"  Warning: Could not convert line to floats: {line}")
-                            continue
-            
-            if rows:
-                df = pd.DataFrame(rows, columns=['r_strong', 'r_sketch'])
-            else:
-                raise ValueError("No valid rows found after manual parsing")
+        # Read the file manually with the correct structure (3 columns)
+        rows = []
+        with open(file_path, 'r') as f:
+            for line in f:
+                line = line.strip()
+                parts = line.split(",")
+                if len(parts) >= 3:  # We expect 3 columns
+                    try:
+                        r_strong = float(parts[0])
+                        r_sketch_theta_01 = float(parts[1])
+                        r_sketch_theta_001 = float(parts[2])
+                        
+                        # Create two rows - one for each theta value
+                        rows.append([r_strong, r_sketch_theta_01, k_value, fixed_r, 0.1])
+                        rows.append([r_strong, r_sketch_theta_001, k_value, fixed_r, 0.01])
+                    except ValueError:
+                        print(f"  Warning: Could not convert line to floats: {line}")
+                        continue
         
-        # Add metadata to the DataFrame
-        df['k_value'] = k_value
-        df['r_value'] = fixed_r
-        
-        # Hard-code two theta values
-        df['theta'] = [0.1, 0.01] * (len(df) // 2)
-        if len(df) % 2 == 1:  # If odd number of rows, add one more theta value
-            df.loc[len(df)-1, 'theta'] = 0.1
-        
-        # Print a sample of the processed data
-        print(f"Sample of processed data: {df.head(2)}")
-        
-        return df
+        if rows:
+            df = pd.DataFrame(rows, columns=['r_strong', 'r_sketch', 'k_value', 'r_value', 'theta'])
+            print(f"Sample of processed data: {df.head(2)}")
+            return df
+        else:
+            print(f"No valid data found in {file_path}")
+            return pd.DataFrame(columns=['r_strong', 'r_sketch', 'k_value', 'r_value', 'theta'])
         
     except Exception as e:
         print(f"Error processing file {file_path}: {e}")
-        # Return an empty DataFrame with the correct structure
         return pd.DataFrame(columns=['r_strong', 'r_sketch', 'k_value', 'r_value', 'theta'])
+
 
 # Function to process all files
 def process_all_files(directory='./Estimate_sketch_r', fixed_r=0.01):

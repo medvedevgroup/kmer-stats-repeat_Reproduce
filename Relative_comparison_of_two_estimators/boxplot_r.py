@@ -168,14 +168,14 @@ def create_difference_boxplot(data):
             tick_labels.append(f"{r:.3f}")
     
     ax.set_xticks(visible_ticks)
-    ax.set_xticklabels(tick_labels, rotation=45, fontsize=40)
+    ax.set_xticklabels(tick_labels, rotation=45, fontsize=55)
     
     # Set labels
-    ax.set_xlabel('r', fontsize=40)
-    ax.set_ylabel('Relative error', fontsize=40)
+    ax.set_xlabel('r', fontsize=60)
+    ax.set_ylabel('Relative error', fontsize=60)
     
     # Increase y-axis tick font size
-    ax.tick_params(axis='y', labelsize=40)
+    ax.tick_params(axis='y', labelsize=55)
     
     # Add grid for easier reading
     ax.grid(True, axis='y', linestyle='--', alpha=0.7)
@@ -192,7 +192,7 @@ def create_difference_boxplot(data):
     ]
     
     ax.legend(custom_lines, [r'$(\hat{r} - r)/r$', '(r_Mash - r)/r'], 
-               fontsize=40, frameon=True, framealpha=0.9, loc='upper right')
+               fontsize=55, frameon=True, framealpha=0.9, loc='upper right')
     
     # Adjust layout
     plt.tight_layout()

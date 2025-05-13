@@ -1,0 +1,1518 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+plot_r_variation        2
+run_simulation_r       50
+total                  53
+
+Select jobs to execute...
+Execute 50 jobs...
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.211_k20.output
+    jobid: 101
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.211_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.211, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.011_k20.output
+    jobid: 55
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.011_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.011, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.161_k20.output
+    jobid: 70
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.161_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.161, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.061_k20.output
+    jobid: 86
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.061_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.061, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.051_k20.output
+    jobid: 85
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.051_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.051, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.201_k20.output
+    jobid: 100
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.201_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.201, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.001_k20.output
+    jobid: 54
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.001_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.001, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.151_k20.output
+    jobid: 69
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.151_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.151, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.041_k20.output
+    jobid: 84
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.041_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.041, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.191_k20.output
+    jobid: 99
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.191_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.191, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.141_k20.output
+    jobid: 68
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.141_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.141, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.131_k20.output
+    jobid: 67
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.131_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.131, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.031_k20.output
+    jobid: 83
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.031_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.031, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.181_k20.output
+    jobid: 98
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.181_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.181, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.121_k20.output
+    jobid: 66
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.121_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.121, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.021_k20.output
+    jobid: 82
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.021_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.021, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.171_k20.output
+    jobid: 97
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.171_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.171, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.111_k20.output
+    jobid: 65
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.111_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.111, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.011_k20.output
+    jobid: 81
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.011_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.011, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.161_k20.output
+    jobid: 96
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.161_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.161, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.101_k20.output
+    jobid: 64
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.101_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.101, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.001_k20.output
+    jobid: 80
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.001_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.001, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.151_k20.output
+    jobid: 95
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.151_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.151, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.141_k20.output
+    jobid: 94
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.141_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.141, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.091_k20.output
+    jobid: 63
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.091_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.091, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.241_k20.output
+    jobid: 78
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.241_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.241, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.131_k20.output
+    jobid: 93
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.131_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.131, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.081_k20.output
+    jobid: 62
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.081_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.081, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.231_k20.output
+    jobid: 77
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.231_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.231, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.221_k20.output
+    jobid: 76
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.221_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.221, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.121_k20.output
+    jobid: 92
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.121_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.121, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.071_k20.output
+    jobid: 61
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.071_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.071, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.211_k20.output
+    jobid: 75
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.211_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.211, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.111_k20.output
+    jobid: 91
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.111_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.111, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.061_k20.output
+    jobid: 60
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.061_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.061, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.051_k20.output
+    jobid: 59
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.051_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.051, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.201_k20.output
+    jobid: 74
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.201_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.201, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.101_k20.output
+    jobid: 90
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.101_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.101, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.041_k20.output
+    jobid: 58
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.041_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.041, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.191_k20.output
+    jobid: 73
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.191_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.191, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.091_k20.output
+    jobid: 89
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.091_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.091, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.241_k20.output
+    jobid: 104
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.241_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.241, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.231_k20.output
+    jobid: 103
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.231_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.231, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.031_k20.output
+    jobid: 57
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.031_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.031, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.181_k20.output
+    jobid: 72
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.181_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.181, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.081_k20.output
+    jobid: 88
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.081_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.081, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.221_k20.output
+    jobid: 102
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.221_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.221, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.021_k20.output
+    jobid: 56
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.021_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.021, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.171_k20.output
+    jobid: 71
+    reason: Missing output files: chrY_chrY_RBMY1A1/varying_r/r0.171_k20.output
+    wildcards: output_dir=chrY_chrY_RBMY1A1, r=0.171, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 12:05:17 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.071_k20.output
+    jobid: 87
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.071_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.071, fixed_k=20
+    resources: tmpdir=/tmp
+
+Terminating processes on user request, this might take some time.
+[Mon May 12 12:06:03 2025]
+Error in rule run_simulation_r:
+    jobid: 78
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.241_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.241_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.241 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.241_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+Error in rule run_simulation_r:
+    jobid: 101
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.211_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.211_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.211 \
+            > chr6_RepeatMasker/varying_r/r0.211_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+Error in rule run_simulation_r:
+    jobid: 64
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.101_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.101_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.101 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.101_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+Error in rule run_simulation_r:
+    jobid: 68
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.141_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.141_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.141 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.141_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+Error in rule run_simulation_r:
+    jobid: 58
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.041_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.041_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.041 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.041_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+Error in rule run_simulation_r:
+    jobid: 92
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.121_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.121_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.121 \
+            > chr6_RepeatMasker/varying_r/r0.121_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+Error in rule run_simulation_r:
+    jobid: 82
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.021_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.021_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.021 \
+            > chr6_RepeatMasker/varying_r/r0.021_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 12:06:04 2025]
+Error in rule run_simulation_r:
+    jobid: 71
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.171_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.171_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.171 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.171_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+Error in rule run_simulation_r:
+    jobid: 99
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.191_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.191_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.191 \
+            > chr6_RepeatMasker/varying_r/r0.191_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+[Mon May 12 12:06:04 2025]
+Error in rule run_simulation_r:
+    jobid: 69
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.151_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.151_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.151 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.151_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 72
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.181_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.181_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.181 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.181_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 90
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.101_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.101_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.101 \
+            > chr6_RepeatMasker/varying_r/r0.101_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 12 12:06:04 2025]
+Error in rule run_simulation_r:
+    jobid: 67
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.131_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.131_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.131 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.131_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 96
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.161_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.161_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.161 \
+            > chr6_RepeatMasker/varying_r/r0.161_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 97
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.171_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.171_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.171 \
+            > chr6_RepeatMasker/varying_r/r0.171_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 89
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.091_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.091_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.091 \
+            > chr6_RepeatMasker/varying_r/r0.091_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 98
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.181_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.181_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.181 \
+            > chr6_RepeatMasker/varying_r/r0.181_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 65
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.111_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.111_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.111 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.111_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 75
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.211_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.211_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.211 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.211_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 66
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.121_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.121_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.121 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.121_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 93
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.131_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.131_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.131 \
+            > chr6_RepeatMasker/varying_r/r0.131_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 87
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.071_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.071_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.071 \
+            > chr6_RepeatMasker/varying_r/r0.071_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 88
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.081_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.081_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.081 \
+            > chr6_RepeatMasker/varying_r/r0.081_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 70
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.161_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.161_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.161 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.161_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 103
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.231_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.231_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.231 \
+            > chr6_RepeatMasker/varying_r/r0.231_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 60
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.061_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.061_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.061 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.061_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 104
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.241_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.241_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.241 \
+            > chr6_RepeatMasker/varying_r/r0.241_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 61
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.071_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.071_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.071 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.071_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 80
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.001_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.001_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.001 \
+            > chr6_RepeatMasker/varying_r/r0.001_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 57
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.031_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.031_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.031 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.031_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 63
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.091_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.091_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.091 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.091_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 62
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.081_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.081_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.081 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.081_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 95
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.151_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.151_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.151 \
+            > chr6_RepeatMasker/varying_r/r0.151_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 74
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.201_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.201_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.201 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.201_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 77
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.231_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.231_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.231 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.231_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 73
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.191_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.191_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.191 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.191_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 56
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.021_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.021_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.021 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.021_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 91
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.111_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.111_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.111 \
+            > chr6_RepeatMasker/varying_r/r0.111_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 54
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.001_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.001_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.001 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.001_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 86
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.061_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.061_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.061 \
+            > chr6_RepeatMasker/varying_r/r0.061_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 94
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.141_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.141_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.141 \
+            > chr6_RepeatMasker/varying_r/r0.141_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 85
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.051_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.051_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.051 \
+            > chr6_RepeatMasker/varying_r/r0.051_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 55
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.011_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.011_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.011 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.011_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 59
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.051_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.051_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.051 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.051_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 76
+    input: ../sequence_data/chrY.fasta
+    output: chrY_chrY_RBMY1A1/varying_r/r0.221_k20.output
+    shell:
+        
+        mkdir -p $(dirname chrY_chrY_RBMY1A1/varying_r/r0.221_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 14400 \
+            -s 22410155 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.221 \
+            > chrY_chrY_RBMY1A1/varying_r/r0.221_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 81
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.011_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.011_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.011 \
+            > chr6_RepeatMasker/varying_r/r0.011_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 102
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.221_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.221_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.221 \
+            > chr6_RepeatMasker/varying_r/r0.221_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 100
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.201_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.201_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.201 \
+            > chr6_RepeatMasker/varying_r/r0.201_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 84
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.041_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.041_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.041 \
+            > chr6_RepeatMasker/varying_r/r0.041_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_simulation_r:
+    jobid: 83
+    input: ../sequence_data/chrY.fasta
+    output: chr6_RepeatMasker/varying_r/r0.031_k20.output
+    shell:
+        
+        mkdir -p $(dirname chr6_RepeatMasker/varying_r/r0.031_k20.output)
+        ./Simulation \
+            -i ../sequence_data/chrY.fasta \
+            -l 100000 \
+            -s 559707 \
+            -k 20 \
+            -e 1e-10 \
+            -c 100 \
+            -r 0.031 \
+            > chr6_RepeatMasker/varying_r/r0.031_k20.output
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2025-05-12T120516.822197.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

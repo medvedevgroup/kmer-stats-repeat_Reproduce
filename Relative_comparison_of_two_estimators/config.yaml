@@ -1,10 +1,10 @@
 analyses:
   - name: "chr6_RepeatMasker"
     output_dir: "chr6_RepeatMasker"
-    fasta: "../sequence_data/chr6.fasta"
+    fasta: "../sequence_data/D-easy.fasta"
     simulation_params:
       length: 100000
-      start_pos: 559707
+      start_pos: 0 #559707
       precision: 1e-10
       replicates: 100
     plot_params:
@@ -17,10 +17,10 @@ analyses:
 
   - name: "chr21_centromere"
     output_dir: "chr21_centromere"
-    fasta: "../sequence_data/chr21.fasta"
+    fasta: "../sequence_data/D-hardest.fasta"
     simulation_params:
       length: 100000
-      start_pos: 10962854
+      start_pos: 0 #10962854
       precision: 1e-10
       replicates: 100
     plot_params:
@@ -33,10 +33,10 @@ analyses:
 
   - name: "chrY_SimpleRepeat" # chrY:22420785-22423059,
     output_dir: "chrY_SimpleRepeat"
-    fasta: "../sequence_data/chrY.fasta"
+    fasta: "../sequence_data/D-hard.fasta"
     simulation_params:
       length: 2264
-      start_pos: 22420785
+      start_pos: 0 #22420785
       precision: 1e-10
       replicates: 100
     plot_params:
@@ -49,10 +49,10 @@ analyses:
 
   - name: "chrY_RBMY1A1" # chrY:22410155-22424578,
     output_dir: "chrY_RBMY1A1"
-    fasta: "../sequence_data/chrY.fasta"
+    fasta: "../sequence_data/D-med.fasta"
     simulation_params:
       length: 14400
-      start_pos: 22410155
+      start_pos: 0 #22410155
       precision: 1e-10
       replicates: 100
     plot_params:

@@ -1,0 +1,100 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+plot_r_variation        1
+run_simulation_r        5
+total                   7
+
+Select jobs to execute...
+Execute 5 jobs...
+
+[Wed May  7 10:48:35 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.311_k30.output
+    jobid: 33
+    reason: Missing output files: chr21_centromere/varing_r/r0.311_k30.output
+    wildcards: output_dir=chr21_centromere, r=0.311, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:48:35 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.351_k30.output
+    jobid: 37
+    reason: Missing output files: chr21_centromere/varing_r/r0.351_k30.output
+    wildcards: output_dir=chr21_centromere, r=0.351, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:48:35 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.341_k30.output
+    jobid: 36
+    reason: Missing output files: chr21_centromere/varing_r/r0.341_k30.output
+    wildcards: output_dir=chr21_centromere, r=0.341, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:48:35 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.331_k30.output
+    jobid: 35
+    reason: Missing output files: chr21_centromere/varing_r/r0.331_k30.output
+    wildcards: output_dir=chr21_centromere, r=0.331, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:48:35 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.321_k30.output
+    jobid: 34
+    reason: Missing output files: chr21_centromere/varing_r/r0.321_k30.output
+    wildcards: output_dir=chr21_centromere, r=0.321, fixed_k=30
+    resources: tmpdir=/tmp
+
+[Wed May  7 10:48:56 2025]
+Finished job 34.
+1 of 7 steps (14%) done
+[Wed May  7 10:48:57 2025]
+Finished job 33.
+2 of 7 steps (29%) done
+[Wed May  7 10:48:57 2025]
+Finished job 35.
+3 of 7 steps (43%) done
+[Wed May  7 10:48:57 2025]
+Finished job 37.
+4 of 7 steps (57%) done
+[Wed May  7 10:48:57 2025]
+Finished job 36.
+5 of 7 steps (71%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed May  7 10:48:57 2025]
+localrule plot_r_variation:
+    input: chr21_centromere/varing_r/r0.001_k30.output, chr21_centromere/varing_r/r0.011_k30.output, chr21_centromere/varing_r/r0.021_k30.output, chr21_centromere/varing_r/r0.031_k30.output, chr21_centromere/varing_r/r0.041_k30.output, chr21_centromere/varing_r/r0.051_k30.output, chr21_centromere/varing_r/r0.061_k30.output, chr21_centromere/varing_r/r0.071_k30.output, chr21_centromere/varing_r/r0.081_k30.output, chr21_centromere/varing_r/r0.091_k30.output, chr21_centromere/varing_r/r0.101_k30.output, chr21_centromere/varing_r/r0.111_k30.output, chr21_centromere/varing_r/r0.121_k30.output, chr21_centromere/varing_r/r0.131_k30.output, chr21_centromere/varing_r/r0.141_k30.output, chr21_centromere/varing_r/r0.151_k30.output, chr21_centromere/varing_r/r0.161_k30.output, chr21_centromere/varing_r/r0.171_k30.output, chr21_centromere/varing_r/r0.181_k30.output, chr21_centromere/varing_r/r0.191_k30.output, chr21_centromere/varing_r/r0.201_k30.output, chr21_centromere/varing_r/r0.211_k30.output, chr21_centromere/varing_r/r0.221_k30.output, chr21_centromere/varing_r/r0.231_k30.output, chr21_centromere/varing_r/r0.241_k30.output, chr21_centromere/varing_r/r0.251_k30.output, chr21_centromere/varing_r/r0.261_k30.output, chr21_centromere/varing_r/r0.271_k30.output, chr21_centromere/varing_r/r0.281_k30.output, chr21_centromere/varing_r/r0.291_k30.output, chr21_centromere/varing_r/r0.301_k30.output, chr21_centromere/varing_r/r0.311_k30.output, chr21_centromere/varing_r/r0.321_k30.output, chr21_centromere/varing_r/r0.331_k30.output, chr21_centromere/varing_r/r0.341_k30.output, chr21_centromere/varing_r/r0.351_k30.output
+    output: chr21_centromere/boxplot_error_r_k30.png
+    jobid: 1
+    reason: Input files updated by another job: chr21_centromere/varing_r/r0.311_k30.output, chr21_centromere/varing_r/r0.341_k30.output, chr21_centromere/varing_r/r0.351_k30.output, chr21_centromere/varing_r/r0.321_k30.output, chr21_centromere/varing_r/r0.331_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, fixed_k=30
+    resources: tmpdir=/tmp
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule plot_r_variation in file /home/hvw5426/kmer-stats-repeat_Reproduce/Empty_intersection_size_and_r_hat/snakefile, line 132:
+Job 1  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+chr21_centromere/boxplot_error_r_k30.png (missing locally, parent dir contents: varing_r)
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-05-07T104835.454978.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

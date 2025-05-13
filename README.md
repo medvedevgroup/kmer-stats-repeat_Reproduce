@@ -1,144 +1,156 @@
-# kmer-stats-repeat_Reproduce
+# kmer-stats-repeat: Reproduction Framework
 
-Reproduce the empirical results  in the paper.
+This repository contains code to reproduce the empirical results from our paper on k-mer statistics and repeat estimation.
 
 ## Dependencies
 
-1. Snakemake
-2. Matplotlib
+- Snakemake
+- Matplotlib
+- C++17
 
 ## Datasets
 
-We use following four datasets in our paper. User could download the corresponding chromosome sequence from https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_009914755.3/ and put in folder `./sequence_data/`.
+Four genomic datasets used in our paper are in the `./sequence_data/` directory.
 
+| Dataset Name               | Chromosome | Starting Position | Complexity Level |
+|----------------------------|------------|-------------------|------------------|
+| D-easy/chr6_RepeatMasker   | Chr6       | 559,707           | Easy             |
+| D-med/chrY_RBMY1A1         | ChrY       | 22,410,155        | Medium           |
+| D-hard/chrY_SimpleRepeat   | ChrY       | 22,420,785        | Hard             |
+| D-hardest/chr21_centromere | Chr21      | 10,962,854        | Hardest          |
 
+## $K$-mer statistics of datasets
 
-| Dataset name               | starting position | Chromosome |
-| -------------------------- | ----------------- | ---------- |
-| D-easy/chr6_RepeatMasker   | 559,707           | Chr6       |
-| D-med/chrY_RBMY1A1         | 22,410,155        | ChrY       |
-| D-hard/chrY_SimpleRepeat   | 22,420,785        | ChrY       |
-| D-hardest/chr21_centromere | 10,962,854        | Chr21      |
+The `./kmer_info` analyzes k-mer statistics from sequence data.
 
-## kmer_info
+### Compilation
 
-1. Use the following command to compile
+```bash
+g++ -std=c++17 kmer_info.cpp -o kmer_info
+```
 
+### Running the Analysis
+
+```bash
+snakemake --core [N]
+```
+
+Where `[N]` is the number of CPU cores to utilize.
+
+### Results
+
+Results are stored in dataset-specific folders (e.g., `./chr21_centromere/`):
+
+1. **Occurrence k-mer count**: `occ_counts.txt` lists the number of occurrences `i` and the count of k-mers with occurrence `i` in the format "occurrence : count". A visual representation is provided in `kmer_distribution_histogram.png`.
+
+2. **Overlapped k-mers**: `diff_counts.txt` contains the value of `(occ-sep)` and the count of k-mers with this difference in the format "occ-sep : count". (See paper for definitions of `occ` and `sep`).
+
+3. **Hamming distance distribution**: `HD_counts.txt` shows the Hamming distance and the count of k-mer pairs. This information is also visualized in `hamming_distance_distribution_histogram.png`.
+
+## Comparison of Estimators
+
+This module compares the performance of estimators $\hat{r}$ and $r_{mash}$.
+
+### Setup and Configuration
+
+1. Navigate to the comparison directory:
+   ```bash
+   cd ./Comparison_of_two_estimators
+   make
    ```
-   g++ -std=c++17 kmer_info.cpp -o kmer_info
-   ```
 
-2. Run following command, to generate the statistics information of sequences in the paper
-
-   ```
-   snakemake --core [N]
-   ```
-
-3. The results are in corresponding folders, like `./chr21_centromere`
-
-4. For occurrence kmer count, we list the number of occurrence $i$ and the counts of kmers with occurence $i$ in `occ_counts.txt`.  The contents are shown in the form "#occurrence : #kmer counts". We also draw a plot `kmer_distribution_histogram.png` to show this information. 
-
-5. For overlapped kmers, we list the value of $(occ-sep)$ and the counts of kmers with this difference in `diff_counts.txt`. The contents are shown in the form "occ-sep : #kmer counts". (The definitions of $occ$ and $sep$​ for a kmer can be found in the paper).
-
-6. For the hamming distance distribution among kmer pairs, we list the hamming distance and the counts of kmer pairs in `HD_counts.txt`. We also draw a plot `hamming_distance_distribution_histogram.png` to show this information. 
-
-## Comparison of two estimators
-
-1. This folder is used to compare the performance of $\hat{r}$ and $r_{mash}$. 
-
-2. `cd ./Comparasion_of_two_estimators` and run `make` in current folder to compile.
-
-3. Users can modify settings in config.yaml. Here is an example
-
-   The range of $k,r$ are hard code in snakefile.
-
-   ```config.yaml
+2. Modify `config.yaml` to specify your experiments:
+   ```yaml
    analyses:
-     - name: "chr6_RepeatMasker" # Experiment name
-       output_dir: "chr6_RepeatMasker" # Experiment output folder
-       fasta: "../sequence_data/chr6.fasta" # input fasta sequence
+     - name: "chr6_RepeatMasker"
+       output_dir: "chr6_RepeatMasker"
+       fasta: "../sequence_data/chr6.fasta"
        simulation_params:
-         length: 100000 # number of kmers selected 
-         start_pos: 559707 # start position 
-         precision: 1e-10 # precision for Newton Method
-         replicates: 100 # number of replicates for mutation process
-         fixed_r: 0.01 # set fixed r
+         length: 100000
+         start_pos: 559707
+         precision: 1e-10
+         replicates: 100
+         fixed_r: 0.01
        plot_params:
          k_variation:
-           thresholds: [32, 630] # threshold to split the boxplot panels.
-           ylimits: [0.8, 0.02, 1.0] # max scale for each panel
+           thresholds: [32, 630]
+           ylimits: [0.8, 0.02, 1.0]
          r_variation:
-           threshold: 0.25 # threshold to split the boxplot panels.
-           fixed_k: 20 # set fixed k
+           threshold: 0.25
+           fixed_k: 20
    ```
 
-4. Run following command, to generate the comparisons of three estimators and draw the corresponding box plots in the paper
-
-   ```
+3. Run the analysis:
+   ```bash
    snakemake --core [N]
    ```
 
-5. The results are in your specified folders, like `./chr6_RepeatMasker`. The simulation outputs for each $r,k$​ settings can be found in folders `./specified/varing_k` and `./specified/varing_r`.  The output files are in csv form, three columns represent r_strong, r_weak and r_mash. The boxplots are also stored in the specified folder. 
+4. Results are stored in the specified output directory (e.g., `./chr6_RepeatMasker/`) with simulation data in `./specified/varying_k` and `./specified/varying_r` subdirectories. The output files are in CSV format with three columns representing $\hat{r}$ and $r_{mash}$ for each simulation replicate. Boxplots visualizing the comparison between these estimators are generated in the specified output directory, with separate panels based on the threshold parameters defined in the configuration file.
 
-## Comparison of two estimators (relative error)
+## Relative Error Comparison
 
-1. This folder is used to compare the performance of $\hat{r}$ and $r_{mash}$ based on relative error. 
+This module is similar to the previous one but evaluates estimator performance using relative error metrics.
 
-2. `cd ./Relative_Comparasion_of_two_estimators` and run `make` in current folder to compile.
+### Setup and Configuration
 
-3. Users can modify settings in config.yaml. Here is an example
+1. Navigate to the relative comparison directory:
+   ```bash
+   cd ./Relative_Comparison_of_two_estimators
+   make
+   ```
 
-   The range of $k,r$ a hard code in snakefile.
-
-   ```config.yaml
+2. Modify `config.yaml` to specify your experiments (similar format to the previous module):
+   ```yaml
    analyses:
-     - name: "chr6_RepeatMasker" # Experiment name
-       output_dir: "chr6_RepeatMasker" # Experiment output folder
-       fasta: "../sequence_data/chr6.fasta" # input fasta sequence
+     - name: "chr6_RepeatMasker"
+       output_dir: "chr6_RepeatMasker"
+       fasta: "../sequence_data/chr6.fasta"
        simulation_params:
-         length: 100000 # number of kmers selected 
-         start_pos: 559707 # start position 
-         precision: 1e-10 # precision for Newton Method
-         replicates: 100 # number of replicates for mutation process
-         fixed_r: 0.01 # set fixed r
+         length: 100000
+         start_pos: 559707
+         precision: 1e-10
+         replicates: 100
+         fixed_r: 0.01
        plot_params:
          k_variation:
-           thresholds: [32, 630] # threshold to split the boxplot panels.
-           ylimits: [0.8, 0.02, 1.0] # max scale for each panel
+           thresholds: [32, 630]
+           ylimits: [0.8, 0.02, 1.0]
          r_variation:
-           threshold: 0.25 # threshold to split the boxplot panels.
-           fixed_k: 20 # set fixed k
+           threshold: 0.25
+           fixed_k: 20
    ```
 
-4. Run following command, to generate the comparisons of three estimators and draw the corresponding box plots in the paper
-
-   ```
+3. Run the analysis:
+   ```bash
    snakemake --core [N]
    ```
 
-5. The results are in your specified folders, like `./chr6_RepeatMasker`. The simulation outputs for each $r,k$​ settings can be found in folders `./specified/varing_k` and `./specified/varing_r`.  The output files are in csv form, three columns represent r_strong, r_weak and r_mash. The boxplots are also stored in the specified folder. 
+4. Results are stored in the specified output directory (e.g., `./chr6_RepeatMasker/`) with simulation data in `./specified/varying_k` and `./specified/varying_r` subdirectories. The output files are in CSV format with three columns representing the relative errors of  $\hat{r}$ and $r_{mash}$ for each simulation replicate. Boxplots visualizing these relative errors are generated in the specified output directory, with separate panels based on the threshold parameters defined in the configuration.
 
-## Heatmap
+## Heatmap Analysis
 
-1. This folder is used to generate the deviation of $\hat{r}$ on each $r,k$ setting and visualize them in a heatmap. 
+This module generates a heatmap showing the deviation of $\hat{r}$ across different $(r,k)$ parameter combinations.
 
-2. `cd ./Heatmap/` and run `make` in current folder to compile.
+### Setup and Configuration
 
-3. Users can modify settings in config.yaml. Here is an example
+1. Navigate to the heatmap directory:
+   ```bash
+   cd ./Heatmap/
+   make
+   ```
 
-   ```config.yaml
+2. Modify `config.yaml`:
+   ```yaml
    analyses:
-     - name: "chr21_centromere" # Experiment name
-       output_dir: "chr21_centromere" # Experiment output folder
-       fasta: "../sequence_data/chr21.fasta" # input fasta sequence
+     - name: "chr21_centromere"
+       output_dir: "chr21_centromere"
+       fasta: "../sequence_data/chr21.fasta"
        simulation_params:
-         length: 100000 # number of kmers selected
-         start_pos: 10962854 # start position 
-         precision: 1e-10 # precision for Newton Method
-         replicates: 100 # number of replicates for substitution process
-         # settings for r values
+         length: 100000
+         start_pos: 10962854
+         precision: 1e-10
+         replicates: 100
          r_values: [0.001, 0.011, 0.021, 0.031, 0.041, 0.051, 0.061, 0.071, 0.081, 0.091, 0.101, 0.151, 0.201, 0.251, 0.301]
-         # setting for k values
          k_values: [4, 8, 16, 32, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420, 450, 480, 510, 540, 570, 600]
        plot_params:
           heatmap:
@@ -148,114 +160,132 @@ We use following four datasets in our paper. User could download the correspondi
            figsize: "14,10"
    ```
 
-4. Run following command, to show the bias of estimator through heat map.
-
-   ```
+3. Run the analysis:
+   ```bash
    snakemake --core [N]
    ```
 
-5. The results are in your specified folders, like `./chr21_centromere/`. The simulation outputs for each $r,k$ settings can be found in folders `./specified_folder/results`. The boxplots are also stored in the specified folder. 
+4. Results are stored in the specified output directory (e.g., `./chr21_centromere/`), with raw simulation data in `./specified_folder/results`. The primary output is a comprehensive heatmap visualization (`heatmap.png`) showing the bias of $\hat{r}$ estimator across the specified r and k value combinations. The heatmap is colored according to the selected colormap, with annotations displaying the actual values when enabled in the configuration. The raw data for each $(r,k)$ combination are stored in separate CSV files in the results directory, containing the estimator values for each replicate.
 
-## Bias of estimator based on sketching
+## Sketching Bias Analysis
 
-1. We use following experiments to show the bias of $r_{sketch}$
+This module examines the bias of $r_{sketch}$ compared to $r_{strong}$.
 
-2. `cd ./Comparasion_of_rstrong_and_sketch/` and run `make` in current folder to compile.
+### Setup and Configuration
 
-3. Users can modify settings in config.yaml. Here is an example
+1. Navigate to the comparison directory:
+   ```bash
+   cd ./Comparison_of_rstrong_and_sketch/
+   make
+   ```
 
-   The range of $k,r$ a hard code in snakefile.
-
-   ```config.yaml
+2. Modify `config.yaml` to specify your experiments:
+   ```yaml
    analyses:
-     - name: "chr6_RepeatMasker_sketch_100" # Experiment name
-       output_dir: "chr6_RepeatMasker_sketch_100" # Experiment output folder
-       fasta: "../sequence_data/chr6.fasta" # input fasta sequence
+     - name: "chr6_RepeatMasker_sketch_100"
+       output_dir: "chr6_RepeatMasker_sketch_100"
+       fasta: "../sequence_data/chr6.fasta"
        simulation_params:
-         length: 100000 # number of kmers selected 
-         start_pos: 559707 # start position 
-         precision: 1e-10 # precision for Newton Method
-         replicates: 100 # number of replicates for mutation process
-         sketch_repeats: 100 # number of replicates for sketch process
+         length: 100000
+         start_pos: 559707
+         precision: 1e-10
+         replicates: 100
+         sketch_repeats: 100
        plot_params:
          k_variation:
-           thresholds: [32, 630] # threshold to split the boxplot panels.
-           ylimits: [0.8, 0.02, 1.0] # max scale for each panel
-           fixed_r: 0.01 # set fixed r
+           thresholds: [32, 630]
+           ylimits: [0.8, 0.02, 1.0]
+           fixed_r: 0.01
          r_variation:
-           threshold: 0.25 # threshold to split the boxplot panels.
-           fixed_k: 20 # set fixed k
+           threshold: 0.25
+           fixed_k: 20
    ```
 
-4. Run following command, to generate the comparisons of $r_{strong}$ and $r_{sketch}$ for different settings and draw the corresponding box plots in the paper
-
-   ```
+3. Run the analysis:
+   ```bash
    snakemake --core [N]
    ```
 
-5. The results are in your specified folders, like `./chr6_RepeatMasker_sketch_100`. The simulation outputs for each $r,k$ settings can be found in folders `./specified/varing_k` and `./specified/varing_r`.  The output files are in csv form, three columns represent r_strong, r_sketch ($\theta=0.1$) and r_sketch ($\theta=0.01$​) . The boxplots are also stored in the specified folder. 
+4. Results are stored in the specified output directory (e.g., `./chr6_RepeatMasker_sketch_100/`) with simulation data in `./specified/varying_k` and `./specified/varying_r` subdirectories. Output files are in CSV format with three columns representing r_strong, r_sketch ($\theta=0.1$), and r_sketch ($\theta=0.01$). Visualization is provided through boxplots in the same directory.
 
-## Sketch_bias_plot/
+## Single-Mutation Sketching Bias
 
-1. We check the bias of only sketch process using following experiments, we mutate the string only once and replicate sketching process multiple times.  
+This module focuses on isolating the bias from the sketching process by applying only one mutation and replicating the sketching process multiple times.
 
-2. `cd ./Sketch_bias_plot/` and run `make` in current folder to compile.
+1. Navigate to the sketching bias directory:
+   ```bash
+   cd ./Sketch_bias_plot/
+   make
+   ```
 
-3. Users can modify settings in config.yaml. Here is an example
-
-   The range of $k,r$ a hard code in snakefile. 
-
-   ```config.yaml
+2. Modify `config.yaml` to specify your experiments:
+   ```yaml
    analyses:
-     - name: "chr6_RepeatMasker" # Experiment name
-       output_dir: "chr6_RepeatMasker" # Experiment output folder
-       fasta: "../sequence_data/chr6.fasta" # input fasta sequence
+     - name: "chr6_RepeatMasker"
+       output_dir: "chr6_RepeatMasker"
+       fasta: "../sequence_data/chr6.fasta"
        simulation_params:
-         length: 100000 # number of kmers selected 
-         start_pos: 559707 # start position 
-         precision: 1e-10 # precision for Newton Method
-         sketch_repeats: 100 # number of replicates for sketch process
+         length: 100000
+         start_pos: 559707
+         precision: 1e-10
+         sketch_repeats: 100
        plot_params:
          k_variation:
-           thresholds: [32, 630] # threshold to split the boxplot panels.
-           ylimits: [0.8, 0.02, 1.0] # max scale for each panel
-           fixed_r: 0.01 # set fixed r
+           thresholds: [32, 630]
+           ylimits: [0.8, 0.02, 1.0]
+           fixed_r: 0.01
          r_variation:
-           threshold: 0.151 # threshold to split the boxplot panels.
-           ylimits: [0.2, 1.1] # max scale for each panel
-           fixed_k: 20 # set fixed k
+           threshold: 0.151
+           ylimits: [0.2, 1.1]
+           fixed_k: 20
    ```
 
-4. Run following command, to show the bias of sketching process and draw the corresponding box plots in the paper
-
-   ```
+3. Run the analysis:
+   ```bash
    snakemake --core [N]
    ```
 
-5. The results are in your specified folders, like `./chr6_RepeatMasker`. The simulation outputs for each $r,k$ settings can be found in folders `./specified/varing_k` and `./specified/varing_r`.  The output files are in csv form, three columns represent r_strong (does not change in a output file), r_sketch ($\theta=0.1$) and r_sketch ($\theta=0.01$) . The boxplots are also stored in the specified folder. 
+4. Results are stored in the specified output directory (e.g., `./chr6_RepeatMasker/`) with simulation data in `./specified/varying_k` and `./specified/varying_r` subdirectories. The output files are in CSV format with three columns representing r_strong (constant within each output file), r_sketch ($\theta=0.1$), and r_sketch ($\theta=0.01$). Boxplots visualizing these results are also provided in the same directory.
 
-## Error bounds of q
+## Error Bounds of q
 
-1. We use this experiment to show the theoretical bounds of $q$. 
+This experiment demonstrates the theoretical bounds of parameter $q$.
 
-2. `cd ./Error_bounds_of_q/` and run `make` in current folder to compile.
+### Setup and Configuration
 
-3. Users can modify settings in config.yaml. Here is an example
+1. Navigate to the error bounds directory:
+   ```bash
+   cd ./Error_bounds_of_q/
+   make
+   ```
 
+2. Configure with `config.yaml`:
+   ```yaml
+   analyses:
+     - name: "chr21_centromere"
+       output_dir: "chr21_centromere"
+       fasta: "../sequence_data/chr21.fasta"
+       simulation_params:
+         length: 100000
+         start_pos: 10962854
+         precision: 1e-8
+         replicates: 100
+       plot_params:
+         r_variation:
+           fixed_k: 30
+   ```
 
-```
-analyses:
-  - name: "chr21_centromere" # Experiment name
-    output_dir: "chr21_centromere" # Experiment output folder
-    fasta: "../sequence_data/chr21.fasta" # input fasta sequence
-    simulation_params:
-      length: 100000 # number of kmers selected 
-      start_pos: 10962854 # start position 
-      precision: 1e-8 # precision for Newton Method
-      replicates: 100 # number of replicates
-    plot_params:
-      r_variation:
-        fixed_k: 30 # set fixed k
-```
+3. Run the analysis:
+   ```bash
+   snakemake --core [N]
+   ```
 
-4. The results are in your specified folders, like `./chr21_centromere/`. The simulation outputs for each $r$ settings can be found in folders `./specified/varing_r`.  The first row of output file is in the form of `lower bound, upper bound`, the remaining raws are the value of $\hat{r}$ in each replicates.
+4. Results are stored in the specified output directory (e.g., `./chr21_centromere/`) with detailed data in `./specified/varying_r`. Each output file corresponds to a specific r value and contains:
+   - The first row showing the lower and upper theoretical bounds in the format "lower_bound, upper_bound"
+   - Subsequent rows showing the $\hat{r}$ values for each simulation replicate
+   
+   A visualization comparing the theoretical bounds with the empirical distribution of $\hat{r}$ values is also generated, allowing for visual confirmation of the theoretical predictions across different r values while keeping k fixed as specified in the configuration.
+
+## Empty intersection size 
+
+## P_empty

@@ -19,10 +19,10 @@ analyses:
 
   - name: "chr21_centromere_sketch_100"
     output_dir: "chr21_centromere_sketch_100"
-    fasta: "/research/hvw5426/splitted_fasta/chr21.fasta"
+    fasta: "../sequence_data/D-hardest.fasta"
     simulation_params:
       length: 100000
-      start_pos: 10962854
+      start_pos: 0 #10962854
       precision: 1e-10
       sketch_repeats: 100  
     plot_params:

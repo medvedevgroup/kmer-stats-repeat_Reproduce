@@ -108,13 +108,13 @@ def main():
     
     # Format the colorbar label
     cbar = ax.collections[0].colorbar
-    cbar.set_label('Average Relative Error', fontsize=50)
+    cbar.set_label('Error', fontsize=50)
     
     # Increase font size for colorbar ticks
     cbar.ax.tick_params(labelsize=40)
     
     plt.tight_layout()
-    plt.savefig(args.output, dpi=300)
+    plt.savefig(args.output, dpi=100)
     plt.close()
     
     print(f"Heatmap saved to {args.output}")

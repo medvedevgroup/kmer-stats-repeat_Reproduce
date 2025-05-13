@@ -1,0 +1,10 @@
+Building DAG of jobs...
+IncompleteFilesException:
+The files below seem to be incomplete. If you are sure that certain files are not incomplete, mark them as complete with
+
+    snakemake --cleanup-metadata <filenames>
+
+To re-generate the files rerun your command with the --rerun-incomplete flag.
+Incomplete files:
+results/output_l100000_k50_r0.2_c100.txt
+results/output_l100000_k60_r0.2_c100.txt

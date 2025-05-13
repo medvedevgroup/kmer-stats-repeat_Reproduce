@@ -1,0 +1,156 @@
+import os
+import yaml
+import itertools
+
+# Load configuration
+with open('config.yaml', 'r') as f:
+    config = yaml.safe_load(f)
+
+# Hardcoded k and r values for experiments
+#K_VALUES = [4, 8, 16, 32] + [60 + 30*i for i in range(25)]
+R_VALUES = [round(i * 0.01 + 0.001, 3) for i in range(36)]
+
+def get_analysis_by_output_dir(output_dir):
+    for analysis in config['analyses']:
+        if analysis['output_dir'] == output_dir:
+            return analysis
+    raise ValueError(f"No analysis found for output directory {output_dir}")
+
+# def get_k_plot_thresholds(output_dir):
+#     analysis = get_analysis_by_output_dir(output_dir)
+#     return analysis['plot_params']['k_variation']['thresholds']
+
+def get_r_plot_threshold(output_dir):
+    analysis = get_analysis_by_output_dir(output_dir)
+    return analysis['plot_params']['r_variation']['threshold']
+
+# def get_k_ylimits(output_dir):
+#     analysis = get_analysis_by_output_dir(output_dir)
+#     return analysis['plot_params']['k_variation'].get('ylimits', [0.8, 0.05, 1.0])
+
+# def get_fixed_r(output_dir):
+#     analysis = get_analysis_by_output_dir(output_dir)
+#     return analysis['plot_params']['k_variation'].get('fixed_r') 
+
+def get_fixed_k(output_dir):
+    analysis = get_analysis_by_output_dir(output_dir)
+    return analysis['plot_params']['r_variation'].get('fixed_k') 
+
+# Store fixed values for each analysis
+fixed_values = {}
+for analysis in config['analyses']:
+    output_dir = analysis['output_dir']
+    fixed_k = analysis['plot_params']['r_variation'].get('fixed_k')
+    #fixed_r = analysis['plot_params']['k_variation'].get('fixed_r')
+    fixed_values[output_dir] = {'fixed_k': fixed_k}
+
+rule all:
+    input:
+        # expand(
+        #     os.path.join("{output_dir}", "boxplot_error_k_r{fixed_r}.png"),
+        #     zip,
+        #     output_dir=[analysis['output_dir'] for analysis in config['analyses']],
+        #     fixed_r=[fixed_values[a['output_dir']]['fixed_r'] for a in config['analyses']]
+        # ),
+        expand(
+            os.path.join("{output_dir}", "boxplot_error_r_k{fixed_k}.png"),
+            zip,
+            output_dir=[analysis['output_dir'] for analysis in config['analyses']],
+            fixed_k=[fixed_values[a['output_dir']]['fixed_k'] for a in config['analyses']]
+        )
+
+# rule run_simulation_k:
+#     input:
+#         fasta = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['fasta']
+#     output:
+#         os.path.join("{output_dir}", "varying_k", f"k{{k}}_r{{fixed_r}}.output")
+#     params:
+#         length = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['length'],
+#         start_pos = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['start_pos'],
+#         precision = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['precision'],
+#         replicates = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['replicates']
+#     shell:
+#         """
+#         mkdir -p $(dirname {output})
+#         ./Simulation \\
+#             -i {input.fasta} \\
+#             -l {params.length} \\
+#             -s {params.start_pos} \\
+#             -k {wildcards.k} \\
+#             -e {params.precision} \\
+#             -c {params.replicates} \\
+#             -r {wildcards.fixed_r} \\
+#             > {output}
+#         """
+
+rule run_simulation_r:
+    input:
+        fasta = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['fasta']
+    output:
+        os.path.join("{output_dir}", "varying_r", f"r{{r}}_k{{fixed_k}}.output")
+    params:
+        length = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['length'],
+        start_pos = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['start_pos'],
+        precision = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['precision'],
+        replicates = lambda wildcards: get_analysis_by_output_dir(wildcards.output_dir)['simulation_params']['replicates']
+    shell:
+        """
+        mkdir -p $(dirname {output})
+        ./Simulation \\
+            -i {input.fasta} \\
+            -l {params.length} \\
+            -s {params.start_pos} \\
+            -k {wildcards.fixed_k} \\
+            -e {params.precision} \\
+            -c {params.replicates} \\
+            -r {wildcards.r} \\
+            > {output}
+        """
+
+# rule plot_k_variation:
+#     input:
+#         files = lambda wildcards: expand(
+#             os.path.join(wildcards.output_dir, "varying_k", f"k{{k}}_r{wildcards.fixed_r}.output"), 
+#             k=K_VALUES
+#         )
+#     output:
+#         plot = os.path.join("{output_dir}", "boxplot_error_k_r{fixed_r}.png")
+#     params:
+#         thresholds = lambda wildcards: get_k_plot_thresholds(wildcards.output_dir),
+#         ylimits = lambda wildcards: get_k_ylimits(wildcards.output_dir)
+#     shell:
+#         """
+#         mkdir -p {wildcards.output_dir}
+        
+#         cd {wildcards.output_dir} && python ../boxplot_error_k.py \\
+#             -d varying_k \\
+#             -t {params.thresholds[0]} {params.thresholds[1]} \\
+#             --ylim {params.ylimits[0]} {params.ylimits[1]} {params.ylimits[2]} \\
+#             -r {wildcards.fixed_r}
+#         """
+
+rule plot_r_variation:
+    input:
+        files = lambda wildcards: expand(
+            os.path.join(wildcards.output_dir, "varying_r", f"r{{r}}_k{wildcards.fixed_k}.output"), 
+            r=R_VALUES
+        )
+    output:
+        plot = os.path.join("{output_dir}", "boxplot_error_r_k{fixed_k}.png")
+    params:
+        threshold = lambda wildcards: get_r_plot_threshold(wildcards.output_dir)
+    shell:
+        """
+        mkdir -p {wildcards.output_dir}
+        
+        cd {wildcards.output_dir} && python ../boxplot_error_r.py \\
+            -d varying_r \\
+            -t {params.threshold} \\
+            -k {wildcards.fixed_k}
+        """
+
+rule clean:
+    shell:
+        """
+        rm -rf {" ".join([analysis['output_dir'] for analysis in config['analyses']])}
+        """

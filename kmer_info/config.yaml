@@ -1,28 +1,28 @@
 analyses:
   - name: "chr21_centromere"
-    fasta: "../sequence_data/chr21.fasta"
-    start: 10962854
+    fasta: "../sequence_data/D-hardest.fasta"
+    start: 0 #10962854
     length: 100000
     kmer: 30
     thresholds: [2, 4, 8, 16, 32, 64]
 
   - name: "chr6_repeatmasker"
-    fasta: "../sequence_data/chr6.fasta"
-    start: 559707
+    fasta: "../sequence_data/D-easy.fasta"
+    start: 0 #559707
     length: 100000
     kmer: 20
     thresholds: [2, 3, 4, 5, 6]
 
   - name: "chrY_SimpleRepeat" # chrY:22420785-22423059,
-    fasta: "../sequence_data/chrY.fasta"
-    start: 22420785
+    fasta: "../sequence_data/D-hard.fasta"
+    start: 0 #22420785
     length: 2264
     kmer: 10
     thresholds: [2, 3, 4, 5, 6]
 
   - name: "chrY_RBMY1A1" # chrY:22410155-22424578,
-    fasta: "../sequence_data/chrY.fasta"
-    start: 22410155
+    fasta: "../sequence_data/D-med.fasta"
+    start: 0 #22410155
     length: 14400
     kmer: 20
     thresholds: [2, 3, 4, 5, 6]

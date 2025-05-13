@@ -159,19 +159,19 @@ def plot_on_axis(ax, data, r_values, is_right_panel=False):
     # Only label every 3rd tick
     x_labels = []
     for i, r in enumerate(r_values):
-        if i % 3 == 0:  # Change this to control spacing (every 3rd tick)
+        if i % 5 == 0:  # Change this to control spacing (every 3rd tick)
             x_labels.append(f"{r:.3f}")
         else:
             x_labels.append("")
     
-    ax.set_xticklabels(x_labels, rotation=45, fontsize=60)  # Added bold
+    ax.set_xticklabels(x_labels, rotation=45, fontsize=120)  # Added bold
     
     # Set labels with larger font sizes and bold
-    ax.set_xlabel('r', fontsize=60)  # Added bold
+    ax.set_xlabel('r', fontsize=80)  # Added bold
     
     # Only set y-label for left panel
     if not is_right_panel:
-        ax.set_ylabel('Estimated r', fontsize=60)  # Added bold
+        ax.set_ylabel('Estimated r', fontsize=80)  # Added bold
     else:
         # For right panel, remove the y-label completely
         ax.set_ylabel('')
@@ -234,10 +234,10 @@ def plot_on_axis(ax, data, r_values, is_right_panel=False):
             # For small steps, show two decimal places
             ytick_labels = [f"{y:.2f}" for y in yticks]
             
-        ax.set_yticklabels(ytick_labels, fontsize=60)
+        ax.set_yticklabels(ytick_labels, fontsize=120)
     
     # Increase tick font size and make x-ticks bold
-    ax.tick_params(axis='both', which='major', labelsize=40)
+    ax.tick_params(axis='both', which='major', labelsize=60)
     # for tick in ax.xaxis.get_major_ticks():
     #     tick.label1.set_fontweight('bold')
     

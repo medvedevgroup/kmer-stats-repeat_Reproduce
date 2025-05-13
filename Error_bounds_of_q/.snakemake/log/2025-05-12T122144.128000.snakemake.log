@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in rule run_simulation_r in file /home/hvw5426/kmer-stats-repeat_Reproduce/Error_bounds_of_q/snakefile, line 81:
+Missing input files for rule run_simulation_r:
+    output: chrY_RBMY1A1/varying_r/r0.001_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.001, fixed_k=20
+    affected files:
+        ../sequence_data/chrY.fasta

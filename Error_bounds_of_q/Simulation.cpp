@@ -446,7 +446,7 @@ int main (int argc, char* argv[]){
     mpreal q_high = Newton_Method (coeffs_Map, kmer_set, k, epsilon, E_lower.toDouble());
     mpreal q_low = Newton_Method (coeffs_Map, kmer_set, k, epsilon, E_upper.toDouble());
     mpreal term2 = Taylor_lower_bound_2nd(coeffs_Map, q_high, q_low, Var_upper);
-    mpreal term3 = (kmer_set.size() - E_lower) * Taylor_lower_bound_3rd(coeffs_Map) * Var_upper;
+    mpreal term3 = max((mpreal(kmer_set.size()) - E_lower), E_upper) * Taylor_lower_bound_3rd(coeffs_Map) * Var_upper;
     mpreal lower_bound_q = q_low - (term2 + term3);
     mpreal upper_bound_q = q_high;
     cout << lower_bound_q << ", " << upper_bound_q << endl;

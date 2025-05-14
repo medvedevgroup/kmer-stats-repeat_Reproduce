@@ -1,0 +1,708 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+plot_r_variation        2
+run_simulation_r       50
+total                  53
+
+Select jobs to execute...
+Execute 50 jobs...
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.211_k20.output
+    jobid: 101
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.211_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.211, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.011_k20.output
+    jobid: 55
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.011_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.011, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.161_k20.output
+    jobid: 70
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.161_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.161, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.061_k20.output
+    jobid: 86
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.061_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.061, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.051_k20.output
+    jobid: 85
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.051_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.051, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.201_k20.output
+    jobid: 100
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.201_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.201, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.001_k20.output
+    jobid: 54
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.001_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.001, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.151_k20.output
+    jobid: 69
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.151_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.151, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.041_k20.output
+    jobid: 84
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.041_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.041, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.191_k20.output
+    jobid: 99
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.191_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.191, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.141_k20.output
+    jobid: 68
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.141_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.141, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.131_k20.output
+    jobid: 67
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.131_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.131, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.031_k20.output
+    jobid: 83
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.031_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.031, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.181_k20.output
+    jobid: 98
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.181_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.181, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.121_k20.output
+    jobid: 66
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.121_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.121, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.021_k20.output
+    jobid: 82
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.021_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.021, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.171_k20.output
+    jobid: 97
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.171_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.171, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.111_k20.output
+    jobid: 65
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.111_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.111, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.011_k20.output
+    jobid: 81
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.011_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.011, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.161_k20.output
+    jobid: 96
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.161_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.161, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.101_k20.output
+    jobid: 64
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.101_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.101, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.001_k20.output
+    jobid: 80
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.001_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.001, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.151_k20.output
+    jobid: 95
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.151_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.151, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.141_k20.output
+    jobid: 94
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.141_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.141, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.091_k20.output
+    jobid: 63
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.091_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.091, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.241_k20.output
+    jobid: 78
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.241_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.241, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.131_k20.output
+    jobid: 93
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.131_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.131, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.081_k20.output
+    jobid: 62
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.081_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.081, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.231_k20.output
+    jobid: 77
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.231_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.231, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.221_k20.output
+    jobid: 76
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.221_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.221, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.121_k20.output
+    jobid: 92
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.121_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.121, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.071_k20.output
+    jobid: 61
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.071_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.071, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.211_k20.output
+    jobid: 75
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.211_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.211, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.111_k20.output
+    jobid: 91
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.111_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.111, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.061_k20.output
+    jobid: 60
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.061_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.061, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.051_k20.output
+    jobid: 59
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.051_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.051, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.201_k20.output
+    jobid: 74
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.201_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.201, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.101_k20.output
+    jobid: 90
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.101_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.101, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.041_k20.output
+    jobid: 58
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.041_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.041, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.191_k20.output
+    jobid: 73
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.191_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.191, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.091_k20.output
+    jobid: 89
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.091_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.091, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.241_k20.output
+    jobid: 104
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.241_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.241, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.231_k20.output
+    jobid: 103
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.231_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.231, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.031_k20.output
+    jobid: 57
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.031_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.031, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.181_k20.output
+    jobid: 72
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.181_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.181, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.081_k20.output
+    jobid: 88
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.081_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.081, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.221_k20.output
+    jobid: 102
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.221_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.221, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.021_k20.output
+    jobid: 56
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.021_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.021, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-med.fasta
+    output: chrY_RBMY1A1/varying_r/r0.171_k20.output
+    jobid: 71
+    reason: Missing output files: chrY_RBMY1A1/varying_r/r0.171_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, r=0.171, fixed_k=20
+    resources: tmpdir=/tmp
+
+
+[Tue May 13 22:13:11 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/D-easy.fasta
+    output: chr6_RepeatMasker/varying_r/r0.071_k20.output
+    jobid: 87
+    reason: Missing output files: chr6_RepeatMasker/varying_r/r0.071_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, r=0.071, fixed_k=20
+    resources: tmpdir=/tmp
+
+[Tue May 13 22:23:03 2025]
+Finished job 67.
+1 of 53 steps (2%) done
+[Tue May 13 22:24:51 2025]
+Finished job 58.
+2 of 53 steps (4%) done
+[Tue May 13 22:25:22 2025]
+Finished job 54.
+3 of 53 steps (6%) done
+[Tue May 13 22:25:28 2025]
+Finished job 69.
+4 of 53 steps (8%) done
+[Tue May 13 22:25:37 2025]
+Finished job 78.
+5 of 53 steps (9%) done
+[Tue May 13 22:25:58 2025]
+Finished job 60.
+6 of 53 steps (11%) done
+[Tue May 13 22:26:02 2025]
+Finished job 76.
+7 of 53 steps (13%) done
+[Tue May 13 22:26:03 2025]
+Finished job 56.
+8 of 53 steps (15%) done
+[Tue May 13 22:26:24 2025]
+Finished job 73.
+9 of 53 steps (17%) done
+[Tue May 13 22:26:29 2025]
+Finished job 64.
+10 of 53 steps (19%) done
+[Tue May 13 22:27:07 2025]
+Finished job 70.
+11 of 53 steps (21%) done
+[Tue May 13 22:27:14 2025]
+Finished job 62.
+12 of 53 steps (23%) done
+[Tue May 13 22:27:25 2025]
+Finished job 74.
+13 of 53 steps (25%) done
+[Tue May 13 22:27:44 2025]
+Finished job 77.
+14 of 53 steps (26%) done
+[Tue May 13 22:27:48 2025]
+Finished job 75.
+15 of 53 steps (28%) done
+[Tue May 13 22:27:56 2025]
+Finished job 66.
+16 of 53 steps (30%) done
+[Tue May 13 22:28:07 2025]
+Finished job 63.
+17 of 53 steps (32%) done
+[Tue May 13 22:28:29 2025]
+Finished job 72.
+18 of 53 steps (34%) done
+[Tue May 13 22:28:30 2025]
+Finished job 57.
+19 of 53 steps (36%) done
+[Tue May 13 22:28:31 2025]
+Finished job 61.
+20 of 53 steps (38%) done
+[Tue May 13 22:28:34 2025]
+Finished job 59.
+21 of 53 steps (40%) done
+[Tue May 13 22:28:35 2025]
+Finished job 65.
+22 of 53 steps (42%) done
+[Tue May 13 22:28:42 2025]
+Finished job 68.
+23 of 53 steps (43%) done
+[Tue May 13 22:29:06 2025]
+Finished job 55.
+24 of 53 steps (45%) done
+[Tue May 13 22:29:13 2025]
+Finished job 71.
+25 of 53 steps (47%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue May 13 22:29:13 2025]
+localrule plot_r_variation:
+    input: chrY_RBMY1A1/varying_r/r0.001_k20.output, chrY_RBMY1A1/varying_r/r0.011_k20.output, chrY_RBMY1A1/varying_r/r0.021_k20.output, chrY_RBMY1A1/varying_r/r0.031_k20.output, chrY_RBMY1A1/varying_r/r0.041_k20.output, chrY_RBMY1A1/varying_r/r0.051_k20.output, chrY_RBMY1A1/varying_r/r0.061_k20.output, chrY_RBMY1A1/varying_r/r0.071_k20.output, chrY_RBMY1A1/varying_r/r0.081_k20.output, chrY_RBMY1A1/varying_r/r0.091_k20.output, chrY_RBMY1A1/varying_r/r0.101_k20.output, chrY_RBMY1A1/varying_r/r0.111_k20.output, chrY_RBMY1A1/varying_r/r0.121_k20.output, chrY_RBMY1A1/varying_r/r0.131_k20.output, chrY_RBMY1A1/varying_r/r0.141_k20.output, chrY_RBMY1A1/varying_r/r0.151_k20.output, chrY_RBMY1A1/varying_r/r0.161_k20.output, chrY_RBMY1A1/varying_r/r0.171_k20.output, chrY_RBMY1A1/varying_r/r0.181_k20.output, chrY_RBMY1A1/varying_r/r0.191_k20.output, chrY_RBMY1A1/varying_r/r0.201_k20.output, chrY_RBMY1A1/varying_r/r0.211_k20.output, chrY_RBMY1A1/varying_r/r0.221_k20.output, chrY_RBMY1A1/varying_r/r0.231_k20.output, chrY_RBMY1A1/varying_r/r0.241_k20.output
+    output: chrY_RBMY1A1/rel_error_q_k20.png
+    jobid: 53
+    reason: Missing output files: chrY_RBMY1A1/rel_error_q_k20.png; Input files updated by another job: chrY_RBMY1A1/varying_r/r0.211_k20.output, chrY_RBMY1A1/varying_r/r0.221_k20.output, chrY_RBMY1A1/varying_r/r0.051_k20.output, chrY_RBMY1A1/varying_r/r0.081_k20.output, chrY_RBMY1A1/varying_r/r0.131_k20.output, chrY_RBMY1A1/varying_r/r0.161_k20.output, chrY_RBMY1A1/varying_r/r0.071_k20.output, chrY_RBMY1A1/varying_r/r0.001_k20.output, chrY_RBMY1A1/varying_r/r0.181_k20.output, chrY_RBMY1A1/varying_r/r0.231_k20.output, chrY_RBMY1A1/varying_r/r0.201_k20.output, chrY_RBMY1A1/varying_r/r0.241_k20.output, chrY_RBMY1A1/varying_r/r0.141_k20.output, chrY_RBMY1A1/varying_r/r0.011_k20.output, chrY_RBMY1A1/varying_r/r0.151_k20.output, chrY_RBMY1A1/varying_r/r0.191_k20.output, chrY_RBMY1A1/varying_r/r0.111_k20.output, chrY_RBMY1A1/varying_r/r0.031_k20.output, chrY_RBMY1A1/varying_r/r0.041_k20.output, chrY_RBMY1A1/varying_r/r0.101_k20.output, chrY_RBMY1A1/varying_r/r0.171_k20.output, chrY_RBMY1A1/varying_r/r0.121_k20.output, chrY_RBMY1A1/varying_r/r0.091_k20.output, chrY_RBMY1A1/varying_r/r0.061_k20.output, chrY_RBMY1A1/varying_r/r0.021_k20.output
+    wildcards: output_dir=chrY_RBMY1A1, fixed_k=20
+    resources: tmpdir=/tmp
+
+[Tue May 13 22:29:15 2025]
+Finished job 53.
+26 of 53 steps (49%) done
+[Wed May 14 07:09:20 2025]
+Finished job 94.
+27 of 53 steps (51%) done
+[Wed May 14 07:09:32 2025]
+Finished job 81.
+28 of 53 steps (53%) done
+[Wed May 14 07:09:39 2025]
+Finished job 82.
+29 of 53 steps (55%) done
+[Wed May 14 07:09:39 2025]
+Finished job 88.
+30 of 53 steps (57%) done
+[Wed May 14 07:11:11 2025]
+Finished job 98.
+31 of 53 steps (58%) done
+[Wed May 14 07:11:12 2025]
+Finished job 95.
+32 of 53 steps (60%) done
+[Wed May 14 07:11:51 2025]
+Finished job 102.
+33 of 53 steps (62%) done
+[Wed May 14 07:13:27 2025]
+Finished job 84.
+34 of 53 steps (64%) done
+[Wed May 14 07:14:09 2025]
+Finished job 101.
+35 of 53 steps (66%) done
+[Wed May 14 07:14:20 2025]
+Finished job 100.
+36 of 53 steps (68%) done
+[Wed May 14 07:14:21 2025]
+Finished job 80.
+37 of 53 steps (70%) done
+[Wed May 14 07:14:33 2025]
+Finished job 90.
+38 of 53 steps (72%) done
+[Wed May 14 07:15:08 2025]
+Finished job 93.
+39 of 53 steps (74%) done
+[Wed May 14 07:15:25 2025]
+Finished job 87.
+40 of 53 steps (75%) done
+[Wed May 14 07:15:30 2025]
+Finished job 104.
+41 of 53 steps (77%) done
+[Wed May 14 07:15:40 2025]
+Finished job 89.
+42 of 53 steps (79%) done
+[Wed May 14 07:15:47 2025]
+Finished job 103.
+43 of 53 steps (81%) done
+[Wed May 14 07:15:48 2025]
+Finished job 86.
+44 of 53 steps (83%) done
+[Wed May 14 07:15:50 2025]
+Finished job 99.
+45 of 53 steps (85%) done
+[Wed May 14 07:16:44 2025]
+Finished job 91.
+46 of 53 steps (87%) done
+[Wed May 14 07:17:05 2025]
+Finished job 92.
+47 of 53 steps (89%) done
+[Wed May 14 07:18:24 2025]
+Finished job 97.
+48 of 53 steps (91%) done
+[Wed May 14 07:18:35 2025]
+Finished job 96.
+49 of 53 steps (92%) done
+[Wed May 14 07:20:05 2025]
+Finished job 85.
+50 of 53 steps (94%) done
+[Wed May 14 08:07:33 2025]
+Finished job 83.
+51 of 53 steps (96%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed May 14 08:07:33 2025]
+localrule plot_r_variation:
+    input: chr6_RepeatMasker/varying_r/r0.001_k20.output, chr6_RepeatMasker/varying_r/r0.011_k20.output, chr6_RepeatMasker/varying_r/r0.021_k20.output, chr6_RepeatMasker/varying_r/r0.031_k20.output, chr6_RepeatMasker/varying_r/r0.041_k20.output, chr6_RepeatMasker/varying_r/r0.051_k20.output, chr6_RepeatMasker/varying_r/r0.061_k20.output, chr6_RepeatMasker/varying_r/r0.071_k20.output, chr6_RepeatMasker/varying_r/r0.081_k20.output, chr6_RepeatMasker/varying_r/r0.091_k20.output, chr6_RepeatMasker/varying_r/r0.101_k20.output, chr6_RepeatMasker/varying_r/r0.111_k20.output, chr6_RepeatMasker/varying_r/r0.121_k20.output, chr6_RepeatMasker/varying_r/r0.131_k20.output, chr6_RepeatMasker/varying_r/r0.141_k20.output, chr6_RepeatMasker/varying_r/r0.151_k20.output, chr6_RepeatMasker/varying_r/r0.161_k20.output, chr6_RepeatMasker/varying_r/r0.171_k20.output, chr6_RepeatMasker/varying_r/r0.181_k20.output, chr6_RepeatMasker/varying_r/r0.191_k20.output, chr6_RepeatMasker/varying_r/r0.201_k20.output, chr6_RepeatMasker/varying_r/r0.211_k20.output, chr6_RepeatMasker/varying_r/r0.221_k20.output, chr6_RepeatMasker/varying_r/r0.231_k20.output, chr6_RepeatMasker/varying_r/r0.241_k20.output
+    output: chr6_RepeatMasker/rel_error_q_k20.png
+    jobid: 79
+    reason: Missing output files: chr6_RepeatMasker/rel_error_q_k20.png; Input files updated by another job: chr6_RepeatMasker/varying_r/r0.181_k20.output, chr6_RepeatMasker/varying_r/r0.071_k20.output, chr6_RepeatMasker/varying_r/r0.041_k20.output, chr6_RepeatMasker/varying_r/r0.221_k20.output, chr6_RepeatMasker/varying_r/r0.161_k20.output, chr6_RepeatMasker/varying_r/r0.141_k20.output, chr6_RepeatMasker/varying_r/r0.081_k20.output, chr6_RepeatMasker/varying_r/r0.171_k20.output, chr6_RepeatMasker/varying_r/r0.211_k20.output, chr6_RepeatMasker/varying_r/r0.031_k20.output, chr6_RepeatMasker/varying_r/r0.231_k20.output, chr6_RepeatMasker/varying_r/r0.001_k20.output, chr6_RepeatMasker/varying_r/r0.111_k20.output, chr6_RepeatMasker/varying_r/r0.241_k20.output, chr6_RepeatMasker/varying_r/r0.201_k20.output, chr6_RepeatMasker/varying_r/r0.011_k20.output, chr6_RepeatMasker/varying_r/r0.051_k20.output, chr6_RepeatMasker/varying_r/r0.021_k20.output, chr6_RepeatMasker/varying_r/r0.191_k20.output, chr6_RepeatMasker/varying_r/r0.091_k20.output, chr6_RepeatMasker/varying_r/r0.131_k20.output, chr6_RepeatMasker/varying_r/r0.061_k20.output, chr6_RepeatMasker/varying_r/r0.121_k20.output, chr6_RepeatMasker/varying_r/r0.101_k20.output, chr6_RepeatMasker/varying_r/r0.151_k20.output
+    wildcards: output_dir=chr6_RepeatMasker, fixed_k=20
+    resources: tmpdir=/tmp
+
+[Wed May 14 08:07:35 2025]
+Finished job 79.
+52 of 53 steps (98%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed May 14 08:07:35 2025]
+localrule all:
+    input: chr21_centromere/rel_error_q_k30.png, chrY_SimpleRepeat/rel_error_q_k10.png, chrY_RBMY1A1/rel_error_q_k20.png, chr6_RepeatMasker/rel_error_q_k20.png
+    jobid: 0
+    reason: Input files updated by another job: chrY_RBMY1A1/rel_error_q_k20.png, chr6_RepeatMasker/rel_error_q_k20.png
+    resources: tmpdir=/tmp
+
+[Wed May 14 08:07:35 2025]
+Finished job 0.
+53 of 53 steps (100%) done
+Complete log: .snakemake/log/2025-05-13T221311.194444.snakemake.log

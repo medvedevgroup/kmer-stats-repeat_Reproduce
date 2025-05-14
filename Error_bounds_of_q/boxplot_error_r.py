@@ -294,7 +294,8 @@ def main():
         'Lower bound Error', 
         'Upper bound Error'
     ]
-    ax.legend(handles, labels, fontsize=30, frameon=True, framealpha=0.9, loc='upper right')
+    # Change from 'upper right' to 'lower right' to move the legend to the bottom right corner
+    ax.legend(handles, labels, fontsize=45, frameon=True, framealpha=0.9, loc='lower right')
     
     # Adjust layout
     plt.tight_layout()

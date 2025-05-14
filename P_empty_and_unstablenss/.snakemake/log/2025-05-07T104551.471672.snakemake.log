@@ -1,0 +1,446 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+plot_r_variation        1
+run_simulation_r       31
+total                  33
+
+Select jobs to execute...
+Execute 31 jobs...
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.021_k30.output
+    jobid: 4
+    reason: Missing output files: chr21_centromere/varing_r/r0.021_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.021, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.171_k30.output
+    jobid: 19
+    reason: Missing output files: chr21_centromere/varing_r/r0.171_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.171, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.161_k30.output
+    jobid: 18
+    reason: Missing output files: chr21_centromere/varing_r/r0.161_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.161, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.011_k30.output
+    jobid: 3
+    reason: Missing output files: chr21_centromere/varing_r/r0.011_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.011, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.151_k30.output
+    jobid: 17
+    reason: Missing output files: chr21_centromere/varing_r/r0.151_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.151, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.301_k30.output
+    jobid: 32
+    reason: Missing output files: chr21_centromere/varing_r/r0.301_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.301, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.001_k30.output
+    jobid: 2
+    reason: Missing output files: chr21_centromere/varing_r/r0.001_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.001, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.141_k30.output
+    jobid: 16
+    reason: Missing output files: chr21_centromere/varing_r/r0.141_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.141, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.291_k30.output
+    jobid: 31
+    reason: Missing output files: chr21_centromere/varing_r/r0.291_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.291, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.131_k30.output
+    jobid: 15
+    reason: Missing output files: chr21_centromere/varing_r/r0.131_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.131, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.281_k30.output
+    jobid: 30
+    reason: Missing output files: chr21_centromere/varing_r/r0.281_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.281, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.121_k30.output
+    jobid: 14
+    reason: Missing output files: chr21_centromere/varing_r/r0.121_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.121, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.271_k30.output
+    jobid: 29
+    reason: Missing output files: chr21_centromere/varing_r/r0.271_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.271, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.111_k30.output
+    jobid: 13
+    reason: Missing output files: chr21_centromere/varing_r/r0.111_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.111, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.261_k30.output
+    jobid: 28
+    reason: Missing output files: chr21_centromere/varing_r/r0.261_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.261, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.251_k30.output
+    jobid: 27
+    reason: Missing output files: chr21_centromere/varing_r/r0.251_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.251, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.101_k30.output
+    jobid: 12
+    reason: Missing output files: chr21_centromere/varing_r/r0.101_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.101, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.241_k30.output
+    jobid: 26
+    reason: Missing output files: chr21_centromere/varing_r/r0.241_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.241, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.091_k30.output
+    jobid: 11
+    reason: Missing output files: chr21_centromere/varing_r/r0.091_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.091, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.081_k30.output
+    jobid: 10
+    reason: Missing output files: chr21_centromere/varing_r/r0.081_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.081, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.231_k30.output
+    jobid: 25
+    reason: Missing output files: chr21_centromere/varing_r/r0.231_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.231, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.071_k30.output
+    jobid: 9
+    reason: Missing output files: chr21_centromere/varing_r/r0.071_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.071, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.221_k30.output
+    jobid: 24
+    reason: Missing output files: chr21_centromere/varing_r/r0.221_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.221, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.061_k30.output
+    jobid: 8
+    reason: Missing output files: chr21_centromere/varing_r/r0.061_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.061, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.211_k30.output
+    jobid: 23
+    reason: Missing output files: chr21_centromere/varing_r/r0.211_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.211, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.051_k30.output
+    jobid: 7
+    reason: Missing output files: chr21_centromere/varing_r/r0.051_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.051, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.201_k30.output
+    jobid: 22
+    reason: Missing output files: chr21_centromere/varing_r/r0.201_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.201, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.041_k30.output
+    jobid: 6
+    reason: Missing output files: chr21_centromere/varing_r/r0.041_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.041, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:51 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.191_k30.output
+    jobid: 21
+    reason: Missing output files: chr21_centromere/varing_r/r0.191_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.191, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:52 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.031_k30.output
+    jobid: 5
+    reason: Missing output files: chr21_centromere/varing_r/r0.031_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.031, fixed_k=30
+    resources: tmpdir=/tmp
+
+
+[Wed May  7 10:45:52 2025]
+localrule run_simulation_r:
+    input: ../sequence_data/chr21.fasta
+    output: chr21_centromere/varing_r/r0.181_k30.output
+    jobid: 20
+    reason: Missing output files: chr21_centromere/varing_r/r0.181_k30.output; Set of input files has changed since last execution
+    wildcards: output_dir=chr21_centromere, r=0.181, fixed_k=30
+    resources: tmpdir=/tmp
+
+[Wed May  7 10:46:04 2025]
+Finished job 2.
+1 of 33 steps (3%) done
+[Wed May  7 10:46:08 2025]
+Finished job 3.
+2 of 33 steps (6%) done
+[Wed May  7 10:46:10 2025]
+Finished job 4.
+3 of 33 steps (9%) done
+[Wed May  7 10:46:12 2025]
+Finished job 5.
+4 of 33 steps (12%) done
+[Wed May  7 10:46:14 2025]
+Finished job 6.
+5 of 33 steps (15%) done
+[Wed May  7 10:46:15 2025]
+Finished job 7.
+6 of 33 steps (18%) done
+[Wed May  7 10:46:16 2025]
+Finished job 8.
+7 of 33 steps (21%) done
+[Wed May  7 10:46:17 2025]
+Finished job 9.
+8 of 33 steps (24%) done
+[Wed May  7 10:46:18 2025]
+Finished job 12.
+9 of 33 steps (27%) done
+[Wed May  7 10:46:18 2025]
+Finished job 10.
+10 of 33 steps (30%) done
+[Wed May  7 10:46:18 2025]
+Finished job 14.
+11 of 33 steps (33%) done
+[Wed May  7 10:46:18 2025]
+Finished job 18.
+12 of 33 steps (36%) done
+[Wed May  7 10:46:18 2025]
+Finished job 11.
+13 of 33 steps (39%) done
+[Wed May  7 10:46:18 2025]
+Finished job 15.
+14 of 33 steps (42%) done
+[Wed May  7 10:46:18 2025]
+Finished job 13.
+15 of 33 steps (45%) done
+[Wed May  7 10:46:18 2025]
+Finished job 16.
+16 of 33 steps (48%) done
+[Wed May  7 10:46:18 2025]
+Finished job 26.
+17 of 33 steps (52%) done
+[Wed May  7 10:46:18 2025]
+Finished job 21.
+18 of 33 steps (55%) done
+[Wed May  7 10:46:18 2025]
+Finished job 27.
+19 of 33 steps (58%) done
+[Wed May  7 10:46:18 2025]
+Finished job 25.
+20 of 33 steps (61%) done
+[Wed May  7 10:46:18 2025]
+Finished job 29.
+21 of 33 steps (64%) done
+[Wed May  7 10:46:18 2025]
+Finished job 22.
+22 of 33 steps (67%) done
+[Wed May  7 10:46:18 2025]
+Finished job 30.
+23 of 33 steps (70%) done
+[Wed May  7 10:46:18 2025]
+Finished job 17.
+24 of 33 steps (73%) done
+[Wed May  7 10:46:19 2025]
+Finished job 31.
+25 of 33 steps (76%) done
+[Wed May  7 10:46:19 2025]
+Finished job 20.
+26 of 33 steps (79%) done
+[Wed May  7 10:46:19 2025]
+Finished job 28.
+27 of 33 steps (82%) done
+[Wed May  7 10:46:19 2025]
+Finished job 19.
+28 of 33 steps (85%) done
+[Wed May  7 10:46:19 2025]
+Finished job 32.
+29 of 33 steps (88%) done
+[Wed May  7 10:46:19 2025]
+Finished job 23.
+30 of 33 steps (91%) done
+[Wed May  7 10:46:19 2025]
+Finished job 24.
+31 of 33 steps (94%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed May  7 10:46:19 2025]
+localrule plot_r_variation:
+    input: chr21_centromere/varing_r/r0.001_k30.output, chr21_centromere/varing_r/r0.011_k30.output, chr21_centromere/varing_r/r0.021_k30.output, chr21_centromere/varing_r/r0.031_k30.output, chr21_centromere/varing_r/r0.041_k30.output, chr21_centromere/varing_r/r0.051_k30.output, chr21_centromere/varing_r/r0.061_k30.output, chr21_centromere/varing_r/r0.071_k30.output, chr21_centromere/varing_r/r0.081_k30.output, chr21_centromere/varing_r/r0.091_k30.output, chr21_centromere/varing_r/r0.101_k30.output, chr21_centromere/varing_r/r0.111_k30.output, chr21_centromere/varing_r/r0.121_k30.output, chr21_centromere/varing_r/r0.131_k30.output, chr21_centromere/varing_r/r0.141_k30.output, chr21_centromere/varing_r/r0.151_k30.output, chr21_centromere/varing_r/r0.161_k30.output, chr21_centromere/varing_r/r0.171_k30.output, chr21_centromere/varing_r/r0.181_k30.output, chr21_centromere/varing_r/r0.191_k30.output, chr21_centromere/varing_r/r0.201_k30.output, chr21_centromere/varing_r/r0.211_k30.output, chr21_centromere/varing_r/r0.221_k30.output, chr21_centromere/varing_r/r0.231_k30.output, chr21_centromere/varing_r/r0.241_k30.output, chr21_centromere/varing_r/r0.251_k30.output, chr21_centromere/varing_r/r0.261_k30.output, chr21_centromere/varing_r/r0.271_k30.output, chr21_centromere/varing_r/r0.281_k30.output, chr21_centromere/varing_r/r0.291_k30.output, chr21_centromere/varing_r/r0.301_k30.output
+    output: chr21_centromere/boxplot_error_r_k30.png
+    jobid: 1
+    reason: Missing output files: chr21_centromere/boxplot_error_r_k30.png; Input files updated by another job: chr21_centromere/varing_r/r0.151_k30.output, chr21_centromere/varing_r/r0.171_k30.output, chr21_centromere/varing_r/r0.021_k30.output, chr21_centromere/varing_r/r0.141_k30.output, chr21_centromere/varing_r/r0.121_k30.output, chr21_centromere/varing_r/r0.181_k30.output, chr21_centromere/varing_r/r0.161_k30.output, chr21_centromere/varing_r/r0.211_k30.output, chr21_centromere/varing_r/r0.001_k30.output, chr21_centromere/varing_r/r0.051_k30.output, chr21_centromere/varing_r/r0.301_k30.output, chr21_centromere/varing_r/r0.241_k30.output, chr21_centromere/varing_r/r0.261_k30.output, chr21_centromere/varing_r/r0.111_k30.output, chr21_centromere/varing_r/r0.091_k30.output, chr21_centromere/varing_r/r0.221_k30.output, chr21_centromere/varing_r/r0.031_k30.output, chr21_centromere/varing_r/r0.271_k30.output, chr21_centromere/varing_r/r0.291_k30.output, chr21_centromere/varing_r/r0.191_k30.output, chr21_centromere/varing_r/r0.041_k30.output, chr21_centromere/varing_r/r0.281_k30.output, chr21_centromere/varing_r/r0.101_k30.output, chr21_centromere/varing_r/r0.061_k30.output, chr21_centromere/varing_r/r0.251_k30.output, chr21_centromere/varing_r/r0.011_k30.output, chr21_centromere/varing_r/r0.071_k30.output, chr21_centromere/varing_r/r0.201_k30.output, chr21_centromere/varing_r/r0.231_k30.output, chr21_centromere/varing_r/r0.131_k30.output, chr21_centromere/varing_r/r0.081_k30.output
+    wildcards: output_dir=chr21_centromere, fixed_k=30
+    resources: tmpdir=/tmp
+
+[Wed May  7 10:46:23 2025]
+Finished job 1.
+32 of 33 steps (97%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed May  7 10:46:23 2025]
+localrule all:
+    input: chr21_centromere/boxplot_error_r_k30.png
+    jobid: 0
+    reason: Input files updated by another job: chr21_centromere/boxplot_error_r_k30.png
+    resources: tmpdir=/tmp
+
+[Wed May  7 10:46:23 2025]
+Finished job 0.
+33 of 33 steps (100%) done
+Complete log: .snakemake/log/2025-05-07T104551.471672.snakemake.log

@@ -1,0 +1,2257 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+combine_results         1
+generate_heatmap        1
+run_simulation        169
+total                 172
+
+Select jobs to execute...
+Execute 100 jobs...
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.301_k32.txt
+    jobid: 145
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.301_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.301, k=32
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k24.txt
+    jobid: 115
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k24.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=24
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.151_k8.txt
+    jobid: 68
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.151_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.001_k18.txt
+    jobid: 8
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.001_k18.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.001, k=18
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.061_k26.txt
+    jobid: 38
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.061_k26.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.061, k=26
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k16.txt
+    jobid: 98
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k24.txt
+    jobid: 128
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k24.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=24
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k16.txt
+    jobid: 111
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.031_k18.txt
+    jobid: 21
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.031_k18.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, k=18
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k24.txt
+    jobid: 154
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k24.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=24
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.031_k10.txt
+    jobid: 17
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.031_k10.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.151_k26.txt
+    jobid: 77
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.151_k26.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, k=26
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.091_k18.txt
+    jobid: 47
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.091_k18.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.091, k=18
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k8.txt
+    jobid: 107
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.301_k16.txt
+    jobid: 137
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.301_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.301, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k24.txt
+    jobid: 167
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k24.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=24
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.121_k18.txt
+    jobid: 60
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.121_k18.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.121, k=18
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k8.txt
+    jobid: 120
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.061_k10.txt
+    jobid: 30
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.061_k10.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.061, k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k26.txt
+    jobid: 90
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k26.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=26
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k16.txt
+    jobid: 150
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.091_k10.txt
+    jobid: 43
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.091_k10.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.091, k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k26.txt
+    jobid: 103
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k26.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=26
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.001_k28.txt
+    jobid: 13
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.001_k28.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.001, k=28
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.151_k18.txt
+    jobid: 73
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.151_k18.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, k=18
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.301_k8.txt
+    jobid: 133
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.301_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.301, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k16.txt
+    jobid: 163
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k8.txt
+    jobid: 146
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k18.txt
+    jobid: 86
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k18.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=18
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k26.txt
+    jobid: 116
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k26.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=26
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.031_k28.txt
+    jobid: 26
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.031_k28.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, k=28
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.121_k10.txt
+    jobid: 56
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.121_k10.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.121, k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.001_k20.txt
+    jobid: 9
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.001_k20.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.001, k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.151_k10.txt
+    jobid: 69
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.151_k10.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.061_k28.txt
+    jobid: 39
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.061_k28.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.061, k=28
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k18.txt
+    jobid: 99
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k18.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=18
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k26.txt
+    jobid: 129
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k26.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=26
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k8.txt
+    jobid: 159
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.091_k28.txt
+    jobid: 52
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.091_k28.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.091, k=28
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k18.txt
+    jobid: 112
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k18.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=18
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.031_k20.txt
+    jobid: 22
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.031_k20.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k10.txt
+    jobid: 82
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k10.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.301_k26.txt
+    jobid: 142
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.301_k26.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.301, k=26
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.061_k20.txt
+    jobid: 35
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.061_k20.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.061, k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k10.txt
+    jobid: 95
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k10.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.001_k12.txt
+    jobid: 5
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.001_k12.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.001, k=12
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.121_k28.txt
+    jobid: 65
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.121_k28.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.121, k=28
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k18.txt
+    jobid: 125
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k18.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=18
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k26.txt
+    jobid: 155
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k26.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=26
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.031_k12.txt
+    jobid: 18
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.031_k12.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, k=12
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.151_k28.txt
+    jobid: 78
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.151_k28.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, k=28
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.091_k20.txt
+    jobid: 48
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.091_k20.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.091, k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k10.txt
+    jobid: 108
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k10.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.301_k18.txt
+    jobid: 138
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.301_k18.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.301, k=18
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k26.txt
+    jobid: 168
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k26.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=26
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.121_k20.txt
+    jobid: 61
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.121_k20.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.121, k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k10.txt
+    jobid: 121
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k10.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.061_k12.txt
+    jobid: 31
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.061_k12.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.061, k=12
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k28.txt
+    jobid: 91
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k28.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=28
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k18.txt
+    jobid: 151
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k18.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=18
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.091_k12.txt
+    jobid: 44
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.091_k12.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.091, k=12
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k28.txt
+    jobid: 104
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k28.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=28
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.001_k30.txt
+    jobid: 14
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.001_k30.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.001, k=30
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.151_k20.txt
+    jobid: 74
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.151_k20.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.301_k10.txt
+    jobid: 134
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.301_k10.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.301, k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k18.txt
+    jobid: 164
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k18.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=18
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.031_k30.txt
+    jobid: 27
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.031_k30.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, k=30
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k20.txt
+    jobid: 87
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k20.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.121_k12.txt
+    jobid: 57
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.121_k12.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.121, k=12
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k28.txt
+    jobid: 117
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k28.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=28
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k10.txt
+    jobid: 147
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k10.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.001_k22.txt
+    jobid: 10
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.001_k22.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.001, k=22
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.151_k12.txt
+    jobid: 70
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.151_k12.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, k=12
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.061_k30.txt
+    jobid: 40
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.061_k30.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.061, k=30
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k20.txt
+    jobid: 100
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k20.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k28.txt
+    jobid: 130
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k28.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=28
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k10.txt
+    jobid: 160
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k10.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.091_k30.txt
+    jobid: 53
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.091_k30.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.091, k=30
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k20.txt
+    jobid: 113
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k20.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.031_k22.txt
+    jobid: 23
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.031_k22.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, k=22
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k12.txt
+    jobid: 83
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k12.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=12
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.301_k28.txt
+    jobid: 143
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.301_k28.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.301, k=28
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.061_k22.txt
+    jobid: 36
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.061_k22.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.061, k=22
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k12.txt
+    jobid: 96
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k12.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=12
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.001_k14.txt
+    jobid: 6
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.001_k14.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.001, k=14
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.121_k30.txt
+    jobid: 66
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.121_k30.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.121, k=30
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k20.txt
+    jobid: 126
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k20.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k20.txt
+    jobid: 165
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k20.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.031_k32.txt
+    jobid: 28
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.031_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, k=32
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k22.txt
+    jobid: 88
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k22.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=22
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.121_k14.txt
+    jobid: 58
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.121_k14.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.121, k=14
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k30.txt
+    jobid: 118
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k30.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=30
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k12.txt
+    jobid: 148
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k12.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=12
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.151_k14.txt
+    jobid: 71
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.151_k14.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, k=14
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.001_k24.txt
+    jobid: 11
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.001_k24.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.001, k=24
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.061_k32.txt
+    jobid: 41
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.061_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.061, k=32
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k22.txt
+    jobid: 101
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k22.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=22
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k30.txt
+    jobid: 131
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k30.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=30
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k12.txt
+    jobid: 161
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k12.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=12
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.091_k32.txt
+    jobid: 54
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.091_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.091, k=32
+    resources: tmpdir=/tmp
+
+[Mon May 12 14:26:58 2025]
+Finished job 68.
+1 of 172 steps (1%) done
+[Mon May 12 14:26:58 2025]
+Finished job 8.
+2 of 172 steps (1%) done
+[Mon May 12 14:26:58 2025]
+Finished job 98.
+3 of 172 steps (2%) done
+[Mon May 12 14:26:58 2025]
+Finished job 115.
+4 of 172 steps (2%) done
+[Mon May 12 14:26:58 2025]
+Finished job 120.
+5 of 172 steps (3%) done
+[Mon May 12 14:26:58 2025]
+Finished job 111.
+6 of 172 steps (3%) done
+[Mon May 12 14:26:58 2025]
+Finished job 17.
+7 of 172 steps (4%) done
+[Mon May 12 14:26:58 2025]
+Finished job 107.
+8 of 172 steps (5%) done
+[Mon May 12 14:26:58 2025]
+Finished job 38.
+9 of 172 steps (5%) done
+[Mon May 12 14:26:58 2025]
+Finished job 145.
+10 of 172 steps (6%) done
+[Mon May 12 14:26:58 2025]
+Finished job 30.
+11 of 172 steps (6%) done
+[Mon May 12 14:26:58 2025]
+Finished job 146.
+12 of 172 steps (7%) done
+[Mon May 12 14:26:58 2025]
+Finished job 133.
+13 of 172 steps (8%) done
+[Mon May 12 14:26:58 2025]
+Finished job 21.
+14 of 172 steps (8%) done
+[Mon May 12 14:26:58 2025]
+Finished job 43.
+15 of 172 steps (9%) done
+[Mon May 12 14:26:58 2025]
+Finished job 137.
+16 of 172 steps (9%) done
+[Mon May 12 14:26:58 2025]
+Finished job 47.
+17 of 172 steps (10%) done
+[Mon May 12 14:26:58 2025]
+Finished job 69.
+18 of 172 steps (10%) done
+[Mon May 12 14:26:58 2025]
+Finished job 60.
+19 of 172 steps (11%) done
+[Mon May 12 14:26:58 2025]
+Finished job 128.
+20 of 172 steps (12%) done
+[Mon May 12 14:26:58 2025]
+Finished job 150.
+21 of 172 steps (12%) done
+[Mon May 12 14:26:58 2025]
+Finished job 56.
+22 of 172 steps (13%) done
+[Mon May 12 14:26:58 2025]
+Finished job 159.
+23 of 172 steps (13%) done
+[Mon May 12 14:26:58 2025]
+Finished job 163.
+24 of 172 steps (14%) done
+[Mon May 12 14:26:58 2025]
+Finished job 154.
+25 of 172 steps (15%) done
+[Mon May 12 14:26:58 2025]
+Finished job 103.
+26 of 172 steps (15%) done
+[Mon May 12 14:26:58 2025]
+Finished job 90.
+27 of 172 steps (16%) done
+[Mon May 12 14:26:58 2025]
+Finished job 73.
+28 of 172 steps (16%) done
+[Mon May 12 14:26:58 2025]
+Finished job 77.
+29 of 172 steps (17%) done
+[Mon May 12 14:26:58 2025]
+Finished job 167.
+30 of 172 steps (17%) done
+[Mon May 12 14:26:58 2025]
+Finished job 82.
+31 of 172 steps (18%) done
+[Mon May 12 14:26:58 2025]
+Finished job 86.
+32 of 172 steps (19%) done
+[Mon May 12 14:26:58 2025]
+Finished job 26.
+33 of 172 steps (19%) done
+[Mon May 12 14:26:58 2025]
+Finished job 116.
+34 of 172 steps (20%) done
+[Mon May 12 14:26:58 2025]
+Finished job 95.
+35 of 172 steps (20%) done
+[Mon May 12 14:26:58 2025]
+Finished job 18.
+36 of 172 steps (21%) done
+[Mon May 12 14:26:58 2025]
+Finished job 9.
+37 of 172 steps (22%) done
+[Mon May 12 14:26:58 2025]
+Finished job 5.
+38 of 172 steps (22%) done
+[Mon May 12 14:26:58 2025]
+Finished job 108.
+39 of 172 steps (23%) done
+[Mon May 12 14:26:58 2025]
+Finished job 125.
+40 of 172 steps (23%) done
+[Mon May 12 14:26:58 2025]
+Finished job 99.
+41 of 172 steps (24%) done
+[Mon May 12 14:26:58 2025]
+Finished job 13.
+42 of 172 steps (24%) done
+[Mon May 12 14:26:58 2025]
+Finished job 112.
+43 of 172 steps (25%) done
+[Mon May 12 14:26:58 2025]
+Finished job 121.
+44 of 172 steps (26%) done
+[Mon May 12 14:26:58 2025]
+Finished job 22.
+45 of 172 steps (26%) done
+[Mon May 12 14:26:58 2025]
+Finished job 31.
+46 of 172 steps (27%) done
+[Mon May 12 14:26:58 2025]
+Finished job 134.
+47 of 172 steps (27%) done
+[Mon May 12 14:26:58 2025]
+Finished job 35.
+48 of 172 steps (28%) done
+[Mon May 12 14:26:58 2025]
+Finished job 44.
+49 of 172 steps (28%) done
+[Mon May 12 14:26:58 2025]
+Finished job 129.
+50 of 172 steps (29%) done
+[Mon May 12 14:26:58 2025]
+Finished job 155.
+51 of 172 steps (30%) done
+[Mon May 12 14:26:58 2025]
+Finished job 39.
+52 of 172 steps (30%) done
+[Mon May 12 14:26:58 2025]
+Finished job 151.
+53 of 172 steps (31%) done
+[Mon May 12 14:26:58 2025]
+Finished job 138.
+54 of 172 steps (31%) done
+[Mon May 12 14:26:58 2025]
+Finished job 74.
+55 of 172 steps (32%) done
+[Mon May 12 14:26:58 2025]
+Finished job 48.
+56 of 172 steps (33%) done
+[Mon May 12 14:26:58 2025]
+Finished job 52.
+57 of 172 steps (33%) done
+[Mon May 12 14:26:58 2025]
+Finished job 142.
+58 of 172 steps (34%) done
+[Mon May 12 14:26:58 2025]
+Finished job 57.
+59 of 172 steps (34%) done
+[Mon May 12 14:26:58 2025]
+Finished job 70.
+60 of 172 steps (35%) done
+[Mon May 12 14:26:58 2025]
+Finished job 147.
+61 of 172 steps (35%) done
+[Mon May 12 14:26:58 2025]
+Finished job 61.
+62 of 172 steps (36%) done
+[Mon May 12 14:26:58 2025]
+Finished job 160.
+63 of 172 steps (37%) done
+[Mon May 12 14:26:58 2025]
+Finished job 65.
+64 of 172 steps (37%) done
+[Mon May 12 14:26:58 2025]
+Finished job 164.
+65 of 172 steps (38%) done
+[Mon May 12 14:26:58 2025]
+Finished job 87.
+66 of 172 steps (38%) done
+[Mon May 12 14:26:58 2025]
+Finished job 96.
+67 of 172 steps (39%) done
+[Mon May 12 14:26:58 2025]
+Finished job 168.
+68 of 172 steps (40%) done
+[Mon May 12 14:26:58 2025]
+Finished job 104.
+69 of 172 steps (40%) done
+[Mon May 12 14:26:58 2025]
+Finished job 78.
+70 of 172 steps (41%) done
+Select jobs to execute...
+Execute 69 jobs...
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k16.txt
+    jobid: 85
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.031_k26.txt
+    jobid: 25
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.031_k26.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, k=26
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.121_k8.txt
+    jobid: 55
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.121_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.121, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k22.txt
+    jobid: 114
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k22.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=22
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.031_k24.txt
+    jobid: 24
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.031_k24.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, k=24
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k14.txt
+    jobid: 84
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k14.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=14
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.301_k30.txt
+    jobid: 144
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.301_k30.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.301, k=30
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k32.txt
+    jobid: 158
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=32
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k14.txt
+    jobid: 97
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k14.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=14
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k30.txt
+    jobid: 157
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k30.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=30
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k22.txt
+    jobid: 127
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k22.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=22
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.061_k24.txt
+    jobid: 37
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.061_k24.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.061, k=24
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.001_k16.txt
+    jobid: 7
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.001_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.001, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.121_k32.txt
+    jobid: 67
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.121_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.121, k=32
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k28.txt
+    jobid: 156
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k28.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=28
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.091_k26.txt
+    jobid: 51
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.091_k26.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.091, k=26
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k32.txt
+    jobid: 171
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=32
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k8.txt
+    jobid: 81
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.301_k24.txt
+    jobid: 141
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.301_k24.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.301, k=24
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.031_k16.txt
+    jobid: 20
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.031_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.151_k32.txt
+    jobid: 80
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.151_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, k=32
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.091_k24.txt
+    jobid: 50
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.091_k24.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.091, k=24
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k14.txt
+    jobid: 110
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k14.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=14
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.301_k22.txt
+    jobid: 140
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.301_k22.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.301, k=22
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k30.txt
+    jobid: 170
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k30.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=30
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.031_k14.txt
+    jobid: 19
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.031_k14.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, k=14
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.061_k18.txt
+    jobid: 34
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.061_k18.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.061, k=18
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k12.txt
+    jobid: 109
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k12.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=12
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.121_k26.txt
+    jobid: 64
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.121_k26.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.121, k=26
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k16.txt
+    jobid: 124
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k8.txt
+    jobid: 94
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.151_k30.txt
+    jobid: 79
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.151_k30.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, k=30
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.001_k10.txt
+    jobid: 4
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.001_k10.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.001, k=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.301_k20.txt
+    jobid: 139
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.301_k20.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.301, k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.091_k22.txt
+    jobid: 49
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.091_k22.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.091, k=22
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k28.txt
+    jobid: 169
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k28.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=28
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.001_k8.txt
+    jobid: 3
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.001_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.001, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.121_k24.txt
+    jobid: 63
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.121_k24.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.121, k=24
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.061_k16.txt
+    jobid: 33
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.061_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.061, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k32.txt
+    jobid: 93
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=32
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k14.txt
+    jobid: 123
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k14.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=14
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k22.txt
+    jobid: 153
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k22.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=22
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.121_k22.txt
+    jobid: 62
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.121_k22.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.121, k=22
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k12.txt
+    jobid: 122
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k12.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=12
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.061_k14.txt
+    jobid: 32
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.061_k14.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.061, k=14
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k30.txt
+    jobid: 92
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k30.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=30
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k20.txt
+    jobid: 152
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k20.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=20
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.091_k16.txt
+    jobid: 46
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.091_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.091, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k32.txt
+    jobid: 106
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=32
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.031_k8.txt
+    jobid: 16
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.031_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.031, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.151_k24.txt
+    jobid: 76
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.151_k24.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, k=24
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.301_k14.txt
+    jobid: 136
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.301_k14.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.301, k=14
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k22.txt
+    jobid: 166
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k22.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=22
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.091_k14.txt
+    jobid: 45
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.091_k14.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.091, k=14
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k30.txt
+    jobid: 105
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k30.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=30
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.001_k32.txt
+    jobid: 15
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.001_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.001, k=32
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.151_k22.txt
+    jobid: 75
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.151_k22.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, k=22
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.301_k12.txt
+    jobid: 135
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.301_k12.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.301, k=12
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.061_k8.txt
+    jobid: 29
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.061_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.061, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.181_k24.txt
+    jobid: 89
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.181_k24.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.181, k=24
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.121_k16.txt
+    jobid: 59
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.121_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.121, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.241_k32.txt
+    jobid: 119
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.241_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.241, k=32
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.331_k14.txt
+    jobid: 149
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.331_k14.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.331, k=14
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.001_k26.txt
+    jobid: 12
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.001_k26.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.001, k=26
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.151_k16.txt
+    jobid: 72
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.151_k16.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.151, k=16
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.091_k8.txt
+    jobid: 42
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.091_k8.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.091, k=8
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.211_k24.txt
+    jobid: 102
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.211_k24.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.211, k=24
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.271_k32.txt
+    jobid: 132
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.271_k32.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.271, k=32
+    resources: tmpdir=/tmp
+
+
+[Mon May 12 14:26:58 2025]
+localrule run_simulation:
+    input: ../sequence_data/D-hard.fasta
+    output: chrY_SimpleRepeat/results/result_r0.361_k14.txt
+    jobid: 162
+    reason: Missing output files: chrY_SimpleRepeat/results/result_r0.361_k14.txt
+    wildcards: output_dir=chrY_SimpleRepeat, r=0.361, k=14
+    resources: tmpdir=/tmp
+
+[Mon May 12 14:26:58 2025]
+Finished job 83.
+71 of 172 steps (41%) done
+[Mon May 12 14:26:58 2025]
+Finished job 6.
+72 of 172 steps (42%) done
+[Mon May 12 14:26:58 2025]
+Finished job 91.
+73 of 172 steps (42%) done
+[Mon May 12 14:26:58 2025]
+Finished job 100.
+74 of 172 steps (43%) done
+[Mon May 12 14:26:58 2025]
+Finished job 10.
+75 of 172 steps (44%) done
+[Mon May 12 14:26:58 2025]
+Finished job 117.
+76 of 172 steps (44%) done
+[Mon May 12 14:26:58 2025]
+Finished job 143.
+77 of 172 steps (45%) done
+[Mon May 12 14:26:58 2025]
+Finished job 27.
+78 of 172 steps (45%) done
+[Mon May 12 14:26:58 2025]
+Finished job 113.
+79 of 172 steps (46%) done
+[Mon May 12 14:26:58 2025]
+Finished job 14.
+80 of 172 steps (47%) done
+[Mon May 12 14:26:58 2025]
+Finished job 148.
+81 of 172 steps (47%) done
+[Mon May 12 14:26:58 2025]
+Finished job 58.
+82 of 172 steps (48%) done
+[Mon May 12 14:26:58 2025]
+Finished job 23.
+83 of 172 steps (48%) done
+[Mon May 12 14:26:58 2025]
+Finished job 71.
+84 of 172 steps (49%) done
+[Mon May 12 14:26:58 2025]
+Finished job 161.
+85 of 172 steps (49%) done
+[Mon May 12 14:26:58 2025]
+Finished job 36.
+86 of 172 steps (50%) done
+[Mon May 12 14:26:58 2025]
+Finished job 126.
+87 of 172 steps (51%) done
+[Mon May 12 14:26:58 2025]
+Finished job 53.
+88 of 172 steps (51%) done
+[Mon May 12 14:26:58 2025]
+Finished job 40.
+89 of 172 steps (52%) done
+[Mon May 12 14:26:58 2025]
+Finished job 165.
+90 of 172 steps (52%) done
+[Mon May 12 14:26:58 2025]
+Finished job 130.
+91 of 172 steps (53%) done
+[Mon May 12 14:26:58 2025]
+Finished job 101.
+92 of 172 steps (53%) done
+[Mon May 12 14:26:58 2025]
+Finished job 88.
+93 of 172 steps (54%) done
+[Mon May 12 14:26:58 2025]
+Finished job 118.
+94 of 172 steps (55%) done
+[Mon May 12 14:26:58 2025]
+Finished job 28.
+95 of 172 steps (55%) done
+[Mon May 12 14:26:58 2025]
+Finished job 11.
+96 of 172 steps (56%) done
+[Mon May 12 14:26:58 2025]
+Finished job 66.
+97 of 172 steps (56%) done
+[Mon May 12 14:26:58 2025]
+Finished job 41.
+98 of 172 steps (57%) done
+[Mon May 12 14:26:58 2025]
+Finished job 131.
+99 of 172 steps (58%) done
+[Mon May 12 14:26:58 2025]
+Finished job 54.
+100 of 172 steps (58%) done
+[Mon May 12 14:26:58 2025]
+Finished job 55.
+101 of 172 steps (59%) done
+[Mon May 12 14:26:58 2025]
+Finished job 85.
+102 of 172 steps (59%) done
+[Mon May 12 14:26:58 2025]
+Finished job 84.
+103 of 172 steps (60%) done
+[Mon May 12 14:26:58 2025]
+Finished job 25.
+104 of 172 steps (60%) done
+[Mon May 12 14:26:58 2025]
+Finished job 81.
+105 of 172 steps (61%) done
+[Mon May 12 14:26:58 2025]
+Finished job 114.
+106 of 172 steps (62%) done
+[Mon May 12 14:26:58 2025]
+Finished job 97.
+107 of 172 steps (62%) done
+[Mon May 12 14:26:58 2025]
+Finished job 144.
+108 of 172 steps (63%) done
+[Mon May 12 14:26:58 2025]
+Finished job 24.
+109 of 172 steps (63%) done
+[Mon May 12 14:26:58 2025]
+Finished job 7.
+110 of 172 steps (64%) done
+[Mon May 12 14:26:58 2025]
+Finished job 158.
+111 of 172 steps (65%) done
+[Mon May 12 14:26:58 2025]
+Finished job 127.
+112 of 172 steps (65%) done
+[Mon May 12 14:26:58 2025]
+Finished job 94.
+113 of 172 steps (66%) done
+[Mon May 12 14:26:58 2025]
+Finished job 37.
+114 of 172 steps (66%) done
+[Mon May 12 14:26:58 2025]
+Finished job 110.
+115 of 172 steps (67%) done
+[Mon May 12 14:26:58 2025]
+Finished job 20.
+116 of 172 steps (67%) done
+[Mon May 12 14:26:58 2025]
+Finished job 109.
+117 of 172 steps (68%) done
+[Mon May 12 14:26:58 2025]
+Finished job 4.
+118 of 172 steps (69%) done
+[Mon May 12 14:26:58 2025]
+Finished job 19.
+119 of 172 steps (69%) done
+[Mon May 12 14:26:58 2025]
+Finished job 3.
+120 of 172 steps (70%) done
+[Mon May 12 14:26:58 2025]
+Finished job 157.
+121 of 172 steps (70%) done
+[Mon May 12 14:26:58 2025]
+Finished job 124.
+122 of 172 steps (71%) done
+[Mon May 12 14:26:58 2025]
+Finished job 51.
+123 of 172 steps (72%) done
+[Mon May 12 14:26:58 2025]
+Finished job 156.
+124 of 172 steps (72%) done
+[Mon May 12 14:26:58 2025]
+Finished job 34.
+125 of 172 steps (73%) done
+[Mon May 12 14:26:58 2025]
+Finished job 122.
+126 of 172 steps (73%) done
+[Mon May 12 14:26:58 2025]
+Finished job 33.
+127 of 172 steps (74%) done
+[Mon May 12 14:26:58 2025]
+Finished job 50.
+128 of 172 steps (74%) done
+[Mon May 12 14:26:58 2025]
+Finished job 141.
+129 of 172 steps (75%) done
+[Mon May 12 14:26:58 2025]
+Finished job 140.
+130 of 172 steps (76%) done
+[Mon May 12 14:26:58 2025]
+Finished job 123.
+131 of 172 steps (76%) done
+[Mon May 12 14:26:58 2025]
+Finished job 16.
+132 of 172 steps (77%) done
+[Mon May 12 14:26:58 2025]
+Finished job 139.
+133 of 172 steps (77%) done
+[Mon May 12 14:26:58 2025]
+Finished job 32.
+134 of 172 steps (78%) done
+[Mon May 12 14:26:58 2025]
+Finished job 67.
+135 of 172 steps (78%) done
+[Mon May 12 14:26:58 2025]
+Finished job 171.
+136 of 172 steps (79%) done
+[Mon May 12 14:26:58 2025]
+Finished job 49.
+137 of 172 steps (80%) done
+[Mon May 12 14:26:58 2025]
+Finished job 64.
+138 of 172 steps (80%) done
+[Mon May 12 14:26:58 2025]
+Finished job 63.
+139 of 172 steps (81%) done
+[Mon May 12 14:26:58 2025]
+Finished job 80.
+140 of 172 steps (81%) done
+[Mon May 12 14:26:58 2025]
+Finished job 46.
+141 of 172 steps (82%) done
+[Mon May 12 14:26:58 2025]
+Finished job 170.
+142 of 172 steps (83%) done
+[Mon May 12 14:26:58 2025]
+Finished job 29.
+143 of 172 steps (83%) done
+[Mon May 12 14:26:58 2025]
+Finished job 136.
+144 of 172 steps (84%) done
+[Mon May 12 14:26:58 2025]
+Finished job 45.
+145 of 172 steps (84%) done
+[Mon May 12 14:26:58 2025]
+Finished job 166.
+146 of 172 steps (85%) done
+[Mon May 12 14:26:58 2025]
+Finished job 62.
+147 of 172 steps (85%) done
+[Mon May 12 14:26:58 2025]
+Finished job 153.
+148 of 172 steps (86%) done
+[Mon May 12 14:26:58 2025]
+Finished job 135.
+149 of 172 steps (87%) done
+[Mon May 12 14:26:58 2025]
+Finished job 152.
+150 of 172 steps (87%) done
+[Mon May 12 14:26:58 2025]
+Finished job 42.
+151 of 172 steps (88%) done
+[Mon May 12 14:26:58 2025]
+Finished job 79.
+152 of 172 steps (88%) done
+[Mon May 12 14:26:58 2025]
+Finished job 169.
+153 of 172 steps (89%) done
+[Mon May 12 14:26:58 2025]
+Finished job 76.
+154 of 172 steps (90%) done
+[Mon May 12 14:26:58 2025]
+Finished job 162.
+155 of 172 steps (90%) done
+[Mon May 12 14:26:58 2025]
+Finished job 92.
+156 of 172 steps (91%) done
+[Mon May 12 14:26:58 2025]
+Finished job 149.
+157 of 172 steps (91%) done
+[Mon May 12 14:26:58 2025]
+Finished job 15.
+158 of 172 steps (92%) done
+[Mon May 12 14:26:58 2025]
+Finished job 59.
+159 of 172 steps (92%) done
+[Mon May 12 14:26:58 2025]
+Finished job 89.
+160 of 172 steps (93%) done
+[Mon May 12 14:26:58 2025]
+Finished job 72.
+161 of 172 steps (94%) done
+[Mon May 12 14:26:58 2025]
+Finished job 105.
+162 of 172 steps (94%) done
+[Mon May 12 14:26:58 2025]
+Finished job 93.
+163 of 172 steps (95%) done
+[Mon May 12 14:26:58 2025]
+Finished job 75.
+164 of 172 steps (95%) done
+[Mon May 12 14:26:58 2025]
+Finished job 106.
+165 of 172 steps (96%) done
+[Mon May 12 14:26:58 2025]
+Finished job 12.
+166 of 172 steps (97%) done
+[Mon May 12 14:26:58 2025]
+Finished job 102.
+167 of 172 steps (97%) done
+[Mon May 12 14:26:58 2025]
+Finished job 119.
+168 of 172 steps (98%) done
+[Mon May 12 14:26:58 2025]
+Finished job 132.
+169 of 172 steps (98%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon May 12 14:26:58 2025]
+localrule combine_results:
+    input: chrY_SimpleRepeat/results/result_r0.001_k8.txt, chrY_SimpleRepeat/results/result_r0.001_k10.txt, chrY_SimpleRepeat/results/result_r0.001_k12.txt, chrY_SimpleRepeat/results/result_r0.001_k14.txt, chrY_SimpleRepeat/results/result_r0.001_k16.txt, chrY_SimpleRepeat/results/result_r0.001_k18.txt, chrY_SimpleRepeat/results/result_r0.001_k20.txt, chrY_SimpleRepeat/results/result_r0.001_k22.txt, chrY_SimpleRepeat/results/result_r0.001_k24.txt, chrY_SimpleRepeat/results/result_r0.001_k26.txt, chrY_SimpleRepeat/results/result_r0.001_k28.txt, chrY_SimpleRepeat/results/result_r0.001_k30.txt, chrY_SimpleRepeat/results/result_r0.001_k32.txt, chrY_SimpleRepeat/results/result_r0.031_k8.txt, chrY_SimpleRepeat/results/result_r0.031_k10.txt, chrY_SimpleRepeat/results/result_r0.031_k12.txt, chrY_SimpleRepeat/results/result_r0.031_k14.txt, chrY_SimpleRepeat/results/result_r0.031_k16.txt, chrY_SimpleRepeat/results/result_r0.031_k18.txt, chrY_SimpleRepeat/results/result_r0.031_k20.txt, chrY_SimpleRepeat/results/result_r0.031_k22.txt, chrY_SimpleRepeat/results/result_r0.031_k24.txt, chrY_SimpleRepeat/results/result_r0.031_k26.txt, chrY_SimpleRepeat/results/result_r0.031_k28.txt, chrY_SimpleRepeat/results/result_r0.031_k30.txt, chrY_SimpleRepeat/results/result_r0.031_k32.txt, chrY_SimpleRepeat/results/result_r0.061_k8.txt, chrY_SimpleRepeat/results/result_r0.061_k10.txt, chrY_SimpleRepeat/results/result_r0.061_k12.txt, chrY_SimpleRepeat/results/result_r0.061_k14.txt, chrY_SimpleRepeat/results/result_r0.061_k16.txt, chrY_SimpleRepeat/results/result_r0.061_k18.txt, chrY_SimpleRepeat/results/result_r0.061_k20.txt, chrY_SimpleRepeat/results/result_r0.061_k22.txt, chrY_SimpleRepeat/results/result_r0.061_k24.txt, chrY_SimpleRepeat/results/result_r0.061_k26.txt, chrY_SimpleRepeat/results/result_r0.061_k28.txt, chrY_SimpleRepeat/results/result_r0.061_k30.txt, chrY_SimpleRepeat/results/result_r0.061_k32.txt, chrY_SimpleRepeat/results/result_r0.091_k8.txt, chrY_SimpleRepeat/results/result_r0.091_k10.txt, chrY_SimpleRepeat/results/result_r0.091_k12.txt, chrY_SimpleRepeat/results/result_r0.091_k14.txt, chrY_SimpleRepeat/results/result_r0.091_k16.txt, chrY_SimpleRepeat/results/result_r0.091_k18.txt, chrY_SimpleRepeat/results/result_r0.091_k20.txt, chrY_SimpleRepeat/results/result_r0.091_k22.txt, chrY_SimpleRepeat/results/result_r0.091_k24.txt, chrY_SimpleRepeat/results/result_r0.091_k26.txt, chrY_SimpleRepeat/results/result_r0.091_k28.txt, chrY_SimpleRepeat/results/result_r0.091_k30.txt, chrY_SimpleRepeat/results/result_r0.091_k32.txt, chrY_SimpleRepeat/results/result_r0.121_k8.txt, chrY_SimpleRepeat/results/result_r0.121_k10.txt, chrY_SimpleRepeat/results/result_r0.121_k12.txt, chrY_SimpleRepeat/results/result_r0.121_k14.txt, chrY_SimpleRepeat/results/result_r0.121_k16.txt, chrY_SimpleRepeat/results/result_r0.121_k18.txt, chrY_SimpleRepeat/results/result_r0.121_k20.txt, chrY_SimpleRepeat/results/result_r0.121_k22.txt, chrY_SimpleRepeat/results/result_r0.121_k24.txt, chrY_SimpleRepeat/results/result_r0.121_k26.txt, chrY_SimpleRepeat/results/result_r0.121_k28.txt, chrY_SimpleRepeat/results/result_r0.121_k30.txt, chrY_SimpleRepeat/results/result_r0.121_k32.txt, chrY_SimpleRepeat/results/result_r0.151_k8.txt, chrY_SimpleRepeat/results/result_r0.151_k10.txt, chrY_SimpleRepeat/results/result_r0.151_k12.txt, chrY_SimpleRepeat/results/result_r0.151_k14.txt, chrY_SimpleRepeat/results/result_r0.151_k16.txt, chrY_SimpleRepeat/results/result_r0.151_k18.txt, chrY_SimpleRepeat/results/result_r0.151_k20.txt, chrY_SimpleRepeat/results/result_r0.151_k22.txt, chrY_SimpleRepeat/results/result_r0.151_k24.txt, chrY_SimpleRepeat/results/result_r0.151_k26.txt, chrY_SimpleRepeat/results/result_r0.151_k28.txt, chrY_SimpleRepeat/results/result_r0.151_k30.txt, chrY_SimpleRepeat/results/result_r0.151_k32.txt, chrY_SimpleRepeat/results/result_r0.181_k8.txt, chrY_SimpleRepeat/results/result_r0.181_k10.txt, chrY_SimpleRepeat/results/result_r0.181_k12.txt, chrY_SimpleRepeat/results/result_r0.181_k14.txt, chrY_SimpleRepeat/results/result_r0.181_k16.txt, chrY_SimpleRepeat/results/result_r0.181_k18.txt, chrY_SimpleRepeat/results/result_r0.181_k20.txt, chrY_SimpleRepeat/results/result_r0.181_k22.txt, chrY_SimpleRepeat/results/result_r0.181_k24.txt, chrY_SimpleRepeat/results/result_r0.181_k26.txt, chrY_SimpleRepeat/results/result_r0.181_k28.txt, chrY_SimpleRepeat/results/result_r0.181_k30.txt, chrY_SimpleRepeat/results/result_r0.181_k32.txt, chrY_SimpleRepeat/results/result_r0.211_k8.txt, chrY_SimpleRepeat/results/result_r0.211_k10.txt, chrY_SimpleRepeat/results/result_r0.211_k12.txt, chrY_SimpleRepeat/results/result_r0.211_k14.txt, chrY_SimpleRepeat/results/result_r0.211_k16.txt, chrY_SimpleRepeat/results/result_r0.211_k18.txt, chrY_SimpleRepeat/results/result_r0.211_k20.txt, chrY_SimpleRepeat/results/result_r0.211_k22.txt, chrY_SimpleRepeat/results/result_r0.211_k24.txt, chrY_SimpleRepeat/results/result_r0.211_k26.txt, chrY_SimpleRepeat/results/result_r0.211_k28.txt, chrY_SimpleRepeat/results/result_r0.211_k30.txt, chrY_SimpleRepeat/results/result_r0.211_k32.txt, chrY_SimpleRepeat/results/result_r0.241_k8.txt, chrY_SimpleRepeat/results/result_r0.241_k10.txt, chrY_SimpleRepeat/results/result_r0.241_k12.txt, chrY_SimpleRepeat/results/result_r0.241_k14.txt, chrY_SimpleRepeat/results/result_r0.241_k16.txt, chrY_SimpleRepeat/results/result_r0.241_k18.txt, chrY_SimpleRepeat/results/result_r0.241_k20.txt, chrY_SimpleRepeat/results/result_r0.241_k22.txt, chrY_SimpleRepeat/results/result_r0.241_k24.txt, chrY_SimpleRepeat/results/result_r0.241_k26.txt, chrY_SimpleRepeat/results/result_r0.241_k28.txt, chrY_SimpleRepeat/results/result_r0.241_k30.txt, chrY_SimpleRepeat/results/result_r0.241_k32.txt, chrY_SimpleRepeat/results/result_r0.271_k8.txt, chrY_SimpleRepeat/results/result_r0.271_k10.txt, chrY_SimpleRepeat/results/result_r0.271_k12.txt, chrY_SimpleRepeat/results/result_r0.271_k14.txt, chrY_SimpleRepeat/results/result_r0.271_k16.txt, chrY_SimpleRepeat/results/result_r0.271_k18.txt, chrY_SimpleRepeat/results/result_r0.271_k20.txt, chrY_SimpleRepeat/results/result_r0.271_k22.txt, chrY_SimpleRepeat/results/result_r0.271_k24.txt, chrY_SimpleRepeat/results/result_r0.271_k26.txt, chrY_SimpleRepeat/results/result_r0.271_k28.txt, chrY_SimpleRepeat/results/result_r0.271_k30.txt, chrY_SimpleRepeat/results/result_r0.271_k32.txt, chrY_SimpleRepeat/results/result_r0.301_k8.txt, chrY_SimpleRepeat/results/result_r0.301_k10.txt, chrY_SimpleRepeat/results/result_r0.301_k12.txt, chrY_SimpleRepeat/results/result_r0.301_k14.txt, chrY_SimpleRepeat/results/result_r0.301_k16.txt, chrY_SimpleRepeat/results/result_r0.301_k18.txt, chrY_SimpleRepeat/results/result_r0.301_k20.txt, chrY_SimpleRepeat/results/result_r0.301_k22.txt, chrY_SimpleRepeat/results/result_r0.301_k24.txt, chrY_SimpleRepeat/results/result_r0.301_k26.txt, chrY_SimpleRepeat/results/result_r0.301_k28.txt, chrY_SimpleRepeat/results/result_r0.301_k30.txt, chrY_SimpleRepeat/results/result_r0.301_k32.txt, chrY_SimpleRepeat/results/result_r0.331_k8.txt, chrY_SimpleRepeat/results/result_r0.331_k10.txt, chrY_SimpleRepeat/results/result_r0.331_k12.txt, chrY_SimpleRepeat/results/result_r0.331_k14.txt, chrY_SimpleRepeat/results/result_r0.331_k16.txt, chrY_SimpleRepeat/results/result_r0.331_k18.txt, chrY_SimpleRepeat/results/result_r0.331_k20.txt, chrY_SimpleRepeat/results/result_r0.331_k22.txt, chrY_SimpleRepeat/results/result_r0.331_k24.txt, chrY_SimpleRepeat/results/result_r0.331_k26.txt, chrY_SimpleRepeat/results/result_r0.331_k28.txt, chrY_SimpleRepeat/results/result_r0.331_k30.txt, chrY_SimpleRepeat/results/result_r0.331_k32.txt, chrY_SimpleRepeat/results/result_r0.361_k8.txt, chrY_SimpleRepeat/results/result_r0.361_k10.txt, chrY_SimpleRepeat/results/result_r0.361_k12.txt, chrY_SimpleRepeat/results/result_r0.361_k14.txt, chrY_SimpleRepeat/results/result_r0.361_k16.txt, chrY_SimpleRepeat/results/result_r0.361_k18.txt, chrY_SimpleRepeat/results/result_r0.361_k20.txt, chrY_SimpleRepeat/results/result_r0.361_k22.txt, chrY_SimpleRepeat/results/result_r0.361_k24.txt, chrY_SimpleRepeat/results/result_r0.361_k26.txt, chrY_SimpleRepeat/results/result_r0.361_k28.txt, chrY_SimpleRepeat/results/result_r0.361_k30.txt, chrY_SimpleRepeat/results/result_r0.361_k32.txt
+    output: chrY_SimpleRepeat/all_results.csv
+    jobid: 2
+    reason: Missing output files: chrY_SimpleRepeat/all_results.csv; Input files updated by another job: chrY_SimpleRepeat/results/result_r0.211_k32.txt, chrY_SimpleRepeat/results/result_r0.331_k14.txt, chrY_SimpleRepeat/results/result_r0.241_k26.txt, chrY_SimpleRepeat/results/result_r0.331_k28.txt, chrY_SimpleRepeat/results/result_r0.001_k18.txt, chrY_SimpleRepeat/results/result_r0.271_k32.txt, chrY_SimpleRepeat/results/result_r0.271_k14.txt, chrY_SimpleRepeat/results/result_r0.061_k28.txt, chrY_SimpleRepeat/results/result_r0.271_k10.txt, chrY_SimpleRepeat/results/result_r0.061_k26.txt, chrY_SimpleRepeat/results/result_r0.271_k22.txt, chrY_SimpleRepeat/results/result_r0.091_k26.txt, chrY_SimpleRepeat/results/result_r0.091_k16.txt, chrY_SimpleRepeat/results/result_r0.331_k10.txt, chrY_SimpleRepeat/results/result_r0.301_k24.txt, chrY_SimpleRepeat/results/result_r0.151_k12.txt, chrY_SimpleRepeat/results/result_r0.271_k28.txt, chrY_SimpleRepeat/results/result_r0.241_k14.txt, chrY_SimpleRepeat/results/result_r0.091_k10.txt, chrY_SimpleRepeat/results/result_r0.091_k20.txt, chrY_SimpleRepeat/results/result_r0.271_k16.txt, chrY_SimpleRepeat/results/result_r0.271_k20.txt, chrY_SimpleRepeat/results/result_r0.331_k18.txt, chrY_SimpleRepeat/results/result_r0.031_k20.txt, chrY_SimpleRepeat/results/result_r0.001_k20.txt, chrY_SimpleRepeat/results/result_r0.211_k12.txt, chrY_SimpleRepeat/results/result_r0.301_k20.txt, chrY_SimpleRepeat/results/result_r0.151_k16.txt, chrY_SimpleRepeat/results/result_r0.181_k28.txt, chrY_SimpleRepeat/results/result_r0.151_k22.txt, chrY_SimpleRepeat/results/result_r0.211_k10.txt, chrY_SimpleRepeat/results/result_r0.211_k16.txt, chrY_SimpleRepeat/results/result_r0.151_k20.txt, chrY_SimpleRepeat/results/result_r0.271_k18.txt, chrY_SimpleRepeat/results/result_r0.271_k8.txt, chrY_SimpleRepeat/results/result_r0.301_k8.txt, chrY_SimpleRepeat/results/result_r0.271_k12.txt, chrY_SimpleRepeat/results/result_r0.271_k24.txt, chrY_SimpleRepeat/results/result_r0.091_k18.txt, chrY_SimpleRepeat/results/result_r0.121_k24.txt, chrY_SimpleRepeat/results/result_r0.001_k8.txt, chrY_SimpleRepeat/results/result_r0.361_k26.txt, chrY_SimpleRepeat/results/result_r0.121_k32.txt, chrY_SimpleRepeat/results/result_r0.091_k12.txt, chrY_SimpleRepeat/results/result_r0.241_k22.txt, chrY_SimpleRepeat/results/result_r0.331_k12.txt, chrY_SimpleRepeat/results/result_r0.091_k22.txt, chrY_SimpleRepeat/results/result_r0.031_k8.txt, chrY_SimpleRepeat/results/result_r0.001_k16.txt, chrY_SimpleRepeat/results/result_r0.031_k32.txt, chrY_SimpleRepeat/results/result_r0.151_k24.txt, chrY_SimpleRepeat/results/result_r0.151_k28.txt, chrY_SimpleRepeat/results/result_r0.031_k22.txt, chrY_SimpleRepeat/results/result_r0.181_k20.txt, chrY_SimpleRepeat/results/result_r0.151_k10.txt, chrY_SimpleRepeat/results/result_r0.241_k16.txt, chrY_SimpleRepeat/results/result_r0.361_k8.txt, chrY_SimpleRepeat/results/result_r0.001_k14.txt, chrY_SimpleRepeat/results/result_r0.031_k10.txt, chrY_SimpleRepeat/results/result_r0.331_k24.txt, chrY_SimpleRepeat/results/result_r0.061_k8.txt, chrY_SimpleRepeat/results/result_r0.241_k12.txt, chrY_SimpleRepeat/results/result_r0.001_k10.txt, chrY_SimpleRepeat/results/result_r0.091_k30.txt, chrY_SimpleRepeat/results/result_r0.151_k18.txt, chrY_SimpleRepeat/results/result_r0.001_k30.txt, chrY_SimpleRepeat/results/result_r0.151_k26.txt, chrY_SimpleRepeat/results/result_r0.031_k18.txt, chrY_SimpleRepeat/results/result_r0.301_k32.txt, chrY_SimpleRepeat/results/result_r0.331_k30.txt, chrY_SimpleRepeat/results/result_r0.181_k14.txt, chrY_SimpleRepeat/results/result_r0.031_k12.txt, chrY_SimpleRepeat/results/result_r0.301_k30.txt, chrY_SimpleRepeat/results/result_r0.241_k24.txt, chrY_SimpleRepeat/results/result_r0.061_k24.txt, chrY_SimpleRepeat/results/result_r0.181_k30.txt, chrY_SimpleRepeat/results/result_r0.121_k26.txt, chrY_SimpleRepeat/results/result_r0.061_k12.txt, chrY_SimpleRepeat/results/result_r0.121_k18.txt, chrY_SimpleRepeat/results/result_r0.061_k16.txt, chrY_SimpleRepeat/results/result_r0.121_k10.txt, chrY_SimpleRepeat/results/result_r0.361_k22.txt, chrY_SimpleRepeat/results/result_r0.181_k8.txt, chrY_SimpleRepeat/results/result_r0.031_k26.txt, chrY_SimpleRepeat/results/result_r0.211_k8.txt, chrY_SimpleRepeat/results/result_r0.061_k32.txt, chrY_SimpleRepeat/results/result_r0.331_k26.txt, chrY_SimpleRepeat/results/result_r0.361_k18.txt, chrY_SimpleRepeat/results/result_r0.121_k30.txt, chrY_SimpleRepeat/results/result_r0.181_k32.txt, chrY_SimpleRepeat/results/result_r0.181_k22.txt, chrY_SimpleRepeat/results/result_r0.121_k16.txt, chrY_SimpleRepeat/results/result_r0.151_k30.txt, chrY_SimpleRepeat/results/result_r0.331_k8.txt, chrY_SimpleRepeat/results/result_r0.121_k12.txt, chrY_SimpleRepeat/results/result_r0.361_k30.txt, chrY_SimpleRepeat/results/result_r0.241_k20.txt, chrY_SimpleRepeat/results/result_r0.001_k28.txt, chrY_SimpleRepeat/results/result_r0.091_k28.txt, chrY_SimpleRepeat/results/result_r0.181_k18.txt, chrY_SimpleRepeat/results/result_r0.211_k14.txt, chrY_SimpleRepeat/results/result_r0.181_k26.txt, chrY_SimpleRepeat/results/result_r0.301_k18.txt, chrY_SimpleRepeat/results/result_r0.121_k20.txt, chrY_SimpleRepeat/results/result_r0.331_k20.txt, chrY_SimpleRepeat/results/result_r0.031_k14.txt, chrY_SimpleRepeat/results/result_r0.091_k8.txt, chrY_SimpleRepeat/results/result_r0.181_k10.txt, chrY_SimpleRepeat/results/result_r0.301_k28.txt, chrY_SimpleRepeat/results/result_r0.001_k24.txt, chrY_SimpleRepeat/results/result_r0.331_k32.txt, chrY_SimpleRepeat/results/result_r0.181_k24.txt, chrY_SimpleRepeat/results/result_r0.031_k30.txt, chrY_SimpleRepeat/results/result_r0.211_k26.txt, chrY_SimpleRepeat/results/result_r0.091_k14.txt, chrY_SimpleRepeat/results/result_r0.241_k18.txt, chrY_SimpleRepeat/results/result_r0.121_k22.txt, chrY_SimpleRepeat/results/result_r0.241_k10.txt, chrY_SimpleRepeat/results/result_r0.331_k22.txt, chrY_SimpleRepeat/results/result_r0.361_k32.txt, chrY_SimpleRepeat/results/result_r0.151_k32.txt, chrY_SimpleRepeat/results/result_r0.031_k24.txt, chrY_SimpleRepeat/results/result_r0.121_k8.txt, chrY_SimpleRepeat/results/result_r0.301_k22.txt, chrY_SimpleRepeat/results/result_r0.181_k12.txt, chrY_SimpleRepeat/results/result_r0.241_k8.txt, chrY_SimpleRepeat/results/result_r0.361_k10.txt, chrY_SimpleRepeat/results/result_r0.241_k28.txt, chrY_SimpleRepeat/results/result_r0.061_k20.txt, chrY_SimpleRepeat/results/result_r0.271_k30.txt, chrY_SimpleRepeat/results/result_r0.301_k26.txt, chrY_SimpleRepeat/results/result_r0.361_k28.txt, chrY_SimpleRepeat/results/result_r0.121_k28.txt, chrY_SimpleRepeat/results/result_r0.061_k30.txt, chrY_SimpleRepeat/results/result_r0.301_k10.txt, chrY_SimpleRepeat/results/result_r0.271_k26.txt, chrY_SimpleRepeat/results/result_r0.211_k20.txt, chrY_SimpleRepeat/results/result_r0.091_k32.txt, chrY_SimpleRepeat/results/result_r0.031_k28.txt, chrY_SimpleRepeat/results/result_r0.181_k16.txt, chrY_SimpleRepeat/results/result_r0.211_k24.txt, chrY_SimpleRepeat/results/result_r0.001_k26.txt, chrY_SimpleRepeat/results/result_r0.001_k22.txt, chrY_SimpleRepeat/results/result_r0.211_k22.txt, chrY_SimpleRepeat/results/result_r0.211_k30.txt, chrY_SimpleRepeat/results/result_r0.001_k12.txt, chrY_SimpleRepeat/results/result_r0.301_k12.txt, chrY_SimpleRepeat/results/result_r0.061_k10.txt, chrY_SimpleRepeat/results/result_r0.361_k16.txt, chrY_SimpleRepeat/results/result_r0.061_k14.txt, chrY_SimpleRepeat/results/result_r0.121_k14.txt, chrY_SimpleRepeat/results/result_r0.001_k32.txt, chrY_SimpleRepeat/results/result_r0.301_k14.txt, chrY_SimpleRepeat/results/result_r0.241_k30.txt, chrY_SimpleRepeat/results/result_r0.361_k20.txt, chrY_SimpleRepeat/results/result_r0.361_k12.txt, chrY_SimpleRepeat/results/result_r0.151_k14.txt, chrY_SimpleRepeat/results/result_r0.151_k8.txt, chrY_SimpleRepeat/results/result_r0.211_k18.txt, chrY_SimpleRepeat/results/result_r0.301_k16.txt, chrY_SimpleRepeat/results/result_r0.031_k16.txt, chrY_SimpleRepeat/results/result_r0.331_k16.txt, chrY_SimpleRepeat/results/result_r0.361_k24.txt, chrY_SimpleRepeat/results/result_r0.241_k32.txt, chrY_SimpleRepeat/results/result_r0.061_k22.txt, chrY_SimpleRepeat/results/result_r0.361_k14.txt, chrY_SimpleRepeat/results/result_r0.091_k24.txt, chrY_SimpleRepeat/results/result_r0.061_k18.txt, chrY_SimpleRepeat/results/result_r0.211_k28.txt
+    wildcards: output_dir=chrY_SimpleRepeat
+    resources: tmpdir=/tmp
+
+[Mon May 12 14:26:59 2025]
+Finished job 2.
+170 of 172 steps (99%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon May 12 14:26:59 2025]
+localrule generate_heatmap:
+    input: chrY_SimpleRepeat/all_results.csv
+    output: chrY_SimpleRepeat/heatmap_deviation.png
+    jobid: 1
+    reason: Missing output files: chrY_SimpleRepeat/heatmap_deviation.png; Input files updated by another job: chrY_SimpleRepeat/all_results.csv
+    wildcards: output_dir=chrY_SimpleRepeat
+    resources: tmpdir=/tmp
+
+[Mon May 12 14:26:59 2025]
+Error in rule generate_heatmap:
+    jobid: 1
+    input: chrY_SimpleRepeat/all_results.csv
+    output: chrY_SimpleRepeat/heatmap_deviation.png
+    shell:
+        
+        python plot_bias_heatmap.py             -i chrY_SimpleRepeat/all_results.csv             -o chrY_SimpleRepeat/heatmap_deviation.png             --title "HARD"             --cmap Greys             --figsize 10,10             --annotate
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-05-12T142657.757170.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

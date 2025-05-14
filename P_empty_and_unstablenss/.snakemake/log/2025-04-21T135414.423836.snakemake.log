@@ -1,0 +1,92 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count
+---------------  -------
+all                    1
+merge_outputs          1
+run_cpp_program        5
+total                  7
+
+Select jobs to execute...
+Execute 5 jobs...
+
+[Mon Apr 21 13:54:14 2025]
+localrule run_cpp_program:
+    output: results/output_l100000_k30_r0.2_c100.txt
+    jobid: 3
+    reason: Missing output files: results/output_l100000_k30_r0.2_c100.txt
+    wildcards: l=100000, k=30, r=0.2, c=100
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 13:54:14 2025]
+localrule run_cpp_program:
+    output: results/output_l100000_k40_r0.2_c100.txt
+    jobid: 4
+    reason: Missing output files: results/output_l100000_k40_r0.2_c100.txt
+    wildcards: l=100000, k=40, r=0.2, c=100
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 13:54:14 2025]
+localrule run_cpp_program:
+    output: results/output_l100000_k50_r0.2_c100.txt
+    jobid: 5
+    reason: Missing output files: results/output_l100000_k50_r0.2_c100.txt
+    wildcards: l=100000, k=50, r=0.2, c=100
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 13:54:14 2025]
+localrule run_cpp_program:
+    output: results/output_l100000_k60_r0.2_c100.txt
+    jobid: 6
+    reason: Missing output files: results/output_l100000_k60_r0.2_c100.txt
+    wildcards: l=100000, k=60, r=0.2, c=100
+    resources: tmpdir=/tmp
+
+
+[Mon Apr 21 13:54:14 2025]
+localrule run_cpp_program:
+    output: results/output_l100000_k20_r0.2_c100.txt
+    jobid: 2
+    reason: Missing output files: results/output_l100000_k20_r0.2_c100.txt
+    wildcards: l=100000, k=20, r=0.2, c=100
+    resources: tmpdir=/tmp
+
+[Mon Apr 21 14:05:28 2025]
+Finished job 2.
+1 of 7 steps (14%) done
+[Mon Apr 21 14:09:41 2025]
+Finished job 3.
+2 of 7 steps (29%) done
+[Mon Apr 21 14:13:57 2025]
+Finished job 4.
+3 of 7 steps (43%) done
+Terminating processes on user request, this might take some time.
+[Mon Apr 21 14:17:06 2025]
+[Mon Apr 21 14:17:06 2025]
+Error in rule run_cpp_program:
+    jobid: 6
+    output: results/output_l100000_k60_r0.2_c100.txt
+    shell:
+        
+        ./Simulation -l 100000 -k 60 -i /research/hvw5426/splitted_fasta/chr21.fasta -r 0.2 -c 100 -s 10962854 -e 1e-10 > results/output_l100000_k60_r0.2_c100.txt
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_cpp_program:
+    jobid: 5
+    output: results/output_l100000_k50_r0.2_c100.txt
+    shell:
+        
+        ./Simulation -l 100000 -k 50 -i /research/hvw5426/splitted_fasta/chr21.fasta -r 0.2 -c 100 -s 10962854 -e 1e-10 > results/output_l100000_k50_r0.2_c100.txt
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2025-04-21T135414.423836.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

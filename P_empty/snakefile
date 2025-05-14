@@ -1,0 +1,119 @@
+# Snakefile
+import os
+import yaml
+import pandas as pd
+import re
+
+
+configfile: "config.yaml"
+
+ANALYSES = config['analyses']
+
+rule all:
+    input:
+        expand(
+            os.path.join("{output_dir}", "heatmap_deviation.png"),
+            output_dir=[analysis['output_dir'] for analysis in ANALYSES]
+        )
+
+rule run_simulation:
+    input:
+        fasta = lambda wildcards: next((a['fasta'] for a in ANALYSES if a['output_dir'] == wildcards.output_dir), None)
+    output:
+        os.path.join("{output_dir}", "results", "result_r{r}_k{k}.txt")
+    params:
+        length = lambda wildcards: next((a['simulation_params']['length'] for a in ANALYSES if a['output_dir'] == wildcards.output_dir), 1000),
+        start_pos = lambda wildcards: next((a['simulation_params']['start_pos'] for a in ANALYSES if a['output_dir'] == wildcards.output_dir), 0),
+        precision = lambda wildcards: next((a['simulation_params']['precision'] for a in ANALYSES if a['output_dir'] == wildcards.output_dir), 1e-10),
+        replicates = lambda wildcards: next((a['simulation_params']['replicates'] for a in ANALYSES if a['output_dir'] == wildcards.output_dir), 100)
+    shell:
+        """
+        mkdir -p $(dirname {output})
+        ./P_empty \
+            -i {input.fasta} \
+            -l {params.length} \
+            -s {params.start_pos} \
+            -k {wildcards.k} \
+            -e {params.precision} \
+            -c {params.replicates} \
+            -r {wildcards.r} > {output}
+        """
+
+rule combine_results:
+    input:
+        lambda wildcards: expand(
+            os.path.join(wildcards.output_dir, "results", "result_r{r}_k{k}.txt"),
+            r=[str(r) for r in next((a['simulation_params']['r_values'] for a in ANALYSES if a['output_dir'] == wildcards.output_dir), [])],
+            k=[str(k) for k in next((a['simulation_params']['k_values'] for a in ANALYSES if a['output_dir'] == wildcards.output_dir), [])]
+        )
+    output:
+        os.path.join("{output_dir}", "all_results.csv")
+    run:
+        data = []
+        for file in input:
+            try:
+                # result_r0.123_k456.txt 
+                filename = os.path.basename(file)
+                r_match = re.search(r'result_r([\d\.]+)_k', filename)
+                k_match = re.search(r'_k(\d+)\.txt', filename)
+                
+                if r_match and k_match:
+                    r_value = float(r_match.group(1))
+                    k_value = int(k_match.group(1))
+                    
+
+                    with open(file, 'r') as f:
+                        content = f.read().strip()
+                        
+                    parts = content.split(',')
+                    
+                    if len(parts) >= 3:
+                        deviation = float(parts[2])
+                    else:
+                        lines = content.strip().split('\n')
+                        last_line = lines[-1].strip()
+                        try:
+                            deviation = float(last_line)
+                        except ValueError:
+                            print(f"Warning: Could not parse deviation from {file}")
+                            continue
+                    
+                    data.append({
+                        'r': r_value,
+                        'k': k_value,
+                        'deviation': deviation
+                    })
+                else:
+                    print(f"Warning: Could not extract r and k from filename: {file}")
+            except Exception as e:
+                print(f"Error processing {file}: {e}")
+        
+        if data:
+            result_df = pd.DataFrame(data)
+            result_df.to_csv(output[0], index=False)
+            print(f"Combined {len(data)} results into {output[0]}")
+        else:
+            pd.DataFrame(columns=['r', 'k', 'deviation']).to_csv(output[0], index=False)
+            print("Warning: No data was extracted. Created empty CSV file.")
+
+
+rule generate_heatmap:
+    input:
+        csv = os.path.join("{output_dir}", "all_results.csv")
+    output:
+        plot = os.path.join("{output_dir}", "heatmap.png")
+    params:
+        title = lambda wildcards: next((a['plot_params']['heatmap']['title'] for a in ANALYSES if a['output_dir'] == wildcards.output_dir), "Deviation Heatmap"),
+        cmap = lambda wildcards: next((a['plot_params']['heatmap']['cmap'] for a in ANALYSES if a['output_dir'] == wildcards.output_dir), "coolwarm"),
+        figsize = lambda wildcards: next((a['plot_params']['heatmap']['figsize'] for a in ANALYSES if a['output_dir'] == wildcards.output_dir), "12,10"),
+        annotate = lambda wildcards: "--annotate" if next((a['plot_params']['heatmap'].get('annotate', False) for a in ANALYSES if a['output_dir'] == wildcards.output_dir), False) else ""
+    shell:
+        """
+        python plot_bias_heatmap.py \
+            -i {input.csv} \
+            -o {output.plot} \
+            --title "{params.title}" \
+            --cmap {params.cmap} \
+            --figsize {params.figsize} \
+            {params.annotate}
+        """

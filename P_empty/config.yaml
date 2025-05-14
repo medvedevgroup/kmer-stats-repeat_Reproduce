@@ -1,0 +1,18 @@
+analyses:  
+  - name: "chrY_SimpleRepeat" # chrY:22420785-22423059,
+    output_dir: "chrY_SimpleRepeat"
+    fasta: "../sequence_data/D-hard.fasta"
+    simulation_params:
+      length: 2264
+      start_pos: 0 #22420785
+      precision: 1e-10
+      replicates: 100
+      r_values: [0.001, 0.031, 0.061, 0.091, 0.121, 0.151, 0.181, 0.211, 0.241, 0.271, 0.301, 0.331, 0.361]
+      k_values: [8,10,12,14,16,18,20,22,24,26,28,30,32]
+    plot_params:
+       heatmap:
+        title: "HARD"
+        cmap: "Greys"
+        annotate: True
+        figsize: "10,10"
+        

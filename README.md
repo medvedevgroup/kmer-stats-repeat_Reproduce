@@ -10,7 +10,7 @@ This repository contains code to reproduce the empirical results from our paper 
 
 ## Datasets
 
-Four genomic datasets used in our paper are in the `./sequence_data/` directory.
+Four genomic datasets used in our paper are in the `./sequence_data/` directory. Their detailed information is shown below. 
 
 | Dataset Name               | Chromosome | Starting Position | Complexity Level |
 |----------------------------|------------|-------------------|------------------|
@@ -165,7 +165,7 @@ This module generates a heatmap showing the deviation of $\hat{r}$ across differ
    snakemake --core [N]
    ```
 
-4. Results are stored in the specified output directory (e.g., `./chr21_centromere/`), with raw simulation data in `./specified_folder/results`. The primary output is a comprehensive heatmap visualization (`heatmap.png`) showing the bias of $\hat{r}$ estimator across the specified r and k value combinations. The heatmap is colored according to the selected colormap, with annotations displaying the actual values when enabled in the configuration. The raw data for each $(r,k)$ combination are stored in separate CSV files in the results directory, containing the estimator values for each replicate.
+4. Results are stored in the specified output directory (e.g., `./chr21_centromere/`), with raw simulation data in `./specified_folder/results`. The primary output is a comprehensive heatmap visualization (`heatmap_deviation.png`) showing the bias of $\hat{r}$ estimator across the specified r and k value combinations. The heatmap is colored according to the selected colormap, with annotations displaying the actual values when enabled in the configuration. The raw data for each $(r,k)$ combination are stored in separate CSV files in the results directory, containing the estimator values for each replicate.
 
 ## Sketching Bias Analysis
 
@@ -284,8 +284,85 @@ This experiment demonstrates the theoretical bounds of parameter $q$.
    - The first row showing the lower and upper theoretical bounds in the format "lower_bound, upper_bound"
    - Subsequent rows showing the $\hat{r}$ values for each simulation replicate
    
-   A visualization comparing the theoretical bounds with the empirical distribution of $\hat{r}$ values is also generated, allowing for visual confirmation of the theoretical predictions across different r values while keeping k fixed as specified in the configuration.
+   A visualization comparing the theoretical bounds with the empirical results of $\hat{r}$ values is also generated, allowing for visual confirmation of the theoretical predictions across different $r$ values while keeping $k$ fixed as specified in the configuration.
 
-## Empty intersection size 
+## Relation of $P_{empty}$ and Unstableness
 
-## P_empty
+This experiment demonstrates $P_{empty}$ can be a diagnostic criterion for determining the unstableness for large $r$ and $k$​.
+
+### Setup and Configuration
+
+1. Navigate to the error bounds directory:
+   ```bash
+   cd ./P_empty_and_unstableness/
+   make
+   ```
+
+2. Configure with `config.yaml`:
+   ```yaml
+   analyses:
+     - name: "chr21_centromere"
+       output_dir: "chr21_centromere"
+       fasta: "../sequence_data/D-hardest.fasta"
+       simulation_params:
+         length: 100000
+         start_pos: 0
+         precision: 1e-8
+         replicates: 100
+       plot_params:
+         r_variation:
+           threshold: 0.201
+           fixed_k: 30
+   ```
+   
+3. Run the analysis:
+   ```bash
+   snakemake --core [N]
+   ```
+
+4. Results are stored in the specified output directory (e.g., `./chr21_centromere/`) with detailed data in `./specified/varying_r`. Each output file corresponds to a specific r value and contains:
+   - The first row showing the value of $P_{empty}$
+   - Subsequent rows showing the $\hat{r}$ values for each simulation replicate
+   
+   A visualization empirical results of $\hat{r}$ values and the curve of $P_{empty}$ is also generated.
+
+## $P_{empty}$ Heatmap
+
+This folder is used to generate the heat map of $P_{empty}$ for the settings of different $k$ and $r$.
+
+### Setup and Configuration
+
+1. Navigate to the error bounds directory:
+   ```bash
+   cd ./P_empty_and_unstableness/
+   make
+   ```
+
+2. Configure with `config.yaml`:
+   ```yaml
+   analyses:  
+     - name: "chrY_SimpleRepeat" # chrY:22420785-22423059,
+       output_dir: "chrY_SimpleRepeat"
+       fasta: "../sequence_data/D-hard.fasta"
+       simulation_params:
+         length: 2264
+         start_pos: 0 #22420785
+         precision: 1e-10
+         replicates: 100
+         r_values: [0.001, 0.031, 0.061, 0.091, 0.121, 0.151, 0.181, 0.211, 0.241, 0.271, 0.301, 0.331, 0.361]
+         k_values: [8,10,12,14,16,18,20,22,24,26,28,30,32]
+       plot_params:
+          heatmap:
+           title: "HARD"
+           cmap: "Greys"
+           annotate: True
+           figsize: "10,10"
+   ```
+   
+3. Run the analysis:
+   ```bash
+   snakemake --core [N]
+   ```
+
+4. Results are stored in the specified output directory (e.g., `./chrY_SimpleRepeat/`), with raw simulation data in `./specified_folder/results`. The primary output is a comprehensive heatmap visualization (`heatmap.png`) showing the bias of $\hat{r}$ estimator across the specified r and k value combinations. The heatmap is colored according to the selected colormap, with annotations displaying the actual values when enabled in the configuration. The $P_{empty}$ for each $(r,k)$ combination are stored in separate CSV files in the results directory.
+

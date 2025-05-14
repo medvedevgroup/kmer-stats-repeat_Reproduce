@@ -1,6 +1,6 @@
 # kmer-stats-repeat: Reproduction Framework
 
-This repository contains code to reproduce the empirical results from our paper on k-mer statistics and repeat estimation.
+This repository contains code to reproduce the empirical results from our paper.
 
 ## Dependencies
 
@@ -346,7 +346,7 @@ This folder is used to generate the heat map of $P_{empty}$ for the settings of 
        fasta: "../sequence_data/D-hard.fasta"
        simulation_params:
          length: 2264
-         start_pos: 0 #22420785
+         start_pos: 0
          precision: 1e-10
          replicates: 100
          r_values: [0.001, 0.031, 0.061, 0.091, 0.121, 0.151, 0.181, 0.211, 0.241, 0.271, 0.301, 0.331, 0.361]

@@ -338,12 +338,11 @@ This folder is used to generate the heat map of $P_{empty}$ for the settings of 
    make
    ```
 
-2. Configure with `config.yaml`:
+2. Configure with `config.yaml`: 
    ```yaml
    analyses:  
-     - name: "chrY_SimpleRepeat" # chrY:22420785-22423059,
+     - name: "chrY_SimpleRepeat"
        output_dir: "chrY_SimpleRepeat"
-       fasta: "../sequence_data/D-hard.fasta"
        simulation_params:
          length: 2264
          start_pos: 0
@@ -358,6 +357,8 @@ This folder is used to generate the heat map of $P_{empty}$ for the settings of 
            annotate: True
            figsize: "10,10"
    ```
+   
+   Not you do not need to input the sequence, $P_{empty}$ only depends on $L,r$ and $k$.
    
 3. Run the analysis:
    ```bash

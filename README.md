@@ -367,3 +367,4 @@ This folder is used to generate the heat map of $P_{empty}$ for the settings of 
 
 4. Results are stored in the specified output directory (e.g., `./chrY_SimpleRepeat/`), with raw simulation data in `./specified_folder/results`. The primary output is a comprehensive heatmap visualization (`heatmap.png`) showing the bias of $\hat{r}$ estimator across the specified r and k value combinations. The heatmap is colored according to the selected colormap, with annotations displaying the actual values when enabled in the configuration. The $P_{empty}$ for each $(r,k)$ combination are stored in separate CSV files in the results directory.
 
+

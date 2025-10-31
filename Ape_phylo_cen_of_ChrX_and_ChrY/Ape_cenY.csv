@@ -1,7 +1,7 @@
 label,filepath
-Human,Human_chrY_cen.fa
-Bonobo,Bonobo/Bonobo_chrY_cen.fa
-Chimpanzee,Chimpanzee/Chimpanzee_chrY_cen.fa
-Gorilla,Gorilla/Gorilla_chrY_cen.fa
-B_orangutan,B_orangutan/B_orangutan_chrY_cen.fa
-S_orangutan,S_orangutan/S_orangutan_chrY_cen.fa
+Human,/research/hvw5426/Ape_genomes/Human/Human_chrY_cen.fa
+Bonobo,/research/hvw5426/Ape_genomes/Bonobo/Bonobo_chrY_cen.fa
+Chimpanzee,/research/hvw5426/Ape_genomes/Chimpanzee/Chimpanzee_chrY_cen.fa
+Gorilla,/research/hvw5426/Ape_genomes/Gorilla/Gorilla_chrY_cen.fa
+B_orangutan,/research/hvw5426/Ape_genomes/B_orangutan/B_orangutan_chrY_cen.fa
+S_orangutan,/research/hvw5426/Ape_genomes/S_orangutan/S_orangutan_chrY_cen.fa

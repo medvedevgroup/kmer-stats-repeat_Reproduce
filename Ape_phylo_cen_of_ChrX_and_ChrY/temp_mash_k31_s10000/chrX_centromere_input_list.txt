@@ -1,0 +1,6 @@
+/research/hvw5426/Ape_genomes/Human/Human_chrX_cen.fa
+/research/hvw5426/Ape_genomes/Bonobo/Bonobo_chrX_cen.fa
+/research/hvw5426/Ape_genomes/Chimpanzee/Chimpanzee_chrX_cen.fa
+/research/hvw5426/Ape_genomes/Gorilla/Gorilla_chrX_cen.fa
+/research/hvw5426/Ape_genomes/B_orangutan/B_orangutan_chrX_cen.fa
+/research/hvw5426/Ape_genomes/S_orangutan/S_orangutan_chrX_cen.fa

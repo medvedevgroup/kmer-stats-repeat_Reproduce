@@ -1,0 +1,16 @@
+label1,label2,distance
+Human,Bonobo,0.0767873
+Human,Chimpanzee,0.0721074
+Human,Gorilla,0.126836
+Human,B_orangutan,0.147456
+Human,S_orangutan,0.148715
+Bonobo,Chimpanzee,0.0475507
+Bonobo,Gorilla,0.127488
+Bonobo,B_orangutan,0.147456
+Bonobo,S_orangutan,0.145078
+Chimpanzee,Gorilla,0.125571
+Chimpanzee,B_orangutan,0.152819
+Chimpanzee,S_orangutan,0.152097
+Gorilla,B_orangutan,0.123184
+Gorilla,S_orangutan,0.123473
+B_orangutan,S_orangutan,0.012063

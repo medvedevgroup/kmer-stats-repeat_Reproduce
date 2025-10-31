@@ -1,3 +1,6 @@
 [submodule "kmer_info/lastz"]
 	path = kmer_info/lastz
 	url = git@github.com:lastz/lastz.git
+[submodule "Ape_phylo_cen_of_ChrX_and_ChrY/Repeat-Aware_phylogenetic_distance_estimator"]
+	path = Ape_phylo_cen_of_ChrX_and_ChrY/Repeat-Aware_phylogenetic_distance_estimator
+	url = https://github.com/Wu-Haonan/Repeat-Aware_phylogenetic_distance_estimator.git
